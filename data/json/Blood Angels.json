@@ -1,0 +1,876 @@
+[
+  {
+    "name": "Astorath",
+    "models": {
+      "Astorath": {"M": 12, "T": 4, "SV": 2, "W": 5, "LD": 5, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "The Executioner's Axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 7,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Redeemer of the Lost:While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking models unit has finished making its attacks, and is then removed from play.",
+      "Mass of Doom:Each time this models unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Leader:This model can be attached to the following unit: Death Company Marines with Jump Packs"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Fly",
+      "Jump Pack",
+      "Imperium",
+      "Chaplain",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Astorath"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules": []
+  },
+  {
+    "name": "Baal Predator",
+    "models": {
+      "Baal Predator": {"M": 12, "T": 10, "SV": 3, "W": 11, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Heavy Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Heavy Bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 1"
+        ]
+      },
+      "Baal Flamestorm Cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Twin Assault Cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Devastating wounds",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Overcharged Engines:You can re-roll Advance rolls made for this model."
+    ],
+    "keywords": [
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Adeptus Astartes",
+      "Baal Predator",
+      "Blood Angels"
+    ],
+    "total_models": 1,
+    "points": 135,
+    "special_rules": []
+  },
+  {
+    "name": "Chief Librarian Mephiston",
+    "models": {
+      "Chief Librarian Mephiston": {"M": 7, "T": 5, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": 4}
+    },
+    "weapons": {
+      "Plasma Pistol - Standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma Pistol - Supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Fury of the Ancients - Witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Pistol",
+          "Psychic",
+          "Sustained Hits 1"
+        ]
+      },
+      "Fury of the Ancients - Focused Witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Hazardous",
+          "Pistol",
+          "Psychic",
+          "Sustained Hits 3"
+        ]
+      },
+      "Vitarus - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 9,
+        "AP": 3,
+        "D": "D3",
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "The Quickening [Psychic]:This model is eligible to declare a charge in a turn which it Advanced.",
+      "Transfixing Gaze [Aura, Psychic]:While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.",
+      "Invulnerable Save 5+:This model has a 5+ invulnerable save"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Tacticus",
+      "Psyker",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Chief Librarian Mephiston"
+    ],
+    "total_models": 1,
+    "points": 135,
+    "special_rules": []
+  },
+  {
+    "name": "Commander Dante",
+    "models": {
+      "Commander Dante": {"M": 12, "T": 4, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Perdition - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 1,
+        "BS": 2,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2",
+          "Pistol",
+          "Sustained Hits D3"
+        ]
+      },
+      "The Axe Mortalis - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Death Mask of Sanguinius:At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test, subtracting 1 from that test when they do",
+      "Lord Regent of the Imperium Nihilus:While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll.",
+      "Leader:This model can be attached to the following units: Assault Squad with Jump Packs Sanguinary Guard Vanguard Veteran Squad with Jump Packs Assault Intercessors with Jump Packs"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Fly",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Jump Pack",
+      "Tacticus",
+      "Chapter Master",
+      "Commander Dante"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Intercessors",
+    "models": {
+      "Death Company Intercessors": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Astartes Grenade Launcher - Frag - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Astartes Grenade Launcher - Krak - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D3"
+      }
+    },
+    "abilities": [],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Death Company Intercessors"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Marines with Jump Packs",
+    "models": {
+      "Death Company Marines with Jump Packs": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Savage Fury:You can re-roll Charge rolls made for this unit.",
+      "Attached Unit:If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Death Company Marines with Jump Packs",
+      "Tacticus",
+      "Fly",
+      "Jump Pack"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Lemartes",
+    "models": {
+      "Lemartes": {"M": 12, "T": 4, "SV": 3, "W": 4, "LD": 5, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "The Blood Crozius - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Absolvor Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Guardian of the Lost:While this model is leading a unit, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack.",
+      "Fury Unbound:While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "Leader:This model can be attached to the following unit: Death Company Marines with Jump Packs"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Fly",
+      "Chaplain",
+      "Lemartes",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Jump Pack"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Sanguinary Guard",
+    "models": {
+      "Sanguinary Guard": {"M": 12, "T": 4, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Encarmine Blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 3,
+        "D": 2
+      },
+      "Encarmine Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Angelus Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Angelic Visage:Each time a melee attack targets this unit, subtract 1 from the Hit roll",
+      "Heirs of Azkaellon:While a Character model is leading this unit, each time a melee attack targets this unit, subtract 1 from the Wound roll.",
+      "Attached Unit:If a Captain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead.",
+      "Sanguinary Banner:Add 1 to the Objective Control characteristic of models in the bearers unit."
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Sanguinary Guard",
+      "Jump Pack"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Sanguinary Priest",
+    "models": {
+      "Sanguinary Priest": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Sanguinary Priest:While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability",
+      "Blood Chalice:While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.",
+      "Leader:This model can be attached to the following units: Desolation Squad Hellblaster Squad Infernus Squad Intercessor Squad Devastator Squad Tactical Squad Assault Intercessor Squad Sternguard Veteran Squad You can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Sanguinary Priest",
+      "Adeptus Astartes",
+      "Blood Angels"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "The Sanguinor",
+    "models": {
+      "The Sanguinor": {"M": 12, "T": 4, "SV": 2, "W": 7, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Encarmine Broadsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Aura of Fervour (Aura):While a friendly Adeptus Astartes unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit",
+      "Miraculous Savior:Once per battle, at the end of your opponents Charge phase, if this model is still in Reserves, you can select one enemy unit that made a Charge move this phase. Set this model up on the battlefield within Engagement Range of that enemy unit."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Fly",
+      "Imperium",
+      "Jump Pack",
+      "The Sanguinor",
+      "Adeptus Astartes",
+      "Blood Angels"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Blood Angels Captain",
+    "models": {
+      "Blood Angels Captain": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Master-crafted Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2
+      },
+      "Heavy Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Company Heroes Tactical Squad"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Captain",
+    "models": {
+      "Death Company Captain": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Master-crafted Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2
+      },
+      "Heavy Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Death Company Marines Death Company Marines with Bolt Rifles",
+      "Forlorn Hero:While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability",
+      "Death Vision of Sanguinius:If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds.",
+      "Black Rage:Each time this model makes a melee attack, you can re-roll the Hit roll. While this model's unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Tacticus",
+      "Death Company"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Captain with Jump Pack",
+    "models": {
+      "Death Company Captain with Jump Pack": {"M": 12, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Heavy Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Death Vision of Sanguinius:If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds.",
+      "Lost to Fury:When this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability",
+      "Leader:This model can be attached to the following units: Death Company Marines with Jump Packs",
+      "Black Rage:Each time this model makes a melee attack, you can re-roll the Hit roll. While this model's unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Captain",
+      "Grenades",
+      "Fly",
+      "Blood Angels",
+      "Adeptus Astartes",
+      "Imperium",
+      "Jump Pack",
+      "Tacticus",
+      "Death Company"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Marines with Bolt Rifles",
+    "models": {
+      "Death Company Marines with Bolt Rifles": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Close Combat Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Power Fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Bolt Rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Heavy"
+        ]
+      },
+      "Astartes Grenade Launcher - Frag - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Astartes Grenade Launcher - Krak - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D3"
+      }
+    },
+    "abilities": [
+      "Attached Unit:If a Chaplain model from your army with the Leader ability can be attached to Intercessor Squad, it can be attached to this unit instead."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Death Company Marines with Bolt Rifles",
+      "Death Company",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Marines",
+    "models": {
+      "Death Company Marines": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Heavy Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Power Fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "An Honourable Death in Combat:Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength.",
+      "Attached Unit:If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessor Squad, it can be attached to this unit instead."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Death Company",
+      "Death Company Marines",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Death Company Dreadnought",
+    "models": {
+      "Death Company Dreadnought": {"M": 8, "T": 10, "SV": 2, "W": 12, "LD": 6, "OC": 4, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Blood Fists - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 12,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Blood Fist Bolt Rifles - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 4,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Blood Talons - Strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 12,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Blood Talons - Sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Driven by Fury:In your opponent's Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase.",
+      "Black Rage:Each time this model makes a melee attack, you can re-roll the Hit roll. While this model's unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Death Company Dreadnought",
+      "Adeptus Astartes",
+      "Blood Angels",
+      "Death Company"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  }
+]

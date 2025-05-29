@@ -1,0 +1,3015 @@
+[
+  {
+    "name": "Skarbrand",
+    "models": {
+      "Skarbrand": {"M": 10, "T": 11, "SV": 3, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bellow of endless fury - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 8,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Slaughter and Carnage - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 16,
+        "AP": 4,
+        "D": 6
+      },
+      "Slaughter and Carnage - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 16,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Rage Embodied (Aura):While a friendly ^^Khorne Legiones Daemonica^^ unit is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.",
+      "Murderlust:This unit is eligible to declare a charge in a turn in which it Advanced.",
+      "Damaged: 1-7 wounds remaining:While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this models Slaughter and Carnage."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skarbrand",
+      "Khorne non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 305,
+    "special_rules": []
+  },
+  {
+    "name": "Bloodthirster",
+    "models": {
+      "Bloodthirster": {"M": 12, "T": 11, "SV": 3, "W": 18, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hellfire breath - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Great axe of Khorne - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+2"
+      },
+      "Great axe of Khorne - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 2
+      },
+      "Bloodflail - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Lash of Khorne - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Daemon Lord of Khorne (Aura):While a friendly ^^Khorne Legiones Daemonica^^ unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
+      "Relentless Carnage:At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Bloodthirster",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 305,
+    "special_rules": []
+  },
+  {
+    "name": "Skulltaker",
+    "models": {
+      "Skulltaker": {"M": 8, "T": 4, "SV": 4, "W": 5, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "The Slayer Sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Skulltaker:This model has a 4+ invulnerable save.",
+      "Lord of Decapitations:While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Skulls for Khorne:Each time this model makes an attack that targets a ^^Character^^ unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model destroys an enemy ^^Character ^^unit, you gain 1CP.",
+      "Leader:This model can be attached to the following unit: BLOODLETTERS"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skulltaker",
+      "Khorne non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Bloodmaster",
+    "models": {
+      "Bloodmaster": {"M": 8, "T": 4, "SV": 5, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Blade of blood - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: BLOODLETTERS",
+      "Invulnerable Save: Bloodmaster:This model has a 4+ invulnerable save.",
+      "Bloodmaster:While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll.",
+      "A Gory Path:Each time this models unit Consolidates, it can move up to 6\" instead of up to 3\"."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Bloodmaster",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Skullmaster",
+    "models": {
+      "Skullmaster": {"M": 10, "T": 7, "SV": 3, "W": 6, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Blade of blood - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3
+      },
+      "Juggernaut's bladed horn - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks",
+          "Lance"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Skullmaster:This model has a 4+ invulnerable save.",
+      "Skullmasters Fury:While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, Juggernauts bladed horns equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Devastating Charge:Each time this models unit ends a Charge move, each enemy unit within Engagement Range of that unit must take a Battle-shock test.",
+      "Leader:This model can be attached to the following units: BLOODCRUSHERS"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skullmaster",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Rendmaster on Blood Throne",
+    "models": {
+      "Rendmaster on Blood Throne": {"M": 8, "T": 9, "SV": 4, "W": 9, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Attendant's hellblades - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Blade of blood - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Blood Throne:At the start of the Fight phase, select one enemy unit within 18\" of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1.",
+      "Champion Slayer:Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll. Each time this model destroys an enemy CHARACTER or MONSTER unit, this model regains up to D6 lost wounds."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Rendmaster on Blood Throne",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 165,
+    "special_rules": []
+  },
+  {
+    "name": "Bloodletters",
+    "models": {
+      "Bloodletters": {"M": 8, "T": 4, "SV": 7, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hellblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Bane of Cowards:Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Bloodletters",
+      "Khorne Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Bloodcrushers",
+    "models": {
+      "Bloodcrushers": {"M": 10, "T": 7, "SV": 3, "W": 4, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hellblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      },
+      "Juggernaut's bladed horn - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks",
+          "Lance"
+        ]
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Brass Stampede:Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Bloodcrushers",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Flesh Hounds",
+    "models": {
+      "Flesh Hounds": {"M": 12, "T": 4, "SV": 7, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Collar of Khorne - Abilities": {
+        "type": "Abilities"
+      },
+      "Gore-drenched fangs - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1
+      },
+      "Burning maw - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Hunters from the Warp:At the end of your opponents turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Flesh Hounds",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Skull Cannon",
+    "models": {
+      "Skull Cannon": {"M": 8, "T": 9, "SV": 4, "W": 9, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Skull cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+2",
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Attendant's hellblades - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Biting maw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Skulls of the Fallen:In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skull Cannon",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Skull Altar",
+    "models": {
+      "Skull Altar": {
+        "T": 12,
+        "SV": 3,
+        "W": 10,
+        "LD": 7,
+        "OC": 0,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {},
+    "abilities": [
+      "Shadow of Khorne (Aura):The area of the battlefield within 6\" of this FORTIFICATION is considered to be within your armys Shadow of Chaos. In addition, while a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this Fortification, each time you take a Battle-shock test for that unit, you can re-roll that test.",
+      "Cover:Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Fortification",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skull Altar",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules": []
+  },
+  {
+    "name": "Be'lakor",
+    "models": {
+      "Be'lakor": {"M": 12, "T": 11, "SV": 3, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Betraying Shades - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 9,
+        "BS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Ignores Cover",
+          "Psychic"
+        ]
+      },
+      "Betraying Shades - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 12,
+        "BS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Ignores Cover",
+          "Psychic"
+        ]
+      },
+      "The Blade of Shadows - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "The Blade of Shadows - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 14,
+        "AP": 4,
+        "D": "D6+1",
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "The Dark Master (Aura):The area of the battlefield within 6\" of this model is considered to be within your armys Shadow of Chaos.",
+      "Shadow Form:At the start of the battle round, select one Shadow Form ability. Until the end of the battle round, this model has that ability.",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Fly",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Be'lakor",
+      "Shadow Legion",
+      "Undivided"
+    ],
+    "total_models": 1,
+    "points": 375,
+    "special_rules": []
+  },
+  {
+    "name": "Khorne Soul Grinder",
+    "models": {},
+    "weapons": {
+      "Torrent of burning blood - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Harvester cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3
+      },
+      "Iron claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+2"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Soul Grinder",
+      "Khorne non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Tzeentch Soul Grinder",
+    "models": {},
+    "weapons": {
+      "Warp gaze - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D3",
+        "BS": 3,
+        "S": 12,
+        "AP": 2,
+        "D": "D6+2",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Harvester cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3
+      },
+      "Iron claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+2"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Soul Grinder",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Nurgle Soul Grinder",
+    "models": {},
+    "weapons": {
+      "Phlegm bombardment - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+1",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire",
+          "Lethal Hits"
+        ]
+      },
+      "Harvester cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3
+      },
+      "Iron claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+2"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Soul Grinder",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Slaanesh Soul Grinder",
+    "models": {},
+    "weapons": {
+      "Scream of despair - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      "Harvester cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3
+      },
+      "Iron claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+2"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Soul Grinder",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Daemon Prince of Chaos",
+    "models": {
+      "Daemon Prince of Chaos": {"M": 8, "T": 10, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Hellforged weapons - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Hellforged weapons - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Prince of Darkness (Aura):While a friendly LEGIONES DAEMONICA unit is within 6\" of this model, models in that unit have the Stealth ability.",
+      "Unholy Vigour:Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save.",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Daemon Prince of Chaos"
+    ],
+    "total_models": 1,
+    "points": 190,
+    "special_rules": []
+  },
+  {
+    "name": "Daemon Prince of Chaos with wings",
+    "models": {
+      "Daemon Prince of Chaos with wings": {"M": 12, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Hellforged weapons - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Hellforged weapons - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Malefic Destruction:Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this models hellforged weapons.",
+      "Harbinger of Death:Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this models hellforged weapons have that ability: [LETHAL HITS] [PRECISION] [SUSTAINED HITS 1]",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Daemon Prince of Chaos with wings",
+      "Fly"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Kairos Fateweaver",
+    "models": {
+      "Kairos Fateweaver": {"M": 12, "T": 10, "SV": 6, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Staff of Tomorrow - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": "2D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Infernal Gateway - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast",
+          "Indirect Fire",
+          "Psychic"
+        ]
+      },
+      "Infernal Gateway - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3+6",
+        "BS": 2,
+        "S": 9,
+        "AP": 3,
+        "D": "D3",
+        "Keywords": [
+          "Blast",
+          "Indirect Fire",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "One Head Looks Forward:At the end of your Command phase, if this model is on the battlefield, take a Leadership test for this model; if that test is passed, you gain 1CP.",
+      "One Head Looks Back (Aura):Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem)."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Kairos Fateweaver",
+      "Tzeentch non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 270,
+    "special_rules": []
+  },
+  {
+    "name": "Lord of Change",
+    "models": {
+      "Lord of Change": {"M": 12, "T": 10, "SV": 6, "W": 18, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt of Change - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 9,
+        "BS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Bolt of Change - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 9,
+        "BS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Hazardous",
+          "Psychic"
+        ]
+      },
+      "Staff of Tzeentch - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Rod of sorcery - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 8,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Baleful sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemon Lord of Tzeentch (Aura):While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a ranged attack, add 1 to the Strength characteristic of that attack.",
+      "Master of Magicks (Psychic):In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this models Bolt of Change has that ability."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Fly",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Lord of Change",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 260,
+    "special_rules": []
+  },
+  {
+    "name": "The Changeling",
+    "models": {
+      "The Changeling": {"M": 6, "T": 3, "SV": 7, "W": 5, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "The Trickster's Staff - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Infernal Flames - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      },
+      "Infernal Flames - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Hazardous",
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Formless Horror:Each time an enemy unit wishes to select this model as the target of an attack, that unit must first take a Battle-shock test. If that test is failed, in addition to being Battle-shocked, that enemy unit cannot target this model this phase.",
+      "Mischief and Confusion:At the start of your opponents Shooting phase, select one enemy unit within 12\" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "The Changeling",
+      "Tzeentch non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Fateskimmer",
+    "models": {
+      "Fateskimmer": {"M": 12, "T": 7, "SV": 6, "W": 9, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Screamer bites - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-MONSTER 4+",
+          "Anti-VEHICLE 4+",
+          "Extra Attacks"
+        ]
+      },
+      "Herald combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Arcane Fireball - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: SCREAMERS",
+      "Fateskimmer:While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "Rider of the Immaterial Winds:Once per battle, at the end of your opponents turn, if this models unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves.",
+      "Invulnerable Save: Fateskimmer:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Fly",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Fateskimmer",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Fluxmaster",
+    "models": {
+      "Fluxmaster": {"M": 12, "T": 4, "SV": 6, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Herald combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Arcane Fireball - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: PINK HORRORS BLUE HORRORS",
+      "Fluxmaster:While this model is leading a unit, each time an attack is made against that unit, subtract 1 form the Hit roll.",
+      "Altered Reality (Psychic):Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6.",
+      "Invulnerable Save: Fluxmaster:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Fly",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Fluxmaster",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "The Blue Scribes",
+    "models": {
+      "The Blue Scribes": {"M": 12, "T": 4, "SV": 6, "W": 6, "LD": 8, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Sharp quills - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 5,
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-PSYKER 2+"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Ptarixs Sorcerous Syphon (Aura):While an enemy unit is within 12\" of this model, each time a model in that unit makes a Psychic Attack, subtract 1 from the Wound roll.",
+      "Xiratps Sorcerous Barrages (Psychic):At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "The Blue Scribes",
+      "Tzeentch non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Changecaster",
+    "models": {
+      "Changecaster": {"M": 6, "T": 3, "SV": 6, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Herald combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Arcane Fireball - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Changecaster:While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Storm of Mutating Sorcery (Psychic):In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "Leader:This model can be attached to the following units: PINK HORRORS BLUE HORRORS",
+      "Invulnerable Save: Changecaster:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Changecaster",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Blue Horrors",
+    "models": {
+      "Blue Horror": {"M": 6, "T": 3, "SV": 8, "W": 1, "LD": 8, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Coruscating Yellow flames (ref. only) - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 5,
+        "S": 2,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Psychic"
+        ]
+      },
+      "Yellow claws (ref. only) - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 5,
+        "S": 2,
+        "AP": 0,
+        "D": 1
+      },
+      "Coruscating Blue flames - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 4,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Psychic"
+        ]
+      },
+      "Blue claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 5,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
+      "Split:Each time a ^^Blue Horror^^ model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one ^^Brimstone Horror^^ model to this unit.",
+      "Sullen Malevolence (Aura):While an enemy unit is within 6\" of this unit, if this unit contains one or more ^^Blue Horror^^ models, worsen the Leadership characteristic of models in that enemy unit by 1.",
+      "Exploding Horrors:Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more ^^Brimstone Horror^^ models in this unit. For each ^^Brimstone Horror^^ model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Tzeentch Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 125,
+    "special_rules": []
+  },
+  {
+    "name": "Pink Horrors",
+    "models": {
+      "Pink Horrors": {"M": 6, "T": 3, "SV": 7, "W": 1, "LD": 8, "OC": 1, "Inv": null, "Fnp": null},
+      "Pink Horror": {"M": 6, "T": 3, "SV": 7, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Coruscating Yellow flames (ref. only) - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 5,
+        "S": 2,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Psychic"
+        ]
+      },
+      "Yellow claws (ref. only) - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 5,
+        "S": 2,
+        "AP": 0,
+        "D": 1
+      },
+      "Blue claws (ref. only) - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 5,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Coruscating Blue flames (ref. only) - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 4,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Psychic"
+        ]
+      },
+      "Coruscating Pink flames - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Psychic"
+        ]
+      },
+      "Pink claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
+      "Split:Each time a ^^Pink Horror^^ or ^^Blue Horror^^ model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a ^^Pink Horror^^, add two ^^Blue Horror^^ models to this unit, and if it was a ^^Blue Horror^^, add one ^^Brimstone Horror^^ model to this unit.",
+      "Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.:If, at any point, this unit contains no ^^Pink Horrors^^ models, use the ^^Blue Horrors^^ datasheet for this unit. _Designers Note: While this unit contains one or more ^^Pink Horrors^^ models, the Cackling Horrors and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Tzeentch Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Flamers",
+    "models": {
+      "Flamers": {"M": 9, "T": 4, "SV": 7, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Flickering Flames - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      },
+      "Flamer mouths - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
+      "Bounding Leaps:This unit is eligible to shoot in a turn in which it Fell Back."
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Flamers",
+      "Tzeentch non-Battleline",
+      "Legiones Daemonica",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Exalted Flamer",
+    "models": {
+      "Exalted Flamer": {"M": 9, "T": 4, "SV": 7, "W": 6, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Flamer mouths - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 5,
+        "AP": 0,
+        "D": 1
+      },
+      "Fires of Tzeentch - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: FLAMERS",
+      "Blazing Warpfire (Psychic):While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+      "Flames of Change (Psychic):In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks, and roll one D6. On a 4+, until the end of your opponents next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Manifestation of Destruction:This model cannot be your ^^Warlord^^ and cannot be given Enhancements."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Exalted Flamer",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Screamers",
+    "models": {
+      "Screamer": {"M": 14, "T": 4, "SV": 6, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lamprey bite - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-MONSTER 4+",
+          "Anti-VEHICLE 4+"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
+      "Slashing Dive:In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Beast",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Screamers",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Burning Chariot",
+    "models": {
+      "Burning Chariot": {"M": 12, "T": 8, "SV": 7, "W": 9, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Flamer mouths - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 5,
+        "AP": 0,
+        "D": 1
+      },
+      "Screamer bites - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-MONSTER 4+",
+          "Anti-VEHICLE 4+",
+          "Extra Attacks"
+        ]
+      },
+      "Fires of Tzeentch - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Eldritch Flames (Psychic):In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Burning Chariot",
+      "Fly",
+      "Tzeentch non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 115,
+    "special_rules": []
+  },
+  {
+    "name": "Rotigus",
+    "models": {
+      "Rotigus": {"M": 7, "T": 12, "SV": 5, "W": 22, "LD": 6, "OC": 5, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Streams of brackish filth - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Gnarlrod - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 10,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
+      },
+      "Gnarlrod - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 8,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Virulent Blessing (Psychic):At the start of the Fight phase, you can select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time an attack made by a NURGLE LEGIONES DAEMONICA model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack.",
+      "Deluge of Nurgle (Aura):While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Rotigus",
+      "Nurgle non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 250,
+    "special_rules": []
+  },
+  {
+    "name": "Great Unclean One",
+    "models": {
+      "Great Unclean One": {"M": 7, "T": 12, "SV": 5, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Putrid vomit - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plague flail - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": "D6+1",
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Bileblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Bilesword - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": "D6+1",
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Bilesword - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Doomsday bell - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Reverberating Summons"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemon Lord of Nurgle (Aura):While a friendly ^^Nurgle Legiones Daemonica^^ unit is within 6\" of this model, add 1 to the Toughness characteristic of models in that unit.",
+      "Nurgles Rot (Psychic):At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Great Unclean One",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 250,
+    "special_rules": []
+  },
+  {
+    "name": "Poxbringer",
+    "models": {
+      "Poxbringer": {"M": 5, "T": 5, "SV": 7, "W": 5, "LD": 7, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Foul balesword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Leader:This model can be attached to the following unit: PLAGUEBEARERS",
+      "Poxbringer:While this model is leading a unit, each time a model in that unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+      "Feculent Despair (Aura, Psychic):While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Poxbringer",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 55,
+    "special_rules": []
+  },
+  {
+    "name": "Spoilpox Scrivener",
+    "models": {
+      "Spoilpox Scrivener": {"M": 5, "T": 5, "SV": 7, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Disgusting Sneezes - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plaguesword and distended maw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: PLAGUE BEARERS",
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Keep Counting!:While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Meet Your Quota!:While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Spoilpox Scrivener",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Epidemius",
+    "models": {
+      "Epidemius": {"M": 5, "T": 5, "SV": 6, "W": 8, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Balesword and nurgling attendants - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6+3",
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Epidemius:This model has a 5+ invulnerable save.",
+      "Leader:This model can be attached to the following unit: PLAGUEBEARERS",
+      "Blessed by the Plague God:While this model is leading a unit, models in that unit have a 4+ invulnerable save.",
+      "Tally of Pestilence:Keep a tally of how many enemy models are destroyed by NURGLE LEGIONES DAEMONICA models from your army during the battle. At the start of your Command phase, if this tally is 7 or more, you gain 1CP and the tally is reset to 0."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Epidemius",
+      "Nurgle non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Sloppity Bilepiper",
+    "models": {
+      "Sloppity Bilepiper": {"M": 5, "T": 5, "SV": 7, "W": 5, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Marotter - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Sloppity Bilepiper:This model has a 5+ invulnerable save.",
+      "Leader:This model can be attached to the following unit: PLAGUEBEARERS",
+      "Jolly Gutpipes:While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for that unit.",
+      "Disease of Mirth (Aura):At the start of the Fight phase, every enemy unit (excluding ^^Monsters^^ and ^^Vehicles^^) within 6\" of this model must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Sloppity Bilepiper",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 55,
+    "special_rules": []
+  },
+  {
+    "name": "Horticulous Slimux",
+    "models": {
+      "Horticulous Slimux": {"M": 6, "T": 10, "SV": 3, "W": 10, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Acidic maw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 7,
+        "AP": 4,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds",
+          "Extra Attacks"
+        ]
+      },
+      "Lopping shears - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: BEASTS OF NURGLE",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Beast Handler:While this model is leading a unit, you can re-roll Charge rolls made for that unit. In addition, once per battle, you can target that unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.",
+      "Seed the Garden of Nurgle:At the end of your Movement phase, if this model is within one AREA TERRAIN feature, until the end of the battle, that AREA TERRAIN feature is considered to be within your armys Shadow of Chaos."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Horticulous Slimux",
+      "Nurgle non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules": []
+  },
+  {
+    "name": "Plaguebearers",
+    "models": {
+      "Plaguebearers": {"M": 5, "T": 5, "SV": 7, "W": 2, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plaguesword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Infected Outbreak:If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plaguebearers",
+      "Nurgle Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Nurglings",
+    "models": {
+      "Nurglings": {"M": 5, "T": 3, "SV": 7, "W": 4, "LD": 8, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Diseased claws and teeth - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 5,
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 6+ invulnerable save.",
+      "Mischief Makers (Aura):Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Swarm",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Nurglings",
+      "Nurgle Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 35,
+    "special_rules": []
+  },
+  {
+    "name": "Beasts of Nurgle",
+    "models": {
+      "Beasts of Nurgle": {"M": 6, "T": 9, "SV": 6, "W": 7, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Putrid appendages - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Grotesque Regeneration:At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Beasts of Nurgle",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Plague Drones",
+    "models": {
+      "Plague Drones": {"M": 10, "T": 8, "SV": 6, "W": 5, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Death's heads - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D3",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Lethal Hits"
+        ]
+      },
+      "Foul mouthparts - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Plaguesword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Deaths Heads:In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plague Drones",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Feculent Gnarlmaw",
+    "models": {
+      "Feculent Gnarlmaw": {
+        "T": 9,
+        "SV": 4,
+        "W": 9,
+        "LD": 7,
+        "OC": 0,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {},
+    "abilities": [
+      "Shroud of Flies (Aura):While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this Fortification, models in that unit have the Stealth ability.",
+      "Diseased Cover:Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Fortification",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Feculent Gnarlmaw",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Shalaxi Helbane",
+    "models": {
+      "Shalaxi Helbane": {"M": 14, "T": 10, "SV": 3, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lash of Slaanesh - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Pavane of Slaanesh - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      "Pavane of Slaanesh - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Hazardous",
+          "Devastating Wounds",
+          "Psychic",
+          "Sustained Hits 3"
+        ]
+      },
+      "Snapping claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds",
+          "Extra Attacks"
+        ]
+      },
+      "Soulpiercer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2",
+        "Keywords": [
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "No Prey Can Evade:You can re-roll Advance and Charge rolls made for this model.",
+      "Monarch of the Hunt:At the start of the first battle round, select one enemy unit to be this models quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this models quarry is destroyed, select one new enemy unit to be this models quarry."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Shalaxi Helbane",
+      "Slaanesh non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 380,
+    "special_rules": []
+  },
+  {
+    "name": "Keeper of Secrets",
+    "models": {
+      "Keeper of Secrets": {"M": 14, "T": 10, "SV": 5, "W": 18, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Phantasmagoria - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      "Phantasmagoria - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 9,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      },
+      "Witstealer sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Snapping claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds",
+          "Extra Attacks"
+        ]
+      },
+      "Living whip - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Ritual knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemon Lord of Slaanesh (Aura):While a friendly ^^Slaanesh Legiones Daemonica^^ unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1.",
+      "Mesmerising Form:Each time an attack targets this model, subtract 1 from the Hit roll.",
+      "Shining aegis:The bearer has a Save Characteristic of 3+."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Keeper of Secrets",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 290,
+    "special_rules": []
+  },
+  {
+    "name": "Infernal Enrapturess",
+    "models": {
+      "Infernal Enrapturess": {"M": 9, "T": 3, "SV": 7, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Ravaging claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Heartstring lyre - cacophonous melody - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Heartstring lyre - euphonic blast - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Assault"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: DAEMONETTES",
+      "Invulnerable Save: Infernal Enrapturess:This model has a 5+ invulnerable save.",
+      "Harmonic Alignment:While this model is leading a unit, in your Command phase, you can return D3 destroyed Bodyguard models to that unit.",
+      "Discordant Disruption (Aura):While an enemy ^^Psyker^^ unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Infernal Enrapturess",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "The Masque of Slaanesh",
+    "models": {
+      "The Masque of Slaanesh": {"M": 9, "T": 3, "SV": 7, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Serrated claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "The Eternal Dance:At the start of the Fight phase, select one enemy unit within 6\" of this model. Until the end of the phase: Each time a friendly SLAANESH LEGIONES DAEMONICA model makes a melee attack that targets that enemy unit, add 1 to the Wound roll. Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll.",
+      "Dazzling Acrobatics:This model is eligible to declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "The Masque of Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Syll'esske",
+    "models": {
+      "Syll'esske": {"M": 9, "T": 6, "SV": 6, "W": 9, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Axe of Dominion - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 3
+      },
+      "Scourging whip - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Scourging whip - Ranged": {
+        "type": "Ranged",
+        "Range": 9,
+        "A": 6,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Cacophonic choir - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      },
+      "Cacophonic choir - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Ignores Cover",
+          "Psychic",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Syll'esske:This model has a 4+ invulnerable save.",
+      "Prince of Slaanesh:While this model is leading a unit, each time a model in that unit makes a melee attack, a successful unmodified Wound roll of 5+ scores a Critical Wound.",
+      "Delightful Agonies:The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.",
+      "Leader:This model can be attached to the following unit: DAEMONETTES"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Syll'esske",
+      "Slaanesh non-Battleline"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules": []
+  },
+  {
+    "name": "Contorted Epitome",
+    "models": {
+      "Contorted Epitome": {"M": 9, "T": 6, "SV": 5, "W": 8, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Coiled tentacles - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6",
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Ravaging claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Contorted Epitome:This model has a 4+ invulnerable save.",
+      "Swallow Energy (Psychic):While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.",
+      "Horrible Fascination (Psychic):At the start of your opponents Shooting phase, one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase.",
+      "Leader:This model can be attached to the following unit: DAEMONETTES"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Slaanesh",
+      "Contorted Epitome",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Tranceweaver",
+    "models": {
+      "Tranceweaver": {"M": 9, "T": 3, "SV": 7, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Ravaging claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save: Tranceweaver:This model has a 5+ invulnerable save.",
+      "Tranceweaver:Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead.",
+      "Symphony of Pain (Psychic):At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+      "Leader:This model can be attached to the following unit: DAEMONETTES"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Tranceweaver",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Daemonettes",
+    "models": {
+      "Daemonettes": {"M": 9, "T": 3, "SV": 7, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Slashing claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Horrifying Beauty:At the start of the Fight phase, each enemy unit within Engagement Range of one of more units from your army with this ability must take a Battle-shock test, subtracting 1 from the result if that enemy unit is Below Half-strength.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Daemonettes",
+      "Slaanesh Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Fiends",
+    "models": {
+      "Fiends": {"M": 12, "T": 5, "SV": 7, "W": 4, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Barbed tail and dissecting claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Soporific Musk:Each time an enemy unit (excluding ^^Monsters^^ and ^^Vehicles^^) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Fiends",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Seekers",
+    "models": {
+      "Seeker": {"M": 14, "T": 4, "SV": 7, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Heartseeker": {"M": 14, "T": 4, "SV": 7, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lashing tongues - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Slashing claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Unholy Speed:You can re-roll Advance and Charge rolls made for this unit.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Seekers",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  }
+]

@@ -1,0 +1,3010 @@
+[
+  {
+    "name": "Daemon Prince of Nurgle",
+    "models": {
+      "Daemon Prince of Nurgle": {"M": 8, "T": 12, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hellforged weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Death Guard Defenders:While this model is within 3\" of one or more friendly ^^**Death Guard Infantry^^** units, this model has the Lone Operative ability.",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Fevered Strategist:Once per Battle Round, one model from your army with this ability can use it when a friendly ^^**Death Guard^^** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP.",
+      "Miasma of Pestilence (Aura):While a friendly ^^**Death Guard^^** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Daemon Prince"
+    ],
+    "total_models": 1,
+    "points": 195,
+    "special_rules": []
+  },
+  {
+    "name": "Daemon Prince of Nurgle with wings",
+    "models": {
+      "Daemon Prince of Nurgle with wings": {"M": 11, "T": 10, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hellforged weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Horrifying Visage:Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test.",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Enfeebling Miasma (Aura):While an enemy unit (excluding ^^*Monsters^^** and ^^**Vehicles^^**) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Fly",
+      "Daemon Prince with Wings"
+    ],
+    "total_models": 1,
+    "points": 195,
+    "special_rules": []
+  },
+  {
+    "name": "Typhus",
+    "models": {
+      "Typhus": {"M": 5, "T": 7, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lakrimae - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Lakrimae - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: ^^**Blightlord Terminators^^** ^^**Deathshroud Terminators^^** ^^**Poxwalkers^^**",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "The Destroyer Hive:While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll.",
+      "Eater Plague (Psychic):This ^^**Psyker^^** can use this ability in your Shooting phase. If it does, select one enemy unit within 18\" of and visible to this ^^**Psyker^^** and roll one D6: on a 1, this ^^**Psyker^^**'s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Nurgle",
+      "Psyker",
+      "Typhus",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules": []
+  },
+  {
+    "name": "Death Guard Chaos Lord",
+    "models": {
+      "Death Guard Chaos Lord": {"M": 5, "T": 5, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plague bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plague fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plague-encrusted exalted weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Astartes chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following unit: PLAGUE MARINES"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Chaos Lord"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Death Guard Chaos Lord in Terminator Armour",
+    "models": {
+      "Death Guard Chaos Lord in Terminator Armour": {"M": 4, "T": 6, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Plague-encrusted exalted weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Chainfist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 3+"
+        ]
+      },
+      "Plague fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: BLIGHTLORD TERMINATORS DEATHSHROUD TERMINATORS"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Chaos Lord",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Lord of Virulence",
+    "models": {
+      "Lord of Virulence": {"M": 5, "T": 7, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin plague spewer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Virulent Aura:While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll.",
+      "Blight Bombardment:At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly ^^**Death Guard^^** unit makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead).",
+      "Leader:This model can be attached to the following units: - ^^**Blightlord Terminators^^** - ^^**Deathshroud Terminators^^**"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Lord of Virulence",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules": []
+  },
+  {
+    "name": "Lord of Contagion",
+    "models": {
+      "Lord of Contagion": {"M": 5, "T": 7, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Manreaper - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Manreaper - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Vector of Disease:While this model is leading a unit, melee weapons equipped by models in that unit have the **[Sustained Hits 1]** and **[Lance]** abilties.",
+      "Unholy Resilience:The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining. Each model can only be set up in this way once per battle.",
+      "Leader:This model can be attached to the following units: - ^^**Blightlord Terminators^^** - ^^**Deathshroud Terminators^^**"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Lord of Contagion",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Death Guard Sorcerer in Terminator Armour",
+    "models": {
+      "Death Guard Sorcerer in Terminator Armour": {"M": 4, "T": 6, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plague-encrusted exalted weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Force weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Chainfist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 3+"
+        ]
+      },
+      "Plague fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Curse of the Leper - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Curse of the Leper - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "2D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: BLIGHTLORD TERMINATORS DEATHSHROUD TERMINATORS",
+      "Putrescent Vitality (Psychic):At the start of the Fight phase, you can roll one D6: on a 1, this PSYKERs unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKERs unit, subtract 1 from the Damage characteristic of that attack.",
+      "Pestilent Familiar (Psychic):Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Psyker",
+      "Sorcerer",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Malignant Plaguecaster",
+    "models": {
+      "Malignant Plaguecaster": {"M": 5, "T": 5, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Pistol"
+        ]
+      },
+      "Corrupted staff - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
+      },
+      "Plague Wind - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic",
+          "Torrent"
+        ]
+      },
+      "Plague Wind - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Hazardous",
+          "Psychic",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Gift of Contagion (Psychic):While this model is leading a unit, each time a model in that unit makes an attack which targets a unit which is Afflicted, that attack has the [Sustained Hits 1] ability.",
+      "Pestilent Fallout (Psychic):In your Shooting phase, after this model has shot, select one enemy ^^**Infantry^^** unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, that unit is enfeebled. While a unit is enfeebled, subtract 2\" from the Move characteristic of models in that unit.",
+      "Leader:This model can be attached to the following units: ^^**Plague Marines^^**, ^^**Poxwalkers^^**"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Psyker",
+      "Malignant Plaguecaster"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Plague Marines",
+    "models": {
+      "Plague Marines": {"M": 5, "T": 6, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plague knives - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Bubotic weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Pistol"
+        ]
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Heavy plague weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Blight launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plague spewer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Icon of Despair - Abilities": {
+        "type": "Abilities"
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plague belcher - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Infused with the Blessings of Nurgle:In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Battleline",
+      "Plague Marines"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Death Guard Cultists",
+    "models": {
+      "Death Guard Cultists": {"M": 6, "T": 3, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Brutal assault weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Cultist firearm - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Grenade launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Grenade launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3"
+      }
+    },
+    "abilities": [],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Cultists"
+    ],
+    "total_models": 1,
+    "points": 50,
+    "special_rules": []
+  },
+  {
+    "name": "Poxwalkers",
+    "models": {
+      "Poxwalkers": {"M": 5, "T": 4, "SV": 7, "W": 1, "LD": 8, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Improvised weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 5,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Curse of the Walking Pox:Each time a ^^**Poxwalker^^** model in this unit makes an attack that destroys an enemy model (excluding ^^**Monster^^** and ^^**Vehicle^^** models), you can return one destroyed ^^**Poxwalker^^** model to this unit. While ^^**Typhus^^** is leading this unit, enemy models destroyed as a result of ^^**Typhus^^** Eater Plague ability count as enemy models destroyed by an attack made by a ^^**Poxwalker^^** model in this unit for the purposes of this ability."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Poxwalkers"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Noxious Blightbringer",
+    "models": {
+      "Noxious Blightbringer": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Cursed plague bell - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Anti-PSYKER 2+",
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Sickening Vitality:While this model is leading a unit, add 1\" to the Move characteristic of models in that unit and you can re-roll Advance and Charge rolls made for that unit.",
+      "Tocsin of Misery (Aura):In the Battle-shock step of your opponent's Command phase, if an enemy unit that is its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a ^^**Psyker^^** unit.",
+      "Leader:This model can be attached to the following units: ^^**Plague Marines^^**, ^^**Poxwalkers^^** *You can attach this model to a ^^**Plague Marines^^** or ^^**Poxwalkers^^** unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Noxious Blightbringer"
+    ],
+    "total_models": 1,
+    "points": 50,
+    "special_rules": []
+  },
+  {
+    "name": "Foul Blightspawn",
+    "models": {
+      "Foul Blightspawn": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Plague sprayer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Putrefying Stink:Enemy models cannot start or end an Advance move within 9\" of this model.",
+      "Blinding Spray:In the Fight phase, you can select one model from your army with this ability to use this ability. If you do, until the end of that phase, that model's unit has the Fights First ability. Each model can only be selected for this ability once per battle."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Foul Blightspawn"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Biologus Putrifier",
+    "models": {
+      "Biologus Putrifier": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hyper blight grenades - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Blast",
+          "Lethal Hits"
+        ]
+      },
+      "Plague knives - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Injector pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 3,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Foul Infusion:The first time this model's unit destroys an enemy unit as a result of a melee attack, until the end of the battle, add 6 to the Objective Control characteristic of this model.",
+      "Foul Infusion:While this model is leading a unit,"
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Biologus Putrifier"
+    ],
+    "total_models": 1,
+    "points": 45,
+    "special_rules": []
+  },
+  {
+    "name": "Tallyman",
+    "models": {
+      "Tallyman": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Malicious Calculations:While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll.",
+      "Seven-fold Chant:In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Tallyman"
+    ],
+    "total_models": 1,
+    "points": 50,
+    "special_rules": []
+  },
+  {
+    "name": "Plague Surgeon",
+    "models": {
+      "Plague Surgeon": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Pistol"
+        ]
+      },
+      "Balesword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Tainted Narthecium:While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.",
+      "Inflamed Infections:At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time this model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit. If that unit is below Half-strength, an unmodified Hit roll of 4+ scores a Critical Hit instead."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Plague Surgeon"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Deathshroud Terminators",
+    "models": {
+      "Deathshroud Terminators": {"M": 5, "T": 7, "SV": 2, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Manreaper - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plaguespurt gauntlet - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Icon of Despair - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Silent Bodyguard:While a ^^**Character^^** model is leading this unit, that ^^**Character^^** model has the Feel No Pain 4+ ability.",
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
+      "Death Approaches:Each time this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicted enemy units, and more than 9\" horizontally away from any other enemy units."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Deathshroud Terminators",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 160,
+    "special_rules": []
+  },
+  {
+    "name": "Helbrute",
+    "models": {
+      "Helbrute": {"M": 7, "T": 9, "SV": 2, "W": 8, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Twin autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Helbrute fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 12,
+        "AP": 2,
+        "D": 3
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Power scourge - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      },
+      "Helbrute hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Diseased Malice:Each time this model makes an attack that targets an Afflicted unit, add 1 to the Wound roll.",
+      "Froth-spattered Frenzy:If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Nurgle",
+      "Helbrute"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Blightlord Terminators",
+    "models": {
+      "Blightlord Terminators": {"M": 5, "T": 7, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bubotic blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plague spewer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Flail of corruption - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Blight launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Reaper autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
+      "Blistering Fusillade:If this unit has a Starting Strength of 5 or more, if a ^^**Character^^** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Blightlord Terminators",
+      "Terminator"
+    ],
+    "total_models": 1,
+    "points": 115,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Spawn",
+    "models": {
+      "Chaos Spawn": {"M": 8, "T": 7, "SV": 4, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Hideous Mutations - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6+2",
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Lethal Ichor:Each time a melee attack is allocated to a model in this unit, after the attacking unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 mortal wound."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Beast",
+      "Chaos",
+      "Nurgle",
+      "Spawn"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Myphitic Blight-hauler",
+    "models": {
+      "Myphitic Blight-hauler": {"M": 10, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bile spurt - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Gnashing maw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Lethal Hits",
+          "Melta 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Tank Hunters:In your Shooting phase, each time a model in this unit makes a attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Smoke",
+      "Myphitic Blight-hauler"
+    ],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Foetid Bloat-drone",
+    "models": {
+      "Foetid Bloat-drone": {"M": 10, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plague probe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plaguespitter - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Fleshmower - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Hovering Death:This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Foetid Bloat-drone"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Plagueburst Crawler",
+    "models": {
+      "Plagueburst Crawler": {"M": 10, "T": 10, "SV": 2, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plagueburst mortar - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire",
+          "Lethal Hits"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Rothail volley gun - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 3"
+        ]
+      },
+      "Heavy slugger - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Entropy cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 10,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plaguespitter - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Spore-laced Shock Waves:In your Shooting phase, each time you select a target for this model's Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3\" of the target unit, adding 1 to that roll if the unit being rolled for is Afflicted. On a 6+, the unit being rolled for is struck by spores; after resolving all of this model's attacks against the target unit, each unit struck by spores suffers D3 mortal wounds.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Plagueburst Crawler"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Land Raider",
+    "models": {
+      "Chaos Land Raider": {"M": 10, "T": 12, "SV": 2, "W": 16, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Soulshatter lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Assault Ramp:Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Transport",
+      "Smoke",
+      "Land Raider"
+    ],
+    "total_models": 1,
+    "points": 240,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Predator Annihilator",
+    "models": {
+      "Chaos Predator Annihilator": {"M": 10, "T": 10, "SV": 3, "W": 11, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Predator twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Sustained Hits 1"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Metalophagic Infection:In your Shooting phase, after this model has shot, select one enemy ^^**Monster^^** or ^^**Vehicle^^** unit hit by one or more of those attacks. Roll one D6, adding 1 to the result if that unit is Afflicted; on a 5+, that unit suffers D3 mortal wounds."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Death Guard",
+      "Nurgle",
+      "Predator Annihilator"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Predator Destructor",
+    "models": {
+      "Chaos Predator Destructor": {"M": 10, "T": 10, "SV": 3, "W": 11, "LD": 6, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Predator autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Sustained Hits 1"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Hail of Corrosive Disease:In your Shooting phase, after this model has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the end of the phase, each time a friending ^^**Death Guard^^** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Smoke",
+      "Predator Destructor"
+    ],
+    "total_models": 1,
+    "points": 145,
+    "special_rules": []
+  },
+  {
+    "name": "Defiler",
+    "models": {
+      "Defiler": {"M": 8, "T": 11, "SV": 3, "W": 14, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Lethal Hits"
+        ]
+      },
+      "Defiler claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Reaper autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Twin heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Defiler scourge - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 12,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Scuttling Walker:Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly ^^**Monster^^** and ^^**Vehicle^^** models and terrain features that are 4\" or less in height.",
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Barrage of Filth:In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Smoke",
+      "Defiler"
+    ],
+    "total_models": 1,
+    "points": 195,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Rhino",
+    "models": {
+      "Chaos Rhino": {"M": 12, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Fire Support:In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this ^^**Transport**^^ this turn makes an attack that targets that unit, you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Smoke",
+      "Chaos",
+      "Death Guard",
+      "Nurgle",
+      "Rhino"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Mortarion",
+    "models": {
+      "Mortarion": {"M": 10, "T": 12, "SV": 2, "W": 16, "LD": 5, "OC": 6, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Rotwind - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Devastating Wounds",
+          "Lethal Hits",
+          "Psychic"
+        ]
+      },
+      "Lantern - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 2,
+        "S": 10,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Pistol",
+          "Sustained Hits D3"
+        ]
+      },
+      "Silence - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Devastating Wounds",
+          "Lethal Hits"
+        ]
+      },
+      "Silence - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 15,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Host of Plagues:At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model, adding 1 to the result if that unit is Afflicted; on a 3+, that enemy unit suffers D3 mortal wounds.",
+      "Lord of the Death Guard:Once per turn, this model can use one of the Lord of the Death Guard abilties.",
+      "Damaged: 1-6 wounds remaining:While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Monster",
+      "Psyker",
+      "Fly",
+      "Character",
+      "Epic Hero",
+      "Daemon",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Primarch",
+      "Mortarion"
+    ],
+    "total_models": 1,
+    "points": 400,
+    "special_rules": []
+  },
+  {
+    "name": "Icon Bearer",
+    "models": {
+      "Icon Bearer": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 5, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plague knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Unclean Icon:While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "Blessed Icon of Disease:Once per battle, at the start of any phase, you can select one friendly ^^**Death Guard^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Death Guard Icon Bearer"
+    ],
+    "total_models": 1,
+    "points": 45,
+    "special_rules": []
+  },
+  {
+    "name": "Miasmic Malignifier",
+    "models": {
+      "Miasmic Malignifier": {
+        "T": 10,
+        "SV": 3,
+        "W": 12,
+        "LD": 6,
+        "OC": 0,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Miasmic gouts - Ranged": {
+        "type": "Ranged",
+        "Range": 9,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Putrescent Fog (Aura):Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.",
+      "Diseased Cover:Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Fortification^^**, that model has the Benefit of Cover against that attack.",
+      "Deployment:Both parts of this ^^**Fortification**^^ must be deployed within 1\" of each other. Both parts are then treated as a single model for all rules purposes."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Fortification",
+      "Chaos",
+      "Nurgle",
+      "Miasmic Malignifier"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules": []
+  },
+  {
+    "name": "Lord of Poxes",
+    "models": {
+      "Lord of Poxes": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Great plague blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds",
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: - ^^**Plague Marines^^**",
+      "Gift of Poxes:Add 3\" to the range of this model's Contagion Range.",
+      "Shroud of Disease:While this model is leading a unit, that unit cannot be targeted by ranged attacks unless the attacking unit is within 18\"."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Lord of Poxes"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Great Unclean One",
+    "models": {
+      "Great Unclean One": {"M": 7, "T": 12, "SV": 5, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Putrid vomit - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plague flail - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": "D6+1",
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Bileblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Bilesword - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": "D6+1",
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Bilesword - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Doomsday bell - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits",
+          "Reverberating Summons"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemon Lord of Nurgle (Aura):While a friendly ^^Plague Legions^^ unit is within 6\" of this model, add 1 to the Toughness characteristic of models in that unit.",
+      "Nurgles Rot (Psychic):At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, that unit is rotted. While a unit is rotted, subtract 1 from the Toughness characteristic of models in that unit.",
+      "Damaged: 1-7 wounds remaining:While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Great Unclean One",
+      "Plague Legions",
+      "Summoned"
+    ],
+    "total_models": 1,
+    "points": 260,
+    "special_rules": []
+  },
+  {
+    "name": "Rotigus",
+    "models": {
+      "Rotigus": {"M": 7, "T": 12, "SV": 5, "W": 22, "LD": 6, "OC": 5, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Streams of brackish filth - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Gnarlrod - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 10,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
+      },
+      "Gnarlrod - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 8,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Virulent Blessing (Psychic):At the start of the Fight phase, you can select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time an attack made by a ^^**Plague Legions^^** model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack.",
+      "Deluge of Nurgle (Aura):While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit.",
+      "Damaged: 1-7 wounds remaining:While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plague Legions",
+      "Rotigus",
+      "Summoned"
+    ],
+    "total_models": 1,
+    "points": 260,
+    "special_rules": []
+  },
+  {
+    "name": "Plaguebearers",
+    "models": {
+      "Plaguebearers": {"M": 5, "T": 5, "SV": 7, "W": 2, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plaguesword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Infected Outbreak:If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plague Legions",
+      "Plaguebearers",
+      "Summoned"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Plague Drones",
+    "models": {
+      "Plague Drones": {"M": 10, "T": 8, "SV": 6, "W": 5, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Death's heads - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D3",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Lethal Hits"
+        ]
+      },
+      "Foul mouthparts - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Plaguesword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Daemonic Icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Instrument of Chaos - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Deaths Heads:In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Mounted",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plague Legions",
+      "Summoned",
+      "Plague Drones"
+    ],
+    "total_models": 1,
+    "points": 115,
+    "special_rules": []
+  },
+  {
+    "name": "Beasts of Nurgle",
+    "models": {
+      "Beasts of Nurgle": {"M": 6, "T": 9, "SV": 6, "W": 7, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Putrid appendages - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Grotesque Regeneration:At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
+    ],
+    "keywords": [
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plague Legions",
+      "Summoned",
+      "Beasts of Nurgle"
+    ],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Nurglings",
+    "models": {
+      "Nurglings": {"M": 5, "T": 3, "SV": 7, "W": 4, "LD": 8, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Diseased claws and teeth - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 5,
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 6+ invulnerable save.",
+      "Mischief Makers (Aura):Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Swarm",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plague Legions",
+      "Summoned",
+      "Nurglings"
+    ],
+    "total_models": 1,
+    "points": 40,
+    "special_rules": []
+  },
+  {
+    "name": "Foetid Bloat-drone with heavy blight launcher",
+    "models": {
+      "Foetid Bloat-drone with heavy blight launcher": {"M": 10, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plague probe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Heavy blight launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+2",
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Explosive Blight:In your Shooting phase, each time this model makes an attack that destroys an enemy unit, before removing the last model in that unit from play, roll a D6, adding 1 to the result if that unit is Afflicted; on a 5+, each enemy unit within 6\" of that model is Afflicted until the start of your next turn.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Death Guard",
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Foetid Bloat-drone"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  }
+]

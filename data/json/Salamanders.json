@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Adrax Agatone",
+    "models": {
+      "Adrax Agatone": {"M": 6, "T": 4, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Drakkis - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Malleus Noctum - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Unto the Anvil:While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll.",
+      "Lord of the Pyroclasts:While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Infernus Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Adrax Agatone",
+      "Adeptus Astartes",
+      "Salamanders",
+      "Imperium",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Vulkan He'stan",
+    "models": {
+      "Vulkan He'stan": {"M": 6, "T": 4, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Gauntlet of the Forge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Spear of Vulkan - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Forgefather:In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll",
+      "Seeker of Lost Relics:At the start of the battle, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control characteristic of 10, a Leadership characteristic of 5+ and the Feel No Pain 4+ ability.",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Company Heroes Infernus Squad Tactical Squad",
+      "Inspiring Commander:If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Grenades",
+      "Vulkan He'stan",
+      "Adeptus Astartes",
+      "Salamanders"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  }
+]

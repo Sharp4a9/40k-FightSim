@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Captain Sicarius",
+    "models": {
+      "Captain Sicarius": {"M": 6, "T": 4, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Artisan Plasma Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Talassarian Tempest Blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Lead From the Front:While this model is leading a unit, models in that unit have the Scouts 6\" ability and ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+      "Knight Champion of Macragge:Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this models unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Sternguard Veteran Squad Tactical Squad"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Adeptus Astartes",
+      "Ultramarines",
+      "Sicarius"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Chief Librarian Tigurius",
+    "models": {
+      "Chief Librarian Tigurius": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Storm of the Emperors Wrath - Witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Psychic"
+        ]
+      },
+      "Storm of the Emperors Wrath - Focused Witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "2D6",
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Psychic"
+        ]
+      },
+      "Rod of Tigurius - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Hood of Hellfire:While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
+      "Master of Prescience (Psychic):While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll. In addition, once per battle round, you can target that unit with one of the following Stratagems for 0CP: Counter-offensive; Fire Overwatch; Go to Ground; Heroic Intervention.",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Bladeguard Veteran Squad Desolation Squad Devastator Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad"
+    ],
+    "keywords": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Imperium",
+      "Psyker",
+      "Chief Librarian Tigurius",
+      "Adeptus Astartes",
+      "Ultramarines"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Marneus Calgar",
+    "models": {
+      "Marneus Calgar": {"M": 6, "T": 4, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Gauntlets of Ultramar - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 4,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Pistol",
+          "Twin-linked"
+        ]
+      },
+      "Gauntlets of Ultramar - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Victrix Power Sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Inspiring Leader:While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+      "Master Tactician:At the start of your Command phase, if this units Marneus Calgar model is on the battlefield, you gain 1CP.",
+      "Honour Guard of Macragge:While this unit contains one or more Victrix Honour Guard models, this units Marneus Calgar model has the Feel No Pain 4+ ability.",
+      "Leader:This unit can be attached to the following units: Aggressor Squad Assault Intercessor Squad Bladeguard Veteran Squad Company Heroes Eradicator Squad Heavy Intercessor Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad"
+    ],
+    "keywords": [
+      "Imperium",
+      "Infantry"
+    ],
+    "total_models": 1,
+    "points": 210,
+    "special_rules": []
+  },
+  {
+    "name": "Roboute Guilliman",
+    "models": {
+      "Roboute Guilliman": {"M": 8, "T": 9, "SV": 2, "W": 10, "LD": 5, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hand of Dominion - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 2,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Hand of Dominion - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 14,
+        "AP": 4,
+        "D": 4,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "The Emperor's Sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Author of the Codex:At the Start of your Command phase, select two Author of the Codex abilities (see left). Until the start of your next Command phase, this model has those abilities. Primarch of the XIII (Aura): While a friendly Adeptus Astartes unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and you can re-roll Battle-shock and Leadership tests taken for that unit. Master of Battle: After you have selected an enemy unit using the Oath of Moment ability, select a second enemy unit. Until the start of your next Command phase, if your Oath of Moment target is destroyed, that second enemy unit becomes your Oath of Moment target until you select a new one. Supreme Strategist: Once per turn, you can target one friendly ADEPTUS ASTARTES unit within 12\" of this model with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+      "Ultramarines Bodyguard:While this model is within 3\" of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability",
+      "Armour of Fate:The first time this model is destroyed, roll one D6 at the end of the phase: on a 3+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with 6 wounds remaining.",
+      "Supreme Commander:If this model is in your army, it must be your Warlord."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Imperium",
+      "Primarch",
+      "Roboute Guilliman",
+      "Adeptus Astartes",
+      "Ultramarines",
+      "Monster"
+    ],
+    "total_models": 1,
+    "points": 345,
+    "special_rules": []
+  },
+  {
+    "name": "Uriel Ventris",
+    "models": {
+      "Uriel Ventris": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Invictus - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2
+      },
+      "Sword of Idaeus - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Unorthodox Strategist [Aura]:Each time your opponent targets a unit from their army with a stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).",
+      "Master of the Fleet:During the Declare Battle Formations step, if your army includes this model, select one Phobos, Gravis, or Tacticus Adeptus Astartes Infantry unit from your army. That unit gains the Deep Strike ability.",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Bladeguard Veteran Squad' Company Heroes Intercessor Squad Sternguard Veteran Squad Tactical Squad"
+    ],
+    "keywords": [
+      "Uriel Ventris",
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Adeptus Astartes",
+      "Ultramarines",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Lieutenant Titus",
+    "models": {
+      "Lieutenant Titus": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Heavy Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 2+"
+        ]
+      }
+    },
+    "abilities": [
+      "Press the Attack:: Weapons equipped by models in this models unit have the [SUSTAINED HITS 1] ability.",
+      "Honour of the Chapter:If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Bladeguard Veteran Squad Hellblaster Squad Infernus Squad Intercessor Squad Sternguard Veteran Squad"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Grenades",
+      "Epic Hero",
+      "Lieutenant",
+      "Titus",
+      "Adeptus Astartes",
+      "Ultramarines",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  }
+]

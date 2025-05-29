@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Kor'sarro Khan",
+    "models": {
+      "Kor'sarro Khan": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Moonfang - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "For the Khan!:While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability.",
+      "Trophy Taker:Each time this model destroys an enemy Character model, you gain 1CP",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Bladeguard Veteran Squad Intercessor Squad Sternguard Veteran Squad Tactical Squad Company Heroes",
+      "Inspiring Commander:If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Adeptus Astartes",
+      "White Scars",
+      "Kor'sarro Khan",
+      "Tacticus"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  }
+]

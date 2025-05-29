@@ -1,0 +1,1468 @@
+[
+  {
+    "name": "Canis Rex",
+    "models": {
+      "Canis Rex": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 5, "OC": 10, "Inv": 5, "Fnp": null},
+      "Sir Hekhtur": {"M": 6, "T": 3, "SV": 4, "W": 3, "LD": 5, "OC": 1, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Chainbreaker las-impulsor - high intensity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 2,
+        "S": 14,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Blast",
+          "Sustained Hits 1"
+        ]
+      },
+      "Chainbreaker las-impulsor - low intensity - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6",
+        "BS": 2,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Sustained Hits 1"
+        ]
+      },
+      "Freedom's Hand - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 20,
+        "AP": 3,
+        "D": 9,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Freedom's Hand - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Chainbreaker multi-laser - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 2,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Hekhtur's pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Chainbreaker:Each time this model makes an attack, an unmodified successful Hit roll of 5+ scores a Critical Hit.",
+      "Legendary Freeblade:Once per turn, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+      "Using Sir Hekhtur:When your Canis Rex model is destroyed, Sir Hekhtur is treated as a model disembarking from a destroyed TRANSPORT set him up within 3\" of your Canis Rex model before it is removed. Sir Hekhtur then uses the profile, wargear, abilities and keywords shown on this side of the card, but cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Imperium",
+      "Imperial Knights"
+    ],
+    "total_models": 1,
+    "points": 450,
+    "special_rules": []
+  },
+  {
+    "name": "Armiger Warglaive",
+    "models": {
+      "Armiger Warglaive": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Reaper chain-cleaver - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 10,
+        "AP": 3,
+        "D": 3
+      },
+      "Reaper chain-cleaver - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 1
+      },
+      "Thermal spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 4"
+        ]
+      }
+    },
+    "abilities": [
+      "Impetuous Glory:Each time this model makes a Charge move, until the end of the turn, melee weapons equipped by this model have the [SUSTAINED HITS 1] ability."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Imperium",
+      "Imperial Knights",
+      "Warglaive",
+      "Armiger"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Armiger Helverin",
+    "models": {
+      "Armiger Helverin": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Armiger autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Armoured feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Skyfire Protocols:While this model is either wholly within your deployment zone or within range of an objective marker you control, its Armiger autocannons have the [ANTI-FLY 2+] ability."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Imperium",
+      "Imperial Knights",
+      "Helverin",
+      "Armiger"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Paladin",
+    "models": {
+      "Knight Paladin": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Questoris heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Rapid-fire battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Rapid Fire D6+3"
+        ]
+      }
+    },
+    "abilities": [
+      "Seasoned Noble:Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+      "Paladins Duty (Bondsman):While a model is affected by this ability, its weapons have the [LETHAL HITS] and [LANCE] abilities."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Paladin",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 405,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Errant",
+    "models": {
+      "Knight Errant": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Thermal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "2D3",
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Blast",
+          "Melta 6"
+        ]
+      }
+    },
+    "abilities": [
+      "Aggressive Assault:Each time this model makes a ranged attack against the closest eligible target, add 1 to the Hit roll.",
+      "Errant's Duty (Bondsman):While a model is affected by this ability, you can re-roll Advance rolls made for that model and its ranged weapons have the [ASSAULT] ability."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Errant",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 390,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Gallant",
+    "models": {
+      "Knight Gallant": {"M": 12, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Reaper chainsword - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 18,
+        "WS": 2,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      },
+      "Reaper chainsword - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 14,
+        "AP": 4,
+        "D": 6
+      },
+      "Thunderstrike gauntlet - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 20,
+        "AP": 3,
+        "D": 8
+      },
+      "Thunderstrike gauntlet - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Martial Pride:Each time a melee attack targets this model, subtract 1 from the Hit roll.",
+      "Gallant's Duty (Bondsman):While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Gallant",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 380,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Warden",
+    "models": {
+      "Knight Warden": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Avenger gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 18,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Thin Their Ranks:Each time this model makes a ranged attack that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [DEVASTATING WOUNDS] ability.",
+      "Warden's Duty (Bondsman):While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Warden",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 450,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Crusader",
+    "models": {
+      "Knight Crusader": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Avenger gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 18,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Questoris heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Rapid-fire battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Rapid Fire D6+3"
+        ]
+      },
+      "Thermal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "2D3",
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Blast",
+          "Melta 6"
+        ]
+      }
+    },
+    "abilities": [
+      "Punishing Salvoes:In your Movement phase, if this model Remains Stationary, until the start of your next Movement phase, this models ranged weapons have the [SUSTAINED HITS 1] ability.",
+      "Crusader's Duty (Bondsman):While a model is affected by this ability, each time that model makes a ranged attack, add 1 to the Hit roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Crusader",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 445,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Preceptor",
+    "models": {
+      "Knight Preceptor": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Las-impulsor - high intensity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Las-impulsor - low intensity - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Preceptor multi-laser - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Questoris heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Exemplar of the Code:At the start of the battle, select one unit from your opponents army. Each time this model makes an attack that targets that unit, you can re-roll the Hit roll.",
+      "Mentor (Bondsman):While a model is affected by this ability, improve that models Leadership characteristic by 1 and improve that models Objective Control characteristic by 2."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Preceptor",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 405,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Castellan",
+    "models": {
+      "Knight Castellan": {"M": 8, "T": 13, "SV": 2, "W": 24, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma decimator - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Plasma decimator - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Volcano lance - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D3",
+        "BS": 3,
+        "S": 18,
+        "AP": 5,
+        "D": "D6+8",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Twin meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2",
+          "Twin-Linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Ion Aegis (Aura):While a friendly ARMIGER model is within 6\" of this model, that ARMIGER models has the Benefits of Cover.",
+      "Titan Hunter:Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, re-roll a Damage roll of 1."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Castellan",
+      "Dominus"
+    ],
+    "total_models": 1,
+    "points": 480,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Valiant",
+    "models": {
+      "Knight Valiant": {"M": 8, "T": 13, "SV": 2, "W": 24, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Conflagration cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "3D6",
+        "BS": "N/A",
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Thundercoil harpoon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 24,
+        "AP": 6,
+        "D": 12,
+        "Keywords": [
+          "Anti-Monster 4+",
+          "Anti-Vehicle 4+",
+          "Devastating Wounds"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Twin meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2",
+          "Twin-Linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Ion Aegis (Aura):While a friendly ARMIGER model is within 6\" of this model, that ARMIGER models has the Benefits of Cover.",
+      "Overwhelming Firestorm:In your Shooting phase, after this model has shot, select one enemy unit hit by this model this phase. That unit must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Valiant",
+      "Dominus"
+    ],
+    "total_models": 1,
+    "points": 480,
+    "special_rules": []
+  },
+  {
+    "name": "Acastus Knight Asterius",
+    "models": {
+      "Acastus Knight Asterius": {"M": 8, "T": 13, "SV": 2, "W": 30, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Twin conversion beam cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 16,
+        "AP": 2,
+        "D": 6,
+        "Keywords": [
+          "Conversion",
+          "Twin-linked",
+          "Sustained Hits D3"
+        ]
+      },
+      "Asterius volkite culverin - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Karacnos mortar battery - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 2+",
+          "Blast",
+          "Ignores Cover",
+          "Indirect Fire"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 10,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Sunderer of Fortresses:Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Asterius",
+      "Acastus"
+    ],
+    "total_models": 1,
+    "points": 765,
+    "special_rules": []
+  },
+  {
+    "name": "Acastus Knight Porphyrion",
+    "models": {
+      "Acastus Knight Porphyrion": {"M": 8, "T": 13, "SV": 2, "W": 30, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Twin magna lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6",
+        "BS": 3,
+        "S": 18,
+        "AP": 4,
+        "D": "D6+6",
+        "Keywords": [
+          "Blast",
+          "Twin-linked"
+        ]
+      },
+      "Acastus autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Acastus ironstorm missile pod - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Helios defence missiles - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Anti-Fly 2+",
+          "Heavy"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 10,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Bastion of Firepower:Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Acastus",
+      "Knight Porphyrion"
+    ],
+    "total_models": 1,
+    "points": 710,
+    "special_rules": []
+  },
+  {
+    "name": "Cerastus Knight Lancer",
+    "models": {
+      "Cerastus Knight Lancer": {"M": 14, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Cerastus shock lance - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 20,
+        "AP": 3,
+        "D": 8,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Cerastus shock lance - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 2"
+        ]
+      },
+      "Cerastus shock lance - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Shock Charge:You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "Invulnerable Save (4+):This model has a 4+ invulnerable save.",
+      "Lancers Duty (Bondsman):While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Lancer",
+      "Cerastus"
+    ],
+    "total_models": 1,
+    "points": 430,
+    "special_rules": []
+  },
+  {
+    "name": "Cerastus Knight Castigator",
+    "models": {
+      "Cerastus Knight Castigator": {"M": 12, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Castigator bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 18,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Tempest warblade - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": 6
+      },
+      "Tempest warblade - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Storm of Bolts:In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "Castigators Duty (Bondsman):While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Cerastus",
+      "Knight Castigator"
+    ],
+    "total_models": 1,
+    "points": 465,
+    "special_rules": []
+  },
+  {
+    "name": "Cerastus Knight Acheron",
+    "models": {
+      "Cerastus Knight Acheron": {"M": 12, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Acheron flame cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      "Reaper chainfist - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": 6
+      },
+      "Reaper chainfist - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Searing Flames:In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+      "Cerastus Knight Acheron:This model has a 5+ invulnerable save against ranged attacks only.",
+      "Acherons Duty (Bondsman):While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 from the result when they do."
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Cerastus",
+      "Knight Acheron"
+    ],
+    "total_models": 1,
+    "points": 425,
+    "special_rules": []
+  },
+  {
+    "name": "Cerastus Knight Atrapos",
+    "models": {
+      "Cerastus Knight Atrapos": {"M": 12, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Atrapos lascutter - high intensity (melee) - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Atrapos lascutter - low intensity (melee) - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Atrapos lascutter - high intensity (ranged) - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Atrapos lascutter - low intensity (ranged) - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Graviton singularity cannon - singularity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+1",
+        "Keywords": [
+          "Blast",
+          "Devastating Wounds",
+          "Hazardous"
+        ]
+      },
+      "Graviton singularity cannon - contained - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+1",
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Macro-extinction Protocols:Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.",
+      "Invulnerable Save (5+):This model has a 5+ invulnerable save.",
+      "Atrapos Duty (Bondsman):While a model is affected by this ability, each time that model makes an attack that targets a TITANIC or TOWERING model, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Cerastus",
+      "Knight Atrapos"
+    ],
+    "total_models": 1,
+    "points": 425,
+    "special_rules": []
+  },
+  {
+    "name": "Questoris Knight Magaera",
+    "models": {
+      "Questoris Knight Magaera": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Reaper chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      },
+      "Hekaton siege claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Twin rad cleanser - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Torrent",
+          "Ignores Cover",
+          "Anti-Infantry 2+",
+          "Twin-linked"
+        ]
+      },
+      "Phased plasma-fusil - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Lightning cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 12,
+        "BS": 3,
+        "S": 9,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Repair Auto-simulacra:At the end of your Command phase, this model regains up to D3 lost wounds.",
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Magaeras Duty (Bondsman):While a model is affected by this ability, ranged weapons equipped by that model have the [IGNORES COVER] ability."
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Questoris",
+      "Knight Magaera"
+    ],
+    "total_models": 1,
+    "points": 425,
+    "special_rules": []
+  },
+  {
+    "name": "Questoris Knight Styrix",
+    "models": {
+      "Questoris Knight Styrix": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Graviton crusher - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-Vehicle 2+",
+          "Blast"
+        ]
+      },
+      "Volkite chierovile - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 9,
+        "BS": 3,
+        "S": 12,
+        "AP": 0,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Reaper chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      },
+      "Hekaton siege claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Twin rad cleanser - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Torrent",
+          "Ignores Cover",
+          "Anti-Infantry 2+",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Grav-pinned:In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponents next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that units Move characteristic and subtract 2 from Advance and Charge rolls made for that unit.",
+      "Styrixs Duty (Bondsman):While a model is affected by this ability, ranged weapons equipped by that model have the [IGNORES COVER] ability."
+    ],
+    "keywords": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Imperial Knights",
+      "Questoris",
+      "Knight Styrix"
+    ],
+    "total_models": 1,
+    "points": 430,
+    "special_rules": []
+  },
+  {
+    "name": "Armiger Moirax",
+    "models": {
+      "Armiger Moirax": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Volkite veuglaire - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 8,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Graviton pulsar - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-Vehicle 2+",
+          "Blast"
+        ]
+      },
+      "Lightning lock - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 6,
+        "BS": 3,
+        "S": 8,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
+      },
+      "Conversion beam cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Conversion",
+          "Sustained Hits D3"
+        ]
+      },
+      "Siege claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2"
+      },
+      "Rad cleanser - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Armoured feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Protection Protocols:You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    ],
+    "keywords": [
+      "Battleline",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Imperial Knights",
+      "Armiger",
+      "Moirax"
+    ],
+    "total_models": 1,
+    "points": 160,
+    "special_rules": []
+  }
+]

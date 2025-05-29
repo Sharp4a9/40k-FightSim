@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Kayvaan Shrike",
+    "models": {
+      "Kayvaan Shrike": {"M": 12, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Blackout - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
+      },
+      "The Raven's Talons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Precision",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Trifold Path of Shadow:While this model is leading a unit, models in this unit cannot be targeted by ranged attacks unless the attacking model is within 12\".",
+      "Echo of the Ravenspire:At the end of your opponents turn, if this models unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves.",
+      "Leader:This model can be attached to the following units: Assault Intercessors with Jump Packs Vanguard Veteran Squad with Jump Packs",
+      "Inspiring Commander:If you include this model in your army, until the end of the battle, non-Character models in Assault Intercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Fly",
+      "Jump Pack",
+      "Adeptus Astartes",
+      "Raven Guard",
+      "Chapter Master",
+      "Kayvaan Shrike",
+      "Phobos"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  }
+]

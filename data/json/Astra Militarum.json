@@ -1,0 +1,5819 @@
+[
+  {
+    "name": "Aegis Defence Line",
+    "models": {
+      "Aegis Defence Line": {
+        "T": 12,
+        "SV": 2,
+        "W": 10,
+        "LD": 7,
+        "OC": 0,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {},
+    "abilities": [
+      "Emplacement Platform:Friendly **^^Astra Militarum Infantry**^^ models can be set up or end any type of move on top of the platform section of this **^^Fortification^^**.",
+      "Reinforced Cover:Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Fortification^^**, that model has the Benefit of Cover against that attack.",
+      "Defence Line:While an **^^Astra Militarum Infantry^^** model has the Benefit of Cover as a result of this terrain feature, that model has a 4+ invulnerable save",
+      "Deployment:When this model is set up, it will consist of 1 platform section, up to 5 shield sections, up to 2 broken shield sections and up to 2 end sections. All sections must be connected to each other to form a continuous defence line; the 2 broken shield sections can be placed either at the end of the defence line, or in the middle of it such that both are within 12\" of each other (in this case, these 2 sections count as being connected to each other). All of the sections that have been set up are then treated as a single model for all rules purposes."
+    ],
+    "keywords": [
+      "Aegis Defence Line",
+      "Astra Militarum",
+      "Imperium",
+      "Fortification"
+    ],
+    "total_models": 1,
+    "points": 145,
+    "special_rules": []
+  },
+  {
+    "name": "Armoured Sentinels",
+    "models": {
+      "Armoured Sentinel": {"M": 8, "T": 8, "SV": 2, "W": 7, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Multi-laser - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      },
+      "Sentinel chainsaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Mobile Hunter-killers:Each time a model in this unit makes an attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Armoured Sentinels",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Walker",
+      "Regiment",
+      "Squadron"
+    ],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Attilan Rough Riders",
+    "models": {},
+    "weapons": {
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Hunting lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Steed's hooves - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Goad lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Power sabre - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Horsemasters:This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "keywords": [
+      "Mounted",
+      "Astra Militarum",
+      "Imperium",
+      "Grenades",
+      "Regiment"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Baneblade",
+    "models": {
+      "Baneblade": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Coaxial autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Demolisher cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Baneblade cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "3D6",
+        "BS": 4,
+        "S": 12,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Rolling Fortress:Each time a ranged attack is allocated to an **^^Astra Militarum^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this **^^Baneblade^^** model, that model has the Benefit of Cover against that attack."
+    ],
+    "keywords": [
+      "Baneblade",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Titanic",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 480,
+    "special_rules": []
+  },
+  {
+    "name": "Banehammer",
+    "models": {
+      "Banehammer": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Tremor cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6+3",
+        "BS": 4,
+        "S": 12,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Tremor Quake:In your Shooting phase, just after selecting a target for this models tremor cannon, the target unit and every other enemy **^^Infantry^^** unit within 3\" of that unit must take a Battle-shock test.",
+      "Transport:This model has a transport capacity of 26 **^^Astra Militarum Infantry models^^**. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+    ],
+    "keywords": [
+      "Banehammer",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Titanic",
+      "Transport"
+    ],
+    "total_models": 1,
+    "points": 450,
+    "special_rules": []
+  },
+  {
+    "name": "Banesword",
+    "models": {
+      "Banesword": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Quake cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6+6",
+        "BS": 4,
+        "S": 16,
+        "AP": 4,
+        "D": 4,
+        "Keywords": [
+          "Blast",
+          "Ignores Cover"
+        ]
+      }
+    },
+    "abilities": [
+      "Armour Obliteration:Each time an attack made with this models quake cannon destroys an enemy model that has the Deadly Demise ability, that models Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6."
+    ],
+    "keywords": [
+      "Banesword",
+      "Astra Militarum",
+      "Imperium",
+      "Titanic",
+      "Vehicle",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 480,
+    "special_rules": []
+  },
+  {
+    "name": "Basilisk",
+    "models": {
+      "Basilisk": {"M": 10, "T": 9, "SV": 3, "W": 11, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Earthshaker cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 240,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire",
+          ""
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Earthshaker Rounds:In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy **^^Infantry^^** unit, until the start of your next Shooting phase, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Artillery",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Basilisk"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Bullgryn Squad",
+    "models": {},
+    "weapons": {
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Slabshield - Abilities": {
+        "type": "Abilities"
+      },
+      "Brute shield - Abilities": {
+        "type": "Abilities"
+      },
+      "Bullgryn maul - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      },
+      "Grenadier gauntlet - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Wall of Muscle:Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "keywords": [
+      "Bullgryn Squad",
+      "Ogryn",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Grenades"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Cadian Castellan",
+    "models": {
+      "Cadian Castellan": {"M": 6, "T": 3, "SV": 5, "W": 4, "LD": 7, "OC": 1, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: **^^Cadian Shock Troops^^**, **^^Kasrkin^^**",
+      "Senior Officer:While this model is leading a unit, ranged weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability",
+      "Get Back in the Fight:While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
+    ],
+    "keywords": [
+      "Cadian Castellan",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Officer",
+      "Grenades"
+    ],
+    "total_models": 1,
+    "points": 55,
+    "special_rules": []
+  },
+  {
+    "name": "Cadian Command Squad",
+    "models": {
+      "Cadian Commander": {"M": 6, "T": 3, "SV": 5, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Cadian Veteran Guardsman w/ Regimental standard": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Cadian Veteran Guardsman w/ Chainsword": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Cadian Veteran Guardsman w/ Master vox": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Cadian Veteran Guardsman w/ Medi-pack": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Regimental standard - Abilities": {
+        "type": "Abilities"
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Master vox - Abilities": {
+        "type": "Abilities"
+      },
+      "Medi-pack - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Cadia Stands!:While this unit contains an **^^Officer^^**, each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack.",
+      "Leader:This model can be attached to the following unit: **^^Cadian Shock Troops^^**"
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Command Squad",
+      "Cadian",
+      "Grenades",
+      "Infantry",
+      "Character",
+      "Platoon"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Cadian Shock Troops",
+    "models": {},
+    "weapons": {
+      "Shock Trooper Sergeant - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Shock Troops:At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    ],
+    "keywords": [
+      "Cadian Shock Troops",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Regiment",
+      "Platoon",
+      "Cadian"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Catachan Jungle Fighters",
+    "models": {},
+    "weapons": {
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Vox-caster - Abilities": {
+        "type": "Abilities"
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Jungle Fighters:Each time a model in this unit makes a melee attack, if this unit made a Charge move or was charged this turn, add 1 to the Wound roll."
+    ],
+    "keywords": [
+      "Catachan Jungle Fighters",
+      "Astra Militarum",
+      "Imperium",
+      "Platoon",
+      "Infantry",
+      "Battleline",
+      "Regiment",
+      "Grenades"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Chimera",
+    "models": {
+      "Chimera": {"M": 10, "T": 9, "SV": 3, "W": 11, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Lasgun array - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 6"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Multi-laser - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      }
+    },
+    "abilities": [
+      "Mobile Command Vehicle:In your Command phase, one **^^Officer^^** model embarked within this **^^Transport^^** can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this *^^Transport^^**."
+    ],
+    "keywords": [
+      "Chimera",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Transport",
+      "Dedicated Transport",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Commissar",
+    "models": {
+      "Commissar": {"M": 6, "T": 3, "SV": 5, "W": 3, "LD": 6, "OC": 1, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: **^^Cadian Shock Troops^^**, **^^Catachan Jungle Fighters^^**, **^^Death Korps of Krieg^^**, **^^Kasrkin^^**, **^^Krieg Combat Engineers^^**, **^^Tempestus Scions^^**",
+      "Summary Execution:Once per battle round, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked.",
+      "Political Overwatch:While another **^^Officer^^** model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit."
+    ],
+    "keywords": [
+      "Commissar",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Officer"
+    ],
+    "total_models": 1,
+    "points": 30,
+    "special_rules": []
+  },
+  {
+    "name": "Death Korps of Krieg",
+    "models": {},
+    "weapons": {
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Death Korps of Krieg Medi-pack - Abilities": {
+        "type": "Abilities"
+      },
+      "Vox-caster - Abilities": {
+        "type": "Abilities"
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Long-las - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 1",
+          "Hazardous"
+        ]
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Grim Demeanour:Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+    ],
+    "keywords": [
+      "Death Korps of Krieg",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Regiment",
+      "Platoon"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Deathstrike",
+    "models": {
+      "Deathstrike": {"M": 10, "T": 10, "SV": 3, "W": 11, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Deathstrike Missile - Ranged": {
+        "type": "Ranged",
+        "Range": "N/A",
+        "A": "2D6",
+        "BS": 2,
+        "S": 16,
+        "AP": 4,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "One Shot",
+          "Plasma Warhead"
+        ]
+      }
+    },
+    "abilities": [
+      "Deathstrike Missile:In your Shooting phase, each time this model is selected to shoot, if it has not shot with its Deathstrike missile this battle, you can do one of the following in addition to resolving this models ranged attacks: - **Designate Target:** If this model does not have a Deathstrike Target marker on the battlefield, place a Deathstrike Target marker for this model anywhere on the battlefield. - **Adjust Target:** If this model has a Deathstrike Target marker on the battlefield, move that marker to anywhere else on the battlefield."
+    ],
+    "keywords": [
+      "Deathstrike",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Squadron",
+      "Vehicle",
+      "Artillery"
+    ],
+    "total_models": 1,
+    "points": 145,
+    "special_rules": []
+  },
+  {
+    "name": "Doomhammer",
+    "models": {
+      "Doomhammer": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Magma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Blast",
+          "Melta 6"
+        ]
+      }
+    },
+    "abilities": [
+      "Close-range Titan Killer:Each time this models magma cannon targets a **^^Monster^^** or **^^Vehicle^^** unit, that target is always considered to be within half range of that weapon."
+    ],
+    "keywords": [
+      "Doomhammer",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Titanic",
+      "Transport"
+    ],
+    "total_models": 1,
+    "points": 445,
+    "special_rules": []
+  },
+  {
+    "name": "Field Ordnance Battery",
+    "models": {},
+    "weapons": {
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Battery close combat weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Malleus rocket launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+6",
+        "BS": 5,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      "Bombast field gun - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 5,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Heavy lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 5,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Rearm, Reload, Fire:While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability"
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Artillery",
+      "Grenades",
+      "Regiment",
+      "Field Ordnance Battery"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Gaunts Ghosts",
+    "models": {
+      "Ibram Gaunt": {"M": 6, "T": 3, "SV": 4, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Tanith Ghost w/ Corbec's hot-shot lascarbine": {"M": 6, "T": 3, "SV": 5, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Tanith Ghost w/ Larkin's long-las": {"M": 6, "T": 3, "SV": 5, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Tanith Ghost w/ Mkoll's Straight Silver Knife": {"M": 6, "T": 3, "SV": 5, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Tanith Ghost w/ Rawne's lascarbine": {"M": 6, "T": 3, "SV": 5, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Tanith Ghost w/ Bragg's autocannon": {"M": 6, "T": 3, "SV": 5, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Gaunt's chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 3,
+        "AP": 1,
+        "D": 1
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Straight silver knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Corbec's hot-shot lascarbine - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Larkin's long-las - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 4,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Lascarbine - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Mkoll's straight silver knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      },
+      "Rawne's lascarbine - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 1"
+        ]
+      },
+      "Bragg's autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 5,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save 5+:Ibram Gaunt has a 5+ Invulnerable Save",
+      "Covert Stealth Team:At the end of your opponents turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+      "Tanith Camo-cloaks:Models in this unit have the Benefit of Cover."
+    ],
+    "keywords": [
+      "Gaunt\u2019s Ghosts",
+      "Astra Militarum",
+      "Imperium",
+      "Epic Hero",
+      "Infantry",
+      "Grenades"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Cadian Heavy Weapons Squad",
+    "models": {},
+    "weapons": {
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Weapons team close combat weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 5,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 1"
+        ]
+      },
+      "Mortar - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 5,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 5,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 5,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 5,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Covering Fire:Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or on unmodified Hit rolls of 4+ instead if this unit is within 6\" of one or more friendly **^^Platoon^^** units."
+    ],
+    "keywords": [
+      "Cadian Heavy Weapons Squad",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Hellhammer",
+    "models": {
+      "Hellhammer": {"M": 9, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Coaxial autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Demolisher cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Hellhammer cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": "4D6",
+        "BS": 4,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Ignores Cover"
+        ]
+      }
+    },
+    "abilities": [
+      "Close-quarters Warfare:This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it."
+    ],
+    "keywords": [
+      "Hellhammer",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Titanic",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 450,
+    "special_rules": []
+  },
+  {
+    "name": "Hellhound",
+    "models": {
+      "Hellhound": {"M": 10, "T": 10, "SV": 2, "W": 11, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Chem cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-Infantry 2+",
+          "Torrent"
+        ]
+      },
+      "Inferno cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Melta cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D3",
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Blast",
+          "Melta 4"
+        ]
+      }
+    },
+    "abilities": [
+      "Flush Them Out:In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is scattered. While a unit is scattered, it cannot have the Benefit of Cover."
+    ],
+    "keywords": [
+      "Hellhound",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 125,
+    "special_rules": []
+  },
+  {
+    "name": "Hydra",
+    "models": {
+      "Hydra": {"M": 10, "T": 9, "SV": 3, "W": 11, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Hydra autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 4,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Anti-Fly 2+",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Flak Battery:Each time this model makes an attack that targets a unit that can **^^Fly^^**, you can re-roll the Hit roll."
+    ],
+    "keywords": [
+      "Hydra",
+      "Astra Militarum",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Vehicle"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Kasrkin",
+    "models": {},
+    "weapons": {
+      "Hot-shot lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Hot-shot marksman rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Hot-shot laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Vox-caster - Abilities": {
+        "type": "Abilities"
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 1",
+          "Hazardous"
+        ]
+      },
+      "Hot-shot volley gun - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Warrior Elite:Once per battle round, at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an **^^Officer^^** model this turn.",
+      "Melta mine:Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a **^^Vehicle^^** unit."
+    ],
+    "keywords": [
+      "Kasrkin",
+      "Astra Militarum",
+      "Imperium",
+      "Regiment",
+      "Grenades",
+      "Infantry"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Battle Tank",
+    "models": {},
+    "weapons": {
+      "Leman Russ battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Armoured Spearhead:Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+    ],
+    "keywords": [
+      "Leman Russ Battle Tank",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 175,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Demolisher",
+    "models": {},
+    "weapons": {
+      "Demolisher battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+1",
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Line-breaker:When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    ],
+    "keywords": [
+      "Leman Russ Demolisher",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Squadron"
+    ],
+    "total_models": 1,
+    "points": 190,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Eradicator",
+    "models": {},
+    "weapons": {
+      "Eradicator nova cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3+6",
+        "BS": 4,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Ignores Cover"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Urban Warfare:Each time a ranged attack targets this model, if this model has the Benefit of Cover against that attack, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "keywords": [
+      "Leman Russ Eradicator",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Executioner",
+    "models": {},
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      },
+      "Executioner plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      }
+    },
+    "abilities": [
+      "Gung-ho Executioners:Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+    ],
+    "keywords": [
+      "Leman Russ Executioner",
+      "Astra Militarum",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Vehicle"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Exterminator",
+    "models": {},
+    "weapons": {
+      "Exterminator autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Rapid Fire 4",
+          "Twin-linked"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Withering Hail:In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly **^^Astra Militarum^^** unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+    ],
+    "keywords": [
+      "Leman Russ Exterminator",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Squadron",
+      "Vehicle"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Punisher",
+    "models": {},
+    "weapons": {
+      "Punisher gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 20,
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Mow Down the Enemy:Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability."
+    ],
+    "keywords": [
+      "Leman Russ Punisher",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Smoke",
+      "Squadron"
+    ],
+    "total_models": 1,
+    "points": 150,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Vanquisher",
+    "models": {},
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      },
+      "Vanquisher battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 1,
+        "BS": 4,
+        "S": 18,
+        "AP": 4,
+        "D": "D6+6",
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Tank-killer:Each time this model makes a ranged attack with its vanquisher battle cannon that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Leman Russ Vanquisher",
+      "Astra Militarum",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Vehicle"
+    ],
+    "total_models": 1,
+    "points": 145,
+    "special_rules": []
+  },
+  {
+    "name": "Lord Solar Leontus",
+    "models": {
+      "Lord Solar Leontus": {"M": 12, "T": 4, "SV": 3, "W": 8, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Sol's Righteous Gaze - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Conquest - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Konstantin's hooves - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "The Lord Solar:At the start of your Command phase, If this model is on the battlefield, you gain 1CP.",
+      "The Collegiate Astrolex:After both players have deployed their armies, select up to three **^^Astra Militarum^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "Supreme Commander:If this model is in your army, it must be your **^^Warlord^^**.",
+      "Leader:This model can be attached to the following units: **^^Attilan Rough Riders^^**, **^^ Cadian Shock Troops^^**, **^^ Catachan Jungle Fighters^^**, **^^ Death Korps of Krieg^^**, **^^Death Riders^^**, **^^Kasrkin^^**, **^^Krieg Combat Engineers^^**"
+    ],
+    "keywords": [
+      "Lord Solar Leontus",
+      "Mounted",
+      "Epic Hero",
+      "Imperium",
+      "Astra Militarum",
+      "Character",
+      "Officer"
+    ],
+    "total_models": 1,
+    "points": 150,
+    "special_rules": []
+  },
+  {
+    "name": "Manticore",
+    "models": {
+      "Manticore": {"M": 10, "T": 10, "SV": 3, "W": 11, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Storm eagle rockets - Ranged": {
+        "type": "Ranged",
+        "Range": 120,
+        "A": "D6",
+        "BS": 4,
+        "S": 7,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Anti-Infantry 2+",
+          "Blast",
+          "Indirect Fire"
+        ]
+      }
+    },
+    "abilities": [
+      "Furious Barrage:In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) that was hit by one or more of those attacks made with this model's storm eagle rockets. Until the start of your next Shooting phase, that enemy unit is staggered. While a unit is staggered, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1)."
+    ],
+    "keywords": [
+      "Manticore",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Artillery",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 165,
+    "special_rules": []
+  },
+  {
+    "name": "Militarum Tempestus Command Squad",
+    "models": {
+      "Tempestor Prime": {"M": 6, "T": 3, "SV": 4, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Hot-shot volley gun - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 1",
+          "Hazardous"
+        ]
+      },
+      "Hot-shot lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Regimental standard - Abilities": {
+        "type": "Abilities"
+      },
+      "Master vox - Abilities": {
+        "type": "Abilities"
+      },
+      "Hot-shot laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Tempestus dagger - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Medi-pack:At the start of your Command phase, if the bearer's unit is below its Starting Strength, you can return up to D3 destroyed Tempestus Scions models to this unit.",
+      "Command Rod:While the bearer is leading a unit, that unit can be affected by up to two different Orders at the same time.",
+      "Leader:This unit can be attached to the following unit: **^^Tempestus Scions^^**",
+      "Tempestor Prime:While this unit contains a Tempestor Prime, ranged weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability."
+    ],
+    "keywords": [
+      "Militarum Tempestus",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Command Squad"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Nork Deddog",
+    "models": {
+      "Nork Deddog": {"M": 6, "T": 6, "SV": 4, "W": 6, "LD": 7, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Huge knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Ripper gun - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      }
+    },
+    "abilities": [
+      "Thunderous Head-butt:Each time this models unit is selected to fight, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
+      "Loyal Protector:At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model joined to it). This model then counts as part of that **^^Command Squad^^** for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a **^^Command Squad^^**, it does not take part in the battle and counts as having been destroyed. While this model is joined to a unit, it can embark within any **^^Transport^^** that unit can embark within, and takes up the space of 3 models. This model cannot be selected as your **^^Warlord^^**."
+    ],
+    "keywords": [
+      "Nork Deddog",
+      "Astra Militarum",
+      "Imperium",
+      "Epic Hero",
+      "Infantry",
+      "Ogryn",
+      "Loyal Protector",
+      "Character",
+      "Grenades"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Ogryn Bodyguard",
+    "models": {
+      "Ogryn Bodyguard": {"M": 6, "T": 6, "SV": 5, "W": 6, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Huge knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Brute shield - Abilities": {
+        "type": "Abilities"
+      },
+      "Grenadier gauntlet - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Bullgryn maul - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      },
+      "Ripper gun - Ranged": {
+        "type": "Ranged",
+        "Range": "Melee",
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ],
+        "WS": 3
+      },
+      "Ripper gun - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ],
+        "WS": 3
+      }
+    },
+    "abilities": [
+      "Loyal Protector:At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model joined to it). This model then counts as part of that **^^Command Squad^^** for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a **^^Command Squad^^**, it does not take part in the battle and counts as having been destroyed. While this model is joined to a unit, it can embark within any **^^Transport^^** that unit can embark within, and takes up the space of 3 models. This model cannot be selected as your **^^Warlord^^** and cannot be given Enhancements.",
+      "Slabshield:The bearer has a Wounds characteristic of 7."
+    ],
+    "keywords": [
+      "Bodyguard",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Loyal Protector",
+      "Ogryn",
+      "Character"
+    ],
+    "total_models": 1,
+    "points": 40,
+    "special_rules": []
+  },
+  {
+    "name": "Ogryn Squad",
+    "models": {},
+    "weapons": {
+      "Ripper gun - Ranged": {
+        "type": "Ranged",
+        "Range": "Melee",
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ],
+        "WS": 3
+      },
+      "Ripper gun - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ],
+        "WS": 3
+      }
+    },
+    "abilities": [
+      "Point-blank Barrage:Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "keywords": [
+      "Ogryn Squad",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Ogryn"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Primaris Psyker",
+    "models": {
+      "Primaris Psyker": {"M": 6, "T": 3, "SV": 5, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Psychic maelstrom - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      "Psychic maelstrom - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6+1",
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      },
+      "Force weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: **^^Cadian Shock Troops^^**, **^^Catachan Jungle Fighters^^**, **^^Death Korps of Krieg^^**, **^^Kasrkin^^**, **^^Krieg Combat Engineers^^**, **^^Tempestus Scions^^**",
+      "Malign Wardings (Psychic):While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks",
+      "Psychic Barrier (Psychic):At the start of your opponents Shooting phase, you can roll one D6: on a 1, this **^^Psyker^^**s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this **^^Psyker^^**s unit have a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Primaris Psyker",
+      "Astra Militarum",
+      "Imperium",
+      "Character",
+      "Infantry",
+      "Psyker"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Tech-Priest Enginseer",
+    "models": {
+      "Tech-Priest Enginseer": {"M": 6, "T": 4, "SV": 3, "W": 3, "LD": 7, "OC": 1, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Enginseer Axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Mechanicus pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
+      },
+      "Servo-arm - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: - Cadian Shock Troops - Catachan Jungle Fighters - Death Korps of Krieg - Infantry Squad - Kasrkin - Munitorum Servitors",
+      "Enginseer:While this model is within 3\" of one or more friendly **^^Astra Militarum Vehicle^^** units, this model has the Lone Operative ability",
+      "Vengeance for the Omnissiah:If a friendly **^^Astra Militarum Vehicle^^** model is destroyed within 12\" of this model, until the end of the battle, this models Enginseer axe has an Attacks characteristic of 6",
+      "Omnissiahs Blessing:In your Command phase, select one friendly **^^Astra Militarum Vehicle^^** model within 3\" of this model. That **^^Vehicle^^** model regains up to D3 lost wounds and, until the start of your next Command phase, that **^^Vehicle^^** model has a 4+ invulnerable save. Each model can only be selected for this ability once per turn."
+    ],
+    "keywords": [
+      "Tech-Priest Enginseer",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character"
+    ],
+    "total_models": 1,
+    "points": 45,
+    "special_rules": []
+  },
+  {
+    "name": "Rogal Dorn Battle Tank",
+    "models": {
+      "Rogal Dorn Battle Tank": {"M": 10, "T": 12, "SV": 2, "W": 18, "LD": 7, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      }
+    },
+    "abilities": [
+      "Ablative Plating:Once per battle, when an attack is allocated to this model, you change the Damage characteristic of that attack to 0."
+    ],
+    "keywords": [
+      "Rogal Dorn Battle Tank",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 240,
+    "special_rules": []
+  },
+  {
+    "name": "Scout Sentinels",
+    "models": {
+      "Scout Sentinel": {"M": 10, "T": 7, "SV": 3, "W": 7, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Multi-laser - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Sentinel chainsaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Daring Recon:At the start of your Shooting phase, select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly **^^Astra Militarum^^** model makes an attack that targets that unit, re-roll a Hit roll of 1."
+    ],
+    "keywords": [
+      "Scout Sentinels",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Walker",
+      "Regiment",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Shadowsword",
+    "models": {
+      "Shadowsword": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Volcano cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 96,
+        "A": "D3+1",
+        "BS": 4,
+        "S": 24,
+        "AP": 5,
+        "D": 12,
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Titan-killer:Each time this model makes a ranged attack with its volcano cannon that targets a **^^Monster^^** or **^^Vehicle^^** unit, that attack has the **[DEVASTATING WOUNDS]** ability."
+    ],
+    "keywords": [
+      "Shadowsword",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Titanic"
+    ],
+    "total_models": 1,
+    "points": 440,
+    "special_rules": []
+  },
+  {
+    "name": "Sly Marbo",
+    "models": {
+      "Sly Marbo": {"M": 6, "T": 3, "SV": 5, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Ripper pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-Infantry 2+",
+          "Pistol",
+          "Precision"
+        ]
+      },
+      "Envenomed blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-Infantry 2+",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Like Fighting a Shadow:In your Shooting phase, after this model has shot, if it is not within Engagement Rage of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this model is not eligible to declare a charge.",
+      "One-man Army:Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly **^^Regiment^^** unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+    ],
+    "keywords": [
+      "Sly Marbo",
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Regiment"
+    ],
+    "total_models": 1,
+    "points": 55,
+    "special_rules": []
+  },
+  {
+    "name": "Stormlord",
+    "models": {
+      "Stormlord": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Vulcan mega-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 20,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Mount Up!:At the end of your opponents Movement phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding **^^Artillery^^** units) that is wholly within 6\" of this **^^Transport^^**. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **^^Transport^^**."
+    ],
+    "keywords": [
+      "Stormlord",
+      "Astra Militarum",
+      "Imperium",
+      "Titanic",
+      "Transport",
+      "Vehicle",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 460,
+    "special_rules": []
+  },
+  {
+    "name": "Stormsword",
+    "models": {
+      "Stormsword": {"M": 12, "T": 13, "SV": 2, "W": 24, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits",
+          "Twin-linked"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Stormsword siege cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+6",
+        "BS": 4,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+2",
+        "Keywords": [
+          "Blast",
+          "Ignores Cover"
+        ]
+      }
+    },
+    "abilities": [
+      "Concussive Wave:In your Shooting phase, just after selecting a target for this models Stormsword siege cannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a concussive wave. After this model has finished making its attacks against that target unit this phase, each unit struck by a concussive wave suffers D3 mortal wounds."
+    ],
+    "keywords": [
+      "Stormsword",
+      "Astra Militarum",
+      "Imperium",
+      "Smoke",
+      "Titanic",
+      "Vehicle"
+    ],
+    "total_models": 1,
+    "points": 495,
+    "special_rules": []
+  },
+  {
+    "name": "Leman Russ Commander",
+    "models": {
+      "Leman Russ Commander": {"M": 10, "T": 11, "SV": 2, "W": 13, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Leman Russ battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Demolisher battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+1",
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Vanquisher battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 1,
+        "BS": 4,
+        "S": 18,
+        "AP": 4,
+        "D": "D6+6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Eradicator nova cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3+6",
+        "BS": 4,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Ignores Cover"
+        ]
+      },
+      "Executioner plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+3",
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Punisher gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 20,
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Exterminator autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Rapid Fire 4",
+          "Twin-linked"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      }
+    },
+    "abilities": [
+      "Death Befitting An Officer:When this model is destroyed, roll one D6: on a 2+, do not remove it from play it can, after the attacking models unit has finished making its attacks, shoot as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play.",
+      "Vox-net:Each time this model issues an Order, it can issue it to an eligible unit up to 12\" away"
+    ],
+    "keywords": [
+      "Leman Russ Commander",
+      "Astra Militarum",
+      "Imperium",
+      "Officer",
+      "Vehicle",
+      "Smoke",
+      "Character",
+      "Squadron"
+    ],
+    "total_models": 1,
+    "points": 235,
+    "special_rules": []
+  },
+  {
+    "name": "Taurox",
+    "models": {
+      "Taurox": {"M": 12, "T": 8, "SV": 3, "W": 10, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Twin autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Rapid Deployment:Units can disembark from this **^^Transport^^** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+    ],
+    "keywords": [
+      "Taurox",
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Transport",
+      "Dedicated Transport"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Taurox Prime",
+    "models": {
+      "Taurox Prime": {"M": 12, "T": 8, "SV": 3, "W": 10, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Taurox battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Taurox gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 8,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-linked"
+        ]
+      },
+      "Taurox missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Twin-linked"
+        ]
+      },
+      "Taurox missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Twin Taurox hot-shot volley gun - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3",
+          "Twin-linked"
+        ]
+      },
+      "Twin autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Transport Support:In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this **^^Transport^^** this turn makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+    ],
+    "keywords": [
+      "Taurox Prime",
+      "Astra Militarum",
+      "Imperium",
+      "Squadron",
+      "Vehicle",
+      "Dedicated Transport",
+      "Transport"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Tempestus Scions",
+    "models": {},
+    "weapons": {
+      "Vox-caster - Abilities": {
+        "type": "Abilities"
+      },
+      "Hot-shot laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Hot-shot lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Hot-shot volley gun - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 1",
+          "Hazardous"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Storm Troopers:Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "keywords": [
+      "Tempestus Scions",
+      "Astra Militarum",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Militarum Tempestus",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Ursula Creed",
+    "models": {
+      "Ursula Creed": {"M": 6, "T": 3, "SV": 4, "W": 4, "LD": 7, "OC": 1, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Duty and Vengeance - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 4,
+        "BS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: ^^**Cadian Shock Troops**^^, **^^Kasrkin^^**",
+      "Lord Castellan:While this model is leading a unit, that unit can be affected by up to two different Orders at the same time.",
+      "Tactical Genius:Once per battle round, one unit from your army with this ability can use it when a friendly **^^Regiment^^** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1 CP."
+    ],
+    "keywords": [
+      "Ursula Creed",
+      "Astra Militarum",
+      "Officer",
+      "Epic Hero",
+      "Infantry",
+      "Character",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Valkyrie",
+    "models": {
+      "Valkyrie": {"M": 20, "T": 10, "SV": 2, "W": 14, "LD": 7, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Multiple rocket pod - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6",
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Hellstrike missiles - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 10,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Anti-fly 2"
+        ]
+      },
+      "Multi-laser - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Airborne Insertion:At the end of your opponents Movement phase, one or more units embarked within this **^^Transport^^** can disembark from it.",
+      "Damaged: 1-5 Wounds Remaining:While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Valkyrie",
+      "Astra Militarum",
+      "Transport",
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 190,
+    "special_rules": []
+  },
+  {
+    "name": "Wyvern",
+    "models": {
+      "Wyvern": {"M": 10, "T": 9, "SV": 3, "W": 11, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Wyvern quad stormshard mortar - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "2D6",
+        "BS": 4,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Suppression Bombardment:In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) that was hit by one or more attacks made with this models Wyvern quad stormshard mortar. Unit the start of your next Shooting phase, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Wyvern",
+      "Astra Militarum",
+      "Vehicle",
+      "Imperium",
+      "Artillery",
+      "Squadron",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Shock Trooper",
+    "models": {},
+    "weapons": {
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [],
+    "keywords": [],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Shock Trooper w/ Vox Caster",
+    "models": {},
+    "weapons": {
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Vox-caster - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [],
+    "keywords": [],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Shock Trooper Sergeant",
+    "models": {},
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Sergeant's autogun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [],
+    "keywords": [],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Jungle Fighter",
+    "models": {},
+    "weapons": {
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [],
+    "keywords": [],
+    "total_models": 1,
+    "points": 0,
+    "special_rules": []
+  },
+  {
+    "name": "Death Riders",
+    "models": {
+      "Ridemaster": {"M": 10, "T": 4, "SV": 4, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Death Rider": {"M": 10, "T": 4, "SV": 4, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Steed's savage claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Power sabre - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Death Rider lascarbine - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Frag lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6",
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lance"
+        ]
+      }
+    },
+    "abilities": [
+      "Screening Line:Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Mounted",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Death Riders"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Cyclops Demolition Vehicle",
+    "models": {
+      "Cyclops Demolition Vehicle": {"M": 8, "T": 4, "SV": 3, "W": 4, "LD": 8, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {},
+    "abilities": [
+      "Demolition Charges:Each time this model or an enemy unit ends a move, if this model is within 3\" of one or more enemy units, select one of those enemy units. This model is destroyed, but instead of rolling for its Deadly Demise ability, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds.",
+      "Unstable Payload:When rolling for this models Deadly Demise ability, units within 6\" suffer mortal wounds on a 4+, instead of on a 6.",
+      "Compact:This model can embark within an ASTRA MILITARUM TRANSPORT model as if it were an INFANTRY model. If it does, it takes up the space of 7 models."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Vehicle",
+      "Cyclops Demolition Vehicle",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 25,
+    "special_rules": []
+  },
+  {
+    "name": "Avenger Strike Fighter",
+    "models": {
+      "Avenger Strike Fighter": {"M": 20, "T": 9, "SV": 3, "W": 14, "LD": 7, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Avenger bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 10,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Fiery Vengeance:Once per turn, in your opponents Shooting phase, when another friendly ASTRA MILITARUM unit within 6\" of this model is destroyed by an attack made by a unit that can Fly, one model from your army with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Imperium",
+      "Avenger Strike Fighter"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Tempestus Aquilons",
+    "models": {
+      "Tempestus Aquilons": {"M": 6, "T": 3, "SV": 4, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hot-shot lascarbine - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Hot-shot laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Hot-shot long las - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Plasma carbine - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Plasma carbine - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Hazardous"
+        ]
+      },
+      "Melta carbine - Ranged": {
+        "type": "Ranged",
+        "Range": 10,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Assault",
+          "Melta 2"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Sentry flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Sentry hot-shot volley gun - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 4,
+        "BS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 4"
+        ]
+      },
+      "Sentry grenade launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3+3",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Sentry grenade launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3"
+      }
+    },
+    "abilities": [
+      "Precision Drop:In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a precision drop. If it does, this unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
+      "Servo-sentry:When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hotshot volley gun)."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Regiment",
+      "Militarum Tempestus",
+      "Tempestus Aquilons",
+      "Astra Militarum"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Ratlings",
+    "models": {
+      "Ratlings": {"M": 6, "T": 2, "SV": 6, "W": 1, "LD": 8, "OC": 1, "Inv": null, "Fnp": null},
+      "Ratling w/ tankstopper rifle": {"M": 6, "T": 2, "SV": 6, "W": 1, "LD": 8, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Sniper rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 5,
+        "S": 2,
+        "AP": 0,
+        "D": 1
+      },
+      "Tankstopper rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Shoot Sharp and Scarper:In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move as if it were your Movement phase. If it does, until the end of the turn, this unit is not eligible to declare a charge.",
+      "Ratling Battlemutt:Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability. **Designers Note:** *Place a Ratling Battlemutt token next to the unit, removing it once this ability has been used.*",
+      "Demolition Gear:The bearers unit has the **^^Grenades^^** keyword."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Ratlings"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Krieg Command Squad",
+    "models": {
+      "Lord Commissar": {"M": 6, "T": 3, "SV": 5, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6},
+      "Veteran Guardsman w/ Alchemyk counteragents": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6},
+      "Veteran Guardsman w/ Boltgun": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6},
+      "Veteran Guardsman w/ Chainsword": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6},
+      "Veteran Guardsman w/ Master vox": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6},
+      "Veteran Guardsman w/ Regimental standard": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Trench club - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Master vox - Abilities": {
+        "type": "Abilities"
+      },
+      "Regimental standard - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Grim Determination:While this unit contains an **^^Officer^^**, you can target this unit with Stratagems even while it is Battle-shocked and Orders issued to this unit do not cease to affect this unit if it becomes Battle-shocked.",
+      "Leader:This model can be attached to the following units: **^^Death Korps of Krieg^^**, **^^Krieg Combat Engineers^^**",
+      "Alchemyk Counteragents:The bearer's unit has the Feel No Pain 6+ ability against mortal wounds.",
+      "Servo-scribes:Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order. Designer's Note: Place a Servo-scribes token next to the unit, removing it when this ability has been used."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Command Squad",
+      "Grenades",
+      "Infantry",
+      "Character",
+      "Platoon",
+      "Krieg"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Lord Marshal Dreir",
+    "models": {
+      "Lord Marshal Dreir": {"M": 10, "T": 4, "SV": 4, "W": 6, "LD": 7, "OC": 2, "Inv": 4, "Fnp": 6}
+    },
+    "weapons": {
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Sabre of Sacrifice - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 4+"
+        ]
+      },
+      "Savage claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Tough to Kill:The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining.",
+      "Leader:This model can be attached to the following unit: **^^Death Riders^^**",
+      "Leading the Charge:Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+    ],
+    "keywords": [
+      "Mounted",
+      "Epic Hero",
+      "Imperium",
+      "Astra Militarum",
+      "Character",
+      "Officer",
+      "Grenades",
+      "Lord Marshal Dreir"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Catachan Command Squad",
+    "models": {
+      "Veteran Guardsman": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Catachan Commander": {"M": 6, "T": 3, "SV": 5, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Sniper rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Master vox - Abilities": {
+        "type": "Abilities"
+      },
+      "Medi-pack - Abilities": {
+        "type": "Abilities"
+      },
+      "Regimental standard - Abilities": {
+        "type": "Abilities"
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: **^^Catachan Jungle Fighters^^**",
+      "Gung-ho Command:While this unit contains an **^^Officer^^**, ranged weapons equipped by models in this unit have the **[ASSAULT]** ability."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Command Squad",
+      "Grenades",
+      "Infantry",
+      "Character",
+      "Platoon",
+      "Catachan"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Rogal Dorn Commander",
+    "models": {
+      "Rogal Dorn Commander": {"M": 10, "T": 12, "SV": 2, "W": 18, "LD": 7, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      }
+    },
+    "abilities": [
+      "Called Shots:Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks.",
+      "Vox-net:Each time this model issues an Order, it can issue it to an eligible unit up to 12\" away"
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Rogal Dorn Commander",
+      "Character",
+      "Officer"
+    ],
+    "total_models": 1,
+    "points": 265,
+    "special_rules": []
+  },
+  {
+    "name": "Ministorum Priest",
+    "models": {
+      "Ministorum Priest": {"M": 6, "T": 3, "SV": 6, "W": 3, "LD": 7, "OC": 1, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Zealot's vindicator - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Zealot's vindicator - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Holy pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: **^^Cadian Shock Troops^^**, **^^Catachan Jungle Fighters^^**, **^^Death Korps of Krieg^^**, **^^Kasrkin^^**, **^^Krieg Combat Engineers^^**, **^^Tempestus Scions^^**,",
+      "War Hymns:While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability.",
+      "Holy Piety:Each time this model makes a melee attack, unless this model's unit is Battle-shocked, you can re-roll the Hit roll."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Ministorum Priest"
+    ],
+    "total_models": 1,
+    "points": 35,
+    "special_rules": []
+  },
+  {
+    "name": "Krieg Combat Engineers",
+    "models": {},
+    "weapons": {
+      "Autopistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Trench club - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Combat shotgun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Hand flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Grenadiers:Once per turn, you can target this unit with the Grenade Stratagem for 0CP.",
+      "Remote mine:Once per battle, at the start of your Shooting phase, you can select one enemy unit within 9\" of and visible to the bearer and roll one D6: on 3+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a **^^Vehicle^^** or **^^Fortifications^^** unit. **Designer's Note:** *Place a Remote Mine token next to the unit, removing it once this ability has been used.*"
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Regiment",
+      "Grenades",
+      "Infantry",
+      "Smoke",
+      "Krieg Combat Engineers"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Catachan Heavy Weapons Squad",
+    "models": {},
+    "weapons": {
+      "Weapons team close combat weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 5,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 1"
+        ]
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Mortar - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 5,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 5,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 5,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 5,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Bring it Down!:Each time a model in this unit makes a ranged attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Catachan Heavy Weapons Squad"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Krieg Heavy Weapons Squad",
+    "models": {
+      "Fire Coordinator": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Laspistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Krieg heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Twin Krieg heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 5,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Heavy",
+          "Rapid Fire 3",
+          "Twin-linked"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 5,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Final Duty:While the Fire Coordinator model is on the battlefield, each time a Heavy Weapons Gunner model is destroyed, roll one D6: one a 3+, do not remove it from play. The destroyed model can shoot after the attacking model's unit has finished making its attacks, and is then removed from play."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Krieg Heavy Weapons Squad"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Artillery Team",
+    "models": {
+      "Artillery Team": {"M": 3, "T": 7, "SV": 3, "W": 10, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Crew close combat weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Heavy mortar - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 5,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Siege cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 5,
+        "S": 12,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Multiple rocket launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 5,
+        "S": 2,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 3+",
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Heavy quad launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "2D6",
+        "BS": 5,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Remorseless Barrage:In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test (if an **^^Infantry^^** unit is hit by one or more attacks made by a multiple rocket launcher, they must subtract 1 from their Battle-shock test when doing so)."
+    ],
+    "keywords": [
+      "Astra Militarum",
+      "Imperium",
+      "Infantry",
+      "Artillery",
+      "Grenades",
+      "Regiment",
+      "Artillery Team"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  }
+]

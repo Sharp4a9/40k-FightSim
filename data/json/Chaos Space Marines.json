@@ -1,0 +1,4106 @@
+[
+  {
+    "name": "Abaddon the Despoiler",
+    "models": {
+      "Abaddon the Despoiler": {"M": 5, "T": 5, "SV": 2, "W": 9, "LD": 5, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Talon of Horus - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 4,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Talon of Horus - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 7,
+        "AP": 3,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Drach'nyen - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 14,
+        "AP": 4,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "The Warmaster:In your Command phase, select one Warmaster ability. Until the start of your next Command phase, this model has that ability.",
+      "Dark Destiny:Each time this model makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 7+, you gain 1CP.",
+      "Leader:This model can be attached to the following units: CHAOS TERMINATOR SQUAD CHOSEN",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Terminator",
+      "Chaos Undivided",
+      "Chaos",
+      "Abaddon the Despoiler"
+    ],
+    "total_models": 1,
+    "points": 280,
+    "special_rules": []
+  },
+  {
+    "name": "Haarken Worldclaimer",
+    "models": {
+      "Haarken Worldclaimer": {"M": 12, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hellspear - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Assault",
+          "Sustained Hits D3"
+        ]
+      },
+      "Hellspear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Extra Attacks",
+          "Lance",
+          "Sustained Hits D3"
+        ]
+      },
+      "Herald's Talon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: RAPTORS",
+      "Head Taker:While this model is leading a unit, each time this models unit ends a Charge move, select one enemy unit within Engagement Range of this models unit and roll one D6 for each model in this models unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "Herald of the Apocalypse (Aura):While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponents Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase.",
+      "Invulnerable Save:This model has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Jump Pack",
+      "Chaos",
+      "Chaos Undivided",
+      "Haarken Worldclaimer"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Huron Blackheart",
+    "models": {
+      "Huron Blackheart": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Tyrant's Claw - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Tyrant's Claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Exalted weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: CHOSEN LEGIONARIES",
+      "The Tyrant of Badab:While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "Red Corsairs:After both players have deployed their armies, select up to three HERETIC ASTARTES INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "Hamadryas Knowledge (Psychic):Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this models unit, if this models unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Chaos Undivided",
+      "Huron Blackheart"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Heretic Astartes Daemon Prince",
+    "models": {
+      "Heretic Astartes Daemon Prince": {"M": 8, "T": 10, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Hellforged weapons - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Hellforged weapons - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Dark Blessing (Aura):While a friendly HERETIC ASTARTES INFANTRY unit is within 6\" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.",
+      "Ascended Daemon:Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Daemon Prince"
+    ],
+    "total_models": 1,
+    "points": 165,
+    "special_rules": []
+  },
+  {
+    "name": "Heretic Astartes Daemon Prince with wings",
+    "models": {
+      "Heretic Astartes Daemon Prince with wings": {"M": 12, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Hellforged weapons - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Hellforged weapons - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Flying Horror:Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test.",
+      "Daemonic Destruction:Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this models remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Daemon Prince",
+      "Fly"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Fabius Bile",
+    "models": {
+      "Fabius Bile": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": 5},
+      "Surgeon Acolyte": {"M": 6, "T": 4, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Xyclos needler - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 2,
+        "S": 2,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Pistol"
+        ]
+      },
+      "The Chirurgeon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Rod of Torment - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 3
+      },
+      "Surgeon Acolyte's tools - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 5,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Enhanced Warriors:If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to the Toughness characteristic of Bodyguard models in that unit.",
+      "Leader:This model can be attached to the following units: ACCURSED CULTISTS CHOSEN CULTIST MOB LEGIONARIES",
+      "Surgeon Acolyte:Once per turn, when an attack is allocated to a model in this unit, if this unit contains FABIUS BILE, you can change the Damage characteristic of that attack to 0.",
+      "Chirurgeon:The first time this units FABIUS BILE model is destroyed, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining. If that model was attached to a unit when it was destroyed, it must be set up attached to that unit."
+    ],
+    "keywords": [
+      "Epic Hero"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Cypher",
+    "models": {
+      "Cypher": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Cypher's bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Sustained Hits 1"
+        ]
+      },
+      "Cypher's bolt pistol - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Cypher's plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Sustained Hits 1"
+        ]
+      },
+      "Cypher's plasma pistol - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Agent of Discord (Aura):Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem).",
+      "Guns Blazing:Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so and can only do so if that enemy unit is an eligible target."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Cypher",
+      "Fallen"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Master of Possession",
+    "models": {
+      "Master of Possession": {"M": 8, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Staff of possession - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Anti-PSYKER 2+",
+          "Psychic"
+        ]
+      },
+      "Rite of Possession - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Anti-PSYKER 2+",
+          "Pistol",
+          "Precision",
+          "Psychic"
+        ]
+      },
+      "Rite of Possession - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 6,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Anti-PSYKER 2+",
+          "Hazardous",
+          "Pistol",
+          "Precision",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: CHOSEN LEGIONARIES POSSESSED",
+      "Daemonkin (Psychic):While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.",
+      "Sacrificial Dagger:Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this models unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Master of Possession"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Lord",
+    "models": {
+      "Chaos Lord": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Daemon hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Accursed weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Astartes chainblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: CHOSEN LEGIONARIES",
+      "Chance for Glory:Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Chaos Lord"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Lord in Terminator Armour",
+    "models": {
+      "Chaos Lord in Terminator Armour": {"M": 5, "T": 5, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Exalted weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      },
+      "Chainfist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 3+"
+        ]
+      },
+      "Paired accursed weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: CHAOS TERMINATOR SQUAD",
+      "Formidably Resilient:Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Terminator",
+      "Chaos Lord in Terminator Armour",
+      "Chaos Lord"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Sorcerer",
+    "models": {
+      "Sorcerer": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Force weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Infernal Gaze - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Infernal Gaze - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: CHOSEN LEGIONARIES",
+      "Prescience (Psychic):While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+      "Gift of Chaos (Psychic):Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Grenades",
+      "Chaos",
+      "Sorcerer"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Sorcerer in Terminator Armour",
+    "models": {
+      "Sorcerer in Terminator Armour": {"M": 5, "T": 5, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Force weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Infernal Gaze - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Infernal Gaze - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: CHAOS TERMINATOR SQUAD",
+      "Warptime (Psychic):While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.",
+      "Death Hex (Psychic):At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+      "Chaos Familiar:Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Terminator",
+      "Sorcerer in Terminator Armour"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Lord Discordant on Helstalker",
+    "models": {
+      "Lord Discordant on Helstalker": {"M": 10, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Bladed limbs - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Impaler chainglaive - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Helstalker autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Baleflamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Techno-virus injector - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 3,
+        "S": 3,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Extra Attacks"
+        ]
+      },
+      "Magma cutter - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Corrupt Machine Spirits:Once per turn, at the start of your opponents Shooting phase, select one enemy VEHICLE unit within 12\" of and visible to one or more models from your army with this ability. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase.",
+      "Spirit Thief:At the start of your Shooting phase, select one enemy VEHICLE unit within 12\" of this model. Until the end of the phase, each time a friendly HERETIC ASTARTES model makes an attack that targets that unit, re-roll a Wound roll of 1.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Mounted",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Lord Discordant"
+    ],
+    "total_models": 1,
+    "points": 160,
+    "special_rules": []
+  },
+  {
+    "name": "Warpsmith",
+    "models": {
+      "Warpsmith": {"M": 6, "T": 4, "SV": 2, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Flamer tendril - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Melta tendril - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 4,
+        "D": "D3",
+        "Keywords": [
+          "Melta 1",
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Forge weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 4+"
+        ]
+      }
+    },
+    "abilities": [
+      "Warpsmith:While this model is within 3\" of one or more friendly HERETIC ASTARTES VEHICLE units, this model has the Lone Operative ability.",
+      "Master of Mechanisms:In your Command phase, select one friendly HERETIC ASTARTES VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase.",
+      "Enrage Machine Spirits:At the end of your Movement phase, select one enemy VEHICLE unit within 12\" of this model. That unit must take a Battle-shock test.",
+      "Leader:This model can be attached to the following units: CHOSEN HAVOCS LEGIONARIES"
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Warpsmith"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Dark Apostle",
+    "models": {
+      "Dark Apostle": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 5, "OC": 1, "Inv": null, "Fnp": null},
+      "Dark Disciple": {"M": 6, "T": 4, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Accursed crozius - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 2
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: ACCURSED CULTISTS CHOSEN CULTIST MOB LEGIONARIES",
+      "Dark Zealotry:While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+      "Demagogue:Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 9\" of this units DARK APOSTLE model. That unit is no longer Battle-shocked.",
+      "Malign Sacrifice:At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed.",
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Character",
+      "Heretic Astartes",
+      "Infantry",
+      "Grenades",
+      "Chaos"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Dark Commune",
+    "models": {
+      "Cult Demagogue": {"M": 6, "T": 3, "SV": 6, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Mindwitch": {"M": 6, "T": 3, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Iconarch": {"M": 6, "T": 3, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Blessed Blades": {"M": 6, "T": 3, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Autopistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Commune stave - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Warp Curse - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Warp Curse - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Psychic",
+          "Sustained Hits 2"
+        ]
+      },
+      "Chaos icon - Abilities": {
+        "type": "Abilities"
+      },
+      "Commune blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: ACCURSED CULTISTS CULTIST MOB",
+      "Faithful Flock:While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save.",
+      "Dark Ritual:Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which it Advanced and each time a model in this unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll."
+    ],
+    "keywords": [
+      "Character",
+      "Damned",
+      "Heretic Astartes"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Legionaries",
+    "models": {
+      "Legionaries": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Accursed weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Balefire tome - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Havoc autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 1"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      "Missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Reaper chaincannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 8,
+        "BS": 4,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Chaos icon - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Veterans of the Long War:Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Grenades",
+      "Legionaries"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Cultist Mob",
+    "models": {
+      "Cultist Mob": {"M": 6, "T": 3, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Autopistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "For the Dark Gods:At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Cultist Mob",
+      "Damned"
+    ],
+    "total_models": 1,
+    "points": 50,
+    "special_rules": []
+  },
+  {
+    "name": "Accursed Cultists",
+    "models": {
+      "Torment": {"M": 6, "T": 4, "SV": 6, "W": 3, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6},
+      "Mutant": {"M": 6, "T": 4, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Hideous mutations - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6+2",
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Blasphemous appendages - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Howling Horde:Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. To do so, roll one D6; this unit can move a number of inches up to the result, but this unit must finish that move as close as possible to the nearest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Horde move while it is Battle-shocked."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Chaos",
+      "Accursed Cultists",
+      "Damned"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Terminator Squad",
+    "models": {
+      "Chaos Terminator Squad": {"M": 5, "T": 5, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Reaper autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      "Paired accursed weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Despoilers:Each time this unit makes a Dark Pact, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll.",
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Chaos",
+      "Terminator",
+      "Chaos Terminator Squad"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Master of Executions",
+    "models": {
+      "Master of Executions": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Axe of dismemberment - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: CHOSEN LEGIONARIES You can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two MASTERS OF EXECUTIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+      "Warp-sighted Butcher:While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well.",
+      "Trophy Taker:Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Master of Executions"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Possessed",
+    "models": {
+      "Possessed": {"M": 9, "T": 6, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hideous mutations - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Chaos icon - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Unholy Bloodshed:Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Chaos",
+      "Daemon",
+      "Possessed"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules": []
+  },
+  {
+    "name": "Chosen",
+    "models": {
+      "Chosen": {"M": 6, "T": 4, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Paired accursed weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Chaos icon - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Chosen Marauders:This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Chosen"
+    ],
+    "total_models": 1,
+    "points": 125,
+    "special_rules": []
+  },
+  {
+    "name": "Venomcrawler",
+    "models": {
+      "Venomcrawler": {"M": 12, "T": 9, "SV": 3, "W": 9, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Excruciator cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2
+      },
+      "Soulflayer tendrils and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save",
+      "Soul Eater:At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this models weapons."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Venomcrawler"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Bikers",
+    "models": {
+      "Chaos Bikers": {"M": 12, "T": 5, "SV": 3, "W": 3, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Chaos icon - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Rapid Assault:Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Mounted",
+      "Grenades",
+      "Chaos",
+      "Chaos Bikers"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Raptors",
+    "models": {
+      "Raptors": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Fearsome (Aura):While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.",
+      "Terrifying Assault:At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Chaos",
+      "Raptors"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Warp Talons",
+    "models": {
+      "Warp Talons": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Warp claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Warp Strike:At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Chaos",
+      "Daemon",
+      "Warp Talons"
+    ],
+    "total_models": 1,
+    "points": 125,
+    "special_rules": []
+  },
+  {
+    "name": "Havocs",
+    "models": {
+      "Havocs": {"M": 5, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Havoc autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Havoc missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Havoc missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Havoc reaper chaincannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 8,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Stabilisation Talons:Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Chaos",
+      "Havocs"
+    ],
+    "total_models": 1,
+    "points": 125,
+    "special_rules": []
+  },
+  {
+    "name": "Obliterators",
+    "models": {
+      "Obliterators": {"M": 4, "T": 7, "SV": 2, "W": 5, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Fleshmetal guns - focused malice - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D3",
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Fleshmetal guns - ruinous salvo - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Fleshmetal guns - warp hail - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Crushing fists - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Warp Rift Firepower:Once per battle, when this unit makes a Dark Pact, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Chaos",
+      "Daemon",
+      "Obliterators"
+    ],
+    "total_models": 1,
+    "points": 160,
+    "special_rules": []
+  },
+  {
+    "name": "Noctilith Crown",
+    "models": {
+      "Noctilith Crown": {
+        "T": 11,
+        "SV": 3,
+        "W": 14,
+        "LD": 6,
+        "OC": 0,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Lashing warp energies - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 8,
+        "BS": 4,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Malevolent Locus (Aura):While a friendly HERETIC ASTARTES unit is within 9\" of this Fortification, improve that unit's Leadership characteristic by 1.",
+      "Malign Cover:Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Fortification",
+      "Chaos",
+      "Noctilith Crown"
+    ],
+    "total_models": 1,
+    "points": 125,
+    "special_rules": []
+  },
+  {
+    "name": "Vashtorr the Arkifane",
+    "models": {
+      "Vashtorr the Arkifane": {"M": 12, "T": 10, "SV": 2, "W": 14, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Vashtorr's claw - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Anti-VEHICLE 4+",
+          "Torrent"
+        ]
+      },
+      "Vashtorr's hammer - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 14,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Anti-VEHICLE 4+",
+          "Devastating Wounds"
+        ]
+      },
+      "Vashtorr's hammer - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 8,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-VEHICLE 4+"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Unholy Mechanisms (Aura):While a friendly DAEMON VEHICLE unit is within 6\" of this model, add 1 to the Strength characteristic of weapons equipped by models in that unit.",
+      "Reorder Reality:Each time an enemy unit within 18\" of this model targets this model, until the end of the phase, that enemy unit's ranged weapons have the [HAZARDOUS] keyword."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Vashtorr the Arkifane"
+    ],
+    "total_models": 1,
+    "points": 175,
+    "special_rules": []
+  },
+  {
+    "name": "Traitor Guardsmen Squad",
+    "models": {
+      "Traitor Guardsmen Squad": {"M": 6, "T": 3, "SV": 5, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Corrupted pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Lasgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plasma gun - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Plasma gun - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Cultist sniper rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      "Cultist grenade launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Cultist grenade launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D3"
+      }
+    },
+    "abilities": [
+      "Twisted Defence Force:While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Traitor Guardsmen Squad",
+      "Damned"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Fellgor Beastmen",
+    "models": {
+      "Fellgor Beastmen": {"M": 6, "T": 4, "SV": 5, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol- supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Autopistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Great weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 5,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Corrupted stave - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      "Corrupted stave - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D3",
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Bestial Raiders:If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting it up on the battlefield, treat the current battle round number as being one higher than it actually is."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Fellgor Beastmen",
+      "Damned"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Traitor Enforcer",
+    "models": {
+      "Traitor Enforcer": {"M": 6, "T": 3, "SV": 5, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Traitor Ogryn": {"M": 6, "T": 6, "SV": 5, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Ogryn weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Leader:This unit can be attached to the following unit: TRAITOR GUARDSMAN SQUAD",
+      "Brutal Example:Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.",
+      "Mutated Bodyguard:While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability.",
+      "Invulnerable Save:This unit's TRAITOR ENFORCER model has a 5+ invulnerable save"
+    ],
+    "keywords": [
+      "Character",
+      "Damned"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Land Raider",
+    "models": {
+      "Chaos Land Raider": {"M": 10, "T": 12, "SV": 2, "W": 16, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Soulshatter lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Assault Ramp:Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Chaos",
+      "Land Raider"
+    ],
+    "total_models": 1,
+    "points": 240,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Predator Annihilator",
+    "models": {
+      "Chaos Predator Annihilator": {"M": 10, "T": 10, "SV": 3, "W": 11, "LD": 6, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Predator twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Annihilator:Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, you can re-roll the Damage roll."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Predator Annihilator"
+    ],
+    "total_models": 1,
+    "points": 135,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Predator Destructor",
+    "models": {
+      "Chaos Predator Destructor": {"M": 10, "T": 10, "SV": 3, "W": 11, "LD": 6, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Predator autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Destructor:Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Predator Destructor"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Vindicator",
+    "models": {
+      "Chaos Vindicator": {"M": 9, "T": 11, "SV": 2, "W": 11, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Demolisher cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Siege Shield:When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Vindicator"
+    ],
+    "total_models": 1,
+    "points": 185,
+    "special_rules": []
+  },
+  {
+    "name": "Defiler",
+    "models": {
+      "Defiler": {"M": 8, "T": 10, "SV": 3, "W": 14, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Defiler cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Defiler claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Reaper autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Twin heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Defiler scourge - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 12,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Scuttling Walker:Each time this model makes a Normal, Advance or Fall Back move, it can be moved over friendly MONSTER and VEHICLE models as if they were not there. This model can move over terrain features that are 4\" or less in height as if they were not there.",
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Daemonforge:Once per Fight phase, one unit from your army with this ability can be targeted with the Counter-Offensive Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Chaos",
+      "Daemon",
+      "Defiler"
+    ],
+    "total_models": 1,
+    "points": 190,
+    "special_rules": []
+  },
+  {
+    "name": "Forgefiend",
+    "models": {
+      "Forgefiend": {"M": 8, "T": 10, "SV": 3, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Ectoplasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 3,
+        "S": 10,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Hades autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 6,
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Armoured limbs - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 2
+      },
+      "Forgefiend jaws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 7,
+        "AP": 0,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Daemonic Ordnance:Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Forgefiend"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Helbrute",
+    "models": {
+      "Helbrute": {"M": 6, "T": 9, "SV": 2, "W": 8, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Twin autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Helbrute fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 12,
+        "AP": 2,
+        "D": 3
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Helbrute plasma cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Helbrute hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 4,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Power scourge - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Dark Ascension (Aura):While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one).",
+      "Devoted to Destruction:If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristics of those 2 weapons."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Helbrute"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Heldrake",
+    "models": {
+      "Heldrake": {"M": 20, "T": 9, "SV": 3, "W": 12, "LD": 6, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Heldrake claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-FLY 2+",
+          "Devastating Wounds"
+        ]
+      },
+      "Baleflamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Hades autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 6,
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Airborne Predator:Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Chaos",
+      "Daemon",
+      "Heldrake"
+    ],
+    "total_models": 1,
+    "points": 205,
+    "special_rules": []
+  },
+  {
+    "name": "Maulerfiend",
+    "models": {
+      "Maulerfiend": {"M": 10, "T": 10, "SV": 3, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Maulerfiend fists - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 14,
+        "AP": 2,
+        "D": "D6+1"
+      },
+      "Magma cutter - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Lasher tendrils - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Siege Crawler:You can ignore any or all modifiers to this model's Move characteristic and to Advance and Charge rolls made for it.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Maulerfiend"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Rhino",
+    "models": {
+      "Chaos Rhino": {"M": 12, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Self-repair:At the start of your Command phase, this model regains 1 lost wound."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Chaos",
+      "Rhino",
+      "Smoke"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Khorne Lord of Skulls",
+    "models": {
+      "Khorne Lord of Skulls": {"M": 8, "T": 13, "SV": 3, "W": 24, "LD": 6, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Great cleaver of Khorne - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 16,
+        "AP": 4,
+        "D": 8
+      },
+      "Great cleaver of Khorne - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 15,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Gorestorm cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Daemongore cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": "D6+2",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Ichor cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "2D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Hades gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 12,
+        "BS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Skullhurler - Ranged": {
+        "type": "Ranged",
+        "Range": 60,
+        "A": "2D6",
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Plough Through the Enemy:In the Fight phase, after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6\" of this model must take a Battle-shock test.",
+      "Damaged: 1-8 wounds remaining:While this model has 1-8 wounds remaining, subtract 4 from this models Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Vehicle",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Lord of Skulls"
+    ],
+    "total_models": 1,
+    "points": 450,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Spawn",
+    "models": {
+      "Chaos Spawn": {"M": 8, "T": 5, "SV": 4, "W": 4, "LD": 7, "OC": 0, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Hideous Mutations - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6+2",
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Mind-breaking Mutations (Aura):While an enemy unit (excluding VEHICLES) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Beast",
+      "Chaos",
+      "Chaos Spawn"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Khorne Berserkers",
+    "models": {
+      "Khorne Berserker Champion": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Chainblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Khornate eviscerator - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Icon of Khorne - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Blood Surge:In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Khorne",
+      "Berzerkers"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Rubric Marines",
+    "models": {
+      "Rubric Marines": {"M": 5, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Force weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Warpsmite - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 3,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Pistol",
+          "Psychic"
+        ]
+      },
+      "Inferno bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Warpflame pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Inferno boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Warpflamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Soulreaper cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Bringers of Change:Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Icon of Flame:Each time a model in the bearers unit makes a ranged attack, if a Critical Wound is scored, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Tzeentch",
+      "Rubric Marines"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Plague Marines",
+    "models": {
+      "Plague Marines": {"M": 5, "T": 6, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plague knives - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Bubotic weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plague bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Heavy plague weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Blight launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Plague spewer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Plague belcher - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Infused with the Blessings of Nurgle:In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted.",
+      "Icon of Despair:While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Plague Marines"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Lord with Jump Pack",
+    "models": {
+      "Chaos Lord with Jump Pack": {"M": 12, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Accursed weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: RAPTORS",
+      "Cruel Hunter:While this model is leading a unit, each time that unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
+    ],
+    "keywords": [
+      "Heretic Astartes",
+      "Chaos Lord",
+      "Jump Pack",
+      "Character",
+      "Infantry",
+      "Fly",
+      "Grenades",
+      "Chaos"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Cultist Firebrand",
+    "models": {
+      "Cultist Firebrand": {"M": 6, "T": 4, "SV": 4, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Balefire pike - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Fiery Faith:While this model is leading a unit, you can re-roll Leadership tests taken for that unit.",
+      "Cursed Flames:In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must make a Battle-shock test.",
+      "Leader:This model can be attached to the following units: ACCURSED CULTISTS CULTIST MOB"
+    ],
+    "keywords": [
+      "Character",
+      "Heretic Astartes",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Damned",
+      "Cultist Firebrand"
+    ],
+    "total_models": 1,
+    "points": 45,
+    "special_rules": []
+  },
+  {
+    "name": "Nemesis Claw",
+    "models": {
+      "Nemesis Claw": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Nostraman chainblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 1"
+        ]
+      },
+      "Missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      "Missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Nostraman chainglaive - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Paired accursed weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Voice eater:Enemy units (excluding MONSTERS and VEHICLES) cannot be targeted with Stratagems while they are within Engagement Range of the bearers unit.",
+      "Visions of Suffering (Psychic):Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll as well.",
+      "Attached Unit:If a CHARACTER UNIT unit from your army with the Leader ability (excluding EPIC HEROES) can be attached to a LEGIONARIES unit, it can be attached to this unit instead."
+    ],
+    "keywords": [
+      "Infantry",
+      "Psyker",
+      "Grenades",
+      "Nemesis Claw",
+      "Heretic Astartes",
+      "Chaos"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Noise Marines",
+    "models": {
+      "Disharmonist": {"M": 6, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Noise Marine w/ sonic blaster": {"M": 6, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Noise Marine w/ blastmaster": {"M": 6, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Screamer pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol"
+        ]
+      },
+      "Sonic blaster - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Blastmaster - varied frequency - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover"
+        ]
+      },
+      "Blastmaster - single frequency - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Ignores Cover"
+        ]
+      }
+    },
+    "abilities": [
+      "Terrifying Crescendo:In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Heretic Astartes",
+      "Noise Marines",
+      "Cults of the Dark Gods"
+    ],
+    "total_models": 1,
+    "points": 135,
+    "special_rules": []
+  }
+]

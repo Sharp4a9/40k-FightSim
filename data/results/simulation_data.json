@@ -1,0 +1,348 @@
+{
+  "Aeldari ": {
+    "t": {
+      "Hormagaunts": {
+        "phase": "Ranged",
+        "mean_damage": 8.82,
+        "std_damage": 2.2622113075484362,
+        "mean_models_killed": 8.82,
+        "std_models_killed": 2.2622113075484362
+      },
+      "Boyz": {
+        "phase": "Ranged",
+        "mean_damage": 6.801,
+        "std_damage": 2.0998568998862766,
+        "mean_models_killed": 6.801,
+        "std_models_killed": 2.0998568998862766
+      },
+      "Necron Warriors": {
+        "phase": "Ranged",
+        "mean_damage": 7.419,
+        "std_damage": 2.1627387729450835,
+        "mean_models_killed": 7.419,
+        "std_models_killed": 2.1627387729450835
+      },
+      "Battle Sisters Squad": {
+        "phase": "Ranged",
+        "mean_damage": 6.016,
+        "std_damage": 2.043953032728488,
+        "mean_models_killed": 6.016,
+        "std_models_killed": 2.043953032728488
+      },
+      "Nobz": {
+        "phase": "Ranged",
+        "mean_damage": 5.43,
+        "std_damage": 1.956297523384418,
+        "mean_models_killed": 2.471,
+        "std_models_killed": 1.0203719909915292
+      },
+      "Intercessor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 5.94,
+        "std_damage": 2.0664946164943188,
+        "mean_models_killed": 2.731,
+        "std_models_killed": 1.0764009476027037
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Ranged",
+        "mean_damage": 2.153,
+        "std_damage": 1.3098057107830907,
+        "mean_models_killed": 0.813,
+        "std_models_killed": 0.6797286223192315
+      },
+      "Aggressor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 3.012,
+        "std_damage": 1.5810932926301378,
+        "mean_models_killed": 0.669,
+        "std_models_killed": 0.6078149389411234
+      },
+      "Terminator Squad": {
+        "phase": "Ranged",
+        "mean_damage": 3.341,
+        "std_damage": 1.6651483417401636,
+        "mean_models_killed": 0.786,
+        "std_models_killed": 0.6034931648328729
+      },
+      "Custodian Guard": {
+        "phase": "Ranged",
+        "mean_damage": 2.231,
+        "std_damage": 1.4012990401766492,
+        "mean_models_killed": 0.422,
+        "std_models_killed": 0.5309576254278704
+      },
+      "Trukk": {
+        "phase": "Ranged",
+        "mean_damage": 3.678,
+        "std_damage": 1.6734144734643572,
+        "mean_models_killed": 0.001,
+        "std_models_killed": 0.031606961258558455
+      },
+      "Falcon": {
+        "phase": "Ranged",
+        "mean_damage": 3.011,
+        "std_damage": 1.6342824113353247,
+        "mean_models_killed": 0.0,
+        "std_models_killed": 0.0
+      },
+      "Armiger Warglaive": {
+        "phase": "Ranged",
+        "mean_damage": 1.441,
+        "std_damage": 1.1491383728689943,
+        "mean_models_killed": 0.0,
+        "std_models_killed": 0.0
+      },
+      "Gladiator Lancer": {
+        "phase": "Ranged",
+        "mean_damage": 1.519,
+        "std_damage": 1.1608785466188947,
+        "mean_models_killed": 0.0,
+        "std_models_killed": 0.0
+      },
+      "Transcendant C'tan": {
+        "phase": "Ranged",
+        "mean_damage": 1.245,
+        "std_damage": 1.0425809321103063,
+        "mean_models_killed": 0.0,
+        "std_models_killed": 0.0
+      },
+      "Knight Paladin": {
+        "phase": "Ranged",
+        "mean_damage": 1.48,
+        "std_damage": 1.1347246362003414,
+        "mean_models_killed": 0.0,
+        "std_models_killed": 0.0
+      }
+    },
+    "k": {
+      "Hormagaunts": {
+        "phase": "Ranged",
+        "mean_damage": 3.905,
+        "std_damage": 1.3022960492914006,
+        "mean_models_killed": 3.905,
+        "std_models_killed": 1.3022960492914006
+      },
+      "Boyz": {
+        "phase": "Ranged",
+        "mean_damage": 3.101,
+        "std_damage": 1.3508512131245385,
+        "mean_models_killed": 3.101,
+        "std_models_killed": 1.3508512131245385
+      },
+      "Necron Warriors": {
+        "phase": "Ranged",
+        "mean_damage": 3.616,
+        "std_damage": 1.3433331679073435,
+        "mean_models_killed": 3.616,
+        "std_models_killed": 1.3433331679073435
+      },
+      "Battle Sisters Squad": {
+        "phase": "Ranged",
+        "mean_damage": 3.002,
+        "std_damage": 1.3221179977596529,
+        "mean_models_killed": 3.002,
+        "std_models_killed": 1.3221179977596529
+      },
+      "Nobz": {
+        "phase": "Ranged",
+        "mean_damage": 5.526,
+        "std_damage": 2.547415160510743,
+        "mean_models_killed": 2.758,
+        "std_models_killed": 1.2819656781677136
+      },
+      "Intercessor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 5.698,
+        "std_damage": 2.5268153870039622,
+        "mean_models_killed": 2.847,
+        "std_models_killed": 1.2671191735586675
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Ranged",
+        "mean_damage": 3.572,
+        "std_damage": 2.2465119630217885,
+        "mean_models_killed": 1.773,
+        "std_models_killed": 1.1381875943797644
+      },
+      "Aggressor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 4.539,
+        "std_damage": 2.501695225242276,
+        "mean_models_killed": 1.196,
+        "std_models_killed": 0.8599906976241073
+      },
+      "Terminator Squad": {
+        "phase": "Ranged",
+        "mean_damage": 3.15,
+        "std_damage": 2.252443118038727,
+        "mean_models_killed": 0.75,
+        "std_models_killed": 0.7385797181076664
+      },
+      "Custodian Guard": {
+        "phase": "Ranged",
+        "mean_damage": 3.159,
+        "std_damage": 2.2265935866251,
+        "mean_models_killed": 0.749,
+        "std_models_killed": 0.7443110908753107
+      },
+      "Trukk": {
+        "phase": "Ranged",
+        "mean_damage": 5.925,
+        "std_damage": 3.7144817942749464,
+        "mean_models_killed": 0.205,
+        "std_models_killed": 0.40370162248868646
+      },
+      "Falcon": {
+        "phase": "Ranged",
+        "mean_damage": 3.806,
+        "std_damage": 3.261343894777117,
+        "mean_models_killed": 0.029,
+        "std_models_killed": 0.16780643611018084
+      },
+      "Armiger Warglaive": {
+        "phase": "Ranged",
+        "mean_damage": 3.127,
+        "std_damage": 2.9844381380755847,
+        "mean_models_killed": 0.017,
+        "std_models_killed": 0.12927103310486915
+      },
+      "Gladiator Lancer": {
+        "phase": "Ranged",
+        "mean_damage": 3.025,
+        "std_damage": 2.935025553551455,
+        "mean_models_killed": 0.02,
+        "std_models_killed": 0.14000000000000073
+      },
+      "Transcendant C'tan": {
+        "phase": "Ranged",
+        "mean_damage": 2.561,
+        "std_damage": 2.3143636274362813,
+        "mean_models_killed": 0.001,
+        "std_models_killed": 0.03160696125855865
+      },
+      "Knight Paladin": {
+        "phase": "Ranged",
+        "mean_damage": 2.801,
+        "std_damage": 2.8700869324813163,
+        "mean_models_killed": 0.0,
+        "std_models_killed": 0.0
+      }
+    }
+  },
+  "Adeptus Custodes ": {
+    "t": {
+      "Hormagaunts": {
+        "phase": "Melee",
+        "mean_damage": 18.099,
+        "std_damage": 2.3214648392771298,
+        "mean_models_killed": 18.099,
+        "std_models_killed": 2.3214648392771298
+      },
+      "Boyz": {
+        "phase": "Melee",
+        "mean_damage": 14.332,
+        "std_damage": 2.5103338423404966,
+        "mean_models_killed": 14.332,
+        "std_models_killed": 2.5103338423404966
+      },
+      "Necron Warriors": {
+        "phase": "Melee",
+        "mean_damage": 11.993,
+        "std_damage": 2.4651472572647664,
+        "mean_models_killed": 11.993,
+        "std_models_killed": 2.4651472572647664
+      },
+      "Battle Sisters Squad": {
+        "phase": "Melee",
+        "mean_damage": 12.083,
+        "std_damage": 2.507211797993938,
+        "mean_models_killed": 12.083,
+        "std_models_killed": 2.507211797993938
+      },
+      "Nobz": {
+        "phase": "Melee",
+        "mean_damage": 24.086,
+        "std_damage": 5.063260214525811,
+        "mean_models_killed": 12.043,
+        "std_models_killed": 2.5316301072629055
+      },
+      "Intercessor Squad": {
+        "phase": "Melee",
+        "mean_damage": 18.95,
+        "std_damage": 4.795570873212083,
+        "mean_models_killed": 9.475,
+        "std_models_killed": 2.3977854366060414
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Melee",
+        "mean_damage": 14.36,
+        "std_damage": 4.552625616059377,
+        "mean_models_killed": 7.18,
+        "std_models_killed": 2.2763128080296884
+      },
+      "Aggressor Squad": {
+        "phase": "Melee",
+        "mean_damage": 14.586,
+        "std_damage": 3.645079423003015,
+        "mean_models_killed": 4.538,
+        "std_models_killed": 1.2540159488618936
+      },
+      "Terminator Squad": {
+        "phase": "Melee",
+        "mean_damage": 11.066,
+        "std_damage": 3.4764412838418517,
+        "mean_models_killed": 3.362,
+        "std_models_killed": 1.1810825542695993
+      },
+      "Custodian Guard": {
+        "phase": "Melee",
+        "mean_damage": 11.373,
+        "std_damage": 3.4545435299037726,
+        "mean_models_killed": 3.465,
+        "std_models_killed": 1.1869182785684906
+      },
+      "Trukk": {
+        "phase": "Melee",
+        "mean_damage": 12.118,
+        "std_damage": 4.261229400067544,
+        "mean_models_killed": 0.818,
+        "std_models_killed": 0.5087985849036895
+      },
+      "Falcon": {
+        "phase": "Melee",
+        "mean_damage": 9.336,
+        "std_damage": 3.790396285350637,
+        "mean_models_killed": 0.326,
+        "std_models_killed": 0.4687472666586975
+      },
+      "Armiger Warglaive": {
+        "phase": "Melee",
+        "mean_damage": 9.566,
+        "std_damage": 3.8832517301869602,
+        "mean_models_killed": 0.336,
+        "std_models_killed": 0.47233886141202014
+      },
+      "Gladiator Lancer": {
+        "phase": "Melee",
+        "mean_damage": 9.642,
+        "std_damage": 3.8662431377242785,
+        "mean_models_killed": 0.342,
+        "std_models_killed": 0.4764829482783175
+      },
+      "Transcendant C'tan": {
+        "phase": "Melee",
+        "mean_damage": 7.888,
+        "std_damage": 3.270696561896255,
+        "mean_models_killed": 0.158,
+        "std_models_killed": 0.3647410040014678
+      },
+      "Knight Paladin": {
+        "phase": "Melee",
+        "mean_damage": 9.652,
+        "std_damage": 4.048567153944706,
+        "mean_models_killed": 0.004,
+        "std_models_killed": 0.0631189353522381
+      }
+    }
+  }
+}

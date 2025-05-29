@@ -1,0 +1,2009 @@
+[
+  {
+    "name": "Aleya",
+    "models": {
+      "Aleya": {"M": 6, "T": 3, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": 5, "Fnp": 5}
+    },
+    "weapons": {
+      "Somnus - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Anti-Psyker 5+",
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Tactical Perception:While this model is leading a unit, models in that unit have the Fights First ability.",
+      "Tenacious Spirit:While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
+      "Leader:This model can be attached to the following units: Prosecutors Vigilators Witchseekers"
+    ],
+    "keywords": [
+      "Aleya",
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Anathema Psykana",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Allarus Custodians",
+    "models": {
+      "Allarus Custodians": {"M": 5, "T": 7, "SV": 2, "W": 4, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Guardian Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Guardian Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Balistus grenade launcher": {
+        "type": "Balistus grenade launcher",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Castellan axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Castellan axe - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Misericordia - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Slayers of Tyrants:Each time a model in this unit makes an attack that targets a ^^Character, Monster^^ or ^^Vehicle^^ unit, you can re-roll the Wound roll.",
+      "From Golden Light:Once per battle, at the end of your opponent's turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+    ],
+    "keywords": [
+      "Allarus Custodians",
+      "Imperium",
+      "Adeptus Custodes",
+      "Terminator",
+      "Infantry"
+    ],
+    "total_models": 2,
+    "points": 130,
+    "special_rules_attack": [
+      "Reroll Wounds Monster",
+      "Reroll Wounds Character",
+      "Reroll Wounds Vehicle"
+    ],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Anathema Psykana Rhino",
+    "models": {
+      "Anathema Psykana Rhino": {"M": 12, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 2,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      },
+      "Storm Bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Self Repair:At the start of your Command phase, this model regains 1 lost wound."
+    ],
+    "keywords": [
+      "Rhino",
+      "Anathema Psykana",
+      "Vehicle",
+      "Dedicated Transport",
+      "Transport",
+      "Smoke",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Blade Champion",
+    "models": {
+      "Blade Champion": {"M": 6, "T": 6, "SV": 2, "W": 6, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Vaultswords - Behemor - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Precision"
+        ]
+      },
+      "Vaultswords - Hurricanis - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 9,
+        "WS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Vaultswords - Victus - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "Martial Inspiration:Once per battle, in your Charge phase, this model's unit is eligible to declare a charge in a turn in which it Advanced.",
+      "Swift Onslaught:While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+    ],
+    "keywords": [
+      "Blade Champion",
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Custodian Guard",
+    "models": {
+      "Custodian Guard (Guardian Spear)": {"M": 6, "T": 6, "SV": 2, "W": 3, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null},
+      "Custodian Guard (Sentinel Blade & Praesidium Shield)": {"M": 6, "T": 6, "SV": 2, "W": 4, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null},
+      "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)": {"M": 6, "T": 6, "SV": 2, "W": 4, "LD": 6, "OC": 3, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Guardian Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Guardian Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Sentinel Blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      },
+      "Sentinel Blade - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Pistol"
+        ]
+      },
+      "Misericordia - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Stand Vigil:Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+      "Sentinel Storm:Once per battle, in your Shooting phase, after the unit has shot, it can shoot again."
+    ],
+    "keywords": [
+      "Custodian Guard",
+      "Infantry",
+      "Battleline",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 4,
+    "points": 170,
+    "special_rules_attack": [
+      "Reroll Wound 1"
+    ],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Custodian Wardens",
+    "models": {
+      "Custodian Wardens": {"M": 6, "T": 6, "SV": 2, "W": 3, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Guardian Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Guardian Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Castellan axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Castellan axe - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      }
+    },
+    "abilities": [
+      "Resolute Will:While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
+      "Living Fortress:Once per battle, at the start of any phase, this unit can use this ability. If it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability.",
+      "Vexilla:Add 1 to the Objective Control characteristic of models in the bearers unit."
+    ],
+    "keywords": [
+      "Custodian Wardens",
+      "Adeptus Custodes",
+      "Infantry",
+      "Imperium"
+    ],
+    "total_models": 4,
+    "points": 210,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Knight-Centura",
+    "models": {
+      "Knight-Centura": {"M": 6, "T": 3, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Executioner Greatblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-Psyker 5+",
+          "Devastating Wounds"
+        ]
+      },
+      "Witchseeker Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Master-crafted boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Prosecutors Vigilators Witchseekers",
+      "Seeker's Instincts:While this model is leading a unit, add 2\" to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit.",
+      "Corner the Quarry:Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this models unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+    ],
+    "keywords": [
+      "Knight-Centura",
+      "Adeptus Custodes",
+      "Infantry",
+      "Anathema Psykana",
+      "Imperium",
+      "Character"
+    ],
+    "total_models": 1,
+    "points": 55,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Prosecutors",
+    "models": {
+      "Prosecutor Sister Superior": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Prosecutor": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Purity of Execution:Each time a model in this unit makes a ranged attack that targets a Psyker unit, that attack has the PRECISION] and [DEVASTATING WOUNDS] abilities."
+    ],
+    "keywords": [
+      "Prosecutors",
+      "Adeptus Custodes",
+      "Imperium",
+      "Infantry",
+      "Anathema Psykana"
+    ],
+    "total_models": 4,
+    "points": 40,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Shield-Captain",
+    "models": {
+      "Shield-Captain": {"M": 6, "T": 6, "SV": 2, "W": 6, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Guardian Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Guardian Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Castellan axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Castellan axe - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Sentinel Blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      },
+      "Sentinel Blade - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Pistol"
+        ]
+      },
+      "Pyrithite Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Pyrithite Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Master of the Stances:Once per battle, when this model's unit is selected to fight, it can use this ability. If it does, until that fight is resolved, both Ka'tah Stances are active for that unit, instead of only one.",
+      "Leader:This model can be attached to the following units: Custodian Guard Custodian Wardens"
+    ],
+    "keywords": [
+      "Shield-Captain",
+      "Imperium",
+      "Adeptus Custodes",
+      "Character",
+      "Infantry"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Shield-Captain in Allarus Terminator Armour",
+    "models": {
+      "Shield-Captain in Allarus Terminator Armour": {"M": 5, "T": 7, "SV": 2, "W": 7, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Guardian Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Guardian Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Castellan axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Castellan axe - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Balistus grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Allarus Custodians",
+      "Auramite and Adamantite:Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."
+    ],
+    "keywords": [
+      "Terminator",
+      "Shield-Captain",
+      "Infantry",
+      "Imperium",
+      "Adeptus Custodes",
+      "Character"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Shield-Captain on Dawneagle Jetbike",
+    "models": {
+      "Shield-Captain on Dawneagle Jetbike": {"M": 12, "T": 7, "SV": 2, "W": 8, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Vertus hurricane bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 3",
+          "Twin-linked"
+        ]
+      },
+      "Salvo launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 2,
+        "S": 10,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Interceptor lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Vertus Praetors",
+      "Sweeping Advance:Once per battle, at the end of the Fight phase, if this model's unit fought this phase, if it is within Engagement Range of one or more enemy units, it can make a Fall Back move or, if it is not within Engagement Range of one or more enemy units, it can make a Normal move."
+    ],
+    "keywords": [
+      "Dawneagle Jetbike",
+      "Adeptus Custodes",
+      "Imperium",
+      "Mounted",
+      "Character",
+      "Fly",
+      "Shield-Captain"
+    ],
+    "total_models": 1,
+    "points": 150,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Trajann Valoris",
+    "models": {
+      "Trajann Valoris": {"M": 6, "T": 6, "SV": 2, "W": 7, "LD": 5, "OC": 2, "Inv": 4, "Fnp": 5}
+    },
+    "weapons": {
+      "Watcher's Axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Watcher's Axe - Moment Shackle - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Eagle's Scream - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Assault"
+        ]
+      }
+    },
+    "abilities": [
+      "Feel No Pain:5+",
+      "Leader:This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "Captain-General:While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or all modifiers to the Hit roll.",
+      "Moment Shackle:Once per battle, at the start of the Fight phase, you can select one of the following to take effect until the end of the phase: This model's Watcher's Axe melee weapon has an Attacks characteristic of 12. This model has a 2+ invulnerable save."
+    ],
+    "keywords": [
+      "Trajann Valoris",
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Valerian",
+    "models": {
+      "Valerian": {"M": 6, "T": 6, "SV": 2, "W": 6, "LD": 6, "OC": 2, "Inv": 4, "Fnp": 6}
+    },
+    "weapons": {
+      "Gnosis - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Gnosis - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Custodian Guard Custodian Wardens",
+      "Golden Laurels:While this model is leading a unit, each time a melee attack targets that unit, worsen that Armour Penetration characteristic of that attack by 1.",
+      "Hero of Lion's Gate:Once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+    ],
+    "keywords": [
+      "Valerian",
+      "Adeptus Custodes",
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Shield-Captain",
+      "Epic Hero"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Venerable Contemptor Dreadnought",
+    "models": {
+      "Venerable Contemptor Dreadnought": {"M": 6, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 2,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Kheres-pattern assault cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 2,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Combi-bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Contemptor combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 12,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Unyielding Ancient:The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+    ],
+    "keywords": [
+      "Venerable Contemptor Dreadnought",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Adeptus Custodes",
+      "AC Walker"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Venerable Land Raider",
+    "models": {
+      "Venerable Land Raider": {"M": 10, "T": 12, "SV": 2, "W": 16, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hunter-killer missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 2,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "One Shot"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid fire 2"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Godhammer lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Assault Ramp:Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Damaged: 1-5 Wounds remaining:While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Venerable Land Raider",
+      "Transport",
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 240,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Vertus Praetors",
+    "models": {
+      "Vertus Praetors": {"M": 12, "T": 7, "SV": 2, "W": 5, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Interceptor lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Salvo launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 2,
+        "S": 10,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Quicksilver Execution - Mortal Wounds": {
+        "type": "Mortal Wounds",
+        "Range": 24,
+        "A": 1,
+        "BS": 2,
+        "S": 1,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Mortal",
+          "Overkill"
+        ]
+      },
+      "Vertus hurricane bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 3",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Turbo Boost:Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+      "Quicksilver Execution:Once per battle, after this unit ends a normal or Advance move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit; for each 2+, that enemy unit suffers 2 mortal wounds."
+    ],
+    "keywords": [
+      "Fly",
+      "Mounted",
+      "Imperium",
+      "Adeptus Custodes",
+      "Vertus Praetors"
+    ],
+    "total_models": 2,
+    "points": 150,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Vigilators",
+    "models": {
+      "Vigilator Sister Superior": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Vigilator": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Executioner greatblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-Psyker 5+",
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Deft Parry:Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Vigilators",
+      "Anathema Psykana",
+      "Infantry",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 4,
+    "points": 50,
+    "special_rules_attack": [],
+    "special_rules_defence": ["-1 to be Hit in Melee"]
+  },
+  {
+    "name": "Witchseekers",
+    "models": {
+      "Witchseeker Sister Superior": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Witchseeker": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      },
+      "Witchseeker flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Sanctified Flames:In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Witchseekers",
+      "Adeptus Custodes",
+      "Anathema Psykana",
+      "Infantry",
+      "Imperium"
+    ],
+    "total_models": 4,
+    "points": 50,
+    "special_rules_attack": []
+  },
+  {
+    "name": "Custodian Guard with Adrasite and Pyrithite spears",
+    "models": {
+      "Custodian Guard (Adrasite spear)": {"M": 6, "T": 6, "SV": 2, "W": 3, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null},
+      "Custodian Guard (Pyrithite spear)": {"M": 6, "T": 6, "SV": 2, "W": 3, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Adrasite spear - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 3
+      },
+      "Adrasite spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Pyrithite spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Pyrithite spear - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Stand Vigil:Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll isntead.",
+      "No Foe Shall Stand:Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and [IGNORES COVER abilities]."
+    ],
+    "keywords": [
+      "Custodian Guard",
+      "Infantry",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 5,
+    "points": 250,
+    "special_rules_attack": [
+      "Reroll Wounds 1"
+    ],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Sagittarum Custodians",
+    "models": {
+      "Sagittarum Custodian": {"M": 6, "T": 6, "SV": 2, "W": 3, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Adrastus bolt caliver - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Misericordia - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Disintegration Beams:Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the Devastating Wounds ability.",
+      "Saturation Volleys:In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield. that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the hit roll."
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Adeptus Custodes",
+      "Sagittarum Custodians"
+    ],
+    "total_models": 5,
+    "points": 225,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Aquilon Custodians",
+    "models": {
+      "Aquilon Custodians": {"M": 5, "T": 7, "SV": 2, "W": 4, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Solerite power gauntlet": {
+        "type": "Solerite power gauntlet",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Lastrum storm bolter": {
+        "type": "Lastrum storm bolter",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Twin adrathic destructor": {
+        "type": "Twin adrathic destructor",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Infernus firepike": {
+        "type": "Infernus firepike",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Solerite power talon": {
+        "type": "Solerite power talon",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Heavy Assault Infantry:Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Wound roll of 1.",
+      "From Golden Light:Once per battle, at the end of your opponent's turn, if this unit is not whithin Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+    ],
+    "keywords": [
+      "Imperium",
+      "Adeptus Custodes",
+      "Terminator",
+      "Infantry",
+      "Aquilon Custodians"
+    ],
+    "total_models": 3,
+    "points": 195,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Agamatus Custodians",
+    "models": {
+      "Agamatus Custodians": {"M": 12, "T": 6, "SV": 2, "W": 4, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Lastrum bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Interceptor Lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Adrathic devastator - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 3
+      },
+      "Twin las-pulsar - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Implacable Vanguard:Once per battle, in your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not elgibile to declare a charge.",
+      "Turbo Boost:Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+    ],
+    "keywords": [
+      "Mounted",
+      "Fly",
+      "Imperium",
+      "Agamatus Custodians",
+      "Adeptus Custodes"
+    ],
+    "total_models": 3,
+    "points": 225,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Venatari Custodians",
+    "models": {
+      "Venatari Custodian (Venatari lance)": {"M": 10, "T": 6, "SV": 2, "W": 3, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null},
+      "Venatari Custodian (Kinetic Destroyer & Tarsus Buckler)": {"M": 10, "T": 6, "SV": 2, "W": 4, "LD": 6, "OC": 2, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Venatari lance - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Venatari lance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Kinetic destroyer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Sustained Hits 1"
+        ]
+      },
+      "Tarsis buckler - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Strike from the Skies:This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "Swooping Dive:Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0 CP, and can do so even if you have already targeted a different unit with that Stratagem that phase.",
+      "Tarsis Buckler:The bearer has a Wounds characteristic of 4."
+    ],
+    "keywords": [
+      "Imperium",
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Venatari Custodians",
+      "Adeptus Custodes"
+    ],
+    "total_models": 3,
+    "points": 165,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Contemptor-Galatus Dreadnought",
+    "models": {
+      "Contemptor-Galatus Dreadnought": {"M": 6, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Galatus warblade - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Galatus warblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Galatus Shield:Each time a melee attack targets this model subtract 1 from the Wound roll."
+    ],
+    "keywords": [
+      "Adeptus Custodes",
+      "Contemptor-Galatus Dreadnought",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "AC Walker"
+    ],
+    "total_models": 1,
+    "points": 165,
+    "special_rules_attack": [],
+    "special_rules_defence": ["-1 to be Wounded in Melee"]
+  },
+  {
+    "name": "Contemptor-Achillus Dreadnought",
+    "models": {
+      "Contemptor-Achillus Dreadnought": {"M": 6, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Infernus incinerator - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Lastrum storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Twin adrathic destructor - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Achillus dreadspear - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": 3
+      },
+      "Achillus dreadspear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 12,
+        "AP": 2,
+        "D": "D6+1",
+        "Keywords": [
+          "Lance"
+        ]
+      }
+    },
+    "abilities": [
+      "Dread Foe:Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if it made a Charge move this turn: on 4-5, hat enemy unit suffers D3 mortal wounds; on a 6+, that enemy suffers 3 mortal wounds."
+    ],
+    "keywords": [
+      "Adeptus Custodes",
+      "Vehicle",
+      "Imperium",
+      "Walker",
+      "Contemptor-Achillus Dreadnought",
+      "AC Walker"
+    ],
+    "total_models": 1,
+    "points": 155,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Pallas Grav-attack",
+    "models": {
+      "Pallas Grav-attack": {"M": 12, "T": 8, "SV": 2, "W": 9, "LD": 6, "OC": 2, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Twin arachnus blaze cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 8,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-linked"
+        ]
+      },
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Merciless Hunter:In your Shooting phase, each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Wound roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Pallas Grav-attack",
+      "Adeptus Custodes",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Caladius Grav-tank",
+    "models": {
+      "Caladius Grav-tank": {"M": 10, "T": 11, "SV": 2, "W": 14, "LD": 6, "OC": 4, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Twin iliastus accelerator cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 2,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Rapid Fire 4",
+          "Twin-linked",
+          "Lethal Hits Infantry",
+          "Lethal Hits Beast",
+          "Lethal Hits Mounted",
+          "Lethal Hits Swarm"
+        ]
+      },
+      "Twin arachnus heavy blaze cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2",
+        "Keywords": [
+          "Twin-linked",
+          "Lethal Hits Vehicle",
+          "Lethal Hits Monster"
+        ]
+      },
+      "Twin lastrum bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Advanced Firepower:Each time this model makes an attack with its Twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability. Each time this model makes an attack with its Twin arachnus heavy blaze cannon that targets an enemy MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
+      "Damaged: 1-5 wounds remaining:While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Caladius Grav-tank",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 215,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Telemon Heavy Dreadnought",
+    "models": {
+      "Telemon Heavy Dreadnought": {"M": 8, "T": 10, "SV": 2, "W": 12, "LD": 6, "OC": 4, "Inv": 4, "Fnp": null}
+    },
+    "weapons": {
+      "Arachnus storm cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 12,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Iliastus accelerator culverin - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Telemon Caestus - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 12,
+        "AP": 2,
+        "D": 3
+      },
+      "Twin plasma projector - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D3",
+        "BS": "N/A",
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Spiculus bolt launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+3",
+        "BS": 2,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Armoured feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Guardian Eternal:Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+      "Damaged: 1-4 wounds remaining:While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Devoted to Destruction:If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Adeptus Custodes",
+      "Telemon Heavy Dreadnought",
+      "Walker",
+      "AC Walker"
+    ],
+    "total_models": 1,
+    "points": 225,
+    "special_rules_attack": [],
+    "special_rules_defence": ["-1 Damage"]
+  },
+  {
+    "name": "Coronus Grav-carrier",
+    "models": {
+      "Coronus Grav-carrier": {"M": 12, "T": 12, "SV": 2, "W": 16, "LD": 6, "OC": 5, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Twin lastrum bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Twin arachnus blaze cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 8,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-linked"
+        ]
+      },
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Fire Support:In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this ^^Transport^^ this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
+      "Damaged: 1-5 wounds remaining:While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Imperium",
+      "Coronus Grav-carrier",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 200,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Orion Assault Dropship",
+    "models": {
+      "Orion Assault Dropship": {"M": 20, "T": 12, "SV": 2, "W": 22, "LD": 6, "OC": 0, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Arachnus heavy blaze cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Twin lastrum bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Spiculus heavy bolt launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+6",
+        "BS": 2,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 9,
+        "WS": 4,
+        "S": 9,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Damaged: 1-7 wounds remaining:While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Assault Dropship:If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligibile to charge in a turn in which it Advanced."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Aircraft",
+      "Fly",
+      "Imperium",
+      "Orion Assault Dropship",
+      "Adeptus Custodes"
+    ],
+    "total_models": 1,
+    "points": 690,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Ares Gunship",
+    "models": {
+      "Ares Gunship": {"M": 20, "T": 12, "SV": 2, "W": 22, "LD": 6, "OC": 0, "Inv": 5, "Fnp": null}
+    },
+    "weapons": {
+      "Arachnus heavy blaze cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Arachnus magna-blaze cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 2,
+        "S": 18,
+        "AP": 4,
+        "D": "D6+6"
+      },
+      "Armoured hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 9,
+        "WS": 4,
+        "S": 9,
+        "AP": 0,
+        "D": 1
+      },
+      "Infernus firebomb - Mortal Wounds": {
+        "type": "Mortal Wounds",
+        "Range": 48,
+        "A": 1,
+        "WS": 6,
+        "S": 1,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Mortal",
+          "Overkill"
+        ]
+      }
+    },
+    "abilities": [
+      "Infernus Firebomb:Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for eah model in that unit: for each 6, that unit suffers 1 mortal wound.",
+      "Damaged: 1-7 wounds remaining:While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Adeptus Custodes",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Imperium",
+      "Ares Gunship"
+    ],
+    "total_models": 1,
+    "points": 580,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  }
+]

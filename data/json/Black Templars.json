@@ -1,0 +1,828 @@
+[
+  {
+    "name": "Chaplain Grimaldus",
+    "models": {
+      "Chaplain Grimaldus": {"M": 6, "T": 4, "SV": 3, "W": 1, "LD": 8, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Artificer Crozius - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Plasma Pistol - Supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Plasma Pistol - Standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Close Combat Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 3,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Litanies of the Devout:While Chaplain Grimaldus is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll.",
+      "Temple Relics:In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Relics of the Emperor Ascendant ability (see left). Until the start of your next Command phase, this units Chaplain Grimaldus model has that ability.",
+      "Relics of the Emperor Asdendant:Banner of Fallen Crusaders: This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back. Remnant of the Fallen Temple: Models in this unit have the Feel No Pain 5+ ability. Sceptre of Anointing: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1.",
+      "Leader:This unit can be attached to the following units: Assault Intercessor Squad Infernus Squad Intercessor Squad Primaris Crusader Squad Primaris Sword Brethren"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Adeptus Astartes",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "High Marshal Helbrecht",
+    "models": {
+      "High Marshal Helbrecht": {"M": 6, "T": 4, "SV": 2, "W": 5, "LD": 5, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Sword of the High Marshals - One Handed - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 1
+      },
+      "Sword of the High Marshals - Two Handed - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3
+      },
+      "Ferocity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Crusade of Wrath:While this model is leading a unit, add 1 to the Strength characteristic of melee weapons equipped by models in that unit and each time an attack is made with such a weapon, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+      "High Marshal:At the start of the Fight phase, select one enemy unit within Engagement Range of this models unit and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Intercessor Squad Primaris Crusader Squad Primaris Sword Brethren"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Tacticus",
+      "High Marshal Helbrecht",
+      "Infantry",
+      "Black Templars",
+      "Chapter Master"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Primaris Crusader Squad",
+    "models": {
+      "Primaris Sword Brother": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Primaris Initiate w/Bolt Rifle": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Primaris Initiate w/Chainsword & Heavy Bolt Pistol": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Primaris Initiate w/Power Fist & Heavy Bolt Pistol": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Primaris Initiate w/Pyreblaster": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Primaris Neophyte w/Firearm": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Primaris Neophyte w/Astartes Chainsword": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Pyre Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Pyreblaster - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Neophyte Firearm - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      }
+    },
+    "abilities": [
+      "Righteous Zeal:You can re-roll Advance and Charge rolls made for this unit."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Black Templars",
+      "Tacticus",
+      "Primaris Crusader Squad"
+    ],
+    "total_models": 1,
+    "points": 150,
+    "special_rules": []
+  },
+  {
+    "name": "Primaris Sword Brethren",
+    "models": {
+      "Primaris Sword Brother": {"M": 6, "T": 4, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Sword Brother Castellan": {"M": 6, "T": 4, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Primaris Sword Brother w/Twin Lightning Claws": {"M": 6, "T": 4, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Pyre Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Thunder Hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Master-crafted Power Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Vow Sworn Bladesman:At the start of the Fight phase, you can select one of the following effects to apply to melee weapons equipped by models in this unit until the end of the phase: Add 1 to the Attacks characteristic of those weapons. Add 1 to the Damage characteristic of those weapons."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Adeptus Astartes",
+      "Black Templars",
+      "Primaris Sword Brethren"
+    ],
+    "total_models": 1,
+    "points": 150,
+    "special_rules": []
+  },
+  {
+    "name": "The Emperor's Champion",
+    "models": {
+      "The Emperor's Champion": {"M": 6, "T": 4, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Black Sword - Strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Precision"
+        ]
+      },
+      "Black Sword - Sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Skillful Parry:Once per phase, when a melee attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0.",
+      "Sigismund's Heir:Each time this model makes a melee attack that targets a Character unit, add 1 to the Wound roll",
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Intercessor Squad Primaris Crusader Squad Primaris Sword Brethren Sternguard Veteran Squad"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Adeptus Astartes",
+      "The Emperor's Champion",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Crusader Squad",
+    "models": {
+      "Neophyte w/Combat Knife": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Neophyte w/Astartes Shotgun": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Neophyte w/Boltgun": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Initiate w/Astartes Chainsword": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Initiate w/Boltgun": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Initiate w/Heavy": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Initiate w/Special": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Sword Brother": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combat Knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Astartes Shotgun - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Twin Lightning Claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Close Combat Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Righteous Zeal:You can re-roll Advance and Charge rolls made for this unit."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Adeptus Astartes",
+      "Black Templars",
+      "Crusader Squad"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Black Templars Gladiator Lancer",
+    "models": {
+      "Black Templars Gladiator Lancer": {"M": 10, "T": 10, "SV": 3, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lancer Laser Destroyer - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 2,
+        "BS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": "D6+3",
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Aquilon Optics:Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Gladiator Lancer",
+      "Adeptus Astartes",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Black Templars Gladiator Reaper",
+    "models": {
+      "Black Templars Gladiator Reaper": {"M": 10, "T": 10, "SV": 3, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Tempest Bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 4,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 4"
+        ]
+      },
+      "Twin Heavy Onslaught Gatling Cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 12,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Rotating Death:This models twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units."
+    ],
+    "keywords": [
+      "Smoke",
+      "Imperium",
+      "Vehicle",
+      "Adeptus Astartes",
+      "Gladiator Reaper",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Black Templars Gladiator Valiant",
+    "models": {
+      "Black Templars Gladiator Valiant": {"M": 10, "T": 10, "SV": 3, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Twin Las-talon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 2,
+        "BS": 3,
+        "S": 10,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Ferocious Assault:Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or fVehicle unit, add 1 to the Hit roll"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Gladiator Valiant",
+      "Adeptus Astartes",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Black Templars Impulsor",
+    "models": {
+      "Black Templars Impulsor": {"M": 12, "T": 9, "SV": 3, "W": 11, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bellicatus Missile Array - Frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Bellicatus Missile Array - Icarus - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D3",
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-Fly 2+"
+        ]
+      },
+      "Bellicatus Missile Array - Krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Ironhail Skytalon Array - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 8,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-Fly 4+",
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Transport:This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
+      "Assault Vehicle:Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.",
+      "Orbital Comms Array [Aura]:While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP",
+      "Shield Dome:The bearer has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Adeptus Astartes",
+      "Impulsor",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Black Templars Repulsor",
+    "models": {
+      "Black Templars Repulsor": {"M": 10, "T": 12, "SV": 3, "W": 16, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Hunter-slayer Missile - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 2,
+        "S": 14,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Indirect Fire",
+          "One Shot"
+        ]
+      },
+      "Repulsor Defensive Array - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 18,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Transport:This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
+      "Emergency Combat Embarkation:Once per turn, in your opponents Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one Adeptus Astartes unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3\" of this Transport, it can embark within this Transport. The charging unit can then select new targets for its charge."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Repulsor",
+      "Adeptus Astartes",
+      "Transport",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 190,
+    "special_rules": []
+  },
+  {
+    "name": "Black Templars Repulsor Executioner",
+    "models": {
+      "Black Templars Repulsor Executioner": {"M": 10, "T": 12, "SV": 3, "W": 16, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Repulsor Executioner Defensive Array - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 10,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Heavy Laser Destroyer - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 2,
+        "BS": 3,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+4",
+        "Keywords": [
+          "Heavy"
+        ]
+      }
+    },
+    "abilities": [
+      "Transport:This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
+      "Executioner:Each time this model makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Transport",
+      "Repulsor Executioner",
+      "Adeptus Astartes",
+      "Black Templars"
+    ],
+    "total_models": 1,
+    "points": 230,
+    "special_rules": []
+  },
+  {
+    "name": "Castellan",
+    "models": {
+      "Castellan": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Master-crafted Power Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      },
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Infernus Squad Intercessor Squad Primaris Crusader Squad Primaris Sword Brethren Sternguard Veteran Squad You can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Adeptus Astartes",
+      "Black Templars",
+      "Lieutenant"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Marshal",
+    "models": {
+      "Marshal": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Master-crafted Power Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plasma Pistol - Standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma Pistol - Supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Assault Intercessor Squad Infernus Squad Intercessor Squad Primaris Crusader Squad Primaris Sword Brethren Sternguard Veteran Squad"
+    ],
+    "keywords": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Adeptus Astartes",
+      "Black Templars",
+      "Marshal",
+      "Captain"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  }
+]

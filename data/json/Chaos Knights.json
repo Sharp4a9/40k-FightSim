@@ -1,0 +1,1634 @@
+[
+  {
+    "name": "War Dog Executioner",
+    "models": {
+      "War Dog Executioner": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "War Dog autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 4,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Daemonbreath meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Armoured feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Executioner:Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll.",
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Chaos",
+      "War Dog",
+      "Executioner"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "War Dog Stalker",
+    "models": {
+      "War Dog Stalker": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Havoc multi-launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      "Avenger chaincannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 12,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1
+      },
+      "Daemonbreath spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 4"
+        ]
+      },
+      "Slaughterclaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2"
+      },
+      "Reaper chaintalon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Stalker:Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponents army within 6\" of that target, add 1 to the Wound roll.",
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Chaos",
+      "War Dog",
+      "Stalker",
+      "Character"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "War Dog Karnivore",
+    "models": {
+      "War Dog Karnivore": {"M": 14, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Havoc multi-launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      "Reaper chaintalon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 1
+      },
+      "Slaughterclaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2"
+      }
+    },
+    "abilities": [
+      "Karnivore:You can re-roll Charge rolls made for this model.",
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Chaos",
+      "War Dog",
+      "Karnivore"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "War Dog Brigand",
+    "models": {
+      "War Dog Brigand": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Havoc multi-launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      "Daemonbreath spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 4"
+        ]
+      },
+      "Avenger chaincannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 12,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1
+      },
+      "Armoured feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Brigand:Each time this model makes a ranged attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Chaos",
+      "War Dog",
+      "Brigand"
+    ],
+    "total_models": 1,
+    "points": 165,
+    "special_rules": []
+  },
+  {
+    "name": "War Dog Huntsman",
+    "models": {
+      "War Dog Huntsman": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Daemonbreath meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Daemonbreath spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 4"
+        ]
+      },
+      "Reaper chaintalon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Huntsman:Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1.",
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Chaos",
+      "War Dog",
+      "Huntsman"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Despoiler",
+    "models": {
+      "Knight Despoiler": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Daemonbreath meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Despoiler gatling cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 18,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Heavy darkflamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      "Despoiler battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Rapid Fire D6+3"
+        ]
+      },
+      "Reaper chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      },
+      "Daemonbreath thermal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "2D3",
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Blast",
+          "Melta 6"
+        ]
+      },
+      "Warpstrike claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Havoc missile pod - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+1",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      "Ruinspear rocket pod - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Hellstorm autocannons - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-FLY 2",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Dread Dominion (Aura):While a friendly WAR DOG is within 9\" of this model, each time that WAR DOG takes a Battle-shock test, add 1 to that test.",
+      "Seething Hatred:Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Abhorrent",
+      "Character",
+      "Chaos",
+      "Knight Despoiler"
+    ],
+    "total_models": 1,
+    "points": 400,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Desecrator",
+    "models": {
+      "Knight Desecrator": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Desecrator laser destructor - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 3,
+        "BS": 2,
+        "S": 18,
+        "AP": 4,
+        "D": "D6+3"
+      },
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Reaper chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      },
+      "Warpstrike claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Taskmaster (Aura):While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a ranged attack, re-roll a Hit roll of 1.",
+      "Obsessive Ruthlessness:Each time this model makes a ranged attack against a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Abhorrent",
+      "Character",
+      "Chaos",
+      "Knight Desecrator"
+    ],
+    "total_models": 1,
+    "points": 400,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Rampager",
+    "models": {
+      "Knight Rampager": {"M": 12, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Reaper chainsword - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 14,
+        "AP": 4,
+        "D": 6
+      },
+      "Reaper chainsword - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 18,
+        "WS": 2,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      },
+      "Warpstrike claw - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 20,
+        "AP": 3,
+        "D": 8
+      },
+      "Warpstrike claw - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Frenzied Rampage (Aura):While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1.",
+      "Bloodlust:Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Abhorrent",
+      "Character",
+      "Chaos",
+      "Knight Rampager"
+    ],
+    "total_models": 1,
+    "points": 380,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Abominant",
+    "models": {
+      "Knight Abominant": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Volkite combustor - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 9,
+        "BS": 3,
+        "S": 12,
+        "AP": 0,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Electroscourge - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 9,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Balemace - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Diabolus heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Vortex Terrors (Psychic):At the start of your Shooting phase, select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test.",
+      "Warp Storms (Psychic):At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of this model: on a 3+, that enemy unit suffers D3 mortal wounds."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Abhorrent",
+      "Character",
+      "Chaos",
+      "Knight Abominant",
+      "Psyker"
+    ],
+    "total_models": 1,
+    "points": 365,
+    "special_rules": []
+  },
+  {
+    "name": "Knight Tyrant",
+    "models": {
+      "Knight Tyrant": {"M": 8, "T": 13, "SV": 2, "W": 24, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin daemonbreath meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2",
+          "Twin-linked"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      },
+      "Brimstone volcano lance - Ranged": {
+        "type": "Ranged",
+        "Range": 60,
+        "A": "D3",
+        "BS": 3,
+        "S": 20,
+        "AP": 5,
+        "D": "D6+8",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Ectoplasma decimator - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Ectoplasma decimator - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Darkflame cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "3D6",
+        "BS": "N/A",
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      "Warpshock harpoon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 24,
+        "AP": 6,
+        "D": 12,
+        "Keywords": [
+          "Anti-MONSTER 4+",
+          "Anti-VEHICLE 4+",
+          "Devastating Wounds"
+        ]
+      },
+      "Gheiststrike missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 6,
+        "D": "D6+1",
+        "Keywords": [
+          "Anti-TITANIC 4+",
+          "Devastating Wounds"
+        ]
+      },
+      "Twin desecrator cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Infernal Aegis (Aura):While a friendly WAR DOG model is within 6\" of this model, that WAR DOG model has the Benefit of Cover.",
+      "Bastion of Corruption:Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.",
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Chaos",
+      "Knight Tyrant"
+    ],
+    "total_models": 1,
+    "points": 480,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Acastus Knight Asterius",
+    "models": {
+      "Chaos Acastus Knight Asterius": {"M": 8, "T": 13, "SV": 2, "W": 30, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Asterius volkite culverin - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": "-",
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Karacnos mortar battery - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Blast",
+          "Ignores Cover",
+          "Indirect Fire"
+        ]
+      },
+      "Twin conversion beam cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 16,
+        "AP": 2,
+        "D": 6,
+        "Keywords": [
+          "Conversion",
+          "Twin-linked",
+          "Sustained Hits D3"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 10,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Sunderer of Fortresses:Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead)."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Acastus",
+      "Knight Asterius"
+    ],
+    "total_models": 1,
+    "points": 765,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Acastus Knight Porphyrion",
+    "models": {
+      "Chaos Acastus Knight Porphyrion": {"M": 8, "T": 13, "SV": 2, "W": 30, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin magna lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6",
+        "BS": 3,
+        "S": 18,
+        "AP": 4,
+        "D": "D6+6",
+        "Keywords": [
+          "Blast",
+          "Twin-linked"
+        ]
+      },
+      "Acastus autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Acastus ironstorm missile pod - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6+6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      "Helios defence missiles - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Anti-FLY 2+",
+          "Heavy"
+        ]
+      },
+      "Titanic feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 10,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Bastion of Firepower:Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Acastus",
+      "Knight Porphyrion"
+    ],
+    "total_models": 1,
+    "points": 700,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Cerastus Knight Lancer",
+    "models": {
+      "Chaos Cerastus Knight Lancer": {"M": 14, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Cerastus shock lance - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 2"
+        ]
+      },
+      "Cerastus shock lance - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 20,
+        "AP": 3,
+        "D": 8,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Cerastus shock lance - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Shock Charge:You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "Dark Fervour (Aura):While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [ASSAULT] ability."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Cerastus",
+      "Knight Lancer"
+    ],
+    "total_models": 1,
+    "points": 420,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Cerastus Knight Castigator",
+    "models": {
+      "Chaos Cerastus Knight Castigator": {"M": 12, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Castigator bolt cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 18,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Tempest warblade - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": 6
+      },
+      "Tempest warblade - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Storm of Bolts:In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "Offerings for the Dark Gods (Aura):While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Cerastus",
+      "Knight Castigator"
+    ],
+    "total_models": 1,
+    "points": 445,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Cerastus Knight Acheron",
+    "models": {
+      "Chaos Cerastus Knight Acheron": {"M": 12, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Acheron flame cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "2D6",
+        "BS": "N/A",
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": "3_",
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Reaper chainfist - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": 6
+      },
+      "Reaper chainfist - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Searing Flames:In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+      "Unrestrained Terror (Aura):While a friendly WAR DOG model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more WAR DOG units affected by this ability must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Cerastus",
+      "Knight Acheron"
+    ],
+    "total_models": 1,
+    "points": 420,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Cerastus Knight Atrapos",
+    "models": {
+      "Chaos Cerastus Knight Atrapos": {"M": 12, "T": 12, "SV": 3, "W": 25, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Atrapos lascutter - low intensity - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Atrapos lascutter - low intensity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "2D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Atrapos lascutter - high intensity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Atrapos lascutter - high intensity - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 14,
+        "AP": 3,
+        "D": 4,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Graviton singularity cannon - contained - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+1",
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Graviton singularity cannon - singularity - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 16,
+        "AP": 4,
+        "D": "D6+1",
+        "Keywords": [
+          "Blast",
+          "Devastating Wounds",
+          "Hazardous"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Macro-extinction Protocols:Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.",
+      "Consumed with Hunger (Aura):While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Cerastus",
+      "Knight Atrapos"
+    ],
+    "total_models": 1,
+    "points": 420,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Questoris Knight Magaera",
+    "models": {
+      "Chaos Questoris Knight Magaera": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lightning cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 12,
+        "BS": 3,
+        "S": 9,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
+      },
+      "Phased plasma-fusil - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Hekaton siege claw - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 20,
+        "AP": 3,
+        "D": 8
+      },
+      "Hekaton siege claw - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Twin rad cleanser - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Reaper chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Repair Auto-simulacra:At the end of your Command phase, this model regains up to D3 lost wounds."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Abhorrent",
+      "Knight Magaera"
+    ],
+    "total_models": 1,
+    "points": 435,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Questoris Knight Styrix",
+    "models": {
+      "Chaos Questoris Knight Styrix": {"M": 10, "T": 12, "SV": 3, "W": 22, "LD": 6, "OC": 10, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Graviton crusher - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Blast"
+        ]
+      },
+      "Volkite chierovile - Ranged": {
+        "type": "Ranged",
+        "Range": 30,
+        "A": 9,
+        "BS": 3,
+        "S": 12,
+        "AP": 0,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Hekaton siege claw - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 20,
+        "AP": 3,
+        "D": 8
+      },
+      "Hekaton siege claw - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3
+      },
+      "Twin rad cleanser - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Reaper chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save.",
+      "Grav-pinned:In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponents next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that units Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Abhorrent",
+      "Knight Styrix"
+    ],
+    "total_models": 1,
+    "points": 430,
+    "special_rules": []
+  },
+  {
+    "name": "War Dog Moirax",
+    "models": {
+      "War Dog Moirax": {"M": 12, "T": 10, "SV": 3, "W": 12, "LD": 7, "OC": 8, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Volkite veuglaire - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 8,
+        "AP": 0,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Conversion beam cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Conversion",
+          "Sustained Hits D3"
+        ]
+      },
+      "Graviton pulsar - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Blast"
+        ]
+      },
+      "Lightning lock - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 6,
+        "BS": 3,
+        "S": 8,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
+      },
+      "Siege claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2"
+      },
+      "Siege claw and rad cleanser - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 2,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Armoured feet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 5+ invulnerable save against ranged attacks.",
+      "Protection Protocols:You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    ],
+    "keywords": [
+      "Chaos Knights",
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Chaos",
+      "War Dog",
+      "Moirax"
+    ],
+    "total_models": 1,
+    "points": 160,
+    "special_rules": []
+  }
+]

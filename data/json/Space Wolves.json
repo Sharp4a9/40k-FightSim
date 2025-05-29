@@ -1,0 +1,2566 @@
+[
+  {
+    "name": "Logan Grimnar",
+    "models": {
+      "Logan Grimnar": {"M": 5, "T": 5, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "The Axe Morkai - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Relic Terminator Squad Terminator Assault Squad Terminator Squad Wolf Guard Terminators",
+      "Logan Grimnar:Your army cannot contain both Logan Grimnar and Logan Grimnar on Stormrider"
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Chapter Master",
+      "Logan Grimnar"
+    ],
+    "total_models": 1,
+    "points": 115,
+    "special_rules": []
+  },
+  {
+    "name": "Logan Grimnar on Stormrider",
+    "models": {
+      "Logan Grimnar on Stormrider": {"M": 10, "T": 6, "SV": 2, "W": 12, "LD": 6, "OC": 4, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "The Axe Morkai - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Flurry of teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: Thunderwolf Cavalry",
+      "Logan Grimnar:Your army cannot contain both Logan Grimnar and Logan Grimnar on Stormrider"
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Chapter Master",
+      "Logan Grimnar on Stormrider"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Njal Stormcaller",
+    "models": {
+      "Njal Stormcaller": {"M": 5, "T": 5, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Staff of the Stormcaller - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic",
+          "Sustained Hits 2"
+        ]
+      },
+      "Living Lightning - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Psychic",
+          "Sustained Hits 2"
+        ]
+      },
+      "Living Lightning - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "2D6",
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Hazardous",
+          "Psychic",
+          "Sustained Hits 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Relic Terminator Squad Terminator Assault Squad Terminator Squad Wolf Guard Terminators",
+      "Stormcaller (Psychic):While this model is leading a unit, models in that unit have the Stealth ability.",
+      "Runic Armour:Each time a Psychic Attack targets this models unit, subtract 1 from the Wound roll."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Imperium",
+      "Terminator",
+      "Njal Stormcaller"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Bjorn the Fell-Handed",
+    "models": {
+      "Bjorn the Fell-Handed": {"M": 8, "T": 9, "SV": 2, "W": 8, "LD": 6, "OC": 3, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Trueclaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 12,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      },
+      "Assault cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Heavy plasma cannon - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Heavy plasma cannon - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 2,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Twin lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Helfrost cannon - dispersed - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Torrent"
+        ]
+      },
+      "Helfrost cannon - focused - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 2,
+        "S": 9,
+        "AP": 3,
+        "D": 5
+      }
+    },
+    "abilities": [
+      "Legendary Tenacity:Each time an attack is allocated to this model, halve the Damage characteristic of that attack.",
+      "Ancient Tactician:Once per battle, after your opponent uses a Stratagem, this model can use this ability. If it does, until the end of the battle, increase that Stratagems cost to your opponent by 1CP."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Epic Hero",
+      "Smoke",
+      "Imperium",
+      "Dreadnought",
+      "Bjorn the Fell-Handed"
+    ],
+    "total_models": 1,
+    "points": 190,
+    "special_rules": []
+  },
+  {
+    "name": "Arjac Rockfist",
+    "models": {
+      "Arjac Rockfist": {"M": 5, "T": 5, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Foehammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Anti-MONSTER 2+"
+        ]
+      },
+      "Foehammer - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Anti-MONSTER 2+",
+          "Assault"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Relic Terminator Squad Terminator Assault Squad Terminator Squad Wolf Guard Terminators You can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+      "Anvil of Endurance:While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
+      "Champion of the Kingsguard:You can target this model with the Epic Challenge Stratagem for 0CP. In addition, each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Arjac Rockfist"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Ulrik the Slayer",
+    "models": {
+      "Ulrik the Slayer": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 5, "OC": 1, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Plasma pistol - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Plasma pistol - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      "Artificer crozius - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Slayers Oath:While this model is leading a unit, at the start of the Fight phase, select one enemy unit within Engagement Range of this models unit. Until the end of the phase, each time a model in this models unit makes a melee attack that targets that enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If that enemy unit is a CHARACTER, VEHICLE or MONSTER unit, until the end of the phase, each time a model in this models unit makes a melee attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+      "Wolf Helm of Russ (Aura):While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have a Leadership characteristic of 5+.",
+      "Leader:This model can be attached to the following units: Blood Claws Grey Hunters Long Fangs Wolf Guard"
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Ulrik the Slayer"
+    ],
+    "total_models": 1,
+    "points": 70,
+    "special_rules": []
+  },
+  {
+    "name": "Ragnar Blackmane",
+    "models": {
+      "Ragnar Blackmane": {"M": 6, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Frostfang - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Wolf Guard Blood Claws Grey Hunters Assault Intercessor Squad Bladeguard Veteran Squad Intercessor Squad",
+      "War Howl:While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced.",
+      "Battle-lust:Each time this model ends a Charge move, until the end of the turn, add 2 to the Attacks and Strength characteristics of this models Frostfang."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Grenades",
+      "Tacticus",
+      "Captain",
+      "Ragnar Blackmane"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Krom Dragongaze",
+    "models": {
+      "Krom Dragongaze": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Wyrmclaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Blood Claws Grey Hunters Wolf Guard",
+      "Refuse to Accept Defeat:While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
+      "The Fierce Eye:In your Shooting phase, you can select one enemy INFANTRY unit within 12\" of and visible to this model. That enemy unit must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Krom Dragongaze"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules": []
+  },
+  {
+    "name": "Harald Deathwolf",
+    "models": {
+      "Harald Deathwolf": {"M": 10, "T": 6, "SV": 3, "W": 7, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Glacius - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2
+      },
+      "Crushing teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Thunderwolf Cavalry",
+      "Lord of the Wolfkin:While this model is leading a unit, each time that unit makes a Charge move, until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Mantle of the Troll King:Once per phase, when resolving an attack made against this model, after you make a saving throw for this model, you can change the Damage characteristic of that attack to 0."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Harald Deathwolf"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Canis Wolfborn",
+    "models": {
+      "Canis Wolfborn": {"M": 10, "T": 6, "SV": 3, "W": 6, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Crushing teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Wolf claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Fenrisian Wolves Thunderwolf Cavalry",
+      "Born of Wolves:While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Alpha Predator:Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy units suffers D3+3 mortal wounds."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Canis Wolfborn"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard Battle Leader in Terminator Armour",
+    "models": {
+      "Wolf Guard Battle Leader in Terminator Armour": {"M": 5, "T": 5, "SV": 2, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Chainfist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 3+"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Thunder hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Relic Terminator Squad Terminator Assault Squad Terminator Squad Wolf Guard Terminators You can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+      "Huskarl to the Jarl:While this model is attached to a unit that contains another CHARACTER model, all CHARACTER models in that unit have the Feel No Pain 4+ ability.",
+      "Relic shield:The bearer has a Wounds characteristic of 6."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard Battle Leader in Terminator Armour"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Lord on Thunderwolf",
+    "models": {
+      "Wolf Lord on Thunderwolf": {"M": 10, "T": 6, "SV": 3, "W": 6, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Crushing teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 7,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Thunderwolf Cavalry",
+      "Speed of the Hunter:Add 1 to Advance and Charge rolls made for this models unit.",
+      "Relic shield:The bearer has a Wounds characteristic of 7."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Mounted",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Wolf Lord on Thunderwolf"
+    ],
+    "total_models": 1,
+    "points": 100,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard Battle Leader on Thunderwolf",
+    "models": {
+      "Wolf Guard Battle Leader on Thunderwolf": {"M": 10, "T": 6, "SV": 3, "W": 5, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Crushing teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Relic weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Thunder hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: Thunderwolf Cavalry You can attach this model to the above unit even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+      "Aggressive Hunter:Once per battle, in your opponents Shooting phase, after an enemy unit has finished making its attacks, if this models unit was targeted by one or more of those attacks, this models unit can make a Normal move of up to D6\", but must end that move as close as possible to the closest enemy unit. When doing so, models in this models unit can be moved within Engagement Range of that enemy unit.",
+      "Storm Shield:The bearer has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Mounted",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Wolf Guard Battle Leader on Thunderwolf"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Blood Claws",
+    "models": {
+      "Blood Claw Pack Leader": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Blood Claw": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Blood claw w/ flamer": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Blood claw w/ plasma gun": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Blood claw w/ meltagun": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Blood claw w/ grav-gun": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Astartes chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Grav-gun - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 2+"
+        ]
+      }
+    },
+    "abilities": [
+      "Berserk Charge:Each time this unit makes a Charge move, until the end of the turn, add 1 to the Attacks and Strength characteristics of melee weapons equipped by models in this unit.",
+      "Attached Unit:If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD or ASSAULT SQUAD, it can instead be attached to this unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Blood Claws"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Grey Hunters",
+    "models": {
+      "Grey Hunter Pack Leader": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Grey Hunter": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Grey Hunter w/ chainsword": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Grey Hunter w/ Special Weapon": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Grey Hunter w/ Plasma Pistol": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Astartes chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Cunning Hunters:This unit is eligible to shoot in a turn in which it Fell Back or Advanced.",
+      "Attached Unit:If a CHARACTER unit from your army with the Leader ability can be attached to an TACTICAL SQUAD, it can instead be attached to this unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Grey Hunters"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard",
+    "models": {
+      "Wolf Guard w/ boltgun": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 5, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard w/ combi-weapon": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 5, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard w/ plasma pistol": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 5, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard w/ storm bolter": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 5, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard w/ storm shield": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 5, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard w/ bolt pistol": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 5, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Heirloom weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Chosen Companions:While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+      "Attached Unit:If a CHARACTER unit from your army with the Leader ability can be attached to an STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD, it can instead be attached to this unit.",
+      "Storm Shield:The bearer has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Wolf Guard"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Lukas the Trickster",
+    "models": {
+      "Lukas the Trickster": {"M": 6, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Claw of the Jackalwolf - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Pelt of the Doppelgangrel::While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+      "Last Laugh:If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, roll one D6: on a 4+, the attacking unit suffers D6 mortal wounds and is Battle-shocked.",
+      "Leader:This model can be attached to the following unit: Blood Claws",
+      "Master of Mischief:This model cannot be your WARLORD."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Lukas the Trickster"
+    ],
+    "total_models": 1,
+    "points": 50,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard Terminators",
+    "models": {
+      "Wolf Guard Terminator": {"M": 5, "T": 5, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard Terminator w/ Heavy Weapon": {"M": 5, "T": 5, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Guard Terminator Pack Leader": {"M": 5, "T": 5, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Thunder hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Storm shield - Abilities": {
+        "type": "Abilities"
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Close Combat Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Cyclone missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Cyclone missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6"
+      }
+    },
+    "abilities": [
+      "Wolf Guard:Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attacks Ballistic Skill or Weapon Skill characteristic and/or to the hit roll. In addition, each time a model in this unit makes an attack that targets the enemy unit you selected for the Oath of Moment ability this turn, add 1 to the Hit roll.",
+      "Attached Leaders:If a CHARACTER unit from your army with the Leader ability can be attached to a TERMINATOR SQUAD, it can instead be attached to this unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard Terminators"
+    ],
+    "total_models": 1,
+    "points": 185,
+    "special_rules": []
+  },
+  {
+    "name": "Hounds of Morkai",
+    "models": {
+      "Hound of Morkai": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Morkai bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Anti-PSYKER 4+",
+          "Devastating Wounds",
+          "Pistol",
+          "Precision"
+        ]
+      },
+      "Morkai combat knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-PSYKER 4+",
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Morkais Howl:In your Shooting phase, you can select one enemy unit within 12\" of this unit (if a LIEUTENANT IN REIVER ARMOUR is leading this unit, you can select one enemy unit within 18\" instead). That unit must take a Battle-shock test, subtracting 1 from the result if it is a PSYKER unit. If that test is failed, in addition to being Battle-shocked, that unit is Stunned until the start of your next Shooting phase. While a unit is Stunned, each time a model in that unit makes a Psychic Attack, subtract 1 from the Hit roll.",
+      "Invulnerable Save:Models in this unit have a 6+ invulnerable save. This invulnerable save is improved to 4+ against Psychic Attacks.",
+      "Attached Unit:If a CHARACTER unit from your army with the Leader ability can be attached to a REIVER SQUAD, it can instead be attached to this unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Phobos",
+      "Hounds of Morkai"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Wulfen",
+    "models": {
+      "Wulfen w/ claws and launcher": {"M": 8, "T": 5, "SV": 4, "W": 2, "LD": 6, "OC": 0, "Inv": null, "Fnp": 6},
+      "Wulfen w/ hammer and shield": {"M": 8, "T": 5, "SV": 4, "W": 2, "LD": 6, "OC": 0, "Inv": null, "Fnp": 6},
+      "Wulfen w/ claws": {"M": 8, "T": 5, "SV": 4, "W": 2, "LD": 6, "OC": 0, "Inv": null, "Fnp": 6},
+      "Wulfen w/ hammer, shield and launcher": {"M": 8, "T": 5, "SV": 4, "W": 2, "LD": 6, "OC": 0, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Stormfrag auto-launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Blast"
+        ]
+      },
+      "Wulfen claws and melee weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1
+      },
+      "Storm shield - Abilities": {
+        "type": "Abilities"
+      },
+      "Wulfen hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Death Frenzy:Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking models unit has finished making its attacks, and is then removed from play."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Imperium",
+      "Wulfen"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Wulfen Dreadnought",
+    "models": {
+      "Wulfen Dreadnought": {"M": 8, "T": 9, "SV": 2, "W": 8, "LD": 6, "OC": 0, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Great wolf claw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 10,
+        "AP": 3,
+        "D": 3
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Blizzard shield - Abilities": {
+        "type": "Abilities"
+      },
+      "Fenrisian great axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Bestial Rage:Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers D3+3 mortal wounds."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Wulfen Dreadnought"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Murderfang",
+    "models": {
+      "Murderfang": {"M": 8, "T": 9, "SV": 2, "W": 8, "LD": 6, "OC": 0, "Inv": null, "Fnp": 6}
+    },
+    "weapons": {
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "The Murderclaws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 14,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Murder-maker:Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase.",
+      "Force of Untamed Destruction:This model cannot be your WARLORD."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Dreadnought",
+      "Murderfang"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Thunderwolf Cavalry",
+    "models": {
+      "Thunderwolf w/ plasma pistol": {"M": 10, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Thunderwolf w/ boltgun": {"M": 10, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Thunderwolf w/ storm shield": {"M": 10, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 2, "Inv": null, "Fnp": null},
+      "Thunderwolf w/ bolt pistol": {"M": 10, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Heirloom weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1
+      },
+      "Crushing teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Storm shield - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Ferocious Charge:Each time this unit makes a Charge move, until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by models in this unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Thunderwolf Cavalry"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules": []
+  },
+  {
+    "name": "Fenrisian Wolves",
+    "models": {
+      "Fenrisian Wolves": {"M": 10, "T": 4, "SV": 6, "W": 1, "LD": 8, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Swift Hunters:This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Beast",
+      "Imperium",
+      "Fenrisian Wolves"
+    ],
+    "total_models": 1,
+    "points": 30,
+    "special_rules": []
+  },
+  {
+    "name": "Skyclaws",
+    "models": {
+      "Skyclaw Pack Leader": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Skyclaw": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Skyclaw w/ plasma pistol": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Skyclaw w/ flamer": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Skyclaw w/ grav-gun": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Skyclaw w/ plasma gun": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Skyclaw w/ meltagun": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Astartes chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Grav-gun - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 2+"
+        ]
+      },
+      "Plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Headstrong:You can re-roll Charge rolls made for this unit. Each time this unit makes a Charge move, until the end of the turn, each time a model in this unit makes a melee attack, add 1 to the Hit roll.",
+      "Attached Unit:If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD WITH JUMP PACKS or ASSAULT SQUAD WITH JUMP PACKS, it can instead be attached to this unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Jump Pack",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Skyclaws"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Long Fangs",
+    "models": {
+      "Long Fang w/ boltgun": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ lascannon": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ heavy bolter": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ grav-cannon": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ missile launcher": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ plasma cannon": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ multi-melta": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang w/ heavy flamer": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Long Fang Pack Leader": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 1"
+        ]
+      },
+      "Grav-cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 4,
+        "S": 6,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Heavy"
+        ]
+      },
+      "Missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      "Missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Plasma cannon - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 4,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      "Plasma cannon - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 4,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Heavy"
+        ]
+      },
+      "Multi-melta - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 4,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Heavy",
+          "Melta 2"
+        ]
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Heavy",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Astartes chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Power weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Fire Discipline:Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1.",
+      "Attached Unit:If a CHARACTER unit from your army with the Leader ability can be attached to a DEVASTATOR SQUAD, it can instead be attached to this unit.",
+      "Armorium Cherub:Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Long Fangs"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules": []
+  },
+  {
+    "name": "Stormfang Gunship",
+    "models": {
+      "Stormfang Gunship": {"M": 20, "T": 10, "SV": 3, "W": 14, "LD": 6, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Helfrost destructor - dispersed - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 3,
+        "S": 11,
+        "AP": 3,
+        "D": 7,
+        "Keywords": [
+          "Sustained Hits D3"
+        ]
+      },
+      "Helfrost destructor - focused - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+6",
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Torrent"
+        ]
+      },
+      "Twin stormstrike missile launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 1,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Frozen Prey:In your Shooting phase, after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this models helfrost destructor, until the end of your opponents next turn, that enemy unit is Frozen. While a unit is Frozen, subtract 2 from that units Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Transport",
+      "Stormfang Gunship",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 300,
+    "special_rules": []
+  },
+  {
+    "name": "Stormwolf",
+    "models": {
+      "Stormwolf": {"M": 20, "T": 10, "SV": 3, "W": 14, "LD": 6, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Twin helfrost cannon - dispersed - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      "Twin helfrost cannon - focused - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 5,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Into the Foe:If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Transport",
+      "Stormwolf",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 250,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard Pack Leader",
+    "models": {
+      "Wolf Guard Pack Leader": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Blood Claws Grey Hunters Long Fangs You must attach this model to one of the above units, and can do so even if one or more Character units have already been attached to that unit, but a unit can never include more than one Pack Leader model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed.",
+      "Storm Shield:The bearer has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Pack Leader",
+      "Wolf Guard Pack Leader"
+    ],
+    "total_models": 1,
+    "points": 30,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard Pack Leader with Jump Pack",
+    "models": {
+      "Wolf Guard Pack Leader with Jump Pack": {"M": 12, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following unit: Skyclaws You must attach this model to the above unit, and can do so even if one or more Character units have already been attached to that unit, but a unit can never include more than one Pack Leader model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed.",
+      "Storm Shield:The bearer has a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Jump Pack",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Pack Leader",
+      "Wolf Guard Pack Leader with Jump Pack"
+    ],
+    "total_models": 1,
+    "points": 35,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Guard Pack Leader in Terminator Armour",
+    "models": {
+      "Wolf Guard Pack Leader in Terminator Armour": {"M": 5, "T": 5, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Cyclone missile launcher - frag - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Cyclone missile launcher - krak - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Twin lightning claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: Blood Claws Grey Hunters Long Fangs You must attach this model to one of the above units, and can do so even if one or more Character units have already been attached to that unit, but a unit can never include more than one Pack Leader model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed.",
+      "Storm Shield:The bearer has a Wounds characteristic of 4."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Terminator",
+      "Pack Leader",
+      "Wolf Guard Pack Leader in Terminator Armour"
+    ],
+    "total_models": 1,
+    "points": 40,
+    "special_rules": []
+  },
+  {
+    "name": "Iron Priest",
+    "models": {
+      "Iron Priest": {"M": 6, "T": 4, "SV": 2, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Helfrost pistol - dispersed - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D3",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Helfrost pistol - focused - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 6,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Servo-arm - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Tempest hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      }
+    },
+    "abilities": [
+      "Iron Priest:While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
+      "Blessing of the Omnissiah:In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.",
+      "Vengeance of the Omnissiah:If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this models tempest hammer has an Attacks characteristic of 6.",
+      "Leader:This model can be attached to the following units: Astartes Servitors Blood Claws Grey Hunters Long Fangs"
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Techmarine",
+      "Iron Priest"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Cyberwolf",
+    "models": {
+      "Cyberwolf": {"M": 10, "T": 4, "SV": 6, "W": 2, "LD": 7, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Teeth and claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Alpha Hunter:While this model is leading a unit, models in that unit have the Scouts 6\" ability.",
+      "Close In for the Kill:Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "Invulnerable Save:6+",
+      "Leader:This model can be attached to the following unit: Fenrisian Wolves You must attach this model to the above unit, even if Canis Wolfborn has been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed.",
+      "Wolfkin:This model cannot be your WARLORD and cannot be given Enhancements."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Beast",
+      "Character",
+      "Imperium",
+      "Cyberwolf"
+    ],
+    "total_models": 1,
+    "points": 20,
+    "special_rules": []
+  },
+  {
+    "name": "Wolf Scouts",
+    "models": {
+      "Wolf Scout Pack Leader": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Scout w/ boltgun": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Scout w/ shotgun": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Scout w/ combat knife": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Scout w/ special weapon": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Scout w/ power weapon": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Wolf Scout w/ plasma pistol": {"M": 6, "T": 4, "SV": 4, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Grav-pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Pistol"
+        ]
+      },
+      "Hand flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Inferno pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 4,
+        "D": "D3",
+        "Keywords": [
+          "Melta 2",
+          "Pistol"
+        ]
+      },
+      "Twin Lightning Claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Astartes shotgun - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Combat knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Guerrilla Tactics:At the end of your opponents turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into Strategic Reserves."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Scout Squad",
+      "Wolf Scouts"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Space Wolves Venerable Dreadnought",
+    "models": {
+      "Space Wolves Venerable Dreadnought": {"M": 6, "T": 9, "SV": 2, "W": 8, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Fenrisian great axe - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      },
+      "Blizzard shield - Abilities": {
+        "type": "Abilities"
+      },
+      "Storm bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Plasma cannon - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Plasma cannon - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "D3",
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      "Helfrost cannon - dispersed - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Torrent"
+        ]
+      },
+      "Helfrost cannon - focused - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 5
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Wisdom of the Ancients (Aura):While a friendly ADEPTUS ASTARTES INFANTRY unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1 and re-roll a Wound roll of 1."
+    ],
+    "keywords": [
+      "Adeptus Astartes",
+      "Space Wolves",
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Imperium",
+      "Dreadnought",
+      "Venerable Dreadnought"
+    ],
+    "total_models": 1,
+    "points": 155,
+    "special_rules": []
+  }
+]

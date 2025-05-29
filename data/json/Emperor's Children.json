@@ -1,0 +1,1476 @@
+[
+  {
+    "name": "Lucius the Eternal",
+    "models": {
+      "Lucius the Eternal": {"M": 8, "T": 5, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Blade of the Laer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Precision"
+        ]
+      },
+      "Lash of Torment - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 10,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: - **^^Flawless Blades^^**",
+      "Duellists Hubris:At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability.",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "A Challenge Worthy of Skill:Each time this model makes an attack that targets a **^^Character, Monster^^** or **^^Walker^^** unit, you can re-roll the Hit roll and re-roll the Wound roll."
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Slaanesh",
+      "Emperor's Children",
+      "Lucius the Eternal"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules": []
+  },
+  {
+    "name": "Fulgrim",
+    "models": {
+      "Fulgrim": {"M": 16, "T": 11, "SV": 2, "W": 16, "LD": 5, "OC": 6, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Malefic lash - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Serpentine tail - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Daemonic blades - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 14,
+        "AP": 3,
+        "D": "D6+1",
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      },
+      "Daemonic blades - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 12,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemonic Poisons:In your Shooting phase and the Fight phase, after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is poisoned. At the start of each player's Command phase, roll one D6 for each poisoned enemy unit on the battlefield: on a 4+, that enemy unit suffers D3 mortal wounds.",
+      "Daemon Prince of Slaanesh:At the start of your opponent's Command phase, select one of the abilities in the Daemon Prince of Slaanesh section. Until the start of your opponent's next Command phase, this model has that ability.",
+      "Damaged: 1-6 Wounds Remaining:While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Supreme Commander:If this model is in your army, it must be your **^^Warlord^^**.",
+      "Beguiling Form:Each time a model makes an attack that targets this unit, subtract 1 from the Hit roll.",
+      "Daemonic Speed:This model has the Fights First ability.",
+      "Enthralling Hypnosis (Aura):While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+    ],
+    "keywords": [
+      "Emperor's Children",
+      "Chaos",
+      "Slaanesh",
+      "Fulgrim",
+      "Primarch",
+      "Daemon",
+      "Monster",
+      "Fly",
+      "Epic Hero",
+      "Character"
+    ],
+    "total_models": 1,
+    "points": 385,
+    "special_rules": []
+  },
+  {
+    "name": "Lord Exultant",
+    "models": {
+      "Lord Exultant": {"M": 7, "T": 4, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Rapture lash - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Phoenix power spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Lance"
+        ]
+      },
+      "Master-crafted power sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Precision"
+        ]
+      },
+      "Screamer pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Perfectionists:While this model is leading a unit, weapons equipped by models in that unit have the **^^[LETHAL HITS]^^** ability.",
+      "Euphoric Strikes:Once per battle, at the start of the Fight phase, this model can use this ability. If it does so, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1.",
+      "Lord of the Host:If this model is attached to an **^^Emperor's Children Battleline^^** unit during the Declare Battle Formations step, this model has the Infiltrators and Scouts 6\" ability.",
+      "Leader:This model can be attached to the following units: **^^Infractors; Tormentors^^**"
+    ],
+    "keywords": [
+      "Character",
+      "Emperor's Children",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Lord Exultant"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Lord Kakophonist",
+    "models": {
+      "Lord Kakophonist": {"M": 6, "T": 5, "SV": 2, "W": 6, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Screamer pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Leader:This model can be attached to the following units: **^^Emperor's Children Terminator Squad; Noise Marines^^**",
+      "Obsessive Annunciation:While this model is leading a unit, ranged weapons equipped by that unit have the [SUSTAINED HITS 1] ability.",
+      "Doom Siren:In your Shooting phase, after this model's unit has shot, select one enemy **^^Infantry^^** unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+    ],
+    "keywords": [
+      "Character",
+      "Grenades",
+      "Infantry",
+      "Chaos",
+      "Slaanesh",
+      "Emperor's Children",
+      "Lord Kakophonist"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Sorcerer",
+    "models": {
+      "Sorcerer": {"M": 7, "T": 4, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Force weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Agonising Energies - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Psychic"
+        ]
+      },
+      "Agonising Energies - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    },
+    "abilities": [
+      "Leader:This model can be attached to the following units: **^^Infractors; Noise Marines; Tormentors^^**",
+      "Warped Interference (Psychic):While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack.",
+      "Wracking Agonies (Psychic):In your Shooting phase, after this model has shot, select one INFANTRY unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracked with agonies. While a unit is wracked with agonies, subtract 2\" from its Move characteristic and subtract 2 from charge rolls made for it."
+    ],
+    "keywords": [
+      "Emperor's Children",
+      "Character",
+      "Infantry",
+      "Psyker",
+      "Chaos",
+      "Slaanesh",
+      "Grenades",
+      "Sorcerer"
+    ],
+    "total_models": 1,
+    "points": 60,
+    "special_rules": []
+  },
+  {
+    "name": "Daemon Prince of Slaanesh",
+    "models": {
+      "Daemon Prince of Slaanesh": {"M": 10, "T": 10, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Hellforged weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Lord of Excess:While this model is within 3\" of one or more friendly **^^Slaanesh Infantry^^**, this model has the Lone Operative ability.",
+      "Excessive Vigour (Aura):While a friendly **^^Slaanesh^^** unit is within 6\" of this model, if that unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by that unit by 1.",
+      "Ecstatic Death:If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    ],
+    "keywords": [
+      "Emperor's Children",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Daemon Prince"
+    ],
+    "total_models": 1,
+    "points": 195,
+    "special_rules": []
+  },
+  {
+    "name": "Daemon Prince of Slaanesh with Wings",
+    "models": {
+      "Daemon Prince of Slaanesh with Wings": {"M": 14, "T": 9, "SV": 2, "W": 10, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Infernal cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      },
+      "Hellforged weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 14,
+        "WS": 2,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemonic Destruction:Each time this model ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6 for each of this model's remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+      "Stimulated by Pain:Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "keywords": [
+      "Emperor's Children",
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Fly",
+      "Daemon Prince with Wings"
+    ],
+    "total_models": 1,
+    "points": 180,
+    "special_rules": []
+  },
+  {
+    "name": "Tormentors",
+    "models": {
+      "Tormentors": {"M": 7, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Rapture lash - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Power sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Precision"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Plasma gun - standard - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Precision",
+          "Rapid Fire 1"
+        ]
+      },
+      "Plasma gun - supercharge - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": [
+          "Hazardous",
+          "Precision",
+          "Rapid Fire 1"
+        ]
+      },
+      "Meltagun - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2",
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Icon of Excess:At the end of your Shooting phase or the Fight phase, if the bearer's unit destroyed one or more enemy units this phase, the bearer's unit takes a Leadership test. If that test is passed, you gain 1CP.",
+      "Objective Defiled:At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Tormentors"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Infractors",
+    "models": {
+      "Infractors": {"M": 7, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Rapture lash - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Power sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 2,
+        "D": 1
+      },
+      "Duelling sabre - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Excessive Assault:Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.",
+      "Icon of Excess:At the end of your Shooting phase or the Fight phase, if the bearer's unit destroyed one or more enemy units this phase, the bearer's unit takes a Leadership test. If that test is passed, you gain 1CP."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Infractors"
+    ],
+    "total_models": 1,
+    "points": 85,
+    "special_rules": []
+  },
+  {
+    "name": "Flawless Blades",
+    "models": {
+      "Flawless Blades": {"M": 8, "T": 5, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Blissblade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 6,
+        "AP": 3,
+        "D": 2
+      },
+      "Bolt pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Daemonic Patrons:Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack. an unmodified Wound roll of 3+ scores a Critical Wound. At the end of the Fight phase, if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Flawless Blades",
+      "Emperor's Children"
+    ],
+    "total_models": 1,
+    "points": 110,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Terminators",
+    "models": {
+      "Chaos Terminators": {"M": 6, "T": 5, "SV": 2, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Power fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Chainfist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-VEHICLE 3+"
+        ]
+      },
+      "Heavy flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Reaper autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 4,
+        "BS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      "Paired accursed weapons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Lethal Obsession:In your Shooting phase, each time this unit is selected to shoot, if it makes one or more shooting attacks and all of those attacks target the same enemy unit, until the end of the turn, each time this unit declares a charge, if that enemy unit is a target of that charge, you can re-roll the Charge roll.",
+      "Invulnerable Save:Models in this unit have a 4+ invulnerable save."
+    ],
+    "keywords": [
+      "Infantry",
+      "Chaos",
+      "Terminator",
+      "Emperor's Children",
+      "Slaanesh",
+      "Terminator Squad"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Spawn",
+    "models": {
+      "Chaos Spawn": {"M": 10, "T": 5, "SV": 4, "W": 4, "LD": 7, "OC": 1, "Inv": null, "Fnp": 5}
+    },
+    "weapons": {
+      "Hideous Mutations - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": "D6+2",
+        "WS": 4,
+        "S": 5,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Scuttling Horrors:Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, this unit can make a Normal move of up to 6\"."
+    ],
+    "keywords": [
+      "Beast",
+      "Chaos",
+      "Emperor's Children",
+      "Slaanesh",
+      "Chaos Spawn"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Land Raider",
+    "models": {
+      "Chaos Land Raider": {"M": 10, "T": 12, "SV": 2, "W": 16, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Soulshatter lascannon - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+1"
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 4,
+        "S": 8,
+        "AP": 0,
+        "D": 1
+      },
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Twin heavy bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      }
+    },
+    "abilities": [
+      "Assault Ramp:Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Damaged: 1-5 wounds remaining:While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Chaos",
+      "Land Raider Proteus",
+      "Slaanesh",
+      "Emperor's Children"
+    ],
+    "total_models": 1,
+    "points": 240,
+    "special_rules": []
+  },
+  {
+    "name": "Noise Marines",
+    "models": {
+      "Disharmonist": {"M": 6, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Noise Marine w/ sonic blaster": {"M": 6, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null},
+      "Noise Marine w/ blastmaster": {"M": 6, "T": 5, "SV": 3, "W": 2, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Power sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Screamer pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol"
+        ]
+      },
+      "Sonic blaster - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Blastmaster - varied frequency - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover"
+        ]
+      },
+      "Blastmaster - single frequency - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 10,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Ignores Cover"
+        ]
+      }
+    },
+    "abilities": [
+      "Terrifying Crescendo:In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Emperor's Children",
+      "Noise Marines"
+    ],
+    "total_models": 1,
+    "points": 135,
+    "special_rules": []
+  },
+  {
+    "name": "Heldrake",
+    "models": {
+      "Heldrake": {"M": 20, "T": 10, "SV": 2, "W": 14, "LD": 7, "OC": 0, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Heldrake claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-FLY 2+",
+          "Devastating Wounds"
+        ]
+      },
+      "Baleflamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Hades autocannon - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 6,
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2
+      }
+    },
+    "abilities": [
+      "Airborne Predator:Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can ^^FLY^^: for each 4+, that enemy unit suffers D3 mortal wounds.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Chaos",
+      "Daemon",
+      "Heldrake",
+      "Emperor's Children",
+      "Slaanesh"
+    ],
+    "total_models": 1,
+    "points": 195,
+    "special_rules": []
+  },
+  {
+    "name": "Maulerfiend",
+    "models": {
+      "Maulerfiend": {"M": 10, "T": 10, "SV": 3, "W": 12, "LD": 6, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Maulerfiend fists - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 14,
+        "AP": 2,
+        "D": "D6+1"
+      },
+      "Magma cutter - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 2"
+        ]
+      },
+      "Lasher tendrils - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Glutton for Punishment:Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-Strength, add 1 to the Wound roll as well.",
+      "Invulnerable Save:This model has a 5+ invulnerable save."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Emperor's Children",
+      "Slaanesh",
+      "Maulerfiend"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules": []
+  },
+  {
+    "name": "Chaos Rhino",
+    "models": {
+      "Chaos Rhino": {"M": 12, "T": 9, "SV": 3, "W": 10, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Combi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-INFANTRY 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      "Havoc launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": "D6",
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Armoured tracks - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Assault Vehicle:Units can disembark from this **^^Vehicle**^^ after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Chaos",
+      "Rhino",
+      "Smoke",
+      "Emperor's Children",
+      "Slaanesh"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules": []
+  },
+  {
+    "name": "Shalaxi Helbane",
+    "models": {
+      "Shalaxi Helbane": {"M": 14, "T": 10, "SV": 5, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lash of Slaanesh - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Pavane of Slaanesh - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 9,
+        "AP": 1,
+        "D": "D3",
+        "Keywords": [
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      "Pavane of Slaanesh - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 2,
+        "S": 9,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Hazardous",
+          "Devastating Wounds",
+          "Psychic",
+          "Sustained Hits 3"
+        ]
+      },
+      "Snapping claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds",
+          "Extra Attacks"
+        ]
+      },
+      "Soulpiercer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 12,
+        "AP": 3,
+        "D": "D6+2",
+        "Keywords": [
+          "Precision"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "No Prey Can Evade:You can re-roll Advance and Charge rolls made for this model.",
+      "Monarch of the Hunt:At the start of the first battle round, select one enemy unit to be this model's quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's quarry is destroyed, select one new enemy unit to be this model's quarry."
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Legions of Excess",
+      "Shalaxi Helbane"
+    ],
+    "total_models": 1,
+    "points": 380,
+    "special_rules": []
+  },
+  {
+    "name": "Keeper of Secrets",
+    "models": {
+      "Keeper of Secrets": {"M": 14, "T": 10, "SV": 5, "W": 18, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Phantasmagoria - witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      "Phantasmagoria - focused witchfire - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 9,
+        "BS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
+        ]
+      },
+      "Witstealer sword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": 3
+      },
+      "Snapping claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds",
+          "Extra Attacks"
+        ]
+      },
+      "Living whip - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Ritual knife - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Daemon Lord of Slaanesh (Aura):While a friendly ^^**Legions of Excess**^^ unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1.",
+      "Mesmerising Form:Each time an attack targets this model, subtract 1 from the Hit roll.",
+      "Shining aegis:The bearer has a Save characteristic of 3+."
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Legions of Excess",
+      "Keeper of Secrets"
+    ],
+    "total_models": 1,
+    "points": 280,
+    "special_rules": []
+  },
+  {
+    "name": "Daemonettes",
+    "models": {
+      "Daemonettes": {"M": 9, "T": 3, "SV": 7, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Slashing claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Horrifying Beauty:At the start of the Fight phase, each enemy unit in Engagement Range of one or more units from your army with this ability must take a Battle-shock test, subtracting 1 from that test if that enemy unit is Below Half-strength.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Daemonic Icon:Models in the bearer's unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos:Add 1 to Charge rolls made for the bearer's unit."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Daemonettes",
+      "Legions of Excess",
+      "Summoned"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  },
+  {
+    "name": "Fiends",
+    "models": {
+      "Fiends": {"M": 12, "T": 5, "SV": 7, "W": 4, "LD": 7, "OC": 2, "Inv": null, "Fnp": null},
+      "Blissbringer": {"M": 12, "T": 5, "SV": 7, "W": 4, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Barbed tail and dissecting claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Soporific Musk:Each time an enemy unit (excluding ^^**Monsters**^^ and **^^Vehicles**^^) within Engagement Range of one or more units from your army with this ability Falls Back, models in that unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+    ],
+    "keywords": [
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Fiends",
+      "Legions of Excess",
+      "Summoned"
+    ],
+    "total_models": 1,
+    "points": 95,
+    "special_rules": []
+  },
+  {
+    "name": "Seekers",
+    "models": {
+      "Seeker": {"M": 14, "T": 4, "SV": 7, "W": 2, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lashing tongues - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Slashing claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Unholy Speed:You can re-roll Advance and Charge rolls made for this unit.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Daemonic Icon:Models in the bearer's unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos:Add 1 to Charge rolls made for the bearer's unit."
+    ],
+    "keywords": [
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Seekers",
+      "Summoned",
+      "Legions of Excess"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules": []
+  }
+]
