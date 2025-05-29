@@ -25,6 +25,15 @@ class CombatSimulatorGUI:
         self.main_frame = ttk.Frame(root, padding="10")
         self.main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
+        # Add info message at the top
+        info_text = """Faction names that include dates have had special rules added by hand;
+all other factions just have stats and weapon keywords.
+Cover is implemented as a Defender Special Rule.
+The first unit and weapon you include will be the first unit/weapon to activate.
+Please report any bugs to Andrew White."""
+        info_label = ttk.Label(self.main_frame, text=info_text, wraplength=600, justify=tk.LEFT)
+        info_label.grid(row=0, column=0, columnspan=10, pady=10, sticky=tk.W)
+        
         # Initialize widget lists
         self.attacker_units = []  # List to store attacker unit widgets
         self.weapon_widgets = []
@@ -123,22 +132,22 @@ class CombatSimulatorGUI:
     def create_attacker_section(self):
         """Create the attacker selection interface"""
         # Attacker label
-        ttk.Label(self.main_frame, text="Attacker", font=('Arial', 12, 'bold')).grid(row=0, column=0, columnspan=10, pady=5, sticky=tk.W)
+        ttk.Label(self.main_frame, text="Attacker", font=('Arial', 12, 'bold')).grid(row=1, column=0, columnspan=10, pady=5, sticky=tk.W)
 
         # Faction selection
-        ttk.Label(self.main_frame, text="Faction:").grid(row=1, column=0, sticky=tk.W)
+        ttk.Label(self.main_frame, text="Faction:").grid(row=2, column=0, sticky=tk.W)
         self.attacker_faction = ttk.Combobox(self.main_frame, values=sorted(self.faction_data.keys()), width=40)
-        self.attacker_faction.grid(row=1, column=1, sticky=(tk.W, tk.E), padx=5)
+        self.attacker_faction.grid(row=2, column=1, sticky=(tk.W, tk.E), padx=5)
         self.attacker_faction.bind('<<ComboboxSelected>>', self.update_attacker_units)
         self.attacker_faction.bind('<KeyRelease>', self.filter_attacker_faction)
 
         # Add Unit button
         self.add_unit_button = ttk.Button(self.main_frame, text="Add Unit", command=self.add_attacker_unit)
-        self.add_unit_button.grid(row=1, column=2, padx=5, sticky=tk.W)
+        self.add_unit_button.grid(row=2, column=2, padx=5, sticky=tk.W)
 
         # Frame to hold all unit frames in a row (must be before add_attacker_unit)
         self.units_row_frame = ttk.Frame(self.main_frame)
-        self.units_row_frame.grid(row=2, column=0, columnspan=10, sticky=(tk.W, tk.E), pady=2)
+        self.units_row_frame.grid(row=3, column=0, columnspan=10, sticky=(tk.W, tk.E), pady=2)
 
         # Add initial unit
         self.add_attacker_unit()
@@ -147,17 +156,17 @@ class CombatSimulatorGUI:
         self.update_unit_frames_in_row()
 
         # Distance to Defender (always below all units)
-        ttk.Label(self.main_frame, text="Distance to Defender:").grid(row=3, column=0, sticky=tk.W)
+        ttk.Label(self.main_frame, text="Distance to Defender:").grid(row=4, column=0, sticky=tk.W)
         self.attacker_range = ttk.Entry(self.main_frame, width=5)
-        self.attacker_range.grid(row=3, column=1, sticky=tk.W, padx=5)
+        self.attacker_range.grid(row=4, column=1, sticky=tk.W, padx=5)
         self.attacker_range.insert(0, "0")  # Default range
 
         # Special rules section
-        ttk.Label(self.main_frame, text="Attacker Special Rules:", font=('Arial', 10)).grid(row=4, column=0, columnspan=10, sticky=tk.W, pady=(10,5))
+        ttk.Label(self.main_frame, text="Attacker Special Rules:", font=('Arial', 10)).grid(row=5, column=0, columnspan=10, sticky=tk.W, pady=(10,5))
 
         # Special rules frame
         self.special_rules_frame = ttk.Frame(self.main_frame)
-        self.special_rules_frame.grid(row=5, column=0, columnspan=10, sticky=(tk.W, tk.E), pady=(0,10))
+        self.special_rules_frame.grid(row=6, column=0, columnspan=10, sticky=(tk.W, tk.E), pady=(0,10))
 
         # List to store special rule widgets
         self.special_rule_widgets = []
@@ -417,7 +426,7 @@ class CombatSimulatorGUI:
         
         # Update button position
         self.update_button_position()
-        
+
     def create_defender_section(self):
         """Create the defender selection interface"""
         # Defender label
@@ -843,10 +852,14 @@ class CombatSimulatorGUI:
                         weapon_name = unit_data['weapon_widgets'][i + 1].get()
                         if weapon_name:
                             weapon_data = attacker_unit_data['weapons'][weapon_name]
+                            try:
+                                tmp_range = int(weapon_data['Range'])
+                            except ValueError:
+                                tmp_range = weapon_data['Range']
                             weapon = Weapon(
                                 name=weapon_name,
                                 weapon_type=weapon_data['type'],
-                                range=int(weapon_data['Range']),
+                                range=tmp_range,
                                 attacks=int(weapon_data['A']),
                                 skill=int(weapon_data.get('WS', weapon_data.get('BS', 3))),
                                 strength=int(weapon_data['S']),
