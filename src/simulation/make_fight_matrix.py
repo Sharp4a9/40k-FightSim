@@ -1,5 +1,5 @@
 """
-Doesn't crash, no error messages, but results are wrong. Debug by printing debug statements in combat_engine.py.
+I think it's working now; lots of time debugging the target profile.
 """
 
 import json
@@ -71,11 +71,18 @@ def run_simulation(simulator: UnitCombatSimulator, attacker_config: Dict, target
             if weapon:
                 for _ in range(weapon_all['quantity']):
                     attacking_weapons.append(weapon)
-    print(attacking_weapons)
     
     # Create target model directly from target data
     model_name = list(target_data['models'].keys())[0]
     characteristics = target_data['models'][model_name]
+    if characteristics['INV'] is not None:
+        temp_inv = int(characteristics['INV'])
+    else:
+        temp_inv = None
+    if characteristics['FNP'] is not None:
+        temp_fnp = int(characteristics['FNP'])
+    else:
+        temp_fnp = None
     target_model = Model(
         name=target_data['name'],
         toughness=int(characteristics['T']),
@@ -83,10 +90,10 @@ def run_simulation(simulator: UnitCombatSimulator, attacker_config: Dict, target
         wounds=int(characteristics['W']),
         current_wounds=int(characteristics['W']),
         total_models=target_data.get('total_models'),
-        invulnerable_save=int(characteristics['INV']) if 'INV' in characteristics else None,
-        feel_no_pain=int(characteristics['FNP']) if 'FNP' in characteristics else None,
+        invulnerable_save=temp_inv,
+        feel_no_pain=temp_fnp,
         keywords=target_data.get('keywords', []),
-        special_rules=target_data.get('special_rules', [])
+        special_rules=target_data.get('special_rules_defence', [])
     )
     
     # Run simulation

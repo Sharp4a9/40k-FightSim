@@ -57,7 +57,7 @@ class UnitCombatSimulator:
                         
                         # Combine weapon keywords and unit special rules
                         weapon_special_rules = weapon_data.get('Keywords', [])
-                        unit_special_rules = unit.get('special_rules', [])
+                        unit_special_rules = unit.get('special_rules_attack', [])
                         combined_special_rules = list(set(weapon_special_rules + unit_special_rules))  # Remove duplicates
                         try:
                             tmp_range = int(weapon_data['Range'])
@@ -96,7 +96,7 @@ class UnitCombatSimulator:
                         invulnerable_save=int(characteristics['INV']) if 'INV' in characteristics else None,
                         feel_no_pain=int(characteristics['FNP']) if 'FNP' in characteristics else None,
                         keywords=unit.get('keywords', []),
-                        special_rules=unit.get('special_rules', [])
+                        special_rules=unit.get('special_rules_defence', [])
                     )
         return None
     
@@ -117,6 +117,28 @@ class UnitCombatSimulator:
         """
         damage_results = []
         models_destroyed_results = []
+
+        # Define single-use rules
+        has_reroll_1_hit = any("Reroll 1 Hit Roll" in w.special_rules for w in attacking_weapons)
+        has_reroll_1_wound = any("Reroll 1 Wound Roll" in w.special_rules for w in attacking_weapons)
+        has_reroll_1_hit_or_wound = any("Reroll 1 Hit or Wound" in w.special_rules for w in attacking_weapons)
+        has_reroll_1_hit_wound_or_damage = any("Reroll 1 Hit or Wound or Damage" in w.special_rules for w in attacking_weapons)
+        has_flip_a_6 = any("Flip Roll to 6" in w.special_rules for w in attacking_weapons)
+        has_flip_a_6_hit = any("Flip Hit Roll to 6" in w.special_rules for w in attacking_weapons)
+        has_flip_a_6_wound = any("Flip Wound Roll to 6" in w.special_rules for w in attacking_weapons)
+        has_flip_a_6_damage = any("Flip Damage Roll to 6" in w.special_rules for w in attacking_weapons)
+        has_flip_a_6_hit_wound = any("Flip Hit or Wound Roll to 6" in w.special_rules for w in attacking_weapons)
+        one_use_rules = {
+            "has_reroll_1_hit": has_reroll_1_hit,
+            "has_reroll_1_wound": has_reroll_1_wound,
+            "has_reroll_1_hit_or_wound": has_reroll_1_hit_or_wound,
+            "has_reroll_1_hit_wound_or_damage": has_reroll_1_hit_wound_or_damage,
+            "has_flip_a_6": has_flip_a_6,
+            "has_flip_a_6_hit": has_flip_a_6_hit,
+            "has_flip_a_6_wound": has_flip_a_6_wound,
+            "has_flip_a_6_damage": has_flip_a_6_damage,
+            "has_flip_a_6_hit_wound": has_flip_a_6_hit_wound
+        }
         
         # Set target range for all weapons
         for weapon in attacking_weapons:
@@ -126,44 +148,10 @@ class UnitCombatSimulator:
             # Reset defending unit's wounds for each simulation
             defending_unit.current_wounds = defending_unit.wounds
             
-            # Track if we've used single-use abilities
-            hit_reroll_used = False
-            wound_reroll_used = False
-            hit_wound_or_damage_reroll_used = False
-            flip_a_6_hit_used = False
-            flip_a_6_wound_used = False
-            flip_a_6_damage_used = False
-            flip_a_6_hit_wound_used = False
-            flip_a_6_used = False
-            
             # Calculate total damage and models destroyed
             total_damage = 0
             for weapon in attacking_weapons:
-                # Check if any weapon has one-use special rules
-                has_reroll_1_hit = any("Reroll 1 Hit Roll" in w.special_rules for w in attacking_weapons)
-                has_reroll_1_wound = any("Reroll 1 Wound Roll" in w.special_rules for w in attacking_weapons)
-                has_reroll_1_hit_or_wound = any("Reroll 1 Hit or Wound" in w.special_rules for w in attacking_weapons)
-                has_reroll_1_hit_wound_or_damage = any("Reroll 1 Hit or Wound or Damage" in w.special_rules for w in attacking_weapons)
-                has_flip_a_6 = any("Flip Roll to 6" in w.special_rules for w in attacking_weapons)
-                has_flip_a_6_hit = any("Flip Hit Roll to 6" in w.special_rules for w in attacking_weapons)
-                has_flip_a_6_wound = any("Flip Wound Roll to 6" in w.special_rules for w in attacking_weapons)
-                has_flip_a_6_damage = any("Flip Damage Roll to 6" in w.special_rules for w in attacking_weapons)
-                has_flip_a_6_hit_wound = any("Flip Hit or Wound Roll to 6" in w.special_rules for w in attacking_weapons)
-                weapon.one_use_rules = {
-                    "has_reroll_1_hit": has_reroll_1_hit,
-                    "has_reroll_1_wound": has_reroll_1_wound,
-                    "has_reroll_1_hit_or_wound": has_reroll_1_hit_or_wound,
-                    "has_reroll_1_hit_wound_or_damage": has_reroll_1_hit_wound_or_damage,
-                    "has_flip_a_6": has_flip_a_6,
-                    "has_flip_a_6_hit": has_flip_a_6_hit,
-                    "has_flip_a_6_wound": has_flip_a_6_wound,
-                    "has_flip_a_6_damage": has_flip_a_6_damage,
-                    "has_flip_a_6_hit_wound": has_flip_a_6_hit_wound
-                }
-
-                # Pass the reroll tracking to the combat engine
-                results = self.combat_engine.resolve_attacks(weapon, defending_unit)
-                
+                results = self.combat_engine.resolve_attacks(weapon, defending_unit, one_use_rules)
                 total_damage += results["damage_dealt"]
             
             # Calculate models destroyed based on total damage

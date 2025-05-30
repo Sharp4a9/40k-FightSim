@@ -214,7 +214,7 @@ class CombatEngine:
             
         return base_attacks
 
-    def roll_damage(self, damage_value: Union[int, str], weapon: Weapon, target: Model, is_critical_hit: bool = False) -> int:
+    def roll_damage(self, damage_value: Union[int, str], weapon: Weapon, target: Model, is_critical_hit: bool = False, one_use_rules: Dict[str, bool] = None) -> int:
         """Calculate damage based on the weapon's damage value"""
         self.debug_print(f"  Rolling damage for value: {damage_value}")
         if isinstance(damage_value, int):
@@ -236,9 +236,9 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            elif weapon.one_use_rules["has_hit_wound_or_damage_reroll"] and unmodified_roll < 4:
+            elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
                 should_reroll = True
-                weapon.one_use_rules["has_hit_wound_or_damage_reroll"] = False
+                one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
                 self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
 
             if should_reroll:
@@ -247,26 +247,26 @@ class CombatEngine:
                 result = unmodified_reroll + int(match.group(1))
                 self.debug_print(f"  Reroll result: {result}")
 
-            if weapon.one_use_rules["has_flip_a_6_damage"]:
+            if one_use_rules["has_flip_a_6_damage"]:
                 if should_reroll and unmodified_reroll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    one_use_rules["has_flip_a_6_damage"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll + int(match.group(1))
                 elif unmodified_roll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    one_use_rules["has_flip_a_6_damage"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll + int(match.group(1))
-            elif weapon.one_use_rules["has_flip_a_6"]:
+            elif one_use_rules["has_flip_a_6"]:
                 if should_reroll and unmodified_reroll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6"] = False
+                    one_use_rules["has_flip_a_6"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll + int(match.group(1))
                 elif unmodified_roll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6"] = False
+                    one_use_rules["has_flip_a_6"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll + int(match.group(1))
             
@@ -286,9 +286,9 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
+            elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
                 should_reroll = True
-                weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+                one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
                 self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
 
             if should_reroll:
@@ -298,26 +298,26 @@ class CombatEngine:
                 self.debug_print(f"  Reroll result: {reroll}")
                 result = reroll
 
-            if weapon.one_use_rules["has_flip_a_6_damage"]:
+            if one_use_rules["has_flip_a_6_damage"]:
                 if should_reroll and unmodified_reroll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    one_use_rules["has_flip_a_6_damage"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll
                 elif unmodified_roll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    one_use_rules["has_flip_a_6_damage"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll
-            elif weapon.one_use_rules["has_flip_a_6"]:
+            elif one_use_rules["has_flip_a_6"]:
                 if should_reroll and unmodified_reroll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6"] = False
+                    one_use_rules["has_flip_a_6"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll
                 elif unmodified_roll < 4:
                     die_roll = 6
-                    weapon.one_use_rules["has_flip_a_6"] = False
+                    one_use_rules["has_flip_a_6"] = False
                     self.debug_print("  Using Flip Damage Roll to 6 special rule")
                     result = die_roll
 
@@ -338,9 +338,9 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
+            elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
                 should_reroll = True
-                weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+                one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
                 self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
 
             if should_reroll:
@@ -366,9 +366,9 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
+            elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
                 should_reroll = True
-                weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+                one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
                 self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
 
             if should_reroll:
@@ -396,9 +396,9 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon):
                 # Reroll if any die rolled a 1
                 should_reroll = 1 in unmodified_rolls
-            elif weapon.one_use_rules["has_hit_wound_or_damage_reroll"] and unmodified_roll < 4:
+            elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
                 should_reroll = True
-                weapon.one_use_rules["has_hit_wound_or_damage_reroll"] = False
+                one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
                 self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
 
             if should_reroll:
@@ -560,7 +560,7 @@ class CombatEngine:
                     return True
         return False
 
-    def make_hit_roll(self, weapon: Weapon, target: Model) -> Dict[str, bool]:
+    def make_hit_roll(self, weapon: Weapon, target: Model, one_use_rules: Dict[str, bool]) -> Dict[str, bool]:
         """Make a hit roll based on the weapon's skill"""
         # Check for Torrent special rule
         if self.has_torrent(weapon):
@@ -583,20 +583,20 @@ class CombatEngine:
         elif self.has_reroll_hits_1(weapon) and unmodified_roll == 1:
             # Reroll if we rolled a 1
             should_reroll = True
-        elif weapon.one_use_rules["has_reroll_1_hit"] and roll < weapon.skill:
+        elif one_use_rules["has_reroll_1_hit"] and roll < weapon.skill:
             # Reroll if we rolled a 1 and haven't used the reroll yet
             should_reroll = True
-            weapon.one_use_rules["has_reroll_1_hit"] = False
+            one_use_rules["has_reroll_1_hit"] = False
             self.debug_print("  Using Reroll 1 Hit Roll special rule")
-        elif weapon.one_use_rules["has_reroll_1_hit_or_wound"] and roll < weapon.skill:
+        elif one_use_rules["has_reroll_1_hit_or_wound"] and roll < weapon.skill:
             # Reroll if we rolled a 1 and haven't used the reroll yet
             should_reroll = True
-            weapon.one_use_rules["has_reroll_1_hit_or_wound"] = False
+            one_use_rules["has_reroll_1_hit_or_wound"] = False
             self.debug_print("  Using Reroll 1 Hit or Wound special rule")
-        elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and roll < weapon.skill:
+        elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and roll < weapon.skill:
             # Reroll if we rolled a 1 and haven't used the reroll yet
             should_reroll = True
-            weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+            one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
             self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
         
         if should_reroll:
@@ -608,17 +608,17 @@ class CombatEngine:
             roll = reroll
         
         # Apply a flipped 6, if any.
-        if weapon.one_use_rules["has_flip_a_6_hit"] and roll < weapon.skill:
+        if one_use_rules["has_flip_a_6_hit"] and roll < weapon.skill:
             unmodified_roll = 6
-            weapon.one_use_rules["has_flip_a_6_hit"] = False
+            one_use_rules["has_flip_a_6_hit"] = False
             self.debug_print("  Using Flip Hit Roll to 6 special rule")
-        elif weapon.one_use_rules["has_flip_a_6_hit_wound"] and roll < weapon.skill:
+        elif one_use_rules["has_flip_a_6_hit_wound"] and roll < weapon.skill:
             unmodified_roll = 6
-            weapon.one_use_rules["has_flip_a_6_hit_wound"] = False
+            one_use_rules["has_flip_a_6_hit_wound"] = False
             self.debug_print("  Using Flip Hit or Wound Roll to 6 special rule")
-        elif weapon.one_use_rules["has_flip_a_6"] and roll < weapon.skill:
+        elif one_use_rules["has_flip_a_6"] and roll < weapon.skill:
             unmodified_roll = 6
-            weapon.one_use_rules["has_flip_a_6"] = False
+            one_use_rules["has_flip_a_6"] = False
             self.debug_print("  Using Flip Hit Roll to 6 special rule")
 
         # Check for automatic failure on unmodified roll of 1
@@ -636,7 +636,7 @@ class CombatEngine:
             "critical": is_critical
         }
 
-    def make_wound_roll(self, weapon: Weapon, target: Model, is_critical_hit: bool = False) -> Dict[str, bool]:
+    def make_wound_roll(self, weapon: Weapon, target: Model, is_critical_hit: bool = False, one_use_rules: Dict[str, bool] = None) -> Dict[str, bool]:
         """Make a wound roll based on strength vs toughness"""
         # Lethal Hits automatically wound on critical hits
         if is_critical_hit and self.has_lethal_hits(weapon, target):
@@ -676,20 +676,20 @@ class CombatEngine:
         elif self.has_reroll_wounds_1(weapon) and unmodified_roll == 1:
             # Reroll if we rolled a 1
             should_reroll = True
-        elif weapon.one_use_rules["has_reroll_1_wound"] and roll < required:
+        elif one_use_rules["has_reroll_1_wound"] and roll < required:
             # Use a 1-use reroll
             should_reroll = True
-            weapon.one_use_rules["has_reroll_1_wound"] = False
+            one_use_rules["has_reroll_1_wound"] = False
             self.debug_print("  Using Reroll 1 Wound Roll special rule")
-        elif weapon.one_use_rules["has_reroll_1_hit_or_wound"] and roll < required:
+        elif one_use_rules["has_reroll_1_hit_or_wound"] and roll < required:
             # Use a 1-use reroll
             should_reroll = True
-            weapon.one_use_rules["has_reroll_1_hit_or_wound"] = False
+            one_use_rules["has_reroll_1_hit_or_wound"] = False
             self.debug_print("  Using Reroll 1 Hit or Wound special rule")
-        elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and roll < required:
+        elif one_use_rules["has_reroll_1_hit_wound_or_damage"] and roll < required:
             # Use a 1-use reroll
             should_reroll = True
-            weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+            one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
             self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
 
         if should_reroll:
@@ -701,17 +701,17 @@ class CombatEngine:
             roll = reroll
 
         # Apply a flipped 6, if any.
-        if weapon.one_use_rules["has_flip_a_6_wound"] and roll < required:
+        if one_use_rules["has_flip_a_6_wound"] and roll < required:
             unmodified_roll = 6
-            weapon.one_use_rules["has_flip_a_6_wound"] = False
+            one_use_rules["has_flip_a_6_wound"] = False
             self.debug_print("  Using Flip Wound Roll to 6 special rule")
-        elif weapon.one_use_rules["has_flip_a_6_hit_wound"] and roll < required:
+        elif one_use_rules["has_flip_a_6_hit_wound"] and roll < required:
             unmodified_roll = 6
-            weapon.one_use_rules["has_flip_a_6_hit_wound"] = False
+            one_use_rules["has_flip_a_6_hit_wound"] = False
             self.debug_print("  Using Flip Hit or Wound Roll to 6 special rule")
-        elif weapon.one_use_rules["has_flip_a_6"] and roll < required:
+        elif one_use_rules["has_flip_a_6"] and roll < required:
             unmodified_roll = 6
-            weapon.one_use_rules["has_flip_a_6"] = False
+            one_use_rules["has_flip_a_6"] = False
             self.debug_print("  Using Flip Wound Roll to 6 special rule")
 
         # Check for automatic failure on unmodified roll of 1
@@ -752,7 +752,7 @@ class CombatEngine:
             self.debug_print("  Target has -1 AP rule")
             ap_value = max(0, ap_value - 1)
             self.debug_print(f"  AP value after -1 AP rule: {ap_value}")
-        elif "-1 AP in Melee" in target.special_rules and weapon.weapon_type == "melee":
+        elif "-1 AP in Melee" in target.special_rules and weapon.weapon_type.lower() == "melee":
             self.debug_print("  Target has -1 AP in Melee rule and weapon is melee")
             ap_value = max(0, ap_value - 1)
             self.debug_print(f"  AP value after -1 AP in Melee rule: {ap_value}")
@@ -761,23 +761,25 @@ class CombatEngine:
         
         # Apply Cover special rule if present and weapon is ranged
         if (("Cover" in target.special_rules or "Smoke" in target.special_rules) and 
-            weapon.weapon_type == "ranged" and 
+            weapon.weapon_type.lower() == "ranged" and 
             "Ignores Cover" not in weapon.special_rules):
             self.debug_print("  Target has Cover rule (from Cover or Smoke) and weapon is ranged and doesn't ignore cover")
             # Only prevent save from going below 3 if base save is 3 or higher
             if target.save >= 3:
                 save_value = max(3, save_value - 1)
             else:
-                save_value = save_value - 1
+                save_value = max(2, save_value - 1)
             self.debug_print(f"  Save value after Cover: {save_value}")
-        
 
-        # Check for special invulnerable save rules
+        # Debug print all special rules
+        self.debug_print(f"  Target special rules: {target.special_rules}")
+
+        # Check for Invulnerable Save Ranged special rule
         for rule in target.special_rules:
             if rule.startswith("Invulnerable Save Ranged "):
                 # Extract the value from the rule
                 match = re.match(r'Invulnerable Save Ranged (\d+)\+', rule)
-                if match and weapon.weapon_type == "ranged":
+                if match and weapon.weapon_type.lower() == "ranged":
                     inv_value = int(match.group(1))
                     self.debug_print(f"  Target has {rule} and weapon is ranged - using {inv_value}+ invulnerable save")
                     if roll >= inv_value:
@@ -786,30 +788,22 @@ class CombatEngine:
             if rule.startswith("Invulnerable Save Melee "):
                 # Extract the value from the rule
                 match = re.match(r'Invulnerable Save Melee (\d+)\+', rule)
-                if match and weapon.weapon_type == "melee":
+                if match and weapon.weapon_type.lower() == "melee":
                     inv_value = int(match.group(1))
                     self.debug_print(f"  Target has {rule} and weapon is melee - using {inv_value}+ invulnerable save")
                     if roll >= inv_value:
                         return True
                     return False
-            if rule.startswith("Invulnerable Save "):
-                # Extract the value from the rule
-                match = re.match(r'Invulnerable Save (\d+)\+', rule)
-                if match:
-                    inv_value = int(match.group(1))
-                    self.debug_print(f"  Target has {rule} - using {inv_value}+ invulnerable save")
-                    if roll >= inv_value:
-                        return True
-                    return False
-                
+
         # Check invulnerable save if available
         if target.invulnerable_save is not None:
+            self.debug_print(f"  Using general invulnerable save: {target.invulnerable_save}+")
             if roll >= target.invulnerable_save:
                 return True
                 
         return roll >= save_value
 
-    def resolve_attack(self, weapon: Weapon, target: Model,results: Dict[str, Any] = None) -> Dict[str, bool]:
+    def resolve_attack(self, weapon: Weapon, target: Model, one_use_rules: Dict[str, bool]) -> Dict[str, bool]:
         """Resolve a single attack from a weapon against a target"""
         self.debug_print(f"  Starting attack with {weapon.name}")
         self.debug_print(f"  Weapon damage value: {weapon.damage}")
@@ -821,11 +815,11 @@ class CombatEngine:
                     self.debug_print("  Target has -1 to be Hit rule")
                     self.hit_modifiers -= 1
                     self.debug_print(f"  Hit modifiers reduced to {self.hit_modifiers}")
-                elif rule == "-1 to be Hit in Melee" and weapon.weapon_type == "melee":
+                elif rule == "-1 to be Hit in Melee" and weapon.weapon_type.lower() == "melee":
                     self.debug_print("  Target has -1 to be Hit in Melee rule and weapon is melee")
                     self.hit_modifiers -= 1
                     self.debug_print(f"  Hit modifiers reduced to {self.hit_modifiers}")
-                elif rule == "Stealth" and weapon.weapon_type == "ranged":
+                elif rule == "Stealth" and weapon.weapon_type.lower() == "ranged":
                     self.debug_print("  Target has Stealth rule")
                     self.hit_modifiers -= 1
                     self.debug_print(f"  Hit modifiers reduced to {self.hit_modifiers}")
@@ -838,7 +832,7 @@ class CombatEngine:
                     self.debug_print("  Target has -1 to be Wounded rule")
                     self.wound_modifiers -= 1
                     self.debug_print(f"  Wound modifiers reduced to {self.wound_modifiers}")
-                elif rule == "-1 to be Wounded in Melee" and weapon.weapon_type == "melee":
+                elif rule == "-1 to be Wounded in Melee" and weapon.weapon_type.lower() == "melee":
                     self.debug_print("  Target has -1 to be Wounded in Melee rule and weapon is melee")
                     self.wound_modifiers -= 1
                     self.debug_print(f"  Wound modifiers reduced to {self.wound_modifiers}")
@@ -871,7 +865,7 @@ class CombatEngine:
                     self.debug_print(f"  Wound modifiers increased to {self.wound_modifiers}")
 
         # Step 1: Hit Roll
-        hit_result = self.make_hit_roll(weapon, target)
+        hit_result = self.make_hit_roll(weapon, target, one_use_rules)
         self.debug_print(f"  Hit roll result: {hit_result}")
         if not hit_result["hit"]:
             return {"hit": False, "wound": False, "save": False, "damage_dealt": 0}
@@ -883,7 +877,7 @@ class CombatEngine:
             
         # Step 2: Wound Roll
         is_critical_hit = hit_result["critical"]
-        wound_result = self.make_wound_roll(weapon, target, is_critical_hit)
+        wound_result = self.make_wound_roll(weapon, target, is_critical_hit, one_use_rules)
         self.debug_print(f"  Wound roll result: {wound_result}")
         if not wound_result["wound"]:
             return {"hit": True, "wound": False, "save": False, "damage_dealt": 0}
@@ -928,7 +922,7 @@ class CombatEngine:
             
         # Step 4: Inflict Damage
         self.debug_print("  About to roll damage")
-        damage = self.roll_damage(weapon.damage, weapon, target, is_critical_hit)
+        damage = self.roll_damage(weapon.damage, weapon, target, is_critical_hit, one_use_rules)
         self.debug_print(f"  Damage roll: {damage}")
         
         # Apply damage reduction rules
@@ -995,7 +989,7 @@ class CombatEngine:
             fnp_saves = 0
             for _ in range(damage):
                 fnp_roll = self.roll_dice()
-                self.debug_print(f"  Feel No Pain roll: {fnp_roll}")
+                #self.debug_print(f"  Feel No Pain roll: {fnp_roll}")
                 if fnp_roll >= fnp_value:
                     fnp_saves += 1
             damage -= fnp_saves
@@ -1038,7 +1032,7 @@ class CombatEngine:
             "sustained_hits": sustained_hits
         }
 
-    def resolve_attacks(self, weapon: Weapon, target: Model) -> Dict[str, int]:
+    def resolve_attacks(self, weapon: Weapon, target: Model, one_use_rules: Dict[str, bool]) -> Dict[str, int]:
         """Resolve all attacks from a weapon against a target"""
         results = {
             "hits": 0,
@@ -1075,7 +1069,7 @@ class CombatEngine:
                     num_attacks += bonus
         
         for _ in range(num_attacks):
-            attack_result = self.resolve_attack(weapon, target, results)
+            attack_result = self.resolve_attack(weapon, target, one_use_rules)
             if attack_result["hit"]:
                 results["hits"] += 1
             if attack_result["wound"]:

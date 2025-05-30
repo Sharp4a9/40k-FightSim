@@ -9,8 +9,8 @@
         "W": 1,
         "LD": 8,
         "OC": 2,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -50,8 +50,8 @@
         "W": 1,
         "LD": 7,
         "OC": 2,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -92,8 +92,8 @@
         "W": 1,
         "LD": 7,
         "OC": 2,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -135,8 +135,8 @@
         "W": 1,
         "LD": 7,
         "OC": 2,
-        "Inv": 6,
-        "Fnp": null
+        "INV": 6,
+        "FNP": null
       }
     },
     "weapons": {
@@ -180,8 +180,8 @@
         "W": 2,
         "LD": 7,
         "OC": 1,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -264,8 +264,8 @@
         "W": 2,
         "LD": 6,
         "OC": 2,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -409,8 +409,8 @@
         "W": 2,
         "LD": 7,
         "OC": 1,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -503,8 +503,8 @@
         "W": 3,
         "LD": 6,
         "OC": 1,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -584,8 +584,8 @@
         "W": 3,
         "LD": 6,
         "OC": 1,
-        "Inv": 4,
-        "Fnp": null
+        "INV": 4,
+        "FNP": null
       },
       "Terminator w/ Power Fist": {
         "M": 5,
@@ -594,8 +594,8 @@
         "W": 3,
         "LD": 6,
         "OC": 1,
-        "Inv": 4,
-        "Fnp": null
+        "INV": 4,
+        "FNP": null
       },
       "Terminator w/ Chain Fist": {
         "M": 5,
@@ -604,8 +604,8 @@
         "W": 3,
         "LD": 6,
         "OC": 1,
-        "Inv": 4,
-        "Fnp": null
+        "INV": 4,
+        "FNP": null
       },
       "Terminator w/ Heavy Weapon": {
         "M": 5,
@@ -614,8 +614,8 @@
         "W": 3,
         "LD": 6,
         "OC": 1,
-        "Inv": 4,
-        "Fnp": null
+        "INV": 4,
+        "FNP": null
       }
     },
     "weapons": {
@@ -734,8 +734,8 @@
         "W": 3,
         "LD": 6,
         "OC": 2,
-        "Inv": 4,
-        "Fnp": null
+        "INV": 4,
+        "FNP": null
       }
     },
     "weapons": {
@@ -820,8 +820,8 @@
         "W": 10,
         "LD": 7,
         "OC": 2,
-        "Inv": 6,
-        "Fnp": null
+        "INV": 6,
+        "FNP": null
       }
     },
     "weapons": {
@@ -884,8 +884,8 @@
         "W": 12,
         "LD": 7,
         "OC": 3,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -963,8 +963,8 @@
         "W": 12,
         "LD": 7,
         "OC": 8,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": 6
       }
     },
     "weapons": {
@@ -1026,8 +1026,8 @@
         "W": 14,
         "LD": 6,
         "OC": 3,
-        "Inv": null,
-        "Fnp": null
+        "INV": null,
+        "FNP": null
       }
     },
     "weapons": {
@@ -1126,8 +1126,8 @@
         "W": 12,
         "LD": 6,
         "OC": 4,
-        "Inv": 4,
-        "Fnp": 5
+        "INV": 4,
+        "FNP": 5
       }
     },
     "weapons": {
@@ -1184,8 +1184,8 @@
         "W": 22,
         "LD": 6,
         "OC": 10,
-        "Inv": null,
-        "Fnp": 6
+        "INV": null,
+        "FNP": 6
       }
     },
     "weapons": {
