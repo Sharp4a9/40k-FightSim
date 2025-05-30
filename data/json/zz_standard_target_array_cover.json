@@ -1,0 +1,1391 @@
+[
+  {
+    "name": "Hormagaunts",
+    "models": {
+      "Hormagaunts": {
+        "M": 10,
+        "T": 3,
+        "SV": 5,
+        "W": 1,
+        "LD": 8,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Hormagaunt talons - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 3,
+        "AP": 1,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Bounding Leap:This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Great Devourer",
+      "Endless Multitude",
+      "Hormagaunts",
+      "Tyranids"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Boyz",
+    "models": {
+      "Boy w/ Slugga and choppa": {
+        "M": 6,
+        "T": 5,
+        "SV": 5,
+        "W": 1,
+        "LD": 7,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      },
+      "Boy w/ Shoota and close combat weapon": {
+        "M": 6,
+        "T": 5,
+        "SV": 5,
+        "W": 1,
+        "LD": 7,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      },
+      "Boy w/ Big shoota and close combat weapon": {
+        "M": 6,
+        "T": 5,
+        "SV": 5,
+        "W": 1,
+        "LD": 7,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      },
+      "Boy w/ Rokkit launcha and close combat weapon": {
+        "M": 6,
+        "T": 5,
+        "SV": 5,
+        "W": 1,
+        "LD": 7,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      },
+      "Boss Nob": {
+        "M": 6,
+        "T": 5,
+        "SV": 5,
+        "W": 2,
+        "LD": 7,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Choppa - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Slugga - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Shoota - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Big shoota - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 5,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Rokkit launcha - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 5,
+        "S": 9,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Big choppa - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      },
+      "Power klaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": 2
+      },
+      "Kombi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Get Da Good Bitz:At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "Bodyguard:If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a WARBOSS model). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Mob",
+      "Grenades",
+      "Boyz",
+      "Orks"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Necron Warriors",
+    "models": {
+      "Necron Warriors": {
+        "M": 5,
+        "T": 4,
+        "SV": 4,
+        "W": 1,
+        "LD": 7,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Gauss flayer - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits",
+          "Rapid Fire 1"
+        ]
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Gauss reaper - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 4,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Their Number is Legion:Each time this units Reanimation Protocols activate, you can re-roll the dice to see how many wounds are regenerated."
+    ],
+    "keywords": [
+      "Necrons",
+      "Infantry",
+      "Battleline",
+      "Necron Warriors"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Battle Sisters Squad",
+    "models": {
+      "Battle Sister": {
+        "M": 6,
+        "T": 3,
+        "SV": 3,
+        "W": 1,
+        "LD": 7,
+        "OC": 2,
+        "Inv": 6,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Boltgun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
+      },
+      "Simulacrum Imperialis - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Defenders of the Faith:At the end of your Command phase, if this unit is within range of an objective marker you control, that objective markers remains under your control, even if you have no models within range of it, until you opponent controls it at the star or end of any turn.",
+      "Invulnerable Save:This model has an invulnerable save of 6+"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Battle Sisters Squad",
+      "Adepta Sororitas",
+      "Imperium"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Nobz",
+    "models": {
+      "Nobz": {
+        "M": 6,
+        "T": 5,
+        "SV": 4,
+        "W": 2,
+        "LD": 7,
+        "OC": 1,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Slugga - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Big choppa - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 7,
+        "AP": 1,
+        "D": 2
+      },
+      "Power klaw - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 9,
+        "AP": 2,
+        "D": 2
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1
+      },
+      "Kombi-weapon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 5,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Anti-Infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Da Boss Ladz:While a WARBOSS model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
+      "Ammo Runt:Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability. Designers Note: Place the relevant number of Ammo Runt tokens next to the unit, removing one each time the unit uses this ability."
+    ],
+    "keywords": [
+      "Infantry",
+      "Nobz",
+      "Grenades",
+      "Orks"
+    ],
+    "total_models": 1,
+    "points": 105,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Intercessor Squad",
+    "models": {
+      "Intercessor": {
+        "M": 6,
+        "T": 4,
+        "SV": 3,
+        "W": 2,
+        "LD": 6,
+        "OC": 2,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Hand Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 3,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      "Power Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Plasma Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 7,
+        "AP": 2,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      },
+      "Astartes Chainsword - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1
+      },
+      "Bolt Rifle - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Heavy"
+        ]
+      },
+      "Astartes Grenade Launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Power Fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Thunder Hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Close Combat Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1
+      },
+      "Bolt Pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "Objective Secured:If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "Target Elimination:Each time this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, add 2 to the Attacks characteristic of bolt rifles equipped by models in this unit and you can only select one enemy unit as the target of all of this unit's attacks"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Intercessor Squad",
+      "Adeptus Astartes"
+    ],
+    "total_models": 1,
+    "points": 80,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Einhyr Hearthguard",
+    "models": {
+      "Einhyr Hearthguard": {
+        "M": 5,
+        "T": 6,
+        "SV": 2,
+        "W": 2,
+        "LD": 7,
+        "OC": 1,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Exo-armour grenade launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "EtaCarn plasma gun - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2
+      },
+      "Volkanite disintegrator - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
+      "Concussion gauntlet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 2,
+        "WS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": 2
+      },
+      "Plasma blade gauntlet - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      },
+      "Concussion hammer - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 9,
+        "AP": 1,
+        "D": 3
+      },
+      "Weavefield crest - Abilities": {
+        "type": "Abilities"
+      }
+    },
+    "abilities": [
+      "Oathband Bodyguard:While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this units Toughness characteristic, subtract 1 from the Wound roll.",
+      "Teleport crest:Models in the bearer's unit have the Deep Strike ability."
+    ],
+    "keywords": [
+      "Leagues of Votann",
+      "Infantry",
+      "Exo-armour",
+      "Einhyr Hearthguard"
+    ],
+    "total_models": 1,
+    "points": 150,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Aggressor Squad",
+    "models": {
+      "Aggressors": {
+        "M": 5,
+        "T": 6,
+        "SV": 3,
+        "W": 3,
+        "LD": 6,
+        "OC": 1,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Twin Power Fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Auto Boltstorm Gauntlets - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Twin-linked"
+        ]
+      },
+      "Fragstorm Grenade Launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Flamestorm Gauntlets - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      }
+    },
+    "abilities": [
+      "Close-quarters Firepower:Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Gravis",
+      "Aggressor Squad",
+      "Adeptus Astartes"
+    ],
+    "total_models": 1,
+    "points": 120,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Terminator Squad",
+    "models": {
+      "Terminator Sergeant": {
+        "M": 5,
+        "T": 5,
+        "SV": 2,
+        "W": 3,
+        "LD": 6,
+        "OC": 1,
+        "Inv": 4,
+        "Fnp": null
+      },
+      "Terminator w/ Power Fist": {
+        "M": 5,
+        "T": 5,
+        "SV": 2,
+        "W": 3,
+        "LD": 6,
+        "OC": 1,
+        "Inv": 4,
+        "Fnp": null
+      },
+      "Terminator w/ Chain Fist": {
+        "M": 5,
+        "T": 5,
+        "SV": 2,
+        "W": 3,
+        "LD": 6,
+        "OC": 1,
+        "Inv": 4,
+        "Fnp": null
+      },
+      "Terminator w/ Heavy Weapon": {
+        "M": 5,
+        "T": 5,
+        "SV": 2,
+        "W": 3,
+        "LD": 6,
+        "OC": 1,
+        "Inv": 4,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Storm Bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Power Weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      },
+      "Chainfist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 8,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-Vehicle 3+"
+        ]
+      },
+      "Power Fist - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 2
+      },
+      "Cyclone Missile Launcher - Frag - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": "2D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Cyclone Missile Launcher - Krak - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 2,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6"
+      },
+      "Heavy Flamer - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      "Assault Cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 6,
+        "BS": 3,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Teleport Homer:At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponents deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed.",
+      "Fury of the First:Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll."
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Terminator Squad",
+      "Adeptus Astartes"
+    ],
+    "total_models": 1,
+    "points": 170,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Custodian Guard",
+    "models": {
+      "Custodian Guard (Guardian Spear)": {
+        "M": 6,
+        "T": 6,
+        "SV": 2,
+        "W": 3,
+        "LD": 6,
+        "OC": 2,
+        "Inv": 4,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Guardian Spear - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 7,
+        "AP": 2,
+        "D": 2
+      },
+      "Guardian Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Sentinel Blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 1
+      },
+      "Sentinel Blade - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 2,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Assault",
+          "Pistol"
+        ]
+      },
+      "Misericordia - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 5,
+        "AP": 2,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Stand Vigil:Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+      "Sentinel Storm:Once per battle, in your Shooting phase, after the unit has shot, it can shoot again."
+    ],
+    "keywords": [
+      "Custodian Guard",
+      "Infantry",
+      "Battleline",
+      "Imperium",
+      "Adeptus Custodes"
+    ],
+    "total_models": 4,
+    "points": 170,
+    "special_rules_attack": [
+      "Reroll Wound 1"
+    ],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Trukk",
+    "models": {
+      "Trukk": {
+        "M": 12,
+        "T": 8,
+        "SV": 4,
+        "W": 10,
+        "LD": 7,
+        "OC": 2,
+        "Inv": 6,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Big shoota - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 5,
+        "S": 5,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      },
+      "Wreckin' ball - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 1,
+        "WS": 4,
+        "S": 10,
+        "AP": 0,
+        "D": "D6",
+        "Keywords": [
+          "Extra Attacks"
+        ]
+      },
+      "Spiked wheel - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      }
+    },
+    "abilities": [
+      "Grot Riggers:At the start of your Command phase, this model regains 1 lost wound."
+    ],
+    "keywords": [
+      "Dedicated Transport",
+      "Vehicle",
+      "Transport",
+      "Trukk",
+      "Orks"
+    ],
+    "total_models": 1,
+    "points": 65,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Falcon",
+    "models": {
+      "Falcon": {
+        "M": 14,
+        "T": 9,
+        "SV": 3,
+        "W": 12,
+        "LD": 7,
+        "OC": 3,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Pulse Laser - Ranged": {
+        "type": "Ranged",
+        "Range": 48,
+        "A": 3,
+        "BS": 3,
+        "S": 9,
+        "AP": 2,
+        "D": "D6",
+        "Keywords": []
+      },
+      "Wraithbone hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1,
+        "Keywords": []
+      },
+      "Twin Shuriken Catapult - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Assault",
+          "Twin Linked"
+        ]
+      },
+      "Shuriken Cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 3,
+        "BS": 3,
+        "S": 6,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Lethal Hits"
+        ]
+      }
+    },
+    "abilities": [
+      "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll"
+    ],
+    "keywords": [
+      "Falcon",
+      "Fly",
+      "Transport",
+      "Vehicle",
+      "Asuryani",
+      "Aeldari",
+      "Ynnari"
+    ],
+    "total_models": 1,
+    "points": 130,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Armiger Warglaive",
+    "models": {
+      "Armiger Warglaive": {
+        "M": 12,
+        "T": 10,
+        "SV": 3,
+        "W": 12,
+        "LD": 7,
+        "OC": 8,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Reaper chain-cleaver - strike - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 3,
+        "S": 10,
+        "AP": 3,
+        "D": 3
+      },
+      "Reaper chain-cleaver - sweep - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 8,
+        "AP": 2,
+        "D": 1
+      },
+      "Thermal spear - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 12,
+        "AP": 4,
+        "D": "D6",
+        "Keywords": [
+          "Melta 4"
+        ]
+      }
+    },
+    "abilities": [
+      "Impetuous Glory:Each time this model makes a Charge move, until the end of the turn, melee weapons equipped by this model have the [SUSTAINED HITS 1] ability."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Imperium",
+      "Imperial Knights",
+      "Warglaive",
+      "Armiger"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Invulnerable Save Ranged 5+","Cover"]
+  },
+  {
+    "name": "Gladiator Lancer",
+    "models": {
+      "Gladiator Lancer": {
+        "M": 10,
+        "T": 10,
+        "SV": 3,
+        "W": 12,
+        "LD": 6,
+        "OC": 3,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Armoured Hull - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 4,
+        "S": 6,
+        "AP": 0,
+        "D": 1
+      },
+      "Icarus Rocket Pod - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": "D3",
+        "BS": 3,
+        "S": 8,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-fly 2+"
+        ]
+      },
+      "Ironhail Heavy Stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Lancer Laser Destroyer - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": 2,
+        "BS": 3,
+        "S": 14,
+        "AP": 4,
+        "D": "D6+3",
+        "Keywords": [
+          "Heavy"
+        ]
+      },
+      "Fragstorm Grenade Launcher - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": "D6",
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Blast"
+        ]
+      },
+      "Storm Bolter - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
+      }
+    },
+    "abilities": [
+      "Aqullon Optics:Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Gladiator Lancer",
+      "Adeptus Astartes"
+    ],
+    "total_models": 1,
+    "points": 160,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
+    "name": "Transcendant C'tan",
+    "models": {
+      "Transcendant C'tan": {
+        "M": 6,
+        "T": 11,
+        "SV": 4,
+        "W": 12,
+        "LD": 6,
+        "OC": 4,
+        "Inv": 4,
+        "Fnp": 5
+      }
+    },
+    "weapons": {
+      "Seismic assault - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 1"
+        ]
+      },
+      "Crackling tendrils - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 2,
+        "S": 9,
+        "AP": 3,
+        "D": "D6",
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Transdimensional Displacement:Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+      "C'tan Shard:This model cannot be given Enhancements"
+    ],
+    "keywords": [
+      "Necrons",
+      "Monster",
+      "Character",
+      "Fly",
+      "Transcendant C'tan"
+    ],
+    "total_models": 1,
+    "points": 295,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Half Damage","Cover"]
+  },
+  {
+    "name": "Knight Paladin",
+    "models": {
+      "Knight Paladin": {
+        "M": 10,
+        "T": 12,
+        "SV": 3,
+        "W": 22,
+        "LD": 6,
+        "OC": 10,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Questoris heavy stubber - Ranged": {
+        "type": "Ranged",
+        "Range": 36,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Rapid Fire 3"
+        ]
+      },
+      "Rapid-fire battle cannon - Ranged": {
+        "type": "Ranged",
+        "Range": 72,
+        "A": "D6+3",
+        "BS": 3,
+        "S": 10,
+        "AP": 1,
+        "D": 3,
+        "Keywords": [
+          "Blast",
+          "Rapid Fire D6+3"
+        ]
+      }
+    },
+    "abilities": [
+      "Seasoned Noble:Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+      "Paladins Duty (Bondsman):While a model is affected by this ability, its weapons have the [LETHAL HITS] and [LANCE] abilities."
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Imperial Knights",
+      "Knight Paladin",
+      "Questoris"
+    ],
+    "total_models": 1,
+    "points": 405,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Invulnerable Save Ranged 5+","Cover"]
+  }
+]
