@@ -1,8 +1,6 @@
 """
 Currently working; need to fix the way phase is determined, need to clean faction names (steal from standard_simulation_gui.py);
 need to check results by hand for errors.
-
-Need to implement distance as a variable.
 """
 
 import json
@@ -11,6 +9,11 @@ import numpy as np
 from typing import Dict, List, Tuple
 import statistics
 from unit_combat_simulator import UnitCombatSimulator
+from unit_combat_simulator import Model
+
+def clean_string(s: str) -> str:
+    """Remove all non-alphabetical characters from a string."""
+    return ''.join(c for c in s if c.isalpha())
 
 def load_attackers() -> Dict:
     """Load attacker configurations from attacker_array.json"""
@@ -26,7 +29,7 @@ def determine_phase(weapons_data: List[Dict]) -> str:
     """Determine if the attack is Ranged, Melee, or Mixed based on weapon types"""
     weapon_types = set()
     for weapon in weapons_data:
-        weapon_type = weapon['data'].get('Type', 'Unknown')
+        weapon_type = weapon['data'].get('type', 'Unknown')
         weapon_types.add(weapon_type)
     
     if len(weapon_types) == 1:
@@ -45,13 +48,24 @@ def run_simulation(simulator: UnitCombatSimulator, attacker_config: Dict, target
                 weapon.attacks *= weapon_data['quantity']
                 attacking_weapons.append(weapon)
     
-    # Create target model
-    target_model = simulator.create_target_model(target_data['name'])
-    if not target_model:
-        raise ValueError(f"Could not create target model for {target_data['name']}")
+    # Create target model directly from target data
+    model_name = list(target_data['models'].keys())[0]
+    characteristics = target_data['models'][model_name]
+    target_model = Model(
+        name=target_data['name'],
+        toughness=int(characteristics['T']),
+        save=int(characteristics['SV']),
+        wounds=int(characteristics['W']),
+        current_wounds=int(characteristics['W']),
+        total_models=target_data.get('total_models'),
+        invulnerable_save=int(characteristics['INV']) if 'INV' in characteristics else None,
+        feel_no_pain=int(characteristics['FNP']) if 'FNP' in characteristics else None,
+        keywords=target_data.get('keywords', []),
+        special_rules=target_data.get('special_rules', [])
+    )
     
     # Run simulation
-    results = simulator.simulate_attacks(attacking_weapons, target_model)
+    results = simulator.simulate_attacks(attacking_weapons, target_model, target_range=attacker_config['target_range'])
     
     # Calculate statistics
     mean_damage = float(np.mean(results["damage"]))
@@ -63,7 +77,7 @@ def run_simulation(simulator: UnitCombatSimulator, attacker_config: Dict, target
 
 def main():
     # Create simulator
-    simulator = UnitCombatSimulator(num_simulations=1000)
+    simulator = UnitCombatSimulator(num_simulations=2000)
     
     # Load configurations
     attackers = load_attackers()
@@ -76,9 +90,15 @@ def main():
     output_dir = Path("data/results")
     output_dir.mkdir(parents=True, exist_ok=True)
     
+    # Load existing results if file exists
+    output_file = output_dir / "simulation_data.json"
+    if output_file.exists():
+        with open(output_file, 'r') as f:
+            results = json.load(f)
+    
     # Run simulations for each attacker against each target
     for designation, attacker_config in attackers.items():
-        faction = attacker_config['faction']
+        faction = clean_string(attacker_config['faction'])
         
         # Initialize faction in results if not exists
         if faction not in results:
@@ -111,10 +131,13 @@ def main():
                 }
             except Exception as e:
                 print(f"Error simulating {faction} - {designation} vs {target_name}: {str(e)}")
+                print(f"Debug: Attacker config: {json.dumps(attacker_config, indent=2)}")
+                print(f"Debug: Target data: {json.dumps(target_data, indent=2)}")
+                import traceback
+                traceback.print_exc()
                 continue
     
-    # Save results
-    output_file = output_dir / "simulation_data.json"
+    # Save results (appending to existing data)
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
     

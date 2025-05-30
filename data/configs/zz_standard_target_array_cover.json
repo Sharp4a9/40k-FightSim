@@ -52,46 +52,6 @@
         "OC": 2,
         "Inv": null,
         "Fnp": null
-      },
-      "Boy w/ Shoota and close combat weapon": {
-        "M": 6,
-        "T": 5,
-        "SV": 5,
-        "W": 1,
-        "LD": 7,
-        "OC": 2,
-        "Inv": null,
-        "Fnp": null
-      },
-      "Boy w/ Big shoota and close combat weapon": {
-        "M": 6,
-        "T": 5,
-        "SV": 5,
-        "W": 1,
-        "LD": 7,
-        "OC": 2,
-        "Inv": null,
-        "Fnp": null
-      },
-      "Boy w/ Rokkit launcha and close combat weapon": {
-        "M": 6,
-        "T": 5,
-        "SV": 5,
-        "W": 1,
-        "LD": 7,
-        "OC": 2,
-        "Inv": null,
-        "Fnp": null
-      },
-      "Boss Nob": {
-        "M": 6,
-        "T": 5,
-        "SV": 5,
-        "W": 2,
-        "LD": 7,
-        "OC": 2,
-        "Inv": null,
-        "Fnp": null
       }
     },
     "weapons": {
@@ -103,95 +63,6 @@
         "S": 4,
         "AP": 1,
         "D": 1
-      },
-      "Slugga - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 5,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Shoota - Ranged": {
-        "type": "Ranged",
-        "Range": 18,
-        "A": 2,
-        "BS": 5,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
-      },
-      "Close combat weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 2,
-        "WS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1
-      },
-      "Big shoota - Ranged": {
-        "type": "Ranged",
-        "Range": 36,
-        "A": 3,
-        "BS": 5,
-        "S": 5,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
-      },
-      "Rokkit launcha - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": "D3",
-        "BS": 5,
-        "S": 9,
-        "AP": 2,
-        "D": 3,
-        "Keywords": [
-          "Blast"
-        ]
-      },
-      "Big choppa - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 3,
-        "S": 7,
-        "AP": 1,
-        "D": 2
-      },
-      "Power klaw - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 4,
-        "S": 9,
-        "AP": 2,
-        "D": 2
-      },
-      "Kombi-weapon - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 1,
-        "BS": 5,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
       }
     },
     "abilities": [
@@ -238,27 +109,6 @@
           "Lethal Hits",
           "Rapid Fire 1"
         ]
-      },
-      "Close combat weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 1,
-        "WS": 4,
-        "S": 4,
-        "AP": 0,
-        "D": 1
-      },
-      "Gauss reaper - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 2,
-        "BS": 4,
-        "S": 4,
-        "AP": 1,
-        "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
       }
     },
     "abilities": [
@@ -301,9 +151,6 @@
         "Keywords": [
           "Rapid Fire 1"
         ]
-      },
-      "Simulacrum Imperialis - Abilities": {
-        "type": "Abilities"
       }
     },
     "abilities": [
@@ -1170,13 +1017,13 @@
     "special_rules_defence": ["Invulnerable Save Ranged 5+","Cover"]
   },
   {
-    "name": "Gladiator Lancer",
+    "name": "Vindicator",
     "models": {
       "Gladiator Lancer": {
         "M": 10,
-        "T": 10,
-        "SV": 3,
-        "W": 12,
+        "T": 11,
+        "SV": 2,
+        "W": 14,
         "LD": 6,
         "OC": 3,
         "Inv": null,
@@ -1261,11 +1108,11 @@
       "Vehicle",
       "Imperium",
       "Smoke",
-      "Gladiator Lancer",
+      "Vindicator",
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 160,
+    "points": 190,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },

@@ -10,6 +10,7 @@ class UnitCombatSimulator:
         self.num_simulations = num_simulations
         self.combat_engine = CombatEngine(debug=debug)
         self.units_data = self._load_units_data()
+        self.debug = False
 
     def debug_print(self, message: str):
         """Print message only if debug mode is enabled"""

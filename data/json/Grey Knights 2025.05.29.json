@@ -826,7 +826,7 @@
         ]
       },
       "Hammer Aflame - Psychic": {
-        "type": "Ranged",
+        "type": "Melee",
         "Range": 0,
         "A": 1,
         "BS": 4,

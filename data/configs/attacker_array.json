@@ -1,78 +1,74 @@
 {
-  "Simple Banshee Test": {
+  "Fire Dragons - Melta": {
     "faction": "Aeldari 2025.05.21",
-    "points": 165,
+    "points": 110,
+    "target_range": 0,
     "units": [
       {
-        "name": "Autarch",
+        "name": "Fire Dragons",
         "weapons": [
           {
-            "name": "Star Glaive - Melee",
-            "quantity": 1,
-            "data": {
-              "type": "Melee",
-              "Range": "Melee",
-              "A": 4,
-              "WS": 2,
-              "S": 6,
-              "AP": 3,
-              "D": 3,
-              "Keywords": []
-            }
-          }
-        ],
-        "special_rules": []
-      },
-      {
-        "name": "Howling Banshees",
-        "weapons": [
-          {
-            "name": "Banshee Blade - Melee",
+            "name": "Dragon Fusion Gun - Ranged",
             "quantity": 5,
             "data": {
-              "type": "Melee",
-              "Range": "Melee",
-              "A": 2,
-              "WS": 2,
-              "S": 4,
-              "AP": 2,
-              "D": 2,
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "BS": 3,
+              "S": 9,
+              "AP": 4,
+              "D": "D6",
               "Keywords": [
-                "Anti-Infantry 3+"
+                "Assault",
+                "Melta 3"
               ]
             }
           }
         ],
-        "special_rules": []
+        "special_rules": [
+          "Reroll Hits Monster",
+          "Reroll Hits Vehicle",
+          "Reroll Wounds Monster",
+          "Reroll Wounds Vehicle",
+          "Reroll Damage Vehicle",
+          "Reroll Damage Monster"
+        ]
       }
     ]
   },
-  "Simple Custodian Guard Test": {
-    "faction": "Adeptus Custodes 2025.05.24",
-    "points": 195,
+  "Fire Dragons": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 110,
+    "target_range": 10,
     "units": [
       {
-        "name": "Allarus Custodians",
+        "name": "Fire Dragons",
         "weapons": [
           {
-            "name": "Guardian Spear - Melee",
-            "quantity": 3,
+            "name": "Dragon Fusion Gun - Ranged",
+            "quantity": 5,
             "data": {
-              "type": "Melee",
-              "Range": "Melee",
-              "A": 5,
-              "WS": 2,
-              "S": 7,
-              "AP": 2,
-              "D": 2,
-              "Keywords": []
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "BS": 3,
+              "S": 9,
+              "AP": 4,
+              "D": "D6",
+              "Keywords": [
+                "Assault",
+                "Melta 3"
+              ]
             }
           }
         ],
         "special_rules": [
+          "Reroll Hits Monster",
+          "Reroll Hits Vehicle",
           "Reroll Wounds Monster",
-          "Reroll Wounds Character",
-          "Reroll Wounds Vehicle"
+          "Reroll Wounds Vehicle",
+          "Reroll Damage Vehicle",
+          "Reroll Damage Monster"
         ]
       }
     ]

@@ -301,9 +301,6 @@
         "Keywords": [
           "Rapid Fire 1"
         ]
-      },
-      "Simulacrum Imperialis - Abilities": {
-        "type": "Abilities"
       }
     },
     "abilities": [
@@ -1170,13 +1167,13 @@
     "special_rules_defence": ["Invulnerable Save Ranged 5+"]
   },
   {
-    "name": "Gladiator Lancer",
+    "name": "Vindicator",
     "models": {
-      "Gladiator Lancer": {
+      "Vindicator": {
         "M": 10,
-        "T": 10,
-        "SV": 3,
-        "W": 12,
+        "T": 11,
+        "SV": 2,
+        "W": 14,
         "LD": 6,
         "OC": 3,
         "Inv": null,
@@ -1261,11 +1258,11 @@
       "Vehicle",
       "Imperium",
       "Smoke",
-      "Gladiator Lancer",
+      "Vindicator",
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 160,
+    "points": 190,
     "special_rules_attack": [],
     "special_rules_defence": []
   },

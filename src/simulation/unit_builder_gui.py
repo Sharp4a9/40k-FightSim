@@ -127,6 +127,12 @@ Please report any bugs to Andrew White."""
         self.attacker_points = ttk.Entry(self.main_frame, width=10)
         self.attacker_points.grid(row=2, column=3, sticky=(tk.W, tk.E), padx=5)
 
+        # Distance field
+        ttk.Label(self.main_frame, text="Distance to Target:").grid(row=2, column=4, sticky=tk.W)
+        self.target_range = ttk.Entry(self.main_frame, width=10)
+        self.target_range.grid(row=2, column=5, sticky=(tk.W, tk.E), padx=5)
+        self.target_range.insert(0, "0")  # Set default value to 0
+
         # Faction selection
         ttk.Label(self.main_frame, text="Faction:").grid(row=3, column=0, sticky=tk.W)
         self.attacker_faction = ttk.Combobox(self.main_frame, values=sorted(self.faction_data.keys()), width=40)
@@ -431,6 +437,13 @@ Please report any bugs to Andrew White."""
                 messagebox.showerror("Error", "Points must be a valid integer!")
                 return
             
+            # Get target range
+            try:
+                target_range = int(self.target_range.get().strip())
+            except ValueError:
+                messagebox.showerror("Error", "Distance to Target must be a valid integer!")
+                return
+            
             # Get faction
             faction = self.attacker_faction.get()
             if not faction:
@@ -489,6 +502,7 @@ Please report any bugs to Andrew White."""
             config = {
                 'faction': faction,
                 'points': points,
+                'target_range': target_range,
                 'units': units_data
             }
             
