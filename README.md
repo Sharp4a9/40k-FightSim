@@ -12,7 +12,7 @@ FAQ:
 
 1. Can I trust that all of the unit data is accurate?
 
-No, that is why the unit data is displayed when you select units. In principle, any faction file with a date in
+Maybe? That's why the unit data is displayed when you select units. In principle, any faction file with a date in
 its name has been checked, by hand, to work, but mistakes are possible. Faction files without dates in their
 names have been pulled from the battlescribe project; the stats should be accurate, but errors are possible;
 in addition, these files without dates include weapon and unit keywords but not weapon and unit special rules.

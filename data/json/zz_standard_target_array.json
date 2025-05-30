@@ -1166,7 +1166,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": ["Invulnerable Save Ranged 5+"]
   },
   {
     "name": "Gladiator Lancer",
@@ -1266,7 +1267,7 @@
     "total_models": 1,
     "points": 160,
     "special_rules_attack": [],
-    "special_rules_defence": ["Invulnerable Save Ranged 5+"]
+    "special_rules_defence": []
   },
   {
     "name": "Transcendant C'tan",
@@ -1336,7 +1337,7 @@
         "W": 22,
         "LD": 6,
         "OC": 10,
-        "Inv": 5,
+        "Inv": null,
         "Fnp": null
       }
     },
@@ -1384,6 +1385,7 @@
     ],
     "total_models": 1,
     "points": 405,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": ["Invulnerable Save Ranged 5+"]
   }
 ]
