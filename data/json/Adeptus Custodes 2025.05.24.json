@@ -36,7 +36,10 @@
     "total_models": 1,
     "points": 65,
     "special_rules_attack": [],
-    "special_rules_defence": []
+    "special_rules_defence": [
+      "Mortal FNP 3+",
+      "Psychic FNP 3+"
+    ]
   },
   {
     "name": "Allarus Custodians",
@@ -184,7 +187,10 @@
     "total_models": 1,
     "points": 75,
     "special_rules_attack": [],
-    "special_rules_defence": []
+    "special_rules_defence": [
+      "Mortal FNP 3+",
+      "Psychic FNP 3+"
+    ]
   },
   {
     "name": "Blade Champion",
@@ -460,7 +466,10 @@
     "total_models": 1,
     "points": 55,
     "special_rules_attack": [],
-    "special_rules_defence": []
+    "special_rules_defence": [
+      "Mortal FNP 3+",
+      "Psychic FNP 3+"
+    ]
   },
   {
     "name": "Prosecutors",
@@ -504,7 +513,10 @@
     "total_models": 4,
     "points": 40,
     "special_rules_attack": [],
-    "special_rules_defence": []
+    "special_rules_defence": [
+      "Mortal FNP 3+",
+      "Psychic FNP 3+"
+    ]
   },
   {
     "name": "Shield-Captain",
@@ -1111,7 +1123,11 @@
     "total_models": 4,
     "points": 50,
     "special_rules_attack": [],
-    "special_rules_defence": ["-1 to be Hit in Melee"]
+    "special_rules_defence": [
+      "-1 to be Hit in Melee",
+    "Mortal FNP 3+",
+    "Psychic FNP 3+"
+  ]
   },
   {
     "name": "Witchseekers",
@@ -1155,7 +1171,10 @@
     ],
     "total_models": 4,
     "points": 50,
-    "special_rules_attack": []
+    "special_rules_attack": [
+      "Mortal FNP 3+",
+      "Psychic FNP 3+"
+    ]
   },
   {
     "name": "Custodian Guard with Adrasite and Pyrithite spears",
