@@ -10,6 +10,11 @@ class UnitCombatSimulator:
         self.num_simulations = num_simulations
         self.combat_engine = CombatEngine(debug=debug)
         self.units_data = self._load_units_data()
+
+    def debug_print(self, message: str):
+        """Print message only if debug mode is enabled"""
+        if self.debug:
+            print(message)
     
     def _load_units_data(self) -> Dict:
         """Load units data from JSON files"""
@@ -43,11 +48,11 @@ class UnitCombatSimulator:
         for faction_data in self.units_data.values():
             for unit in faction_data:
                 if unit['name'] == unit_name:
-                    print(f"Looking for weapon '{weapon_name}' in unit '{unit_name}'")
-                    print(f"Available weapons: {list(unit['weapons'].keys())}")
+                    self.debug_print(f"Looking for weapon '{weapon_name}' in unit '{unit_name}'")
+                    self.debug_print(f"Available weapons: {list(unit['weapons'].keys())}")
                     if weapon_name in unit['weapons']:
                         weapon_data = unit['weapons'][weapon_name]
-                        print(f"Found weapon data: {weapon_data}")
+                        self.debug_print(f"Found weapon data: {weapon_data}")
                         
                         # Combine weapon keywords and unit special rules
                         weapon_special_rules = weapon_data.get('Keywords', [])
@@ -278,15 +283,15 @@ def main():
     simulator = UnitCombatSimulator(num_simulations=100)
     
     # Print available units
-    print("Available units:")
+    simulator.debug_print("Available units:")
     for unit_name in simulator.get_unit_names():
-        print(f"- {unit_name}")
+        simulator.debug_print(f"- {unit_name}")
     
     # Get user input for attacking unit and weapons
     attacking_unit = input("\nEnter attacking unit name: ")
-    print(f"\nAvailable weapons for {attacking_unit}:")
+    simulator.debug_print(f"\nAvailable weapons for {attacking_unit}:")
     for weapon_name in simulator.get_unit_weapons(attacking_unit):
-        print(f"- {weapon_name}")
+        simulator.debug_print(f"- {weapon_name}")
     
     # Get user input for weapons to use
     selected_weapons = []
