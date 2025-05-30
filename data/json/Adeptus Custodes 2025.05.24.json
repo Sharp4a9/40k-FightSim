@@ -171,7 +171,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -270,7 +271,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Guardian Spear - Ranged": {
         "type": "Ranged",
@@ -291,7 +293,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Sentinel Blade - Ranged": {
         "type": "Ranged",
@@ -313,7 +316,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -347,7 +351,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Guardian Spear - Ranged": {
         "type": "Ranged",
@@ -368,7 +373,8 @@
         "WS": 2,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Castellan axe - Ranged": {
         "type": "Ranged",
@@ -438,7 +444,8 @@
         "WS": 2,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Master-crafted boltgun - Ranged": {
         "type": "Ranged",
@@ -500,7 +507,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -534,7 +542,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Guardian Spear - Ranged": {
         "type": "Ranged",
@@ -555,7 +564,8 @@
         "WS": 2,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Castellan axe - Ranged": {
         "type": "Ranged",
@@ -576,7 +586,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Sentinel Blade - Ranged": {
         "type": "Ranged",
@@ -598,7 +609,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Pyrithite Spear - Ranged": {
         "type": "Ranged",
@@ -642,7 +654,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Guardian Spear - Ranged": {
         "type": "Ranged",
@@ -663,7 +676,8 @@
         "WS": 2,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Castellan axe - Ranged": {
         "type": "Ranged",
@@ -782,7 +796,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Watcher's Axe - Moment Shackle - Melee": {
         "type": "Melee",
@@ -791,7 +806,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Eagle's Scream - Ranged": {
         "type": "Ranged",
@@ -850,7 +866,8 @@
         "WS": 2,
         "S": 8,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -921,7 +938,8 @@
         "WS": 2,
         "S": 12,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -990,7 +1008,8 @@
         "BS": 2,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -999,7 +1018,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1146,7 +1166,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Witchseeker flamer - Ranged": {
         "type": "Ranged",
@@ -1193,7 +1214,8 @@
         "BS": 2,
         "S": 5,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Adrasite spear - Melee": {
         "type": "Melee",
@@ -1202,7 +1224,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Pyrithite spear - Melee": {
         "type": "Melee",
@@ -1211,7 +1234,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Pyrithite spear - Ranged": {
         "type": "Ranged",
@@ -1268,7 +1292,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1299,7 +1324,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Lastrum storm bolter": {
         "type": "Lastrum storm bolter",
@@ -1345,7 +1371,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1401,7 +1428,8 @@
         "BS": 2,
         "S": 7,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Twin las-pulsar - Ranged": {
         "type": "Ranged",
@@ -1483,7 +1511,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1531,7 +1560,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1600,7 +1630,8 @@
         "BS": 2,
         "S": 9,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Achillus dreadspear - Melee": {
         "type": "Melee",
@@ -1657,7 +1688,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1731,7 +1763,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1775,7 +1808,8 @@
         "BS": 2,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Telemon Caestus - Melee": {
         "type": "Melee",
@@ -1784,7 +1818,8 @@
         "WS": 2,
         "S": 12,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Twin plasma projector - Ranged": {
         "type": "Ranged",
@@ -1818,7 +1853,8 @@
         "WS": 2,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1877,7 +1913,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1910,7 +1947,8 @@
         "BS": 2,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin lastrum bolt cannon - Ranged": {
         "type": "Ranged",
@@ -1943,7 +1981,8 @@
         "WS": 4,
         "S": 9,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1977,7 +2016,8 @@
         "BS": 2,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Arachnus magna-blaze cannon - Ranged": {
         "type": "Ranged",
@@ -1986,7 +2026,8 @@
         "BS": 2,
         "S": 18,
         "AP": 4,
-        "D": "D6+6"
+        "D": "D6+6",
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1995,7 +2036,8 @@
         "WS": 4,
         "S": 9,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Infernus firebomb - Mortal Wounds": {
         "type": "Mortal Wounds",

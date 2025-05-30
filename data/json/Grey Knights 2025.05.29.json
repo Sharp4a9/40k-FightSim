@@ -207,7 +207,8 @@
         "WS": 2,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -371,7 +372,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasma cutter - standard - Melee": {
         "type": "Melee",
@@ -417,7 +419,8 @@
         "BS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -707,7 +710,8 @@
         "WS": 3,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Nemesis daemon greathammer - Melee": {
         "type": "Melee",
@@ -869,7 +873,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -927,7 +932,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1008,7 +1014,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hurricane bolter - Ranged": {
         "type": "Ranged",
@@ -1116,7 +1123,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1212,7 +1220,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1269,7 +1278,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1340,7 +1350,8 @@
         "BS": 3,
         "S": 10,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Icarus stormcannon - Ranged": {
         "type": "Ranged",
@@ -1374,7 +1385,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1420,7 +1432,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Stormstrike missile launcher - Ranged": {
         "type": "Ranged",
@@ -1429,7 +1442,8 @@
         "BS": 3,
         "S": 10,
         "AP": 3,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       },
       "Twin heavy plasma cannon - standard - Ranged": {
         "type": "Ranged",
@@ -1615,7 +1629,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1708,7 +1723,8 @@
         "WS": 3,
         "S": 12,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Missile launcher - Ranged": {
         "type": "Ranged",
@@ -1729,7 +1745,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1799,7 +1816,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Incinerator - Ranged": {
         "type": "Ranged",
@@ -1962,7 +1980,8 @@
         "WS": 3,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Gatling psilencer - Ranged": {
         "type": "Ranged",
@@ -2144,7 +2163,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Incinerator - Ranged": {
         "type": "Ranged",
@@ -2252,7 +2272,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Incinerator - Ranged": {
         "type": "Ranged",
@@ -2322,7 +2343,8 @@
         "WS": 5,
         "S": 6,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -2344,7 +2366,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -2478,7 +2501,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2511,7 +2535,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -2520,7 +2545,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Thunderhawk heavy cannon - Ranged": {
         "type": "Ranged",

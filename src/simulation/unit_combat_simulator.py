@@ -53,11 +53,15 @@ class UnitCombatSimulator:
                         weapon_special_rules = weapon_data.get('Keywords', [])
                         unit_special_rules = unit.get('special_rules', [])
                         combined_special_rules = list(set(weapon_special_rules + unit_special_rules))  # Remove duplicates
+                        try:
+                            tmp_range = int(weapon_data['Range'])
+                        except ValueError:
+                            tmp_range = weapon_data['Range']
                         
                         return Weapon(
                             name=weapon_name,
                             weapon_type=weapon_data['type'],
-                            range=int(weapon_data['Range']),
+                            range=tmp_range,
                             attacks=int(weapon_data['A']),
                             skill=int(weapon_data['BS'] if 'BS' in weapon_data else weapon_data['WS']),
                             strength=int(weapon_data['S']),

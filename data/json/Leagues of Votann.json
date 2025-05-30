@@ -13,9 +13,7 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Rampart crest - Abilities": {
         "type": "Abilities"
@@ -28,9 +26,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -65,9 +61,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -76,7 +70,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Ion blaster - Ranged": {
         "type": "Ranged",
@@ -85,7 +80,8 @@
         "BS": 4,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Autoch-pattern bolter - Ranged": {
         "type": "Ranged",
@@ -94,7 +90,8 @@
         "BS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Kin melee weapon - Melee": {
         "type": "Melee",
@@ -103,7 +100,8 @@
         "WS": 4,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Etacarn plasma pistol - Ranged": {
         "type": "Ranged",
@@ -113,9 +111,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Ion pistol - Ranged": {
         "type": "Ranged",
@@ -125,9 +121,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Weavefield crest - Abilities": {
         "type": "Abilities"
@@ -140,10 +134,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Assault",
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "HYLas rotary cannon - Ranged": {
         "type": "Ranged",
@@ -153,10 +144,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Heavy",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Etacarn plasma beamer - Ranged": {
         "type": "Ranged",
@@ -166,9 +154,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       },
       "Magna-rail rifle - Ranged": {
         "type": "Ranged",
@@ -178,10 +164,7 @@
         "S": 12,
         "AP": 3,
         "D": "D3+3",
-        "Keywords": [
-          "Devastating Wounds",
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -215,7 +198,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Forgewrought plasma axe - Melee": {
         "type": "Melee",
@@ -224,7 +208,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Autoch-pattern combi-bolter - Ranged": {
         "type": "Ranged",
@@ -233,7 +218,8 @@
         "BS": 2,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Volkanite disintegrator - Ranged": {
         "type": "Ranged",
@@ -243,9 +229,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Rampart crest - Abilities": {
         "type": "Abilities"
@@ -289,7 +273,8 @@
         "WS": 3,
         "S": 12,
         "AP": 2,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Darkstar axe - Melee": {
         "type": "Melee",
@@ -298,7 +283,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Autoch-pattern combi-bolter - Ranged": {
         "type": "Ranged",
@@ -307,7 +293,8 @@
         "BS": 2,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -342,9 +329,7 @@
         "S": 7,
         "AP": 1,
         "D": "D3",
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Ancestral Wrath - witchfire - Ranged": {
         "type": "Ranged",
@@ -354,9 +339,7 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Ancestral Wrath - focused witchfire - Ranged": {
         "type": "Ranged",
@@ -366,10 +349,7 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Hazardous",
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Autoch-pattern bolter - Ranged": {
         "type": "Ranged",
@@ -378,7 +358,8 @@
         "BS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -387,7 +368,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -424,9 +406,7 @@
         "S": 5,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Anti-VEHICLE 2+"
-        ]
+        "Keywords": []
       },
       "Graviton hammer - Melee": {
         "type": "Melee",
@@ -436,9 +416,7 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Anti-VEHICLE 2+"
-        ]
+        "Keywords": []
       },
       "Las-beam cutter - Ranged": {
         "type": "Ranged",
@@ -447,7 +425,8 @@
         "BS": 4,
         "S": 6,
         "AP": 3,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -456,7 +435,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Autoch-pattern bolt pistol - Ranged": {
         "type": "Ranged",
@@ -466,9 +446,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma torch - Melee": {
         "type": "Melee",
@@ -477,7 +455,8 @@
         "WS": 4,
         "S": 6,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Manipulator arms - Melee": {
         "type": "Melee",
@@ -486,7 +465,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -520,9 +500,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "EtaCarn plasma gun - Ranged": {
         "type": "Ranged",
@@ -531,7 +509,8 @@
         "BS": 3,
         "S": 8,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Volkanite disintegrator - Ranged": {
         "type": "Ranged",
@@ -541,9 +520,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Concussion gauntlet - Melee": {
         "type": "Melee",
@@ -552,7 +529,8 @@
         "WS": 3,
         "S": 9,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasma blade gauntlet - Melee": {
         "type": "Melee",
@@ -561,7 +539,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Concussion hammer - Melee": {
         "type": "Melee",
@@ -570,7 +549,8 @@
         "WS": 4,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Weavefield crest - Abilities": {
         "type": "Abilities"
@@ -606,9 +586,7 @@
         "S": 9,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Mole grenade launcher - Ranged": {
         "type": "Ranged",
@@ -618,10 +596,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Indirect Fire"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -654,9 +629,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt shotgun - Ranged": {
         "type": "Ranged",
@@ -666,9 +639,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Magna-coil autocannon - Ranged": {
         "type": "Ranged",
@@ -677,7 +648,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasma knife - Melee": {
         "type": "Melee",
@@ -686,7 +658,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "HYLas rotary cannon - Ranged": {
         "type": "Ranged",
@@ -696,9 +669,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Ion beamer - Ranged": {
         "type": "Ranged",
@@ -708,9 +679,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -744,7 +713,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "HYLas beam cannon - Ranged": {
         "type": "Ranged",
@@ -754,9 +724,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       },
       "Sagitaur missile launcher - Ranged": {
         "type": "Ranged",
@@ -765,7 +733,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "MATR autocannon - Ranged": {
         "type": "Ranged",
@@ -774,7 +743,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Twin bolt cannon - Ranged": {
         "type": "Ranged",
@@ -784,10 +754,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -818,7 +785,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt cannon - Ranged": {
         "type": "Ranged",
@@ -828,9 +796,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Graviton blast cannon - Ranged": {
         "type": "Ranged",
@@ -840,10 +806,7 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 2+",
-          "Blast"
-        ]
+        "Keywords": []
       },
       "SP conversion beamer - Ranged": {
         "type": "Ranged",
@@ -853,10 +816,7 @@
         "S": 7,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Conversion",
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -886,7 +846,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin ion beamer - Ranged": {
         "type": "Ranged",
@@ -896,10 +857,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Sustained Hits D3",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin bolt cannon - Ranged": {
         "type": "Ranged",
@@ -909,10 +867,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Hekaton warhead - Ranged": {
         "type": "Ranged",
@@ -922,11 +877,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Indirect Fire",
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "SP heavy conversion beamer - Ranged": {
         "type": "Ranged",
@@ -936,10 +887,7 @@
         "S": 10,
         "AP": 2,
         "D": 4,
-        "Keywords": [
-          "Conversion",
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       },
       "Heavy magna-rail cannon - Ranged": {
         "type": "Ranged",
@@ -949,10 +897,7 @@
         "S": 18,
         "AP": 4,
         "D": "D6+6",
-        "Keywords": [
-          "Devastating Wounds",
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Cyclic ion cannon - Ranged": {
         "type": "Ranged",
@@ -962,9 +907,7 @@
         "S": 9,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "MATR autocannon - Ranged": {
         "type": "Ranged",
@@ -973,7 +916,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1005,7 +949,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt revolver - Ranged": {
         "type": "Ranged",
@@ -1015,9 +960,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt revolver and plasma knife - Melee": {
         "type": "Melee",
@@ -1026,7 +969,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt shotgun - Ranged": {
         "type": "Ranged",
@@ -1036,9 +980,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Magna-coil rifle - Ranged": {
         "type": "Ranged",
@@ -1048,10 +990,7 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Ignores Cover",
-          "Precision"
-        ]
+        "Keywords": []
       },
       "APM launcher - Ranged": {
         "type": "Ranged",
@@ -1061,10 +1000,7 @@
         "S": 6,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Anti-MONSTER 3+",
-          "Anti-VEHICLE 3+"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
