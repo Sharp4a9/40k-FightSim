@@ -36,4 +36,8 @@ Files with a "\_safe" suffix are there in case I accidentally break something be
 called by combat_gui.py as it runs, or they are programs that have extra features that are currently under
 development.
 
+5. Can I simulate psychic abilities?
+
+Sometimes. If you can simulate a psychic ability, it will appear as a weapon for the unit with the ability.
+
 

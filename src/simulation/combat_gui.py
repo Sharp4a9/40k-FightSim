@@ -26,10 +26,10 @@ class CombatSimulatorGUI:
         self.main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
         # Add info message at the top
-        info_text = """Faction names that include dates have had special rules added by hand;
-all other factions just have stats and weapon keywords.
+        info_text = """Faction names that include dates have had special rules added by hand; all other factions just have stats and weapon keywords.
 Cover is implemented as a Defender Special Rule.
 The first unit and weapon you include will be the first unit/weapon to activate.
+Rapid Fire and Melta activate under half range, as normal; the melta bonus applies after damage reduction.
 Please report any bugs to Andrew White."""
         info_label = ttk.Label(self.main_frame, text=info_text, wraplength=600, justify=tk.LEFT)
         info_label.grid(row=0, column=0, columnspan=10, pady=10, sticky=tk.W)

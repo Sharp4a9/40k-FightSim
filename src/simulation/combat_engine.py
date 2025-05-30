@@ -213,7 +213,7 @@ class CombatEngine:
             
         return base_attacks
 
-    def roll_damage(self, damage_value: Union[int, str], weapon: Weapon, target: Model) -> int:
+    def roll_damage(self, damage_value: Union[int, str], weapon: Weapon, target: Model, is_critical_hit: bool = False) -> int:
         """Calculate damage based on the weapon's damage value"""
         self.debug_print(f"  Rolling damage for value: {damage_value}")
         if isinstance(damage_value, int):
@@ -345,7 +345,27 @@ class CombatEngine:
                 result = reroll
             
             return result
-            
+        
+        # Handle 2D3 or 2D6 format
+        if damage_value == '2D3 or 2D6':
+            if is_critical_hit:
+                unmodified_roll = self.roll_dice() + self.roll_dice()
+            else:
+                unmodified_roll = m.ceil(self.roll_dice()/2) + m.ceil(self.roll_dice()/2)
+            result = unmodified_roll
+            self.debug_print(f"  Damage result: {result}")
+            return result
+        
+        # Handle D3 or 3 format
+        if damage_value == 'D3 or 3':
+            if is_critical_hit:
+                unmodified_roll = 3
+            else:
+                unmodified_roll = m.ceil(self.roll_dice()/2)
+            result = unmodified_roll
+            self.debug_print(f"  Damage result: {result}")
+            return result
+
         # If we can't parse it, return 1 as a fallback
         self.debug_print(f"  Using fallback damage value: 1")
         return 1
@@ -778,11 +798,15 @@ class CombatEngine:
                     self.debug_print("  Critical wound with Devastating Wounds")
                     is_devastating_wound = True
                     break
+                elif rule == "Mortal":
+                    self.debug_print("  Critical wound with Mortal")
+                    is_devastating_wound = True
+                    break
         
         # Devastating Wounds count as mortal wounds; add "Mortal" to special rules here and remove it after the FNP is applied
         dev_to_mortals_dummy = False
         if is_devastating_wound:
-            weapon.special_rules.append("Mortal")
+            weapon.special_rules.append("Mortal Wounds")
             dev_to_mortals_dummy = True
 
         # Implement Smoke
@@ -797,7 +821,7 @@ class CombatEngine:
             
         # Step 4: Inflict Damage
         self.debug_print("  About to roll damage")
-        damage = self.roll_damage(weapon.damage, weapon, target)
+        damage = self.roll_damage(weapon.damage, weapon, target, is_critical_hit)
         self.debug_print(f"  Damage roll: {damage}")
         
         # Apply damage reduction rules
@@ -845,9 +869,14 @@ class CombatEngine:
                     value = int(match.group(2))
                     # Check if the weapon has the condition as a special rule
                     if condition in weapon.special_rules:
-                        self.debug_print(f"  Target has {rule} and weapon has {condition}")
+                        self.debug_print(f"  Weapon has {condition} and target has {condition} FNP {value}+")
                         fnp_value = value
                         break
+                    if condition == "Mortal":
+                        if "Mortal Wounds" in weapon.special_rules:
+                            self.debug_print(f"  Weapon has Mortal Wounds and target has Mortal FNP {value}+")
+                            fnp_value = value
+                            break
         
         # If no conditional FNP applies, use the base FNP value
         if fnp_value is None and target.feel_no_pain is not None:
@@ -872,10 +901,14 @@ class CombatEngine:
             overkill_instances = damage
             damage = 1
             for _ in range(overkill_instances):
-                damage_dealt = min(damage, target.current_wounds)
-                target.current_wounds -= damage_dealt
-                self.debug_print(f"  Damage dealt: {damage_dealt}")
+                damage_dealt_temp = min(damage, target.current_wounds)
+                target.current_wounds -= damage_dealt_temp
+                self.debug_print(f"  Damage dealt: {damage_dealt_temp}")
                 self.debug_print(f"  Target remaining wounds: {target.current_wounds}")
+                # Reset wounds if model is destroyed
+                if target.current_wounds <= 0:
+                    target.current_wounds = target.wounds
+            damage_dealt = overkill_instances
         else:
             damage_dealt = min(damage, target.current_wounds)
             target.current_wounds -= damage_dealt
@@ -888,7 +921,7 @@ class CombatEngine:
         
         # Remove "Mortal" from special rules if it was added from a devastating wound
         if dev_to_mortals_dummy:
-            weapon.special_rules.remove("Mortal")
+            weapon.special_rules.remove("Mortal Wounds")
 
         return {
             "hit": True,

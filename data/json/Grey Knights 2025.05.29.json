@@ -39,7 +39,8 @@
         "AP": 1,
         "D": 2,
         "Keywords": [
-          "Psychic"
+          "Psychic",
+          "Reroll Wounds"
         ]
       },
       "Psilencer - Ranged": {
@@ -52,7 +53,8 @@
         "D": 1,
         "Keywords": [
           "Psychic",
-          "Sustained Hits 1"
+          "Sustained Hits 1",
+          "Reroll Wounds"
         ]
       },
       "Nemesis force weapon - Melee": {
@@ -64,7 +66,8 @@
         "AP": 2,
         "D": 2,
         "Keywords": [
-          "Psychic"
+          "Psychic",
+          "Reroll Wounds"
         ]
       }
     },
@@ -185,7 +188,10 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules_attack": [],
+    "special_rules_attack": [
+      "Reroll Hits Character",
+      "Reroll Wounds Character"
+    ],
     "special_rules_defence": []
   },
   {
@@ -303,6 +309,20 @@
         "D": 1,
         "Keywords": [
           "Rapid Fire 2"
+        ]
+      },
+      "Vortex of Doom - Psychic": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 1,
+        "BS": 2,
+        "S": 1,
+        "AP": 0,
+        "D": "2D3 or 2D6",
+        "Keywords": [
+          "Psychic",
+          "Mortal",
+          "Overkill"
         ]
       }
     },
@@ -515,7 +535,7 @@
       "Terminator",
       "Brotherhood Terminator Squad"
     ],
-    "total_models": 1,
+    "total_models": 5,
     "points": 200,
     "special_rules_attack": [],
     "special_rules_defence": []
@@ -799,6 +819,20 @@
         "D": 1,
         "Keywords": [
           "Rapid Fire 2"
+        ]
+      },
+      "Hammer Aflame - Psychic": {
+        "type": "Ranged",
+        "Range": 0,
+        "A": 1,
+        "BS": 4,
+        "S": 1,
+        "AP": 0,
+        "D": "D3 or 3",
+        "Keywords": [
+          "Psychic",
+          "Mortal",
+          "Overkill"
         ]
       }
     },
@@ -1357,7 +1391,7 @@
     ],
     "total_models": 1,
     "points": 160,
-    "special_rules_attack": [],
+    "special_rules_attack": ["+1 to Hit Fly"],
     "special_rules_defence": []
   },
   {
@@ -1504,7 +1538,7 @@
     "total_models": 1,
     "points": 280,
     "special_rules_attack": [],
-    "special_rules_defence": []
+    "special_rules_defence": ["-1 Damage"]
   },
   {
     "name": "Grey Knights Stormtalon Gunship",
@@ -2071,7 +2105,7 @@
     "total_models": 1,
     "points": 215,
     "special_rules_attack": [],
-    "special_rules_defence": []
+    "special_rules_defence": ["-1 to be Wounded by High Strength"]
   },
   {
     "name": "Purgation Squad",
@@ -2278,7 +2312,7 @@
   {
     "name": "Servitors",
     "models": {
-      "Servitors": {"M": 6, "T": 4, "SV": 4, "W": 1, "LD": 8, "OC": 0, "Inv": null, "Fnp": null}
+      "Servitors": {"M": 6, "T": 4, "SV": 4, "W": 1, "LD": 8, "OC": 0, "Inv": 6, "Fnp": null}
     },
     "weapons": {
       "Servo-arm - Melee": {
