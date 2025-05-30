@@ -13,10 +13,7 @@
         "S": 7,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds",
-          "Precision"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -39,7 +36,8 @@
     ],
     "total_models": 1,
     "points": 105,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Baal Predator",
@@ -55,11 +53,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Assault",
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -69,10 +63,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Assault",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Baal Flamestorm Cannon - Ranged": {
         "type": "Ranged",
@@ -82,11 +73,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Assault",
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Twin Assault Cannon - Ranged": {
         "type": "Ranged",
@@ -96,11 +83,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault",
-          "Devastating wounds",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -116,7 +99,8 @@
     ],
     "total_models": 1,
     "points": 135,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chief Librarian Mephiston",
@@ -132,9 +116,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma Pistol - Supercharge - Ranged": {
         "type": "Ranged",
@@ -144,10 +126,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Fury of the Ancients - Witchfire - Ranged": {
         "type": "Ranged",
@@ -157,11 +136,7 @@
         "S": 4,
         "AP": 1,
         "D": "D3",
-        "Keywords": [
-          "Pistol",
-          "Psychic",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Fury of the Ancients - Focused Witchfire - Ranged": {
         "type": "Ranged",
@@ -171,12 +146,7 @@
         "S": 5,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Hazardous",
-          "Pistol",
-          "Psychic",
-          "Sustained Hits 3"
-        ]
+        "Keywords": []
       },
       "Vitarus - Melee": {
         "type": "Melee",
@@ -186,10 +156,7 @@
         "S": 9,
         "AP": 3,
         "D": "D3",
-        "Keywords": [
-          "Lethal Hits",
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -210,7 +177,8 @@
     ],
     "total_models": 1,
     "points": 135,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Commander Dante",
@@ -226,11 +194,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2",
-          "Pistol",
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       },
       "The Axe Mortalis - Melee": {
         "type": "Melee",
@@ -240,9 +204,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -266,7 +228,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Intercessors",
@@ -282,9 +245,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Astartes Grenade Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -293,7 +254,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       }
     },
     "abilities": [],
@@ -308,7 +270,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Marines with Jump Packs",
@@ -323,7 +286,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -343,7 +307,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lemartes",
@@ -359,9 +324,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Absolvor Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -371,9 +334,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -396,7 +357,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sanguinary Guard",
@@ -411,7 +373,8 @@
         "WS": 3,
         "S": 6,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Encarmine Spear - Melee": {
         "type": "Melee",
@@ -421,9 +384,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lance"
-        ]
+        "Keywords": []
       },
       "Angelus Boltgun - Ranged": {
         "type": "Ranged",
@@ -433,9 +394,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -456,7 +415,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sanguinary Priest",
@@ -471,7 +431,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -486,11 +447,13 @@
       "Imperium",
       "Sanguinary Priest",
       "Adeptus Astartes",
-      "Blood Angels"
+      "Blood Angels",
+      "Tacticus"
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "The Sanguinor",
@@ -506,9 +469,7 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -528,7 +489,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Blood Angels Captain",
@@ -543,7 +505,8 @@
         "WS": 2,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Heavy Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -553,9 +516,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -573,7 +534,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Captain",
@@ -588,7 +550,8 @@
         "WS": 2,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Heavy Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -597,7 +560,8 @@
         "BS": 2,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -619,7 +583,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Captain with Jump Pack",
@@ -634,7 +599,8 @@
         "BS": 2,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -658,7 +624,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Marines with Bolt Rifles",
@@ -673,7 +640,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -682,7 +650,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power Fist - Melee": {
         "type": "Melee",
@@ -691,7 +660,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bolt Rifle - Ranged": {
         "type": "Ranged",
@@ -701,10 +671,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Assault",
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Astartes Grenade Launcher - Frag - Ranged": {
         "type": "Ranged",
@@ -714,9 +681,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Astartes Grenade Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -725,7 +690,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -743,7 +709,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Marines",
@@ -759,9 +726,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -770,7 +735,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power Fist - Melee": {
         "type": "Melee",
@@ -779,7 +745,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -798,7 +765,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Company Dreadnought",
@@ -814,9 +782,7 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Blood Fist Bolt Rifles - Ranged": {
         "type": "Ranged",
@@ -826,9 +792,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Blood Talons - Strike - Melee": {
         "type": "Melee",
@@ -838,9 +802,7 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Blood Talons - Sweep - Melee": {
         "type": "Melee",
@@ -850,9 +812,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -871,6 +831,7 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

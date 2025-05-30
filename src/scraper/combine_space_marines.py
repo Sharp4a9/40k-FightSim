@@ -4,11 +4,12 @@ from pathlib import Path
 
 def combine_space_marine_files():
     # Get the data directory path
-    data_dir = Path("data/json")
-    
+    data_dir = Path("data/json/marine subchapters (ignore)")
+    data_dir_out = Path("data/json")
+
     # List to store all units from all files
-    all_files = ["Raven Guard.json", "Salamanders.json", "Space Wolves.json", "Blood Angels.json", "Dark Angels.json",
-                 "Space Marines.json","Ultramarines.json","White Scars.json","Deathwatch.json","Black Templars.json"]
+    all_files = ["Raven Guard.json", "Salamanders.json",
+                 "Space Marines.json","Ultramarines.json","White Scars.json"]
     all_units = []
     seen_units = set()  # Set to track unit names we've already processed
     duplicates = []  # List to track duplicate entries
@@ -46,7 +47,7 @@ def combine_space_marine_files():
     all_units.sort(key=lambda x: x.get('name', ''))
     
     # Write the combined data to a new file
-    output_path = data_dir / "Space Marines.json"
+    output_path = data_dir_out / "Space Marines.json"
     with open(output_path, 'w') as f:
         json.dump(all_units, f, indent=2)
     

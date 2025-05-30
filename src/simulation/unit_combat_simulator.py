@@ -126,27 +126,43 @@ class UnitCombatSimulator:
             # Reset defending unit's wounds for each simulation
             defending_unit.current_wounds = defending_unit.wounds
             
-            # Track if we've used the Reroll 1 Hit Roll and Reroll 1 Wound Roll
+            # Track if we've used single-use abilities
             hit_reroll_used = False
             wound_reroll_used = False
+            hit_wound_or_damage_reroll_used = False
+            flip_a_6_hit_used = False
+            flip_a_6_wound_used = False
+            flip_a_6_damage_used = False
+            flip_a_6_hit_wound_used = False
+            flip_a_6_used = False
             
             # Calculate total damage and models destroyed
             total_damage = 0
             for weapon in attacking_weapons:
-                # Check if any weapon has the Reroll 1 Hit Roll or Reroll 1 Wound Roll special rule
+                # Check if any weapon has one-use special rules
                 has_reroll_1_hit = any("Reroll 1 Hit Roll" in w.special_rules for w in attacking_weapons)
                 has_reroll_1_wound = any("Reroll 1 Wound Roll" in w.special_rules for w in attacking_weapons)
-                
+                has_reroll_1_hit_or_wound = any("Reroll 1 Hit or Wound" in w.special_rules for w in attacking_weapons)
+                has_reroll_1_hit_wound_or_damage = any("Reroll 1 Hit or Wound or Damage" in w.special_rules for w in attacking_weapons)
+                has_flip_a_6 = any("Flip Roll to 6" in w.special_rules for w in attacking_weapons)
+                has_flip_a_6_hit = any("Flip Hit Roll to 6" in w.special_rules for w in attacking_weapons)
+                has_flip_a_6_wound = any("Flip Wound Roll to 6" in w.special_rules for w in attacking_weapons)
+                has_flip_a_6_damage = any("Flip Damage Roll to 6" in w.special_rules for w in attacking_weapons)
+                has_flip_a_6_hit_wound = any("Flip Hit or Wound Roll to 6" in w.special_rules for w in attacking_weapons)
+                weapon.one_use_rules = {
+                    "has_reroll_1_hit": has_reroll_1_hit,
+                    "has_reroll_1_wound": has_reroll_1_wound,
+                    "has_reroll_1_hit_or_wound": has_reroll_1_hit_or_wound,
+                    "has_reroll_1_hit_wound_or_damage": has_reroll_1_hit_wound_or_damage,
+                    "has_flip_a_6": has_flip_a_6,
+                    "has_flip_a_6_hit": has_flip_a_6_hit,
+                    "has_flip_a_6_wound": has_flip_a_6_wound,
+                    "has_flip_a_6_damage": has_flip_a_6_damage,
+                    "has_flip_a_6_hit_wound": has_flip_a_6_hit_wound
+                }
+
                 # Pass the reroll tracking to the combat engine
-                results = self.combat_engine.resolve_attacks(weapon, defending_unit, 
-                                                          can_reroll_1_hit=has_reroll_1_hit and not hit_reroll_used,
-                                                          can_reroll_1_wound=has_reroll_1_wound and not wound_reroll_used)
-                
-                # Update reroll tracking
-                if has_reroll_1_hit and not hit_reroll_used and results.get("used_reroll_1_hit", False):
-                    hit_reroll_used = True
-                if has_reroll_1_wound and not wound_reroll_used and results.get("used_reroll_1_wound", False):
-                    wound_reroll_used = True
+                results = self.combat_engine.resolve_attacks(weapon, defending_unit)
                 
                 total_damage += results["damage_dealt"]
             

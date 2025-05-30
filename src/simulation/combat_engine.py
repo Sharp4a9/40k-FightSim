@@ -90,6 +90,7 @@ class Weapon:
     damage: Union[int, str]  # Can be an integer or a string like "D6+3"
     weapon_type: str  # "melee" or "ranged"
     special_rules: List[str]
+    one_use_rules: Dict[str, bool] = field(default_factory=dict)
     target_range: int = 0  # Distance to target in inches
 
 class CombatEngine:
@@ -235,14 +236,39 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            
+            elif weapon.one_use_rules["has_hit_wound_or_damage_reroll"] and unmodified_roll < 4:
+                should_reroll = True
+                weapon.one_use_rules["has_hit_wound_or_damage_reroll"] = False
+                self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
+
             if should_reroll:
                 self.debug_print(f"  Initial damage roll {result} (unmodified {unmodified_roll}) failed or rolled a 1, attempting reroll")
                 unmodified_reroll = self.roll_dice()
-                reroll = unmodified_reroll + int(match.group(1))
-                self.debug_print(f"  Reroll result: {reroll}")
-                # Use the better of the two rolls
-                result = reroll
+                result = unmodified_reroll + int(match.group(1))
+                self.debug_print(f"  Reroll result: {result}")
+
+            if weapon.one_use_rules["has_flip_a_6_damage"]:
+                if should_reroll and unmodified_reroll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll + int(match.group(1))
+                elif unmodified_roll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll + int(match.group(1))
+            elif weapon.one_use_rules["has_flip_a_6"]:
+                if should_reroll and unmodified_reroll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll + int(match.group(1))
+                elif unmodified_roll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll + int(match.group(1))
             
             return result
             
@@ -260,14 +286,41 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            
+            elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
+                should_reroll = True
+                weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+                self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
+
             if should_reroll:
                 self.debug_print(f"  Initial damage roll {result} (unmodified {unmodified_roll}) failed or rolled a 1, attempting reroll")
                 unmodified_reroll = self.roll_dice()
                 reroll = unmodified_reroll
                 self.debug_print(f"  Reroll result: {reroll}")
                 result = reroll
-            
+
+            if weapon.one_use_rules["has_flip_a_6_damage"]:
+                if should_reroll and unmodified_reroll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll
+                elif unmodified_roll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6_damage"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll
+            elif weapon.one_use_rules["has_flip_a_6"]:
+                if should_reroll and unmodified_reroll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll
+                elif unmodified_roll < 4:
+                    die_roll = 6
+                    weapon.one_use_rules["has_flip_a_6"] = False
+                    self.debug_print("  Using Flip Damage Roll to 6 special rule")
+                    result = die_roll
+
             return result
             
         # Handle D3+X format
@@ -285,7 +338,11 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            
+            elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
+                should_reroll = True
+                weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+                self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
+
             if should_reroll:
                 self.debug_print(f"  Initial damage roll {result} (unmodified {unmodified_roll}) failed or rolled a 1, attempting reroll")
                 unmodified_reroll = self.roll_dice()
@@ -309,7 +366,11 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon) and unmodified_roll == 1:
                 # Reroll if we rolled a 1
                 should_reroll = True
-            
+            elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and unmodified_roll < 4:
+                should_reroll = True
+                weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+                self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
+
             if should_reroll:
                 self.debug_print(f"  Initial damage roll {result} (unmodified {unmodified_roll}) failed or rolled a 1, attempting reroll")
                 unmodified_reroll = self.roll_dice()
@@ -335,7 +396,11 @@ class CombatEngine:
             elif self.has_reroll_damage_1(weapon):
                 # Reroll if any die rolled a 1
                 should_reroll = 1 in unmodified_rolls
-            
+            elif weapon.one_use_rules["has_hit_wound_or_damage_reroll"] and unmodified_roll < 4:
+                should_reroll = True
+                weapon.one_use_rules["has_hit_wound_or_damage_reroll"] = False
+                self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
+
             if should_reroll:
                 self.debug_print(f"  Initial damage roll {result} (unmodified rolls {unmodified_rolls}) contains a 1, attempting reroll")
                 unmodified_rerolls = [self.roll_dice() for _ in range(num_dice)]
@@ -495,9 +560,8 @@ class CombatEngine:
                     return True
         return False
 
-    def make_hit_roll(self, weapon: Weapon, target: Model, results: Dict[str, Any] = None) -> Dict[str, bool]:
+    def make_hit_roll(self, weapon: Weapon, target: Model) -> Dict[str, bool]:
         """Make a hit roll based on the weapon's skill"""
-        finite_reroll_used = False
         # Check for Torrent special rule
         if self.has_torrent(weapon):
             self.debug_print("  Weapon has Torrent special rule - hit automatically succeeds")
@@ -519,11 +583,21 @@ class CombatEngine:
         elif self.has_reroll_hits_1(weapon) and unmodified_roll == 1:
             # Reroll if we rolled a 1
             should_reroll = True
-        elif self.has_reroll_1_hit_roll(weapon) and unmodified_roll == 1 and not results["used_reroll_1_hit"]:
+        elif weapon.one_use_rules["has_reroll_1_hit"] and roll < weapon.skill:
             # Reroll if we rolled a 1 and haven't used the reroll yet
             should_reroll = True
-            finite_reroll_used = True
+            weapon.one_use_rules["has_reroll_1_hit"] = False
             self.debug_print("  Using Reroll 1 Hit Roll special rule")
+        elif weapon.one_use_rules["has_reroll_1_hit_or_wound"] and roll < weapon.skill:
+            # Reroll if we rolled a 1 and haven't used the reroll yet
+            should_reroll = True
+            weapon.one_use_rules["has_reroll_1_hit_or_wound"] = False
+            self.debug_print("  Using Reroll 1 Hit or Wound special rule")
+        elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and roll < weapon.skill:
+            # Reroll if we rolled a 1 and haven't used the reroll yet
+            should_reroll = True
+            weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+            self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
         
         if should_reroll:
             self.debug_print(f"  Initial hit roll {roll} failed or rolled a 1, attempting reroll")
@@ -532,9 +606,21 @@ class CombatEngine:
             self.debug_print(f"  Reroll result: {reroll}")
             unmodified_roll = unmodified_reroll
             roll = reroll
-            if finite_reroll_used:
-                results["used_reroll_1_hit"] = True
         
+        # Apply a flipped 6, if any.
+        if weapon.one_use_rules["has_flip_a_6_hit"] and roll < weapon.skill:
+            unmodified_roll = 6
+            weapon.one_use_rules["has_flip_a_6_hit"] = False
+            self.debug_print("  Using Flip Hit Roll to 6 special rule")
+        elif weapon.one_use_rules["has_flip_a_6_hit_wound"] and roll < weapon.skill:
+            unmodified_roll = 6
+            weapon.one_use_rules["has_flip_a_6_hit_wound"] = False
+            self.debug_print("  Using Flip Hit or Wound Roll to 6 special rule")
+        elif weapon.one_use_rules["has_flip_a_6"] and roll < weapon.skill:
+            unmodified_roll = 6
+            weapon.one_use_rules["has_flip_a_6"] = False
+            self.debug_print("  Using Flip Hit Roll to 6 special rule")
+
         # Check for automatic failure on unmodified roll of 1
         if unmodified_roll == 1 and not self.has_torrent(weapon):
             self.debug_print("  Unmodified roll of 1 automatically fails (no Torrent)")
@@ -550,8 +636,7 @@ class CombatEngine:
             "critical": is_critical
         }
 
-    def make_wound_roll(self, weapon: Weapon, target: Model, is_critical_hit: bool = False,results: Dict[str, Any] = None) -> Dict[str, bool]:
-        finite_reroll_used = False
+    def make_wound_roll(self, weapon: Weapon, target: Model, is_critical_hit: bool = False) -> Dict[str, bool]:
         """Make a wound roll based on strength vs toughness"""
         # Lethal Hits automatically wound on critical hits
         if is_critical_hit and self.has_lethal_hits(weapon, target):
@@ -591,12 +676,22 @@ class CombatEngine:
         elif self.has_reroll_wounds_1(weapon) and unmodified_roll == 1:
             # Reroll if we rolled a 1
             should_reroll = True
-        elif self.has_reroll_1_wound_roll(weapon) and unmodified_roll == 1 and not results["used_reroll_1_wound"]:
-            # Reroll if we rolled a 1 and haven't used the reroll yet
+        elif weapon.one_use_rules["has_reroll_1_wound"] and roll < required:
+            # Use a 1-use reroll
             should_reroll = True
-            finite_reroll_used = True
+            weapon.one_use_rules["has_reroll_1_wound"] = False
             self.debug_print("  Using Reroll 1 Wound Roll special rule")
-        
+        elif weapon.one_use_rules["has_reroll_1_hit_or_wound"] and roll < required:
+            # Use a 1-use reroll
+            should_reroll = True
+            weapon.one_use_rules["has_reroll_1_hit_or_wound"] = False
+            self.debug_print("  Using Reroll 1 Hit or Wound special rule")
+        elif weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] and roll < required:
+            # Use a 1-use reroll
+            should_reroll = True
+            weapon.one_use_rules["has_reroll_1_hit_wound_or_damage"] = False
+            self.debug_print("  Using Reroll 1 Hit or Wound or Damage special rule")
+
         if should_reroll:
             self.debug_print(f"  Initial wound roll {roll} failed or rolled a 1, attempting reroll")
             unmodified_reroll = self.roll_dice()
@@ -604,9 +699,21 @@ class CombatEngine:
             self.debug_print(f"  Reroll result: {reroll}")
             unmodified_roll = unmodified_reroll
             roll = reroll
-            if finite_reroll_used:
-                results["used_reroll_1_wound"] = True
-        
+
+        # Apply a flipped 6, if any.
+        if weapon.one_use_rules["has_flip_a_6_wound"] and roll < required:
+            unmodified_roll = 6
+            weapon.one_use_rules["has_flip_a_6_wound"] = False
+            self.debug_print("  Using Flip Wound Roll to 6 special rule")
+        elif weapon.one_use_rules["has_flip_a_6_hit_wound"] and roll < required:
+            unmodified_roll = 6
+            weapon.one_use_rules["has_flip_a_6_hit_wound"] = False
+            self.debug_print("  Using Flip Hit or Wound Roll to 6 special rule")
+        elif weapon.one_use_rules["has_flip_a_6"] and roll < required:
+            unmodified_roll = 6
+            weapon.one_use_rules["has_flip_a_6"] = False
+            self.debug_print("  Using Flip Wound Roll to 6 special rule")
+
         # Check for automatic failure on unmodified roll of 1
         if unmodified_roll == 1:
             self.debug_print("  Unmodified roll of 1 automatically fails wound roll")
@@ -764,7 +871,7 @@ class CombatEngine:
                     self.debug_print(f"  Wound modifiers increased to {self.wound_modifiers}")
 
         # Step 1: Hit Roll
-        hit_result = self.make_hit_roll(weapon, target, results)
+        hit_result = self.make_hit_roll(weapon, target)
         self.debug_print(f"  Hit roll result: {hit_result}")
         if not hit_result["hit"]:
             return {"hit": False, "wound": False, "save": False, "damage_dealt": 0}
@@ -776,7 +883,7 @@ class CombatEngine:
             
         # Step 2: Wound Roll
         is_critical_hit = hit_result["critical"]
-        wound_result = self.make_wound_roll(weapon, target, is_critical_hit, results)
+        wound_result = self.make_wound_roll(weapon, target, is_critical_hit)
         self.debug_print(f"  Wound roll result: {wound_result}")
         if not wound_result["wound"]:
             return {"hit": True, "wound": False, "save": False, "damage_dealt": 0}
@@ -931,7 +1038,7 @@ class CombatEngine:
             "sustained_hits": sustained_hits
         }
 
-    def resolve_attacks(self, weapon: Weapon, target: Model, can_reroll_1_hit: bool = True, can_reroll_1_wound: bool = True) -> Dict[str, int]:
+    def resolve_attacks(self, weapon: Weapon, target: Model) -> Dict[str, int]:
         """Resolve all attacks from a weapon against a target"""
         results = {
             "hits": 0,
@@ -941,14 +1048,9 @@ class CombatEngine:
             "critical_hits": 0,
             "critical_wounds": 0,
             "sustained_hits": 0,
-            "models_destroyed": 0,
-            "used_reroll_1_hit": False,
-            "used_reroll_1_wound": False
+            "models_destroyed": 0
         }
                 
-        results["used_reroll_1_hit"] = can_reroll_1_hit
-        results["used_reroll_1_wound"] = can_reroll_1_wound
-
         # Check if weapon is in range
         if weapon.weapon_type.lower() == "ranged" and weapon.range < weapon.target_range:
             self.debug_print(f"Weapon {weapon.name} is out of range ({weapon.range} < {weapon.target_range})")

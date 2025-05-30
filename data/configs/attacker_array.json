@@ -1,5 +1,5 @@
 {
-  "Fire Dragons - Melta": {
+  "Fire Dragons - Melta - Token - Ex Firepike": {
     "faction": "Aeldari 2025.05.21",
     "points": 110,
     "target_range": 0,
@@ -9,7 +9,7 @@
         "weapons": [
           {
             "name": "Dragon Fusion Gun - Ranged",
-            "quantity": 5,
+            "quantity": 4,
             "data": {
               "type": "Ranged",
               "Range": 12,
@@ -23,36 +23,16 @@
                 "Melta 3"
               ]
             }
-          }
-        ],
-        "special_rules": [
-          "Reroll Hits Monster",
-          "Reroll Hits Vehicle",
-          "Reroll Wounds Monster",
-          "Reroll Wounds Vehicle",
-          "Reroll Damage Vehicle",
-          "Reroll Damage Monster"
-        ]
-      }
-    ]
-  },
-  "Fire Dragons": {
-    "faction": "Aeldari 2025.05.21",
-    "points": 110,
-    "target_range": 10,
-    "units": [
-      {
-        "name": "Fire Dragons",
-        "weapons": [
+          },
           {
-            "name": "Dragon Fusion Gun - Ranged",
-            "quantity": 5,
+            "name": "Firepike - Ranged",
+            "quantity": 1,
             "data": {
               "type": "Ranged",
-              "Range": 12,
+              "Range": 18,
               "A": 1,
               "BS": 3,
-              "S": 9,
+              "S": 12,
               "AP": 4,
               "D": "D6",
               "Keywords": [
@@ -63,6 +43,7 @@
           }
         ],
         "special_rules": [
+          "Flip Hit or Wound Roll to 6",
           "Reroll Hits Monster",
           "Reroll Hits Vehicle",
           "Reroll Wounds Monster",

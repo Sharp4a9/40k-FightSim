@@ -1200,19 +1200,6 @@
         "Keywords": [
           "Rapid Fire 3"
         ]
-      },
-      "Rapid-fire battle cannon - Ranged": {
-        "type": "Ranged",
-        "Range": 72,
-        "A": "D6+3",
-        "BS": 3,
-        "S": 10,
-        "AP": 1,
-        "D": 3,
-        "Keywords": [
-          "Blast",
-          "Rapid Fire D6+3"
-        ]
       }
     },
     "abilities": [

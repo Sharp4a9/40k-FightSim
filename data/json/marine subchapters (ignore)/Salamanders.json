@@ -13,11 +13,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Malleus Noctum - Melee": {
         "type": "Melee",
@@ -26,7 +22,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -47,7 +44,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Vulkan He'stan",
@@ -63,10 +61,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Spear of Vulkan - Melee": {
         "type": "Melee",
@@ -75,7 +70,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -97,6 +93,7 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

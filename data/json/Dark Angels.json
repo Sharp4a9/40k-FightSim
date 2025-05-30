@@ -13,11 +13,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "The Sword of Secrets - Melee": {
         "type": "Melee",
@@ -27,9 +23,7 @@
         "S": 6,
         "AP": 4,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -54,7 +48,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Belial",
@@ -70,10 +65,7 @@
         "S": 4,
         "AP": 0,
         "D": 2,
-        "Keywords": [
-          "Precision",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "The Sword of Silence - Melee": {
         "type": "Melee",
@@ -83,9 +75,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Precision"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -108,7 +98,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sammael",
@@ -124,9 +115,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Master-crafted plasma cannon - Ranged": {
         "type": "Ranged",
@@ -136,9 +125,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Twin storm bolter - Ranged": {
         "type": "Ranged",
@@ -148,10 +135,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       },
       "The Raven Sword - Melee": {
         "type": "Melee",
@@ -161,9 +145,7 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -187,7 +169,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ezekiel",
@@ -203,10 +186,7 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Pistol",
-          "Precision"
-        ]
+        "Keywords": []
       },
       "Mind Wipe - witchfire - Ranged": {
         "type": "Ranged",
@@ -216,11 +196,7 @@
         "S": 6,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Devastating Wounds",
-          "Precision",
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Mind Wipe - focussed witchfire - Ranged": {
         "type": "Ranged",
@@ -230,13 +206,7 @@
         "S": 6,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Anti-Character 4+",
-          "Devastating Wounds",
-          "Hazardous",
-          "Precision",
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Traitor's Bane - Melee": {
         "type": "Melee",
@@ -246,10 +216,7 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Anti-Chaos 2+",
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -273,7 +240,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Asmodai",
@@ -289,9 +257,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Crozius Arcanum and Power Weapon - strike - Melee": {
         "type": "Melee",
@@ -300,7 +266,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Crozius Arcanum and Power Weapon - sweep - Melee": {
         "type": "Melee",
@@ -309,7 +276,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -333,7 +301,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lion El'Jonson",
@@ -349,9 +318,7 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Arma Luminis - plasma - Ranged": {
         "type": "Ranged",
@@ -361,9 +328,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Fealty - strike - Melee": {
         "type": "Melee",
@@ -373,9 +338,7 @@
         "S": 12,
         "AP": 4,
         "D": 4,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Fealty - sweep - Melee": {
         "type": "Melee",
@@ -385,9 +348,7 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -408,7 +369,8 @@
     ],
     "total_models": 1,
     "points": 315,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lazarus",
@@ -424,9 +386,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Enmitys Edge - Melee": {
         "type": "Melee",
@@ -436,9 +396,7 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Anti-Psyker 2+"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -462,7 +420,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Nephilim Jetfighter",
@@ -477,7 +436,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Blacksword missiles - Ranged": {
         "type": "Ranged",
@@ -487,9 +447,7 @@
         "S": 8,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Anti-Fly 2+"
-        ]
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -499,10 +457,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       },
       "Avenger mega bolter - Ranged": {
         "type": "Ranged",
@@ -512,9 +467,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Nephilim lascannons - Ranged": {
         "type": "Ranged",
@@ -523,7 +476,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -543,7 +497,8 @@
     ],
     "total_models": 1,
     "points": 195,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ravenwing Dark Talon",
@@ -558,7 +513,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hurricane bolter - Ranged": {
         "type": "Ranged",
@@ -568,10 +524,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 6",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       },
       "Rift cannon - Ranged": {
         "type": "Ranged",
@@ -581,10 +534,7 @@
         "S": 16,
         "AP": 4,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -604,7 +554,8 @@
     ],
     "total_models": 1,
     "points": 210,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Land Speeder Vengeance",
@@ -619,7 +570,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Plasma storm battery - standard - Ranged": {
         "type": "Ranged",
@@ -629,10 +581,7 @@
         "S": 8,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       },
       "Plasma storm battery - supercharge - Ranged": {
         "type": "Ranged",
@@ -642,11 +591,7 @@
         "S": 9,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       },
       "Assault cannon - Ranged": {
         "type": "Ranged",
@@ -656,9 +601,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -668,9 +611,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -688,7 +629,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ravenwing Darkshroud",
@@ -703,7 +645,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Assault cannon - Ranged": {
         "type": "Ranged",
@@ -713,9 +656,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -725,9 +666,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -745,7 +684,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ravenwing Black Knights",
@@ -763,9 +703,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Black Knight combat weapon - Melee": {
         "type": "Melee",
@@ -775,9 +713,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Plasma talon - Standard - Ranged": {
         "type": "Ranged",
@@ -787,9 +723,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma talon - Supercharged - Ranged": {
         "type": "Ranged",
@@ -799,10 +733,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Astartes grenade launcher - frag - Ranged": {
         "type": "Ranged",
@@ -812,9 +743,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Astartes grenade launcher - krak - Ranged": {
         "type": "Ranged",
@@ -823,7 +752,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -842,7 +772,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ravenwing Command Squad",
@@ -860,9 +791,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -872,9 +801,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma talon - Standard - Ranged": {
         "type": "Ranged",
@@ -884,9 +811,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma talon - Supercharged - Ranged": {
         "type": "Ranged",
@@ -896,10 +821,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Astartes Grenade Launcher - Frag - Ranged": {
         "type": "Ranged",
@@ -909,9 +831,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Astartes Grenade Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -920,7 +840,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       },
       "Master-crafted power weapon - Melee": {
         "type": "Melee",
@@ -929,7 +850,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -951,7 +873,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Deathwing Knights",
@@ -968,10 +891,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-Monster 4+",
-          "Anti-Vehicle 4+"
-        ]
+        "Keywords": []
       },
       "Power Weapon - Melee": {
         "type": "Melee",
@@ -980,7 +900,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Great Weapon of the Unforgiven - Melee": {
         "type": "Melee",
@@ -990,10 +911,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Relic Weapon - Melee": {
         "type": "Melee",
@@ -1003,9 +921,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1026,7 +942,8 @@
     ],
     "total_models": 1,
     "points": 250,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Deathwing Terminator Squad",
@@ -1045,9 +962,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Power Weapon - Melee": {
         "type": "Melee",
@@ -1056,7 +971,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power Fist - Melee": {
         "type": "Melee",
@@ -1065,7 +981,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Chainfist - Melee": {
         "type": "Melee",
@@ -1075,9 +992,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-Vehicle 3+"
-        ]
+        "Keywords": []
       },
       "Assault Cannon - Ranged": {
         "type": "Ranged",
@@ -1087,9 +1002,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Heavy Flamer - Ranged": {
         "type": "Ranged",
@@ -1099,10 +1012,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Plasma Cannon - Standard - Ranged": {
         "type": "Ranged",
@@ -1112,9 +1022,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Plasma Cannon - Supercharge - Ranged": {
         "type": "Ranged",
@@ -1124,10 +1032,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Cyclone Missile Launcher - Frag - Ranged": {
         "type": "Ranged",
@@ -1137,9 +1042,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Cyclone Missile Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -1148,7 +1051,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1169,7 +1073,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inner Circle Companions",
@@ -1185,9 +1090,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Calibanite Greatsword - Strike - Melee": {
         "type": "Melee",
@@ -1197,9 +1100,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Calibanite Greatsword - Sweep - Melee": {
         "type": "Melee",
@@ -1209,9 +1110,7 @@
         "S": 6,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Sustained Hits 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1230,6 +1129,7 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

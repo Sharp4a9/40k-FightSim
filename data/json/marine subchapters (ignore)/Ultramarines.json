@@ -13,9 +13,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Talassarian Tempest Blade - Melee": {
         "type": "Melee",
@@ -25,9 +23,7 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -47,7 +43,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chief Librarian Tigurius",
@@ -63,10 +60,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Storm of the Emperors Wrath - Focused Witchfire - Ranged": {
         "type": "Ranged",
@@ -76,11 +70,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous",
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Rod of Tigurius - Melee": {
         "type": "Melee",
@@ -90,9 +80,7 @@
         "S": 7,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -112,7 +100,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Marneus Calgar",
@@ -128,10 +117,7 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Pistol",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Gauntlets of Ultramar - Melee": {
         "type": "Melee",
@@ -141,9 +127,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Victrix Power Sword - Melee": {
         "type": "Melee",
@@ -152,7 +136,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -167,7 +152,8 @@
     ],
     "total_models": 1,
     "points": 210,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Roboute Guilliman",
@@ -183,9 +169,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Hand of Dominion - Melee": {
         "type": "Melee",
@@ -195,9 +179,7 @@
         "S": 14,
         "AP": 4,
         "D": 4,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "The Emperor's Sword - Melee": {
         "type": "Melee",
@@ -207,9 +189,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -230,7 +210,8 @@
     ],
     "total_models": 1,
     "points": 345,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Uriel Ventris",
@@ -245,7 +226,8 @@
         "BS": 2,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Sword of Idaeus - Melee": {
         "type": "Melee",
@@ -255,9 +237,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -278,7 +258,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lieutenant Titus",
@@ -294,9 +275,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -306,9 +285,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 2+"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -330,6 +307,7 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

@@ -645,7 +645,10 @@ Please report any bugs to Andrew White."""
                                         values=["Sustained Hits 1", "Lethal Hits", "Reroll Hits", 
                                                "Reroll Hits 1", "Reroll Wounds", "Reroll Wounds 1",
                                                "Critical Hits 5+", "Critical Wounds 5+", "Ignores Cover",
-                                               "Devastating Wounds", "Reroll 1 Hit Roll", "Reroll 1 Wound Roll"],
+                                               "Devastating Wounds", "Reroll 1 Hit Roll", "Reroll 1 Wound Roll",
+                                               "Reroll 1 Hit or Wound", "Reroll 1 Hit or Wound or Damage",
+                                               "Flip Roll to 6", "Flip Hit Roll to 6", "Flip Wound Roll to 6",
+                                               "Flip Hit or Wound Roll to 6", "Flip Damage Roll to 6"],
                                         width=40)
         special_rule_combo.grid(row=row, column=0, padx=5, pady=2)
         

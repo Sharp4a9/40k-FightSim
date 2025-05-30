@@ -13,9 +13,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 2"
-        ]
+        "Keywords": []
       },
       "Harrowhand - Melee": {
         "type": "Melee",
@@ -24,7 +22,8 @@
         "WS": 3,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Medusan Manipuli - Melee": {
         "type": "Melee",
@@ -34,9 +33,7 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -58,6 +55,7 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

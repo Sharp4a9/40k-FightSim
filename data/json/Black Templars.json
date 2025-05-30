@@ -12,7 +12,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasma Pistol - Supercharge - Ranged": {
         "type": "Ranged",
@@ -22,10 +23,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma Pistol - Standard - Ranged": {
         "type": "Ranged",
@@ -35,9 +33,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -46,7 +42,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -64,7 +61,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "High Marshal Helbrecht",
@@ -79,7 +77,8 @@
         "WS": 2,
         "S": 6,
         "AP": 3,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Sword of the High Marshals - Two Handed - Melee": {
         "type": "Melee",
@@ -88,7 +87,8 @@
         "WS": 2,
         "S": 8,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Ferocity - Ranged": {
         "type": "Ranged",
@@ -98,10 +98,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -123,7 +120,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Primaris Crusader Squad",
@@ -144,7 +142,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Pyre Pistol - Ranged": {
         "type": "Ranged",
@@ -154,11 +153,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Pyreblaster - Ranged": {
         "type": "Ranged",
@@ -168,10 +163,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Neophyte Firearm - Ranged": {
         "type": "Ranged",
@@ -181,9 +173,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -201,7 +191,8 @@
     ],
     "total_models": 1,
     "points": 150,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Primaris Sword Brethren",
@@ -219,11 +210,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Thunder Hammer - Melee": {
         "type": "Melee",
@@ -233,9 +220,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -245,11 +230,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Master-crafted Power Weapon - Melee": {
         "type": "Melee",
@@ -258,7 +239,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -275,7 +257,8 @@
     ],
     "total_models": 1,
     "points": 150,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "The Emperor's Champion",
@@ -291,9 +274,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Precision"
-        ]
+        "Keywords": []
       },
       "Black Sword - Sweep - Melee": {
         "type": "Melee",
@@ -302,7 +283,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -323,7 +305,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Crusader Squad",
@@ -345,7 +328,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Astartes Shotgun - Ranged": {
         "type": "Ranged",
@@ -355,9 +339,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -366,7 +348,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin Lightning Claws - Melee": {
         "type": "Melee",
@@ -376,9 +359,7 @@
         "S": 4,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -387,7 +368,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -404,7 +386,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Black Templars Gladiator Lancer",
@@ -420,9 +403,7 @@
         "S": 14,
         "AP": 4,
         "D": "D6+3",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -438,7 +419,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Black Templars Gladiator Reaper",
@@ -454,9 +436,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Twin Heavy Onslaught Gatling Cannon - Ranged": {
         "type": "Ranged",
@@ -466,10 +446,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -485,7 +462,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Black Templars Gladiator Valiant",
@@ -501,9 +479,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Twin Las-talon - Ranged": {
         "type": "Ranged",
@@ -513,9 +489,7 @@
         "S": 10,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -531,7 +505,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Black Templars Impulsor",
@@ -547,9 +522,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Bellicatus Missile Array - Icarus - Ranged": {
         "type": "Ranged",
@@ -559,9 +532,7 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Anti-Fly 2+"
-        ]
+        "Keywords": []
       },
       "Bellicatus Missile Array - Krak - Ranged": {
         "type": "Ranged",
@@ -570,7 +541,8 @@
         "BS": 3,
         "S": 8,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       },
       "Ironhail Skytalon Array - Ranged": {
         "type": "Ranged",
@@ -580,10 +552,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Fly 4+",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -603,7 +572,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Black Templars Repulsor",
@@ -619,10 +589,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Indirect Fire",
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Repulsor Defensive Array - Ranged": {
         "type": "Ranged",
@@ -631,7 +598,8 @@
         "BS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -649,7 +617,8 @@
     ],
     "total_models": 1,
     "points": 190,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Black Templars Repulsor Executioner",
@@ -664,7 +633,8 @@
         "BS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy Laser Destroyer - Ranged": {
         "type": "Ranged",
@@ -674,9 +644,7 @@
         "S": 16,
         "AP": 4,
         "D": "D6+4",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -694,7 +662,8 @@
     ],
     "total_models": 1,
     "points": 230,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Castellan",
@@ -709,7 +678,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -718,7 +688,8 @@
         "WS": 2,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -728,11 +699,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -750,7 +717,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Marshal",
@@ -765,7 +733,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -775,11 +744,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma Pistol - Standard - Ranged": {
         "type": "Ranged",
@@ -789,9 +754,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma Pistol - Supercharge - Ranged": {
         "type": "Ranged",
@@ -801,10 +764,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -823,6 +783,7 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

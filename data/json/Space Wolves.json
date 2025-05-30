@@ -12,7 +12,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -32,7 +33,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Logan Grimnar on Stormrider",
@@ -47,7 +49,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Flurry of teeth and claws - Melee": {
         "type": "Melee",
@@ -57,9 +60,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -78,7 +79,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Njal Stormcaller",
@@ -94,10 +96,7 @@
         "S": 7,
         "AP": 1,
         "D": "D3",
-        "Keywords": [
-          "Psychic",
-          "Sustained Hits 2"
-        ]
+        "Keywords": []
       },
       "Living Lightning - witchfire - Ranged": {
         "type": "Ranged",
@@ -107,10 +106,7 @@
         "S": 7,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Psychic",
-          "Sustained Hits 2"
-        ]
+        "Keywords": []
       },
       "Living Lightning - focused witchfire - Ranged": {
         "type": "Ranged",
@@ -120,11 +116,7 @@
         "S": 7,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Hazardous",
-          "Psychic",
-          "Sustained Hits 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -145,7 +137,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bjorn the Fell-Handed",
@@ -161,9 +154,7 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Assault cannon - Ranged": {
         "type": "Ranged",
@@ -173,9 +164,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Heavy plasma cannon - standard - Ranged": {
         "type": "Ranged",
@@ -185,9 +174,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Heavy plasma cannon - supercharge - Ranged": {
         "type": "Ranged",
@@ -197,10 +184,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -210,9 +194,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -222,9 +204,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Helfrost cannon - dispersed - Ranged": {
         "type": "Ranged",
@@ -234,9 +214,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Helfrost cannon - focused - Ranged": {
         "type": "Ranged",
@@ -245,7 +223,8 @@
         "BS": 2,
         "S": 9,
         "AP": 3,
-        "D": 5
+        "D": 5,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -266,7 +245,8 @@
     ],
     "total_models": 1,
     "points": 190,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Arjac Rockfist",
@@ -282,9 +262,7 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Anti-MONSTER 2+"
-        ]
+        "Keywords": []
       },
       "Foehammer - Ranged": {
         "type": "Ranged",
@@ -294,10 +272,7 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Anti-MONSTER 2+",
-          "Assault"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -317,7 +292,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ulrik the Slayer",
@@ -333,9 +309,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - supercharge - Ranged": {
         "type": "Ranged",
@@ -345,10 +319,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Artificer crozius - Melee": {
         "type": "Melee",
@@ -357,7 +328,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -377,7 +349,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ragnar Blackmane",
@@ -393,9 +366,7 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -417,7 +388,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Krom Dragongaze",
@@ -433,9 +405,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -456,7 +426,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Harald Deathwolf",
@@ -471,7 +442,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Crushing teeth and claws - Melee": {
         "type": "Melee",
@@ -481,9 +453,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -504,7 +474,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Canis Wolfborn",
@@ -520,9 +491,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -532,9 +501,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Wolf claws - Melee": {
         "type": "Melee",
@@ -544,9 +511,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -565,7 +530,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard Battle Leader in Terminator Armour",
@@ -581,9 +547,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 3+"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -593,11 +557,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -606,7 +566,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -616,9 +577,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Thunder hammer - Melee": {
         "type": "Melee",
@@ -628,9 +587,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -639,7 +596,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -648,7 +606,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -658,9 +617,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -679,7 +636,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Lord on Thunderwolf",
@@ -695,9 +653,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -706,7 +662,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -716,9 +673,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -738,7 +693,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard Battle Leader on Thunderwolf",
@@ -754,9 +710,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Relic weapon - Melee": {
         "type": "Melee",
@@ -765,7 +719,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -775,9 +730,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -786,7 +739,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Thunder hammer - Melee": {
         "type": "Melee",
@@ -796,9 +750,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -807,7 +759,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -817,9 +770,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -829,11 +780,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -843,9 +790,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -864,7 +809,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Blood Claws",
@@ -884,7 +830,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -893,7 +840,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -903,10 +851,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -916,10 +861,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -929,9 +871,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Grav-gun - Ranged": {
         "type": "Ranged",
@@ -941,9 +881,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 2+"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -961,7 +899,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Grey Hunters",
@@ -980,7 +919,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -989,7 +929,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1007,7 +948,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard",
@@ -1027,7 +969,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1037,11 +980,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1051,9 +990,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1071,7 +1008,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lukas the Trickster",
@@ -1086,7 +1024,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1096,9 +1035,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1119,7 +1056,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard Terminators",
@@ -1136,7 +1074,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1145,7 +1084,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Thunder hammer - Melee": {
         "type": "Melee",
@@ -1155,9 +1095,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -1167,9 +1105,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Storm shield - Abilities": {
         "type": "Abilities"
@@ -1182,9 +1118,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1194,11 +1128,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -1207,7 +1137,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cyclone missile launcher - frag - Ranged": {
         "type": "Ranged",
@@ -1217,9 +1148,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Cyclone missile launcher - krak - Ranged": {
         "type": "Ranged",
@@ -1228,7 +1157,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1246,7 +1176,8 @@
     ],
     "total_models": 1,
     "points": 185,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Hounds of Morkai",
@@ -1262,12 +1193,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Anti-PSYKER 4+",
-          "Devastating Wounds",
-          "Pistol",
-          "Precision"
-        ]
+        "Keywords": []
       },
       "Morkai combat knife - Melee": {
         "type": "Melee",
@@ -1277,11 +1203,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-PSYKER 4+",
-          "Devastating Wounds",
-          "Precision"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1301,7 +1223,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wulfen",
@@ -1320,10 +1243,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault",
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Wulfen claws and melee weapons - Melee": {
         "type": "Melee",
@@ -1332,7 +1252,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Storm shield - Abilities": {
         "type": "Abilities"
@@ -1344,7 +1265,8 @@
         "WS": 3,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1359,7 +1281,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wulfen Dreadnought",
@@ -1374,7 +1297,8 @@
         "WS": 3,
         "S": 10,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -1384,9 +1308,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Blizzard shield - Abilities": {
         "type": "Abilities"
@@ -1398,7 +1320,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1415,7 +1338,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Murderfang",
@@ -1431,9 +1355,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "The Murderclaws - Melee": {
         "type": "Melee",
@@ -1443,9 +1365,7 @@
         "S": 14,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1465,7 +1385,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Thunderwolf Cavalry",
@@ -1483,7 +1404,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Crushing teeth and claws - Melee": {
         "type": "Melee",
@@ -1493,9 +1415,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1505,9 +1425,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Storm shield - Abilities": {
         "type": "Abilities"
@@ -1526,7 +1444,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Fenrisian Wolves",
@@ -1541,7 +1460,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1556,7 +1476,8 @@
     ],
     "total_models": 1,
     "points": 30,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Skyclaws",
@@ -1577,7 +1498,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1587,9 +1509,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1598,7 +1518,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -1608,10 +1529,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Grav-gun - Ranged": {
         "type": "Ranged",
@@ -1621,9 +1539,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 2+"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -1633,10 +1549,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -1646,9 +1559,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1667,7 +1578,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Long Fangs",
@@ -1690,7 +1602,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -1700,9 +1613,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1712,10 +1623,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Grav-cannon - Ranged": {
         "type": "Ranged",
@@ -1725,10 +1633,7 @@
         "S": 6,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Anti-VEHICLE 2+",
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Missile launcher - frag - Ranged": {
         "type": "Ranged",
@@ -1738,10 +1643,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Missile launcher - krak - Ranged": {
         "type": "Ranged",
@@ -1751,9 +1653,7 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - standard - Ranged": {
         "type": "Ranged",
@@ -1763,10 +1663,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - supercharge - Ranged": {
         "type": "Ranged",
@@ -1776,11 +1673,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous",
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -1790,10 +1683,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Heavy",
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1803,11 +1693,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Heavy",
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1817,9 +1703,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Astartes chainsword - Melee": {
         "type": "Melee",
@@ -1828,7 +1712,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1837,7 +1722,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1855,7 +1741,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Stormfang Gunship",
@@ -1871,9 +1758,7 @@
         "S": 11,
         "AP": 3,
         "D": 7,
-        "Keywords": [
-          "Sustained Hits D3"
-        ]
+        "Keywords": []
       },
       "Helfrost destructor - focused - Ranged": {
         "type": "Ranged",
@@ -1883,9 +1768,7 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Twin stormstrike missile launcher - Ranged": {
         "type": "Ranged",
@@ -1895,9 +1778,7 @@
         "S": 10,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1915,7 +1796,8 @@
     ],
     "total_models": 1,
     "points": 300,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Stormwolf",
@@ -1931,10 +1813,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Torrent",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin helfrost cannon - focused - Ranged": {
         "type": "Ranged",
@@ -1944,9 +1823,7 @@
         "S": 9,
         "AP": 3,
         "D": 5,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1964,7 +1841,8 @@
     ],
     "total_models": 1,
     "points": 250,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard Pack Leader",
@@ -1980,9 +1858,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1992,11 +1868,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -2006,9 +1878,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -2018,9 +1888,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2039,7 +1907,8 @@
     ],
     "total_models": 1,
     "points": 30,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard Pack Leader with Jump Pack",
@@ -2055,9 +1924,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -2067,11 +1934,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -2081,9 +1944,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -2093,9 +1954,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2116,7 +1975,8 @@
     ],
     "total_models": 1,
     "points": 35,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Guard Pack Leader in Terminator Armour",
@@ -2132,9 +1992,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Cyclone missile launcher - krak - Ranged": {
         "type": "Ranged",
@@ -2143,7 +2001,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -2153,11 +2012,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -2167,9 +2022,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -2179,9 +2032,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -2190,7 +2041,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2210,7 +2062,8 @@
     ],
     "total_models": 1,
     "points": 40,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Iron Priest",
@@ -2226,10 +2079,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Helfrost pistol - focused - Ranged": {
         "type": "Ranged",
@@ -2239,9 +2089,7 @@
         "S": 6,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Servo-arm - Melee": {
         "type": "Melee",
@@ -2251,9 +2099,7 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Tempest hammer - Melee": {
         "type": "Melee",
@@ -2262,7 +2108,8 @@
         "WS": 4,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2283,7 +2130,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cyberwolf",
@@ -2298,7 +2146,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2318,7 +2167,8 @@
     ],
     "total_models": 1,
     "points": 20,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wolf Scouts",
@@ -2340,11 +2190,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -2354,9 +2200,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -2366,9 +2210,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Grav-pistol - Ranged": {
         "type": "Ranged",
@@ -2378,10 +2220,7 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 2+",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Hand flamer - Ranged": {
         "type": "Ranged",
@@ -2391,10 +2230,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Inferno pistol - Ranged": {
         "type": "Ranged",
@@ -2404,10 +2240,7 @@
         "S": 8,
         "AP": 4,
         "D": "D3",
-        "Keywords": [
-          "Melta 2",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Twin Lightning Claws - Melee": {
         "type": "Melee",
@@ -2417,9 +2250,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Astartes shotgun - Ranged": {
         "type": "Ranged",
@@ -2429,9 +2260,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Combat knife - Melee": {
         "type": "Melee",
@@ -2440,7 +2269,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2458,7 +2288,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Space Wolves Venerable Dreadnought",
@@ -2473,7 +2304,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Blizzard shield - Abilities": {
         "type": "Abilities"
@@ -2486,9 +2318,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - standard - Ranged": {
         "type": "Ranged",
@@ -2498,9 +2328,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - supercharge - Ranged": {
         "type": "Ranged",
@@ -2510,10 +2338,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Helfrost cannon - dispersed - Ranged": {
         "type": "Ranged",
@@ -2523,9 +2348,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Helfrost cannon - focused - Ranged": {
         "type": "Ranged",
@@ -2534,7 +2357,8 @@
         "BS": 3,
         "S": 9,
         "AP": 3,
-        "D": 5
+        "D": 5,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -2543,7 +2367,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2561,6 +2386,7 @@
     ],
     "total_models": 1,
     "points": 155,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

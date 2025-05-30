@@ -13,10 +13,7 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds",
-          "Precision"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -38,6 +35,7 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

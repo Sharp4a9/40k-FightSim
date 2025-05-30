@@ -374,7 +374,7 @@ def convert_cat_to_json(cat_file_path, ns):
 
 def main():
     # Example usage
-    cat_file_path = "C:\\Users\\andre\\OneDrive\\Documents\\Warhammer\\FightSim_2.0\\data\\wh40k-10e\\Leagues of Votann.cat"
+    cat_file_path = "C:\\Users\\andre\\OneDrive\\Documents\\Warhammer\\FightSim_2.0\\data\\wh40k-10e\\Imperium - White Scars.cat"
     
     # Extract faction name from cat file path
     cat_filename = os.path.basename(cat_file_path)
@@ -386,7 +386,7 @@ def main():
     # Remove "Library" from faction name if present
     faction_name = faction_name.replace('Library', '').strip()
     
-    output_file_path = f"data/json/{faction_name}.json"
+    output_file_path = f"data/json/marine subchapters (ignore)/{faction_name}.json"
     
     # Ensure the output directory exists
     os.makedirs(os.path.dirname(output_file_path), exist_ok=True)

@@ -1,6 +1,5 @@
 """
-Currently working; need to fix the way phase is determined, need to clean faction names (steal from standard_simulation_gui.py);
-need to check results by hand for errors.
+Currently working; need to check results by hand for errors; need to add models killed per point.
 """
 
 import json
@@ -103,6 +102,11 @@ def main():
         # Initialize faction in results if not exists
         if faction not in results:
             results[faction] = {}
+        
+        # Skip if this designation already exists in the results
+        if designation in results[faction]:
+            print(f"Skipping {faction} - {designation} (already simulated)")
+            continue
         
         # Initialize designation in results
         results[faction][designation] = {}
