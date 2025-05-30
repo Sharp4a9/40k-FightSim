@@ -43,7 +43,7 @@
           }
         ],
         "special_rules": [
-          "Flip Hit or Wound Roll to 6",
+          "Flip Wound Roll to 6",
           "Reroll Hits Monster",
           "Reroll Hits Vehicle",
           "Reroll Wounds Monster",

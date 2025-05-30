@@ -1,5 +1,5 @@
 """
-Currently working; need to check results by hand for errors; need to add models killed per point.
+Doesn't crash, no error messages, but results are wrong. Debug by printing debug statements in combat_engine.py.
 """
 
 import json
@@ -8,7 +8,7 @@ import numpy as np
 from typing import Dict, List, Tuple
 import statistics
 from unit_combat_simulator import UnitCombatSimulator
-from unit_combat_simulator import Model
+from unit_combat_simulator import Model, Weapon
 
 def clean_string(s: str) -> str:
     """Remove all non-alphabetical characters from a string."""
@@ -35,17 +35,43 @@ def determine_phase(weapons_data: List[Dict]) -> str:
         return list(weapon_types)[0]
     return "Mixed"
 
+def create_weapon(unit: dict, weapon_all: dict):
+    """Create a Weapon object from the unit data"""
+    # Combine weapon keywords and unit special rules
+    weapon_name = weapon_all['name']
+    weapon_data = weapon_all['data']
+    weapon_special_rules = weapon_data.get('Keywords', [])
+    unit_special_rules = unit.get('special_rules', [])
+    combined_special_rules = list(set(weapon_special_rules + unit_special_rules))  # Remove duplicates
+    try:
+        tmp_range = int(weapon_data['Range'])
+    except ValueError:
+        tmp_range = weapon_data['Range']
+    
+    return Weapon(
+        name=weapon_name,
+        weapon_type=weapon_data['type'],
+        range=tmp_range,
+        attacks=int(weapon_data['A']),
+        skill=int(weapon_data['BS'] if 'BS' in weapon_data else weapon_data['WS']),
+        strength=int(weapon_data['S']),
+        ap=int(weapon_data['AP']),
+        damage=weapon_data['D'],
+        special_rules=combined_special_rules,
+        target_range=0  # Will be set when simulating attacks
+    )
+
 def run_simulation(simulator: UnitCombatSimulator, attacker_config: Dict, target_data: Dict) -> Tuple[float, float, float, float]:
     """Run a single simulation and return mean damage, std damage, mean models killed, std models killed"""
     # Create weapons for the attacker
     attacking_weapons = []
     for unit in attacker_config['units']:
-        for weapon_data in unit['weapons']:
-            weapon = simulator.create_weapon(unit['name'], weapon_data['name'])
+        for weapon_all in unit['weapons']:
+            weapon = create_weapon(unit, weapon_all)
             if weapon:
-                # Set quantity
-                weapon.attacks *= weapon_data['quantity']
-                attacking_weapons.append(weapon)
+                for _ in range(weapon_all['quantity']):
+                    attacking_weapons.append(weapon)
+    print(attacking_weapons)
     
     # Create target model directly from target data
     model_name = list(target_data['models'].keys())[0]
