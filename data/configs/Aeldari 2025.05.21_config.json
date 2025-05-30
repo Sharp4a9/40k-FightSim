@@ -1,0 +1,63 @@
+{
+  "faction": "Aeldari 2025.05.21",
+  "units": [
+    {
+      "name": "Autarch",
+      "weapons": [
+        {
+          "name": "Star Glaive - Melee",
+          "quantity": 1,
+          "data": {
+            "type": "Melee",
+            "Range": "Melee",
+            "A": 4,
+            "WS": 2,
+            "S": 6,
+            "AP": 3,
+            "D": 3,
+            "Keywords": []
+          }
+        }
+      ],
+      "special_rules": []
+    },
+    {
+      "name": "Howling Banshees",
+      "weapons": [
+        {
+          "name": "Executioner - Melee",
+          "quantity": 1,
+          "data": {
+            "type": "Melee",
+            "Range": "Melee",
+            "A": 3,
+            "WS": 2,
+            "S": 6,
+            "AP": 3,
+            "D": 3,
+            "Keywords": [
+              "Anti-Infantry 3+"
+            ]
+          }
+        },
+        {
+          "name": "Banshee Blade - Melee",
+          "quantity": 1,
+          "data": {
+            "type": "Melee",
+            "Range": "Melee",
+            "A": 2,
+            "WS": 2,
+            "S": 4,
+            "AP": 2,
+            "D": 2,
+            "Keywords": [
+              "Anti-Infantry 3+"
+            ]
+          }
+        }
+      ],
+      "special_rules": []
+    }
+  ]
+}
