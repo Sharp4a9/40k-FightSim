@@ -26,6 +26,8 @@ Attacker Special Rules Implemented:
 - Reroll Hits [Keyword]
 - Reroll Wounds [Keyword]
 - Reroll Damage [Keyword]
+- Reroll Hit and Wound 1
+- Reroll Hit and Wound 1 [Keyword]
 - Devastating Wounds
 - Twin-Linked
 - Anti-[Keyword] X+

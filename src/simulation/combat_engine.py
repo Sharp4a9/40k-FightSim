@@ -22,6 +22,7 @@ Attacker Special Rules Implemented:
 - Reroll Hits [Keyword]
 - Reroll Wounds [Keyword]
 - Reroll Damage [Keyword]
+- Reroll 1 [Keyword] (implementing)
 - Devastating Wounds
 - Twin-Linked
 - Anti-[Keyword] X+
@@ -500,9 +501,22 @@ class CombatEngine:
                     return True
         return False
 
-    def has_reroll_hits_1(self, weapon: Weapon) -> bool:
+    def has_reroll_hits_1(self, weapon: Weapon, target: Model) -> bool:
         """Check if the weapon has the Reroll Hits 1 special rule"""
-        return "Reroll Hits 1" in weapon.special_rules
+        for rule in weapon.special_rules:
+            if rule == "Reroll Hits 1":
+                return True
+            # Check for conditional rerolls like "Reroll Hits 1 Vehicle"
+            elif rule.startswith("Reroll Hits 1 "):
+                keyword = rule.replace("Reroll Hits 1 ", "")
+                if keyword.lower() in [k.lower() for k in target.keywords]:
+                    return True
+            # Check for conditional rerolls like "Reroll Hit and Wound 1 Vehicle"
+            elif rule.startswith("Reroll Hit and Wound 1 "):
+                keyword = rule.replace("Reroll Hit and Wound 1 ", "")
+                if keyword.lower() in [k.lower() for k in target.keywords] or keyword == "":
+                    return True
+        return False
 
     def has_reroll_1_hit_roll(self, weapon: Weapon) -> bool:
         """Check if the weapon has the Reroll 1 Hit Roll special rule"""
@@ -520,9 +534,22 @@ class CombatEngine:
                     return True
         return False
 
-    def has_reroll_wounds_1(self, weapon: Weapon) -> bool:
+    def has_reroll_wounds_1(self, weapon: Weapon, target: Model) -> bool:
         """Check if the weapon has the Reroll Wounds 1 special rule"""
-        return "Reroll Wounds 1" in weapon.special_rules
+        for rule in weapon.special_rules:
+            if rule == "Reroll Wounds 1":
+                return True
+            # Check for conditional rerolls like "Reroll Wounds 1 Vehicles"
+            elif rule.startswith("Reroll Wounds 1 "):
+                keyword = rule.replace("Reroll Wounds 1 ", "")
+                if keyword.lower() in [k.lower() for k in target.keywords]:
+                    return True
+            # Check for conditional rerolls like "Reroll Hit and Wound 1 Vehicles"
+            elif rule.startswith("Reroll Hit and Wound 1 "):
+                keyword = rule.replace("Reroll Hit and Wound 1 ", "")
+                if keyword.lower() in [k.lower() for k in target.keywords] or keyword == "":
+                    return True
+        return False
 
     def has_reroll_1_wound_roll(self, weapon: Weapon) -> bool:
         """Check if the weapon has the Reroll 1 Wound Roll special rule"""
@@ -580,7 +607,7 @@ class CombatEngine:
         if self.has_reroll_hits(weapon, target):
             # Reroll if the roll failed
             should_reroll = roll < weapon.skill
-        elif self.has_reroll_hits_1(weapon) and unmodified_roll == 1:
+        elif self.has_reroll_hits_1(weapon, target) and unmodified_roll == 1:
             # Reroll if we rolled a 1
             should_reroll = True
         elif one_use_rules["has_reroll_1_hit"] and roll < weapon.skill:
@@ -673,7 +700,7 @@ class CombatEngine:
         if self.has_reroll_wounds(weapon, target):
             # Reroll if the roll failed
             should_reroll = roll < required
-        elif self.has_reroll_wounds_1(weapon) and unmodified_roll == 1:
+        elif self.has_reroll_wounds_1(weapon, target) and unmodified_roll == 1:
             # Reroll if we rolled a 1
             should_reroll = True
         elif one_use_rules["has_reroll_1_wound"] and roll < required:

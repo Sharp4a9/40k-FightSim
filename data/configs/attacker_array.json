@@ -53,5 +53,97 @@
         ]
       }
     ]
+  },
+  "Wraithlord - BLs, Flamers": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 140,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Wraithlord",
+        "weapons": [
+          {
+            "name": "Bright Lance - Ranged",
+            "quantity": 2,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 1,
+              "BS": 4,
+              "S": 12,
+              "AP": 3,
+              "D": "D6+2",
+              "Keywords": []
+            }
+          },
+          {
+            "name": "Flamer - Ranged",
+            "quantity": 2,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Ignores cover",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Wraithlord - BLs, Flamers - Vehicles Fated": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 140,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Wraithlord",
+        "weapons": [
+          {
+            "name": "Bright Lance - Ranged",
+            "quantity": 2,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 1,
+              "BS": 4,
+              "S": 12,
+              "AP": 3,
+              "D": "D6+2",
+              "Keywords": []
+            }
+          },
+          {
+            "name": "Flamer - Ranged",
+            "quantity": 2,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Ignores cover",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hit and Wound 1 Vehicle"
+        ]
+      }
+    ]
   }
 }
