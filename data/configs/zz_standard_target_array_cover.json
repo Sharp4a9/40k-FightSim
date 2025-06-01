@@ -36,14 +36,14 @@
       "Tyranids"
     ],
     "total_models": 1,
-    "points": 65,
+    "points": 6.5,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
   {
     "name": "Boyz",
     "models": {
-      "Boy w/ Slugga and choppa": {
+      "Boyz": {
         "M": 6,
         "T": 5,
         "SV": 5,
@@ -78,7 +78,7 @@
       "Orks"
     ],
     "total_models": 1,
-    "points": 80,
+    "points": 8,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
@@ -121,14 +121,14 @@
       "Necron Warriors"
     ],
     "total_models": 1,
-    "points": 90,
+    "points": 9,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
   {
     "name": "Battle Sisters Squad",
     "models": {
-      "Battle Sister": {
+      "Battle Sisters Squad": {
         "M": 6,
         "T": 3,
         "SV": 3,
@@ -166,7 +166,7 @@
       "Imperium"
     ],
     "total_models": 1,
-    "points": 105,
+    "points": 10.5,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
@@ -250,14 +250,14 @@
       "Orks"
     ],
     "total_models": 1,
-    "points": 105,
+    "points": 21,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
   {
     "name": "Intercessor Squad",
     "models": {
-      "Intercessor": {
+      "Intercessor Squad": {
         "M": 6,
         "T": 4,
         "SV": 3,
@@ -282,103 +282,6 @@
           "Pistol",
           "Torrent"
         ]
-      },
-      "Power Weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 4,
-        "WS": 3,
-        "S": 5,
-        "AP": 2,
-        "D": 1
-      },
-      "Plasma Pistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 3,
-        "S": 7,
-        "AP": 2,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Astartes Chainsword - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 5,
-        "WS": 3,
-        "S": 4,
-        "AP": 1,
-        "D": 1
-      },
-      "Bolt Rifle - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 2,
-        "BS": 3,
-        "S": 4,
-        "AP": 1,
-        "D": 1,
-        "Keywords": [
-          "Assault",
-          "Heavy"
-        ]
-      },
-      "Astartes Grenade Launcher - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": "D3",
-        "BS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
-      },
-      "Power Fist - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 3,
-        "S": 8,
-        "AP": 2,
-        "D": 2
-      },
-      "Thunder Hammer - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 4,
-        "S": 8,
-        "AP": 2,
-        "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
-      },
-      "Close Combat Weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1
-      },
-      "Bolt Pistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
       }
     },
     "abilities": [
@@ -395,7 +298,7 @@
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 80,
+    "points": 16,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
@@ -489,14 +392,14 @@
       "Einhyr Hearthguard"
     ],
     "total_models": 1,
-    "points": 150,
+    "points": 30,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
   {
     "name": "Aggressor Squad",
     "models": {
-      "Aggressors": {
+      "Aggressor Squad": {
         "M": 5,
         "T": 6,
         "SV": 3,
@@ -570,44 +473,14 @@
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 120,
+    "points": 40,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },
   {
     "name": "Terminator Squad",
     "models": {
-      "Terminator Sergeant": {
-        "M": 5,
-        "T": 5,
-        "SV": 2,
-        "W": 3,
-        "LD": 6,
-        "OC": 1,
-        "INV": 4,
-        "FNP": null
-      },
-      "Terminator w/ Power Fist": {
-        "M": 5,
-        "T": 5,
-        "SV": 2,
-        "W": 3,
-        "LD": 6,
-        "OC": 1,
-        "INV": 4,
-        "FNP": null
-      },
-      "Terminator w/ Chain Fist": {
-        "M": 5,
-        "T": 5,
-        "SV": 2,
-        "W": 3,
-        "LD": 6,
-        "OC": 1,
-        "INV": 4,
-        "FNP": null
-      },
-      "Terminator w/ Heavy Weapon": {
+      "Terminator Squad": {
         "M": 5,
         "T": 5,
         "SV": 2,
@@ -727,7 +600,7 @@
   {
     "name": "Custodian Guard",
     "models": {
-      "Custodian Guard (Guardian Spear)": {
+      "Custodian Guard": {
         "M": 6,
         "T": 6,
         "SV": 2,
@@ -804,7 +677,7 @@
       "Adeptus Custodes"
     ],
     "total_models": 4,
-    "points": 170,
+    "points": 34,
     "special_rules_attack": [
       "Reroll Wound 1"
     ],
@@ -954,6 +827,49 @@
     "special_rules_defence": ["Cover"]
   },
   {
+    "name": "Hive Tyrant",
+    "models": {
+      "Hive Tyrant": {
+        "M": 8,
+        "T": 10,
+        "SV": 2,
+        "W": 10,
+        "LD": 7,
+        "OC": 3,
+        "INV": 4,
+        "FNP": null
+      }
+    },
+    "weapons": {
+      "Seismic assault - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+    ],
+    "keywords": [
+      "Tyranids",
+      "Monster",
+      "Character",
+      "Psyker",
+      "Hive Tyrant"
+    ],
+    "total_models": 1,
+    "points": 225,
+    "special_rules_attack": [],
+    "special_rules_defence": ["Cover"]
+  },
+  {
     "name": "Armiger Warglaive",
     "models": {
       "Armiger Warglaive": {
@@ -1019,7 +935,7 @@
   {
     "name": "Vindicator",
     "models": {
-      "Gladiator Lancer": {
+      "Vindicator": {
         "M": 10,
         "T": 11,
         "SV": 2,
@@ -1112,7 +1028,7 @@
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 190,
+    "points": 185,
     "special_rules_attack": [],
     "special_rules_defence": ["Cover"]
   },

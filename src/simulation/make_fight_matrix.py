@@ -52,8 +52,8 @@ def create_weapon(unit: dict, weapon_all: dict):
         name=weapon_name,
         weapon_type=weapon_data['type'],
         range=tmp_range,
-        attacks=int(weapon_data['A']),
-        skill=int(weapon_data['BS'] if 'BS' in weapon_data else weapon_data['WS']),
+        attacks=weapon_data['A'],
+        skill=weapon_data['BS'] if 'BS' in weapon_data else weapon_data['WS'],
         strength=int(weapon_data['S']),
         ap=int(weapon_data['AP']),
         damage=weapon_data['D'],
@@ -157,14 +157,22 @@ def main():
                 mean_damage, std_damage, mean_models, std_models = run_simulation(
                     simulator, attacker_config, target_data
                 )
+
+                # Calculate points killed per point
+                fractional_mean_models_killed = mean_damage / target_data['models'][target_name]['W']
+                std_dev_fmmk = std_damage / target_data['models'][target_name]['W']
+                pkpp = fractional_mean_models_killed * target_data['points'] / attacker_config['points']
+                std_dev_pkpp = std_dev_fmmk * target_data['points'] / attacker_config['points']
                 
                 # Store results
                 results[faction][designation][target_name] = {
                     'phase': phase,
                     'mean_damage': mean_damage,
                     'std_damage': std_damage,
-                    'mean_models_killed': mean_models,
-                    'std_models_killed': std_models
+                    'mean_models_killed': fractional_mean_models_killed,
+                    'std_models_killed': std_dev_fmmk,
+                    'pnts_killed_per_point': pkpp,
+                    'std_dev_pnts_killed_per_point': std_dev_pkpp
                 }
             except Exception as e:
                 print(f"Error simulating {faction} - {designation} vs {target_name}: {str(e)}")

@@ -36,7 +36,7 @@
       "Tyranids"
     ],
     "total_models": 1,
-    "points": 65,
+    "points": 6.5,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -78,7 +78,7 @@
       "Orks"
     ],
     "total_models": 1,
-    "points": 80,
+    "points": 8,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -121,7 +121,7 @@
       "Necron Warriors"
     ],
     "total_models": 1,
-    "points": 90,
+    "points": 9,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -250,7 +250,7 @@
       "Orks"
     ],
     "total_models": 1,
-    "points": 105,
+    "points": 21,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -282,103 +282,6 @@
           "Pistol",
           "Torrent"
         ]
-      },
-      "Power Weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 4,
-        "WS": 3,
-        "S": 5,
-        "AP": 2,
-        "D": 1
-      },
-      "Plasma Pistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 3,
-        "S": 7,
-        "AP": 2,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Astartes Chainsword - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 5,
-        "WS": 3,
-        "S": 4,
-        "AP": 1,
-        "D": 1
-      },
-      "Bolt Rifle - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 2,
-        "BS": 3,
-        "S": 4,
-        "AP": 1,
-        "D": 1,
-        "Keywords": [
-          "Assault",
-          "Heavy"
-        ]
-      },
-      "Astartes Grenade Launcher - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": "D3",
-        "BS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
-      },
-      "Power Fist - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 3,
-        "S": 8,
-        "AP": 2,
-        "D": 2
-      },
-      "Thunder Hammer - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 4,
-        "S": 8,
-        "AP": 2,
-        "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
-      },
-      "Close Combat Weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1
-      },
-      "Bolt Pistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 3,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
       }
     },
     "abilities": [
@@ -395,7 +298,7 @@
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 80,
+    "points": 16,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -489,7 +392,7 @@
       "Einhyr Hearthguard"
     ],
     "total_models": 1,
-    "points": 150,
+    "points": 30,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -570,7 +473,7 @@
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 120,
+    "points": 40,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -804,7 +707,7 @@
       "Adeptus Custodes"
     ],
     "total_models": 4,
-    "points": 170,
+    "points": 34,
     "special_rules_attack": [
       "Reroll Wound 1"
     ],
@@ -954,6 +857,50 @@
     "special_rules_defence": []
   },
   {
+    "name": "Hive Tyrant",
+    "models": {
+      "Hive Tyrant": {
+        "M": 8,
+        "T": 10,
+        "SV": 2,
+        "W": 10,
+        "LD": 7,
+        "OC": 3,
+        "INV": 4,
+        "FNP": null
+      }
+    },
+    "weapons": {
+      "Seismic assault - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 8,
+        "AP": 2,
+        "D": "D3",
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 1"
+        ]
+      }
+    },
+    "abilities": [
+    ],
+    "keywords": [
+      "Tyranids",
+      "Monster",
+      "Character",
+      "Psyker",
+      "Hive Tyrant"
+    ],
+    "total_models": 1,
+    "points": 225,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+
+  {
     "name": "Armiger Warglaive",
     "models": {
       "Armiger Warglaive": {
@@ -1014,7 +961,7 @@
     "total_models": 1,
     "points": 140,
     "special_rules_attack": [],
-    "special_rules_defence": ["Invulnerable Save Ranged 5+"]
+    "special_rules_defence": []
   },
   {
     "name": "Vindicator",
@@ -1112,7 +1059,7 @@
       "Adeptus Astartes"
     ],
     "total_models": 1,
-    "points": 190,
+    "points": 185,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
