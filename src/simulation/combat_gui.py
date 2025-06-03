@@ -641,14 +641,17 @@ Please report any bugs to Andrew White."""
         row = len(self.special_rule_widgets) // 2  # Each row has 2 widgets
         
         # Special rule selection
+        special_rule_options = [""] + sorted(["Sustained Hits 1", "Lethal Hits", "Reroll Hits", 
+                               "Reroll Hits 1", "Reroll Wounds", "Reroll Wounds 1",
+                               "Critical Hits 5+", "Critical Wounds 5+", "Ignores Cover",
+                               "Devastating Wounds", "Reroll 1 Hit Roll", "Reroll 1 Wound Roll",
+                               "Reroll 1 Hit or Wound", "Reroll 1 Hit or Wound or Damage",
+                               "Flip Roll to 6", "Flip Hit Roll to 6", "Flip Wound Roll to 6",
+                               "Flip Hit or Wound Roll to 6", "Flip Damage Roll to 6",
+                               "Reroll Hit and Wound 1 Vehicle", "Reroll Hit and Wound 1 Monster",
+                               "Reroll Hit and Wound 1"])
         special_rule_combo = ttk.Combobox(self.special_rules_frame, 
-                                        values=["Sustained Hits 1", "Lethal Hits", "Reroll Hits", 
-                                               "Reroll Hits 1", "Reroll Wounds", "Reroll Wounds 1",
-                                               "Critical Hits 5+", "Critical Wounds 5+", "Ignores Cover",
-                                               "Devastating Wounds", "Reroll 1 Hit Roll", "Reroll 1 Wound Roll",
-                                               "Reroll 1 Hit or Wound", "Reroll 1 Hit or Wound or Damage",
-                                               "Flip Roll to 6", "Flip Hit Roll to 6", "Flip Wound Roll to 6",
-                                               "Flip Hit or Wound Roll to 6", "Flip Damage Roll to 6"],
+                                        values=special_rule_options,
                                         width=40)
         special_rule_combo.grid(row=row, column=0, padx=5, pady=2)
         
@@ -682,11 +685,12 @@ Please report any bugs to Andrew White."""
         row = len(self.defender_special_rule_widgets) // 2  # Each row has 2 widgets
         
         # Special rule selection
-        special_rule_combo = ttk.Combobox(self.defender_special_rules_frame, 
-                                        values=["-1 AP (Armor of Contempt)", "-1 Damage", "-1 to be Hit",
+        special_rule_options = [""] + sorted(["-1 AP (Armor of Contempt)", "-1 Damage", "-1 to be Hit",
                                                "-1 to be Wounded", "Cover", "Feel No Pain 4+",
                                                "Feel No Pain 5+", "Feel No Pain 6+", "Half Damage","Smoke",
-                                               "Invulnerable Save 4+","Invulnerable Save 5+","Invulnerable Save 6+"],
+                                               "Invulnerable Save 4+","Invulnerable Save 5+","Invulnerable Save 6+"])
+        special_rule_combo = ttk.Combobox(self.defender_special_rules_frame, 
+                                        values=special_rule_options,
                                         width=40)
         special_rule_combo.grid(row=row, column=0, padx=5, pady=2)
         

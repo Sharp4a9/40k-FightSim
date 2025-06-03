@@ -891,5 +891,334 @@
         ]
       }
     ]
+  },
+  "Incubi & Yvraine & Visarch - Reroll Wounds": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 340,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "The Visarch",
+        "weapons": [
+          {
+            "name": "Asu-var - duellist stance - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 6,
+              "WS": 2,
+              "S": 5,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Devastating Wounds",
+                "Precision"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Wounds"
+        ]
+      },
+      {
+        "name": "Yvraine",
+        "weapons": [
+          {
+            "name": "Kha-vir - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 2,
+              "S": 4,
+              "AP": 3,
+              "D": 2,
+              "Keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Wounds"
+        ]
+      },
+      {
+        "name": "Ynnari Incubi",
+        "weapons": [
+          {
+            "name": "Klaive - Melee",
+            "quantity": 10,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 3,
+              "WS": 3,
+              "S": 4,
+              "AP": 2,
+              "D": 2,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Wounds"
+        ]
+      }
+    ]
+  },
+  "The Yncarne - Melee Strike": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 250,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "The Yncarne",
+        "weapons": [
+          {
+            "name": "Vilith-zhar - strike - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 2,
+              "S": 12,
+              "AP": 4,
+              "D": "D6+1",
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "The Yncarne - Melee Sweep": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 250,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "The Yncarne",
+        "weapons": [
+          {
+            "name": "Vilith-zhar - sweep - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 10,
+              "WS": 2,
+              "S": 6,
+              "AP": 4,
+              "D": 1,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "The Yncarne - Ranged": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 250,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "The Yncarne",
+        "weapons": [
+          {
+            "name": "Swirling soul energy - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6+3",
+              "BS": "N/A",
+              "S": 7,
+              "AP": 1,
+              "D": "D3",
+              "Keywords": [
+                "Ignores Cover",
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Terminators (5) & Kaldor Draigo - on Charge": {
+    "faction": "Grey Knights 2025.05.29",
+    "points": 325,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Kaldor Draigo",
+        "weapons": [
+          {
+            "name": "The Titansword - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 6,
+              "WS": 2,
+              "S": 8,
+              "AP": 4,
+              "D": 3,
+              "Keywords": [
+                "Anti-Daemon 2+",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Brotherhood Terminator Squad",
+        "weapons": [
+          {
+            "name": "Nemesis force weapon - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 4,
+              "WS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "Terminators (5) & Kaldor Draigo - Melee": {
+    "faction": "Grey Knights 2025.05.29",
+    "points": 325,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Kaldor Draigo",
+        "weapons": [
+          {
+            "name": "The Titansword - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 6,
+              "WS": 2,
+              "S": 8,
+              "AP": 4,
+              "D": 3,
+              "Keywords": [
+                "Anti-Daemon 2+",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      },
+      {
+        "name": "Brotherhood Terminator Squad",
+        "weapons": [
+          {
+            "name": "Nemesis force weapon - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 4,
+              "WS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Terminators (5) & Kaldor Draigo - Reroll Hits - on Charge": {
+    "faction": "Grey Knights 2025.05.29",
+    "points": 325,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Kaldor Draigo",
+        "weapons": [
+          {
+            "name": "The Titansword - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 6,
+              "WS": 2,
+              "S": 8,
+              "AP": 4,
+              "D": 3,
+              "Keywords": [
+                "Anti-Daemon 2+",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Lethal Hits",
+          "Reroll Hits"
+        ]
+      },
+      {
+        "name": "Brotherhood Terminator Squad",
+        "weapons": [
+          {
+            "name": "Nemesis force weapon - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 4,
+              "WS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Lethal Hits",
+          "Reroll Hits"
+        ]
+      }
+    ]
   }
 }
