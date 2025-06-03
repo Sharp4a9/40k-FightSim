@@ -1195,7 +1195,8 @@
     ],
     "total_models": 4,
     "points": 50,
-    "special_rules_attack": [
+    "special_rules_attack": [],
+    "special_rules_defence": [
       "Mortal FNP 3+",
       "Psychic FNP 3+"
     ]

@@ -1110,7 +1110,7 @@ class CombatEngine:
                 results["sustained_hits"] += attack_result["sustained_hits"]
                 # Resolve each sustained hit
                 for _ in range(attack_result["sustained_hits"]):
-                    sustained_attack = self.resolve_attack(weapon, target)
+                    sustained_attack = self.resolve_attack(weapon, target, one_use_rules)
                     if sustained_attack["hit"]:
                         results["hits"] += 1
                     if sustained_attack["wound"]:

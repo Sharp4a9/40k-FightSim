@@ -11,8 +11,10 @@ from unit_combat_simulator import UnitCombatSimulator
 from unit_combat_simulator import Model, Weapon
 
 def clean_string(s: str) -> str:
-    """Remove all non-alphabetical characters from a string."""
-    return ''.join(c for c in s if c.isalpha())
+    """Remove all non-alphabetical characters from a string, except spaces."""
+    temp = ''.join(c for c in s if c.isalpha() or c.isspace())
+    temp = temp.strip()
+    return temp
 
 def load_attackers() -> Dict:
     """Load attacker configurations from attacker_array.json"""

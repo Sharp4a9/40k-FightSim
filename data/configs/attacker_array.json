@@ -145,5 +145,751 @@
         ]
       }
     ]
+  },
+  "Dark Reapers - Starshot - Ex ML": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 95,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Dark Reapers",
+        "weapons": [
+          {
+            "name": "Missile Launcher - Starshot - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 48,
+              "A": 1,
+              "BS": 2,
+              "S": 10,
+              "AP": 2,
+              "D": "D6",
+              "Keywords": [
+                "Ignores Cover"
+              ]
+            }
+          },
+          {
+            "name": "Reaper Launcher - Starshot - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 48,
+              "A": 1,
+              "BS": 3,
+              "S": 10,
+              "AP": 2,
+              "D": 3,
+              "Keywords": [
+                "Ignores Cover"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Ignore Hit Modifiers"
+        ]
+      }
+    ]
+  },
+  "Swooping Hawks - with Mortals - Ex HT": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 85,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Swooping Hawks",
+        "weapons": [
+          {
+            "name": "Grenade Pack (each roll) - Ranged",
+            "quantity": 5,
+            "data": {
+              "type": "Ranged",
+              "Range": 8,
+              "A": 1,
+              "BS": 4,
+              "S": 1,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Mortal"
+              ]
+            }
+          },
+          {
+            "name": "Hawk's Talon - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 2,
+              "BS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          },
+          {
+            "name": "Lasblaster - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 4,
+              "BS": 3,
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Swooping Hawks - Ex HT": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 85,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Swooping Hawks",
+        "weapons": [
+          {
+            "name": "Hawk's Talon - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 2,
+              "BS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          },
+          {
+            "name": "Lasblaster - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 4,
+              "BS": 3,
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Warp Spiders - Ex guns": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 95,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warp Spiders",
+        "weapons": [
+          {
+            "name": "Spinneret Rifle - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Ignores Cover",
+                "Torrent"
+              ]
+            }
+          },
+          {
+            "name": "Death Weavers - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 6,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Ignores Cover",
+                "Torrent",
+                "Twin-Linked"
+              ]
+            }
+          },
+          {
+            "name": "Deathspinner - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Ignores Cover",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Warp Spiders - Ex Combat": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 85,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warp Spiders",
+        "weapons": [
+          {
+            "name": "Deathspinner - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Ignores Cover",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Warp Spiders - Melee - Ex Combat": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 95,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warp Spiders",
+        "weapons": [
+          {
+            "name": "Powerblade Array - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 10,
+              "WS": 3,
+              "S": 4,
+              "AP": 2,
+              "D": 1,
+              "Keywords": [
+                "Lethal Hits",
+                "Twin-Linked"
+              ]
+            }
+          },
+          {
+            "name": "Close Combat Weapon - Melee",
+            "quantity": 4,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 2,
+              "WS": 3,
+              "S": 3,
+              "AP": 0,
+              "D": 1,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Swooping Hawks & Baharroth - with Mortals": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 200,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Swooping Hawks",
+        "weapons": [
+          {
+            "name": "Grenade Pack (each roll) - Ranged",
+            "quantity": 5,
+            "data": {
+              "type": "Ranged",
+              "Range": 8,
+              "A": 1,
+              "BS": 4,
+              "S": 1,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Mortal"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      },
+      {
+        "name": "Baharroth",
+        "weapons": [
+          {
+            "name": "Fury of the Tempest - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 4,
+              "BS": 2,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Assault",
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      },
+      {
+        "name": "Swooping Hawks",
+        "weapons": [
+          {
+            "name": "Exarch's Lasblaster - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 4,
+              "BS": 3,
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Lethal Hits"
+              ]
+            }
+          },
+          {
+            "name": "Lasblaster - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 4,
+              "BS": 3,
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Fire Dragons & Fuegan - melta": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 230,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Fuegan",
+        "weapons": [
+          {
+            "name": "Searsong - lance - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 1,
+              "BS": 2,
+              "S": 14,
+              "AP": 4,
+              "D": "D6",
+              "Keywords": [
+                "Assault",
+                "Melta 6"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      },
+      {
+        "name": "Fire Dragons",
+        "weapons": [
+          {
+            "name": "Dragon Fusion Gun - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "BS": 3,
+              "S": 9,
+              "AP": 4,
+              "D": "D6",
+              "Keywords": [
+                "Assault",
+                "Melta 3"
+              ]
+            }
+          },
+          {
+            "name": "Firepike - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 1,
+              "BS": 3,
+              "S": 12,
+              "AP": 4,
+              "D": "D6",
+              "Keywords": [
+                "Assault",
+                "Melta 3"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits Monster",
+          "Reroll Hits Vehicle",
+          "Reroll Wounds Monster",
+          "Reroll Wounds Vehicle",
+          "Reroll Damage Vehicle",
+          "Reroll Damage Monster"
+        ]
+      }
+    ]
+  },
+  "Caladius Grav-Tank - anti-tank": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 215,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Caladius Grav-tank",
+        "weapons": [
+          {
+            "name": "Twin arachnus heavy blaze cannon - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 48,
+              "A": 4,
+              "BS": 2,
+              "S": 12,
+              "AP": 3,
+              "D": "D6+2",
+              "Keywords": [
+                "Twin-linked",
+                "Lethal Hits Vehicle",
+                "Lethal Hits Monster"
+              ]
+            }
+          },
+          {
+            "name": "Twin lastrum bolt cannon - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 3,
+              "BS": 2,
+              "S": 6,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Sustained Hits 1"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Witchseekers": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 50,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Witchseekers",
+        "weapons": [
+          {
+            "name": "Witchseeker flamer - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Ignores Cover",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Mortal FNP 3+",
+          "Psychic FNP 3+"
+        ]
+      }
+    ]
+  },
+  "Vigilators": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 50,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Vigilators",
+        "weapons": [
+          {
+            "name": "Executioner greatblade - Melee",
+            "quantity": 4,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 2,
+              "WS": 3,
+              "S": 5,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Anti-Psyker 5+",
+                "Devastating Wounds"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Prosecutors": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 40,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Prosecutors",
+        "weapons": [
+          {
+            "name": "Boltgun - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 1,
+              "BS": 3,
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Rapid Fire 1"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Custodian Wardens - Spears - Sustained": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 250,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Custodian Wardens",
+        "weapons": [
+          {
+            "name": "Guardian Spear - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 2,
+              "S": 7,
+              "AP": 2,
+              "D": 2,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "Custodian Guard - Spears - Sustained": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 215,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Custodian Guard",
+        "weapons": [
+          {
+            "name": "Guardian Spear - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 2,
+              "S": 7,
+              "AP": 2,
+              "D": 2,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": [
+          "Sustained Hits 1",
+          "Reroll Wound 1"
+        ]
+      }
+    ]
+  },
+  "Custodian Guard - Spears - Sustained - vs Obj": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 215,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Custodian Guard",
+        "weapons": [
+          {
+            "name": "Guardian Spear - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 2,
+              "S": 7,
+              "AP": 2,
+              "D": 2,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Wounds",
+          "Reroll Wound 1"
+        ]
+      }
+    ]
+  },
+  "Vertus Praetors (2) & Shield-Captain - Sustained": {
+    "faction": "Adeptus Custodes 2025.05.24",
+    "points": 300,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Shield-Captain on Dawneagle Jetbike",
+        "weapons": [
+          {
+            "name": "Interceptor lance - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 6,
+              "WS": 2,
+              "S": 7,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Lance"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Vertus Praetors",
+        "weapons": [
+          {
+            "name": "Interceptor lance - Melee",
+            "quantity": 2,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 2,
+              "S": 7,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Lance"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
   }
 }
