@@ -18,12 +18,16 @@ def clean_string(s: str) -> str:
 
 def load_attackers() -> Dict:
     """Load attacker configurations from attacker_array.json"""
-    with open("data/configs/attacker_array.json", 'r') as f:
+    # Use Path to handle paths in a cross-platform way
+    attacker_file = Path(__file__).parent.parent.parent / "data" / "configs" / "attacker_array.json"
+    with open(attacker_file, 'r') as f:
         return json.load(f)
 
 def load_targets() -> List[Dict]:
     """Load target configurations from zz_standard_target_array_cover.json"""
-    with open("data/configs/zz_standard_target_array_cover.json", 'r') as f:
+    # Use Path to handle paths in a cross-platform way
+    target_file = Path(__file__).parent.parent.parent / "data" / "configs" / "zz_standard_target_array_cover.json"
+    with open(target_file, 'r') as f:
         return json.load(f)
 
 def determine_phase(weapons_data: List[Dict]) -> str:
@@ -121,7 +125,7 @@ def main():
     results = {}
     
     # Create output directory if it doesn't exist
-    output_dir = Path("data/results")
+    output_dir = Path(__file__).parent.parent.parent / "data" / "results"
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Load existing results if file exists

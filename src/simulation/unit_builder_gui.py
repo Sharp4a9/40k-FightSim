@@ -105,12 +105,18 @@ Please report any bugs to Andrew White."""
     def load_faction_data(self) -> Dict[str, Dict]:
         """Load all faction data from JSON files"""
         faction_data = {}
-        data_dir = "data/json"
-        for filename in os.listdir(data_dir):
-            if filename.endswith(".json"):
-                faction_name = filename[:-5]  # Remove .json extension
-                with open(os.path.join(data_dir, filename), 'r') as f:
-                    faction_data[faction_name] = json.load(f)
+        # Use Path to handle paths in a cross-platform way
+        # Go up two levels from the current file to reach project root
+        data_dir = Path(__file__).parent.parent.parent / "data" / "json"
+        
+        # Ensure the directory exists
+        if not data_dir.exists():
+            raise FileNotFoundError(f"Data directory not found at {data_dir}")
+            
+        for json_file in data_dir.glob("*.json"):
+            faction_name = json_file.stem  # Get filename without extension
+            with open(json_file, 'r') as f:
+                faction_data[faction_name] = json.load(f)
         return faction_data
     
     def create_attacker_section(self):
@@ -505,7 +511,7 @@ Please report any bugs to Andrew White."""
             }
             
             # Create output directory if it doesn't exist
-            output_dir = Path("data/configs")
+            output_dir = Path(__file__).parent.parent.parent / "data" / "configs"
             output_dir.mkdir(parents=True, exist_ok=True)
             
             # Load existing configurations if file exists
