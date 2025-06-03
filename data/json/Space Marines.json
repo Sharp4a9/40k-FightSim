@@ -22,7 +22,11 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
       },
       "Malleus Noctum - Melee": {
         "type": "Melee",
@@ -89,7 +93,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Auto Boltstorm Gauntlets - Ranged": {
         "type": "Ranged",
@@ -99,7 +105,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Fragstorm Grenade Launcher - Ranged": {
         "type": "Ranged",
@@ -109,7 +117,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Flamestorm Gauntlets - Ranged": {
         "type": "Ranged",
@@ -119,7 +129,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -274,7 +288,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti Vehicle 3+"
+        ]
       },
       "Thunder Hammer - Melee": {
         "type": "Melee",
@@ -284,7 +300,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Twin Lightning Claws - Melee": {
         "type": "Melee",
@@ -358,7 +376,9 @@
         "S": 4,
         "AP": 4,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -695,7 +715,10 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
       },
       "Astraeus las-ripper - Ranged": {
         "type": "Ranged",
@@ -715,7 +738,9 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Plasma eradicator - supercharge - Ranged": {
         "type": "Ranged",
@@ -725,7 +750,10 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
       }
     },
     "abilities": [
@@ -787,7 +815,9 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Ballistus Missile Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -944,7 +974,10 @@
         "S": 5,
         "AP": 0,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -996,7 +1029,9 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Brutalis Bolt Rifles - Ranged": {
         "type": "Ranged",
@@ -1006,7 +1041,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Brutalis Talons - Strike - Melee": {
         "type": "Melee",
@@ -1016,7 +1053,9 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Brutalis Talons - Sweep - Melee": {
         "type": "Melee",
@@ -1026,7 +1065,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Twin Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -1141,7 +1182,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "[PISTOL]"
+        ]
       },
       "Neo-volkite Pistol - Ranged": {
         "type": "Ranged",
@@ -1151,7 +1194,10 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
       },
       "Plasma Pistol - Ranged": {
         "type": "Ranged",
@@ -1205,7 +1251,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Talassarian Tempest Blade - Melee": {
         "type": "Melee",
@@ -1215,7 +1263,9 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       }
     },
     "abilities": [
@@ -1271,7 +1321,10 @@
         "S": 5,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy"
+        ]
       },
       "Relic Chainsword - Melee": {
         "type": "Melee",
@@ -1281,7 +1334,9 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       },
       "Relic Blade - Melee": {
         "type": "Melee",
@@ -1291,7 +1346,9 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       },
       "Relic Fist - Melee": {
         "type": "Melee",
@@ -1301,7 +1358,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       },
       "Boltstorm Gauntlet - Ranged": {
         "type": "Ranged",
@@ -1311,7 +1370,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Power Fist - Melee": {
         "type": "Melee",
@@ -1375,7 +1436,9 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Combat Knife - Melee": {
         "type": "Melee",
@@ -1621,7 +1684,9 @@
         "S": 10,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Centurion Bolters - Ranged": {
         "type": "Ranged",
@@ -1641,7 +1706,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
       },
       "Twin Meltagun - Ranged": {
         "type": "Ranged",
@@ -1651,7 +1720,10 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -1724,7 +1796,9 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Twin Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -1754,7 +1828,9 @@
         "S": 6,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Anti-vehicle 2+"
+        ]
       }
     },
     "abilities": [
@@ -2057,7 +2133,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -2101,7 +2179,10 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Psychic"
+        ]
       },
       "Storm of the Emperors Wrath - Focused Witchfire - Ranged": {
         "type": "Ranged",
@@ -2111,7 +2192,11 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Psychic"
+        ]
       },
       "Rod of Tigurius - Melee": {
         "type": "Melee",
@@ -2121,7 +2206,9 @@
         "S": 7,
         "AP": 2,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Psychic"
+        ]
       }
     },
     "abilities": [
@@ -2227,7 +2314,9 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Master-crafted Bolt Rifle - Ranged": {
         "type": "Ranged",
@@ -2237,7 +2326,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
       },
       "Master-crafted Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -2247,7 +2339,10 @@
         "S": 5,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 2"
+        ]
       }
     },
     "abilities": [
@@ -2265,6 +2360,56 @@
     ],
     "total_models": 1,
     "points": 105,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Darnath Lysander",
+    "models": {
+      "Darnath Lysander": {
+        "M": 5,
+        "T": 5,
+        "SV": 2,
+        "W": 6,
+        "LD": 6,
+        "OC": 1,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Fist of Dorn - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 10,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Icon of Obstinacy:While this model is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+      "Rampart:Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save.",
+      "Leader:This model can be attached to the following units: Relic Terminator Squad Terminator Assault Squad Terminator Squad",
+      "Inspiring Commander:If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Terminator",
+      "Adeptus Astartes",
+      "Imperial Fists",
+      "Darnath Lysander"
+    ],
+    "total_models": 1,
+    "points": 100,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -2321,7 +2466,10 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
       },
       "Superkrak Rocket Launcher - Ranged": {
         "type": "Ranged",
@@ -2331,7 +2479,9 @@
         "S": 10,
         "AP": 2,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Castellan Launcher - Ranged": {
         "type": "Ranged",
@@ -2341,7 +2491,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
       },
       "Vengor Launcher - Ranged": {
         "type": "Ranged",
@@ -2351,7 +2504,10 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
       }
     },
     "abilities": [
@@ -2747,7 +2903,9 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       }
     },
     "abilities": [
@@ -2818,7 +2976,10 @@
         "S": 5,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
       },
       "Las Fusil - Ranged": {
         "type": "Ranged",
@@ -2828,7 +2989,9 @@
         "S": 9,
         "AP": 3,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Instigator Bolt Carbine - Ranged": {
         "type": "Ranged",
@@ -2838,7 +3001,9 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -2921,7 +3086,10 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Melta 2"
+        ]
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -2983,7 +3151,9 @@
         "S": 10,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Twin Firestrike Autocannon - Ranged": {
         "type": "Ranged",
@@ -2993,7 +3163,9 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -3064,7 +3236,9 @@
         "S": 14,
         "AP": 4,
         "D": "D6+3",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Fragstorm Grenade Launcher - Ranged": {
         "type": "Ranged",
@@ -3155,7 +3329,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 4"
+        ]
       },
       "Twin Heavy Onslaught Gatling Cannon - Ranged": {
         "type": "Ranged",
@@ -3165,7 +3341,10 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -3236,7 +3415,9 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2"
+        ]
       },
       "Twin Las-talon - Ranged": {
         "type": "Ranged",
@@ -3246,7 +3427,9 @@
         "S": 10,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -3287,7 +3470,9 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Hammerfall Missile Launcher - Superkrak - Ranged": {
         "type": "Ranged",
@@ -3307,7 +3492,11 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Defensive Array",
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
       },
       "Hammerfall Heavy Flamer Array - Ranged": {
         "type": "Ranged",
@@ -3317,7 +3506,12 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Defensive Array",
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -3378,7 +3572,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy"
+        ]
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -3501,7 +3698,10 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy"
+        ]
       },
       "Plasma Incinerator - Supercharge - Ranged": {
         "type": "Ranged",
@@ -3511,7 +3711,11 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy",
+          "Hazardous"
+        ]
       }
     },
     "abilities": [
@@ -3573,7 +3777,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Bellicatus Missile Array - Icarus - Ranged": {
         "type": "Ranged",
@@ -3583,7 +3789,9 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 2+"
+        ]
       },
       "Bellicatus Missile Array - Krak - Ranged": {
         "type": "Ranged",
@@ -3603,7 +3811,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 4+",
+          "Sustained Hits 1"
+        ]
       },
       "Storm Bolter - Ranged": {
         "type": "Ranged",
@@ -3688,7 +3899,12 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Sustained Hits 2",
+          "Twin-linked"
+        ]
       },
       "Plasma Exterminators - Standard - Ranged": {
         "type": "Ranged",
@@ -3698,7 +3914,11 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Twin-linked"
+        ]
       },
       "Plasma Exterminators - Supercharge - Ranged": {
         "type": "Ranged",
@@ -3708,7 +3928,12 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Hazardous",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -3771,7 +3996,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Ignores Cover"
+        ]
       },
       "Paired Combat Blades - Melee": {
         "type": "Melee",
@@ -3781,7 +4009,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -3907,7 +4137,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -4247,7 +4479,10 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Twin Ironhail Autocannon - Ranged": {
         "type": "Ranged",
@@ -4257,7 +4492,9 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -4309,7 +4546,10 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -4354,7 +4594,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
       },
       "The Raven's Talons - Melee": {
         "type": "Melee",
@@ -4364,7 +4607,10 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -4414,7 +4660,10 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -4699,7 +4948,10 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       }
     },
     "abilities": [
@@ -4957,7 +5209,10 @@
         "S": 5,
         "AP": 0,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -4977,7 +5232,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -5061,7 +5318,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -5071,7 +5330,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Infantry 2+"
+        ]
       }
     },
     "abilities": [
@@ -5139,7 +5400,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -5183,7 +5446,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Master-crafted Special Issue Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -5193,7 +5458,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -5249,7 +5517,10 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Infantry 4+",
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -5295,7 +5566,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Twin-linked"
+        ]
       },
       "Gauntlets of Ultramar - Melee": {
         "type": "Melee",
@@ -5305,7 +5579,9 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Victrix Power Sword - Melee": {
         "type": "Melee",
@@ -5435,6 +5711,67 @@
     "special_rules_defence": []
   },
   {
+    "name": "Pedro Kantor",
+    "models": {
+      "Pedro Kantor": {
+        "M": 6,
+        "T": 4,
+        "SV": 2,
+        "W": 5,
+        "LD": 6,
+        "OC": 1,
+        "Inv": null,
+        "Fnp": 6
+      }
+    },
+    "weapons": {
+      "Dorn's Arrow - Ranged": {
+        "type": "Ranged",
+        "Range": 24,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Rapid Fire 2",
+          "Sustained Hits 1"
+        ]
+      },
+      "Fist of Retribution - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 8,
+        "AP": 3,
+        "D": 3,
+        "Keywords": []
+      }
+    },
+    "abilities": [
+      "Oath of Rynn:Once per battle, at the start of either players Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by models in this models unit.",
+      "To the Last:While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
+      "Leader:This model can be attached to the following units: Company Heroes Bladeguard Veteran Squad Sternguard Veteran Squad Tactical Squad",
+      "Inspiring Commander:If you include this model in your army, until the end of the battle, non-Character models in Sternguard Veteran Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Chapter Master",
+      "Adeptus Astartes",
+      "Imperial Fists",
+      "Pedro Kantor"
+    ],
+    "total_models": 1,
+    "points": 90,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
     "name": "Predator Annihilator",
     "models": {
       "Predator Annihilator": {
@@ -5487,7 +5824,9 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -5578,7 +5917,9 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -5783,7 +6124,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Twin-linked"
+        ]
       },
       "Twin Storm Bolter - Ranged": {
         "type": "Ranged",
@@ -5793,7 +6137,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 2",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -5845,7 +6192,10 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
       },
       "Combat Knife - Melee": {
         "type": "Melee",
@@ -5855,7 +6205,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Bolt Carbine - Ranged": {
         "type": "Ranged",
@@ -5865,7 +6217,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -5931,7 +6285,10 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Indirect Fire",
+          "One Shot"
+        ]
       },
       "Repulsor Defensive Array - Ranged": {
         "type": "Ranged",
@@ -6104,7 +6461,9 @@
         "S": 16,
         "AP": 4,
         "D": "D6+4",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       }
     },
     "abilities": [
@@ -6211,7 +6570,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
       },
       "Hand of Dominion - Melee": {
         "type": "Melee",
@@ -6221,7 +6582,9 @@
         "S": 14,
         "AP": 4,
         "D": 4,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       },
       "The Emperor's Sword - Melee": {
         "type": "Melee",
@@ -6231,7 +6594,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       }
     },
     "abilities": [
@@ -6378,7 +6743,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault"
+        ]
       },
       "Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -6408,7 +6775,10 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -6480,7 +6850,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
       },
       "Sternguard Bolt Rifle - Ranged": {
         "type": "Ranged",
@@ -6490,7 +6863,12 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Devastating Wounds",
+          "Heavy",
+          "Rapid Fire 1"
+        ]
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -6550,7 +6928,11 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Heavy",
+          "Sustained Hits 1"
+        ]
       },
       "Pyrecannon - Ranged": {
         "type": "Ranged",
@@ -6560,7 +6942,10 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       }
     },
     "abilities": [
@@ -6702,7 +7087,9 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2"
+        ]
       }
     },
     "abilities": [
@@ -6773,7 +7160,10 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 2+",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -6844,7 +7234,9 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 2+"
+        ]
       },
       "Twin Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -6967,7 +7359,10 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Twin-linked"
+        ]
       },
       "Twin Heavy Plasma Cannon - Supercharge - Ranged": {
         "type": "Ranged",
@@ -6977,7 +7372,11 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Twin-linked"
+        ]
       },
       "Typhoon Missile Launcher - Ranged": {
         "type": "Ranged",
@@ -7101,7 +7500,10 @@
         "S": 8,
         "AP": 1,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 2+",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -7163,7 +7565,9 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -7719,7 +8123,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Cyclone Missile Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -7791,7 +8197,9 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Anti-FLY 4+"
+        ]
       },
       "Thunderhawk heavy cannon - Ranged": {
         "type": "Ranged",
@@ -7801,7 +8209,9 @@
         "S": 10,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Turbo-laser destructor - Ranged": {
         "type": "Ranged",
@@ -7811,7 +8221,9 @@
         "S": 20,
         "AP": 4,
         "D": "D6+6",
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       }
     },
     "abilities": [
@@ -7831,6 +8243,65 @@
     ],
     "total_models": 1,
     "points": 840,
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Tor Garadon",
+    "models": {
+      "Tor Garadon": {
+        "M": 5,
+        "T": 6,
+        "SV": 3,
+        "W": 6,
+        "LD": 6,
+        "OC": 1,
+        "Inv": null,
+        "Fnp": null
+      }
+    },
+    "weapons": {
+      "Aritficer Grav Gun - Ranged": {
+        "type": "Ranged",
+        "Range": 18,
+        "A": 2,
+        "BS": 2,
+        "S": 5,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-vehicle 2+"
+        ]
+      },
+      "Hand of Defiance - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 2,
+        "S": 12,
+        "AP": 2,
+        "D": 2,
+        "Keywords": []
+      }
+    },
+    "abilities": [
+      "Signum Array:While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
+      "Siege Captain:Each time this model makes an attack that targets a Monster, Vehicle, or Fortification unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2.",
+      "Leader:This model can be attached to the following units: Aggressor Squad Eradicator Squad Heavy Intercessor Squad"
+    ],
+    "keywords": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Gravis",
+      "Tor Garadon",
+      "Adeptus Astartes",
+      "Imperium",
+      "Imperial Fists"
+    ],
+    "total_models": 1,
+    "points": 90,
     "special_rules_attack": [],
     "special_rules_defence": []
   },
@@ -7867,7 +8338,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -7934,7 +8407,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Plasma Pistol - Ranged": {
         "type": "Ranged",
@@ -8049,7 +8524,9 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       }
     },
     "abilities": [
@@ -8090,7 +8567,10 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Spear of Vulkan - Melee": {
         "type": "Melee",
@@ -8178,7 +8658,10 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
       }
     },
     "abilities": [

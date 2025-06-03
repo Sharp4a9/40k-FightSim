@@ -47,7 +47,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Fulgrim",
@@ -128,7 +129,8 @@
     ],
     "total_models": 1,
     "points": 385,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord Exultant",
@@ -144,9 +146,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Rapture lash - Melee": {
         "type": "Melee",
@@ -160,6 +160,16 @@
           "Extra Attacks"
         ]
       },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": []
+      },
       "Power fist - Melee": {
         "type": "Melee",
         "Range": "Melee",
@@ -167,7 +177,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Phoenix power spear - Melee": {
         "type": "Melee",
@@ -201,10 +212,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -213,13 +221,14 @@
         "WS": 2,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
       "Invulnerable Save:This model has a 4+ invulnerable save.",
       "Perfectionists:While this model is leading a unit, weapons equipped by models in that unit have the **^^[LETHAL HITS]^^** ability.",
-      "Euphoric Strikes:Once per battle, at the start of the Fight phase, this model can use this ability. If it does so, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1.",
+      "Euphoric Strikes:Once per battle, at the start of the Fight phase, this model can use this ability. If it does so, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1.",
       "Lord of the Host:If this model is attached to an **^^Emperor's Children Battleline^^** unit during the Declare Battle Formations step, this model has the Infiltrators and Scouts 6\" ability.",
       "Leader:This model can be attached to the following units: **^^Infractors; Tormentors^^**"
     ],
@@ -234,7 +243,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord Kakophonist",
@@ -249,7 +259,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -258,7 +269,8 @@
         "WS": 2,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Screamer pistol - Ranged": {
         "type": "Ranged",
@@ -268,10 +280,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -291,7 +300,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sorcerer",
@@ -307,9 +317,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Force weapon - Melee": {
         "type": "Melee",
@@ -367,7 +375,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Slaanesh",
@@ -382,7 +391,8 @@
         "BS": 2,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hellforged weapons - Melee": {
         "type": "Melee",
@@ -391,7 +401,8 @@
         "WS": 2,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -411,7 +422,8 @@
     ],
     "total_models": 1,
     "points": 195,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Slaanesh with Wings",
@@ -426,7 +438,8 @@
         "BS": 2,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hellforged weapons - Melee": {
         "type": "Melee",
@@ -435,7 +448,8 @@
         "WS": 2,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -455,7 +469,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tormentors",
@@ -471,9 +486,17 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": []
       },
       "Rapture lash - Melee": {
         "type": "Melee",
@@ -482,16 +505,18 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power sword - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 4,
         "WS": 3,
-        "S": 4,
+        "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -512,7 +537,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Plasma gun - standard - Ranged": {
         "type": "Ranged",
@@ -569,7 +595,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Infractors",
@@ -585,9 +612,17 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
+      },
+      "Plasma pistol - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "BS": 3,
+        "S": 8,
+        "AP": 3,
+        "D": 2,
+        "Keywords": []
       },
       "Rapture lash - Melee": {
         "type": "Melee",
@@ -596,16 +631,18 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power sword - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 4,
         "WS": 3,
-        "S": 4,
+        "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Duelling sabre - Melee": {
         "type": "Melee",
@@ -634,7 +671,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Flawless Blades",
@@ -649,7 +687,8 @@
         "WS": 2,
         "S": 6,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -659,9 +698,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -678,7 +715,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Terminators",
@@ -694,11 +732,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -707,7 +741,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Chainfist - Melee": {
         "type": "Melee",
@@ -717,9 +752,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 3+"
-        ]
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -755,9 +788,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -774,7 +805,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Spawn",
@@ -789,7 +821,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -804,7 +837,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Land Raider",
@@ -819,7 +853,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -828,7 +863,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -838,11 +874,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -852,10 +884,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -865,9 +894,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -885,7 +912,8 @@
     ],
     "total_models": 1,
     "points": 240,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Noise Marines",
@@ -902,7 +930,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Screamer pistol - Ranged": {
         "type": "Ranged",
@@ -925,9 +954,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Ignores Cover"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -936,7 +963,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Blastmaster - varied frequency - Ranged": {
         "type": "Ranged",
@@ -976,12 +1004,13 @@
     ],
     "total_models": 1,
     "points": 135,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Heldrake",
     "models": {
-      "Heldrake": {"M": 20, "T": 10, "SV": 2, "W": 14, "LD": 7, "OC": 0, "Inv": null, "Fnp": null}
+      "Heldrake": {"M": 20, "T": 10, "SV": 3, "W": 14, "LD": 7, "OC": 0, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Heldrake claws - Melee": {
@@ -1017,7 +1046,8 @@
         "BS": 3,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1036,7 +1066,8 @@
     ],
     "total_models": 1,
     "points": 195,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Maulerfiend",
@@ -1051,7 +1082,8 @@
         "WS": 3,
         "S": 14,
         "AP": 2,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Magma cutter - Ranged": {
         "type": "Ranged",
@@ -1093,7 +1125,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Rhino",
@@ -1109,11 +1142,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -1123,9 +1152,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -1134,7 +1161,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1152,12 +1180,13 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Shalaxi Helbane",
     "models": {
-      "Shalaxi Helbane": {"M": 14, "T": 10, "SV": 5, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
+      "Shalaxi Helbane": {"M": 14, "T": 10, "SV": 3, "W": 20, "LD": 6, "OC": 5, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Lash of Slaanesh - Ranged": {
@@ -1244,7 +1273,8 @@
     ],
     "total_models": 1,
     "points": 380,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Keeper of Secrets",
@@ -1286,7 +1316,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Snapping claws - Melee": {
         "type": "Melee",
@@ -1344,7 +1375,8 @@
     ],
     "total_models": 1,
     "points": 280,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemonettes",
@@ -1383,7 +1415,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Fiends",
@@ -1420,7 +1453,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Seekers",
@@ -1471,6 +1505,7 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

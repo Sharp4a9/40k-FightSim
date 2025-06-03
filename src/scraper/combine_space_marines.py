@@ -8,7 +8,7 @@ def combine_space_marine_files():
     data_dir_out = Path("data/json")
 
     # List to store all units from all files
-    all_files = ["Raven Guard.json", "Salamanders.json",
+    all_files = ["Raven Guard.json", "Salamanders.json","Iron Hands.json","Imperial Fists.json",
                  "Space Marines.json","Ultramarines.json","White Scars.json"]
     all_units = []
     seen_units = set()  # Set to track unit names we've already processed

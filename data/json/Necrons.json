@@ -64,7 +64,8 @@
         "BS": 2,
         "S": 6,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Staff of the Destroyer - Melee": {
         "type": "Melee",
@@ -111,7 +112,8 @@
         "BS": 3,
         "S": 9,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Eldritch lance - Melee": {
         "type": "Melee",
@@ -120,7 +122,8 @@
         "WS": 3,
         "S": 9,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Impaling legs - Melee": {
         "type": "Melee",
@@ -218,7 +221,8 @@
         "WS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -262,7 +266,8 @@
         "WS": 2,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hyperphase harvester - Melee": {
         "type": "Melee",
@@ -271,7 +276,8 @@
         "WS": 2,
         "S": 10,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -320,7 +326,8 @@
         "BS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Staff of light - Melee": {
         "type": "Melee",
@@ -329,7 +336,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -366,9 +374,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Staff of light - Ranged": {
         "type": "Ranged",
@@ -377,7 +383,8 @@
         "BS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Staff of light - Melee": {
         "type": "Melee",
@@ -386,7 +393,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Gauss cannon - Ranged": {
         "type": "Ranged",
@@ -448,9 +456,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Tachyon arrow - Ranged": {
         "type": "Ranged",
@@ -460,9 +466,7 @@
         "S": 16,
         "AP": 5,
         "D": "D6+2",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Voidscythe - Melee": {
         "type": "Melee",
@@ -483,7 +487,8 @@
         "BS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Staff of light - Melee": {
         "type": "Melee",
@@ -492,7 +497,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -525,7 +531,8 @@
         "BS": 4,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Staff of light - Melee": {
         "type": "Melee",
@@ -534,7 +541,8 @@
         "WS": 4,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -568,7 +576,8 @@
         "BS": 4,
         "S": 6,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Abyssal lance - Melee": {
         "type": "Melee",
@@ -577,7 +586,8 @@
         "WS": 4,
         "S": 6,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -610,7 +620,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chronomancer's stave - Ranged": {
         "type": "Ranged",
@@ -656,7 +667,8 @@
         "BS": 4,
         "S": 7,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasmic lance - Melee": {
         "type": "Melee",
@@ -665,7 +677,8 @@
         "WS": 4,
         "S": 7,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -711,7 +724,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Gauss reaper - Ranged": {
         "type": "Ranged",
@@ -778,7 +792,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -808,7 +823,8 @@
         "BS": 4,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Reanimator's claws - Melee": {
         "type": "Melee",
@@ -817,7 +833,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -861,7 +878,8 @@
         "WS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -905,7 +923,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -948,7 +967,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1010,7 +1030,8 @@
         "BS": 4,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Scythed limbs - Melee": {
         "type": "Melee",
@@ -1019,7 +1040,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1050,7 +1072,8 @@
         "WS": 3,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasmacyte - Abilities": {
         "type": "Abilities"
@@ -1133,7 +1156,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1178,7 +1202,8 @@
         "WS": 2,
         "S": 8,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1211,7 +1236,8 @@
         "BS": 2,
         "S": 12,
         "AP": 2,
-        "D": "D6+3"
+        "D": "D6+3",
+        "Keywords": []
       },
       "Scythe of the Nightbringer - strike - Melee": {
         "type": "Melee",
@@ -1232,7 +1258,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1289,7 +1316,8 @@
         "WS": 2,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Voltaic storm - Ranged": {
         "type": "Ranged",
@@ -1396,7 +1424,8 @@
         "WS": 4,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Particle beamer - Ranged": {
         "type": "Ranged",
@@ -1479,7 +1508,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasmacyte - Abilities": {
         "type": "Abilities"
@@ -1552,7 +1582,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1585,7 +1616,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Rod of covenant - Ranged": {
         "type": "Ranged",
@@ -1594,7 +1626,8 @@
         "BS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Particle caster - Ranged": {
         "type": "Ranged",
@@ -1616,7 +1649,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1646,7 +1680,8 @@
         "WS": 4,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Transdimensional beamer - Ranged": {
         "type": "Ranged",
@@ -1655,7 +1690,8 @@
         "BS": 4,
         "S": 4,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Particle caster - Ranged": {
         "type": "Ranged",
@@ -1665,10 +1701,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Whip coils - Melee": {
         "type": "Melee",
@@ -1677,7 +1710,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1746,7 +1780,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1803,7 +1838,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1847,7 +1883,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1892,7 +1929,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Gauss destructor - Ranged": {
         "type": "Ranged",
@@ -1963,7 +2001,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1996,7 +2035,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Gauss flayer array - Ranged": {
         "type": "Ranged",
@@ -2055,7 +2095,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2114,7 +2155,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2159,7 +2201,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2204,7 +2247,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2251,7 +2295,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Death ray - Ranged": {
         "type": "Ranged",
@@ -2346,7 +2391,8 @@
         "BS": 2,
         "S": 14,
         "AP": 4,
-        "D": 6
+        "D": 6,
+        "Keywords": []
       },
       "Armoured bulk - Melee": {
         "type": "Melee",
@@ -2355,7 +2401,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2398,7 +2445,8 @@
         "BS": 4,
         "S": 6,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2430,7 +2478,8 @@
         "WS": 3,
         "S": 14,
         "AP": 3,
-        "D": 5
+        "D": 5,
+        "Keywords": []
       },
       "Titanic forelimbs - sweep - Melee": {
         "type": "Melee",
@@ -2439,7 +2488,8 @@
         "WS": 3,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Singularity generator - Ranged": {
         "type": "Ranged",
@@ -2473,7 +2523,8 @@
         "BS": 3,
         "S": 24,
         "AP": 4,
-        "D": "D6+4"
+        "D": "D6+4",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2511,9 +2562,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [

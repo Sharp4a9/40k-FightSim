@@ -23,7 +23,10 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
       },
       "Plasma Pistol - Standard - Ranged": {
         "type": "Ranged",
@@ -33,7 +36,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -98,7 +103,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds"
+        ]
       }
     },
     "abilities": [
@@ -163,7 +171,10 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Neophyte Firearm - Ranged": {
         "type": "Ranged",
@@ -173,7 +184,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault"
+        ]
       }
     },
     "abilities": [
@@ -220,7 +233,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -230,7 +245,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
       },
       "Master-crafted Power Weapon - Melee": {
         "type": "Melee",
@@ -274,7 +293,9 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Black Sword - Sweep - Melee": {
         "type": "Melee",
@@ -339,7 +360,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault"
+        ]
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -359,7 +382,9 @@
         "S": 4,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -403,7 +428,9 @@
         "S": 14,
         "AP": 4,
         "D": "D6+3",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       }
     },
     "abilities": [
@@ -436,7 +463,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 4"
+        ]
       },
       "Twin Heavy Onslaught Gatling Cannon - Ranged": {
         "type": "Ranged",
@@ -446,7 +475,10 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -479,7 +511,9 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2"
+        ]
       },
       "Twin Las-talon - Ranged": {
         "type": "Ranged",
@@ -489,7 +523,9 @@
         "S": 10,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -522,7 +558,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Bellicatus Missile Array - Icarus - Ranged": {
         "type": "Ranged",
@@ -532,7 +570,9 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 2+"
+        ]
       },
       "Bellicatus Missile Array - Krak - Ranged": {
         "type": "Ranged",
@@ -552,7 +592,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 4+",
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -589,7 +632,10 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Indirect Fire",
+          "One Shot"
+        ]
       },
       "Repulsor Defensive Array - Ranged": {
         "type": "Ranged",
@@ -644,7 +690,9 @@
         "S": 16,
         "AP": 4,
         "D": "D6+4",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       }
     },
     "abilities": [
@@ -754,7 +802,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Plasma Pistol - Supercharge - Ranged": {
         "type": "Ranged",
@@ -764,7 +814,10 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
       }
     },
     "abilities": [

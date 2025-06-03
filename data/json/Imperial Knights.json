@@ -75,7 +75,8 @@
         "WS": 2,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hekhtur's pistol - Ranged": {
         "type": "Ranged",
@@ -103,7 +104,8 @@
     ],
     "total_models": 1,
     "points": 450,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Armiger Warglaive",
@@ -118,7 +120,8 @@
         "WS": 3,
         "S": 10,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Reaper chain-cleaver - sweep - Melee": {
         "type": "Melee",
@@ -127,7 +130,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Thermal spear - Ranged": {
         "type": "Ranged",
@@ -156,7 +160,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Armiger Helverin",
@@ -171,7 +176,8 @@
         "BS": 3,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Armoured feet - Melee": {
         "type": "Melee",
@@ -180,7 +186,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -197,7 +204,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Paladin",
@@ -225,10 +233,7 @@
         "S": 10,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Rapid Fire D6+3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -248,7 +253,8 @@
     ],
     "total_models": 1,
     "points": 405,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Errant",
@@ -264,10 +270,7 @@
         "S": 12,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Blast",
-          "Melta 6"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -287,7 +290,8 @@
     ],
     "total_models": 1,
     "points": 390,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Gallant",
@@ -302,7 +306,8 @@
         "WS": 2,
         "S": 9,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Reaper chainsword - strike - Melee": {
         "type": "Melee",
@@ -311,7 +316,8 @@
         "WS": 2,
         "S": 14,
         "AP": 4,
-        "D": 6
+        "D": 6,
+        "Keywords": []
       },
       "Thunderstrike gauntlet - strike - Melee": {
         "type": "Melee",
@@ -320,7 +326,8 @@
         "WS": 2,
         "S": 20,
         "AP": 3,
-        "D": 8
+        "D": 8,
+        "Keywords": []
       },
       "Thunderstrike gauntlet - sweep - Melee": {
         "type": "Melee",
@@ -329,7 +336,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -349,7 +357,8 @@
     ],
     "total_models": 1,
     "points": 380,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Warden",
@@ -364,7 +373,8 @@
         "BS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -374,10 +384,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -397,7 +404,8 @@
     ],
     "total_models": 1,
     "points": 450,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Crusader",
@@ -412,7 +420,8 @@
         "BS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -422,10 +431,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Titanic feet - Melee": {
         "type": "Melee",
@@ -434,7 +440,8 @@
         "WS": 3,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Questoris heavy stubber - Ranged": {
         "type": "Ranged",
@@ -444,9 +451,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Rapid-fire battle cannon - Ranged": {
         "type": "Ranged",
@@ -456,10 +461,7 @@
         "S": 10,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Rapid Fire D6+3"
-        ]
+        "Keywords": []
       },
       "Thermal cannon - Ranged": {
         "type": "Ranged",
@@ -469,10 +471,7 @@
         "S": 12,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Blast",
-          "Melta 6"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -492,7 +491,8 @@
     ],
     "total_models": 1,
     "points": 445,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Preceptor",
@@ -531,7 +531,8 @@
         "BS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Questoris heavy stubber - Ranged": {
         "type": "Ranged",
@@ -541,9 +542,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -553,9 +552,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -575,7 +572,8 @@
     ],
     "total_models": 1,
     "points": 405,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Castellan",
@@ -627,7 +625,8 @@
         "WS": 4,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Twin meltagun - Ranged": {
         "type": "Ranged",
@@ -637,10 +636,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -660,7 +656,8 @@
     ],
     "total_models": 1,
     "points": 480,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Knight Valiant",
@@ -702,7 +699,8 @@
         "WS": 4,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Twin meltagun - Ranged": {
         "type": "Ranged",
@@ -712,10 +710,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2",
-          "Twin-Linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -735,7 +730,8 @@
     ],
     "total_models": 1,
     "points": 480,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Acastus Knight Asterius",
@@ -791,7 +787,8 @@
         "WS": 4,
         "S": 10,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -809,7 +806,8 @@
     ],
     "total_models": 1,
     "points": 765,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Acastus Knight Porphyrion",
@@ -837,7 +835,8 @@
         "BS": 3,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -846,7 +845,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Acastus ironstorm missile pod - Ranged": {
         "type": "Ranged",
@@ -882,7 +882,8 @@
         "WS": 4,
         "S": 10,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -900,7 +901,8 @@
     ],
     "total_models": 1,
     "points": 710,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cerastus Knight Lancer",
@@ -940,7 +942,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -961,7 +964,8 @@
     ],
     "total_models": 1,
     "points": 430,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cerastus Knight Castigator",
@@ -988,7 +992,8 @@
         "WS": 3,
         "S": 14,
         "AP": 4,
-        "D": 6
+        "D": 6,
+        "Keywords": []
       },
       "Tempest warblade - sweep - Melee": {
         "type": "Melee",
@@ -997,7 +1002,8 @@
         "WS": 3,
         "S": 9,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1017,7 +1023,8 @@
     ],
     "total_models": 1,
     "points": 465,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cerastus Knight Acheron",
@@ -1058,7 +1065,8 @@
         "WS": 3,
         "S": 14,
         "AP": 4,
-        "D": 6
+        "D": 6,
+        "Keywords": []
       },
       "Reaper chainfist - sweep - Melee": {
         "type": "Melee",
@@ -1067,7 +1075,8 @@
         "WS": 3,
         "S": 9,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1088,7 +1097,8 @@
     ],
     "total_models": 1,
     "points": 425,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cerastus Knight Atrapos",
@@ -1189,7 +1199,8 @@
     ],
     "total_models": 1,
     "points": 425,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Questoris Knight Magaera",
@@ -1204,7 +1215,8 @@
         "WS": 3,
         "S": 9,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hekaton siege claw - Melee": {
         "type": "Melee",
@@ -1213,7 +1225,8 @@
         "WS": 3,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Twin rad cleanser - Ranged": {
         "type": "Ranged",
@@ -1223,12 +1236,7 @@
         "S": 2,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Torrent",
-          "Ignores Cover",
-          "Anti-Infantry 2+",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Phased plasma-fusil - Ranged": {
         "type": "Ranged",
@@ -1273,7 +1281,8 @@
     ],
     "total_models": 1,
     "points": 425,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Questoris Knight Styrix",
@@ -1313,7 +1322,8 @@
         "WS": 3,
         "S": 9,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hekaton siege claw - Melee": {
         "type": "Melee",
@@ -1322,7 +1332,8 @@
         "WS": 3,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Twin rad cleanser - Ranged": {
         "type": "Ranged",
@@ -1332,12 +1343,7 @@
         "S": 2,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Torrent",
-          "Ignores Cover",
-          "Anti-Infantry 2+",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1358,7 +1364,8 @@
     ],
     "total_models": 1,
     "points": 430,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Armiger Moirax",
@@ -1423,7 +1430,8 @@
         "WS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       },
       "Rad cleanser - Ranged": {
         "type": "Ranged",
@@ -1446,7 +1454,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1463,6 +1472,7 @@
     ],
     "total_models": 1,
     "points": 160,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

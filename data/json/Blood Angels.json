@@ -13,7 +13,10 @@
         "S": 7,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -53,7 +56,11 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -63,7 +70,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Sustained Hits 1"
+        ]
       },
       "Baal Flamestorm Cannon - Ranged": {
         "type": "Ranged",
@@ -73,7 +83,11 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Twin Assault Cannon - Ranged": {
         "type": "Ranged",
@@ -83,7 +97,11 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Devastating wounds",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -116,7 +134,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Plasma Pistol - Supercharge - Ranged": {
         "type": "Ranged",
@@ -126,7 +146,10 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
       },
       "Fury of the Ancients - Witchfire - Ranged": {
         "type": "Ranged",
@@ -136,7 +159,11 @@
         "S": 4,
         "AP": 1,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Psychic",
+          "Sustained Hits 1"
+        ]
       },
       "Fury of the Ancients - Focused Witchfire - Ranged": {
         "type": "Ranged",
@@ -146,7 +173,12 @@
         "S": 5,
         "AP": 2,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Pistol",
+          "Psychic",
+          "Sustained Hits 3"
+        ]
       },
       "Vitarus - Melee": {
         "type": "Melee",
@@ -156,7 +188,10 @@
         "S": 9,
         "AP": 3,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits",
+          "Psychic"
+        ]
       }
     },
     "abilities": [
@@ -194,7 +229,11 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2",
+          "Pistol",
+          "Sustained Hits D3"
+        ]
       },
       "The Axe Mortalis - Melee": {
         "type": "Melee",
@@ -204,7 +243,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       }
     },
     "abilities": [
@@ -245,7 +286,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Astartes Grenade Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -324,7 +367,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       },
       "Absolvor Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -334,7 +379,9 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -384,7 +431,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lance"
+        ]
       },
       "Angelus Boltgun - Ranged": {
         "type": "Ranged",
@@ -394,7 +443,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -469,7 +520,9 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       }
     },
     "abilities": [
@@ -516,7 +569,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -671,7 +726,10 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy"
+        ]
       },
       "Astartes Grenade Launcher - Frag - Ranged": {
         "type": "Ranged",
@@ -681,7 +739,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Astartes Grenade Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -726,7 +786,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -782,7 +844,9 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Blood Fist Bolt Rifles - Ranged": {
         "type": "Ranged",
@@ -792,7 +856,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Blood Talons - Strike - Melee": {
         "type": "Melee",
@@ -802,7 +868,9 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Blood Talons - Sweep - Melee": {
         "type": "Melee",
@@ -812,7 +880,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [

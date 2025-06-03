@@ -13,7 +13,8 @@
         "WS": 3,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -28,7 +29,8 @@
     ],
     "total_models": 1,
     "points": 135,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Abominant",
@@ -43,7 +45,8 @@
         "WS": 3,
         "S": 12,
         "AP": 2,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -61,7 +64,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Achilles Ridgerunners",
@@ -76,7 +80,8 @@
         "BS": 4,
         "S": 9,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Heavy mortar - Ranged": {
         "type": "Ranged",
@@ -99,9 +104,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Twin heavy stubber - Ranged": {
         "type": "Ranged",
@@ -123,7 +126,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -140,7 +144,8 @@
     ],
     "total_models": 1,
     "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Acolyte Hybrids with Hand Flamers",
@@ -154,11 +159,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Cult claws and knife - Melee": {
         "type": "Melee",
@@ -167,7 +168,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cult icon - Abilities": {
         "type": "Abilities"
@@ -194,7 +196,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -211,7 +214,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Acolyte Iconward",
@@ -227,9 +231,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Cult claws - Melee": {
         "type": "Melee",
@@ -238,7 +240,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -256,7 +259,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Atalan Jackals",
@@ -276,9 +280,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -287,7 +289,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Atalan small arms - Ranged": {
         "type": "Ranged",
@@ -297,9 +300,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Atalan power weapon - Melee": {
         "type": "Melee",
@@ -308,7 +309,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Mining laser - Ranged": {
         "type": "Ranged",
@@ -317,7 +319,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Atalan incinerator - Ranged": {
         "type": "Ranged",
@@ -340,9 +343,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -358,7 +359,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Biophagus",
@@ -398,9 +400,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -413,11 +413,13 @@
       "Biophagus",
       "Genestealer Cults",
       "Infantry",
-      "Character"
+      "Character",
+      "Great Devourer"
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Clamavus",
@@ -433,9 +435,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -444,7 +444,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -456,11 +457,13 @@
       "Clamavus",
       "Genestealer Cults",
       "Infantry",
-      "Character"
+      "Character",
+      "Great Devourer"
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Goliath Rockgrinder",
@@ -501,9 +504,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -513,9 +514,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Demolition charge cache - Ranged": {
         "type": "Ranged",
@@ -525,11 +524,7 @@
         "S": 9,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Assault",
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Drilldozer blade - Melee": {
         "type": "Melee",
@@ -538,7 +533,8 @@
         "WS": 3,
         "S": 10,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -553,7 +549,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Goliath Truck",
@@ -580,7 +577,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Demolition charge cache - Ranged": {
         "type": "Ranged",
@@ -590,11 +588,7 @@
         "S": 9,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Assault",
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -604,9 +598,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -622,7 +614,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Hybrid Metamorphs",
@@ -637,7 +630,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Autopistol - Ranged": {
         "type": "Ranged",
@@ -647,9 +641,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Cult icon - Abilities": {
         "type": "Abilities"
@@ -662,11 +654,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Leader's Bio-weapons - Melee": {
         "type": "Melee",
@@ -675,7 +663,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -690,7 +679,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Jackal Alphus",
@@ -706,9 +696,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -717,7 +705,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cult sniper rifle - Ranged": {
         "type": "Ranged",
@@ -748,7 +737,8 @@
     ],
     "total_models": 1,
     "points": 55,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Kelermorph",
@@ -763,7 +753,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Liberator autostubs - Ranged": {
         "type": "Ranged",
@@ -792,7 +783,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Locus",
@@ -807,7 +799,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -824,7 +817,8 @@
     ],
     "total_models": 1,
     "points": 45,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Magus",
@@ -852,9 +846,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -867,11 +859,14 @@
       "Magus",
       "Genestealer Cults",
       "Infantry",
-      "Character"
+      "Character",
+      "Psyker",
+      "Great Devourer"
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Neophyte Hybrids",
@@ -891,9 +886,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Autopistol - Ranged": {
         "type": "Ranged",
@@ -903,9 +896,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -914,7 +905,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Mining Laser - Ranged": {
         "type": "Ranged",
@@ -949,9 +941,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -987,9 +977,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Anointed pistol - Ranged": {
         "type": "Ranged",
@@ -999,9 +987,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1010,7 +996,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -1019,7 +1006,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1036,7 +1024,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Nexos",
@@ -1052,9 +1041,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1063,7 +1050,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1080,7 +1068,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Patriarch",
@@ -1118,7 +1107,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Primus",
@@ -1160,7 +1150,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1177,7 +1168,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Purestrain Genestealers",
@@ -1192,7 +1184,8 @@
         "WS": 2,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1206,7 +1199,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Reductus Saboteur",
@@ -1222,9 +1216,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1233,7 +1225,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Demolition charges - Ranged": {
         "type": "Ranged",
@@ -1277,7 +1270,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sanctus",
@@ -1305,7 +1299,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cult sniper rifle - Ranged": {
         "type": "Ranged",
@@ -1336,7 +1331,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Benefictus",
@@ -1351,7 +1347,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Psionic cascade - witchfire - Ranged": {
         "type": "Ranged",
@@ -1396,7 +1393,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Acolyte Hybrids with Autopistols",
@@ -1410,9 +1408,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Cult claws and knife - Melee": {
         "type": "Melee",
@@ -1421,7 +1417,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cult icon - Abilities": {
         "type": "Abilities"
@@ -1445,7 +1442,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1462,6 +1460,7 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

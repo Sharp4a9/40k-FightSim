@@ -4,6 +4,7 @@ import json
 import os
 from typing import Dict, List
 from pathlib import Path
+from attacker_special_rules import SPECIAL_RULES
 
 class UnitBuilderGUI:
     def __init__(self, root):
@@ -375,18 +376,8 @@ Please report any bugs to Andrew White."""
         """Add a new row for special rule selection"""
         row = len(self.special_rule_widgets) // 2
         
-        # Add a blank option as the first entry and sort the rest alphabetically
-        special_rule_options = [""] + sorted(["Sustained Hits 1", "Lethal Hits", "Reroll Hits", 
-                               "Reroll Hits 1", "Reroll Wounds", "Reroll Wounds 1",
-                               "Critical Hits 5+", "Critical Wounds 5+", "Ignores Cover",
-                               "Devastating Wounds", "Reroll 1 Hit Roll", "Reroll 1 Wound Roll",
-                               "Reroll 1 Hit or Wound", "Reroll 1 Hit or Wound or Damage",
-                               "Flip Roll to 6", "Flip Hit Roll to 6", "Flip Wound Roll to 6",
-                               "Flip Hit or Wound Roll to 6", "Flip Damage Roll to 6",
-                               "Reroll Hit and Wound 1 Vehicle", "Reroll Hit and Wound 1 Monster",
-                               "Reroll Hit and Wound 1"])
         special_rule_combo = ttk.Combobox(self.special_rules_frame, 
-                                        values=special_rule_options,
+                                        values=SPECIAL_RULES,
                                         width=40)
         special_rule_combo.grid(row=row, column=0, padx=5, pady=2)
         

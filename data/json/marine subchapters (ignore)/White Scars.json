@@ -13,7 +13,10 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision"
+        ]
       }
     },
     "abilities": [

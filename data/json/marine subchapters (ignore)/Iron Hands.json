@@ -13,7 +13,9 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
       },
       "Harrowhand - Melee": {
         "type": "Melee",
@@ -33,7 +35,9 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       }
     },
     "abilities": [

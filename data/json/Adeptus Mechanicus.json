@@ -12,7 +12,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cognis heavy stubber array - Ranged": {
         "type": "Ranged",
@@ -22,11 +23,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 9",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -99,7 +96,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -135,11 +133,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 9",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -148,7 +142,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -198,7 +193,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Mechadendrite hive - Melee": {
         "type": "Melee",
@@ -355,7 +351,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin cognis lascannon - Ranged": {
         "type": "Ranged",
@@ -400,7 +397,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin Kastelan phosphor blaster - Ranged": {
         "type": "Ranged",
@@ -434,7 +432,8 @@
         "WS": 4,
         "S": 12,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Kastelan phosphor blaster - Ranged": {
         "type": "Ranged",
@@ -505,9 +504,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Anti-Vehicle 4+"
-        ]
+        "Keywords": []
       },
       "Heavy arc rifle - Ranged": {
         "type": "Ranged",
@@ -517,10 +514,7 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Anti-Vehicle 4+",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Hydraulic claw - Melee": {
         "type": "Melee",
@@ -529,7 +523,8 @@
         "WS": 4,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Torsion cannon - Ranged": {
         "type": "Ranged",
@@ -539,10 +534,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-Infantry 2+",
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -576,9 +568,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Anti-Vehicle 2+"
-        ]
+        "Keywords": []
       },
       "Cognis flamer - Ranged": {
         "type": "Ranged",
@@ -588,10 +578,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -600,7 +587,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Phosphor blaster - Ranged": {
         "type": "Ranged",
@@ -610,10 +598,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Kataphron plasma culverin - Ranged": {
         "type": "Ranged",
@@ -623,9 +608,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -671,7 +654,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Eradication beamer - dissipated - Ranged": {
         "type": "Ranged",
@@ -809,7 +793,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Flechette carbine - Ranged": {
         "type": "Ranged",
@@ -818,7 +803,8 @@
         "BS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -878,7 +864,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Phosphor torch - Ranged": {
         "type": "Ranged",
@@ -937,7 +924,8 @@
         "WS": 4,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Mechanicus pistol - Ranged": {
         "type": "Ranged",
@@ -947,10 +935,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -997,7 +982,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Sulphur breath - Ranged": {
         "type": "Ranged",
@@ -1021,10 +1007,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Phosphor pistol - Ranged": {
         "type": "Ranged",
@@ -1081,7 +1064,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Stubcarbine - Ranged": {
         "type": "Ranged",
@@ -1213,10 +1197,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Control stave - Melee": {
         "type": "Melee",
@@ -1225,7 +1206,8 @@
         "WS": 3,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1260,7 +1242,8 @@
         "BS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Mechanicus pistol - Ranged": {
         "type": "Ranged",
@@ -1270,10 +1253,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Alpha combat weapon - Melee": {
         "type": "Melee",
@@ -1282,7 +1262,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1291,7 +1272,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Transuranic arquebus - Ranged": {
         "type": "Ranged",
@@ -1339,7 +1321,8 @@
         "BS": 4,
         "S": 7,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1386,10 +1369,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Alpha combat weapon - Melee": {
         "type": "Melee",
@@ -1398,7 +1378,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1407,7 +1388,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Transuranic arquebus - Ranged": {
         "type": "Ranged",
@@ -1455,7 +1437,8 @@
         "BS": 4,
         "S": 7,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1502,7 +1485,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Cognis heavy stubber - Ranged": {
         "type": "Ranged",
@@ -1536,7 +1520,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1570,7 +1555,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cognis heavy stubber array - Ranged": {
         "type": "Ranged",
@@ -1580,11 +1566,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 9",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1697,7 +1679,8 @@
         "BS": 3,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Eradication ray - focused - Ranged": {
         "type": "Ranged",
@@ -1706,7 +1689,8 @@
         "BS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Volkite blaster - Ranged": {
         "type": "Ranged",
@@ -1727,7 +1711,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1764,10 +1749,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Omnissian axe - Melee": {
         "type": "Melee",
@@ -1776,7 +1758,8 @@
         "WS": 4,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Servo arm - Melee": {
         "type": "Melee",
@@ -1850,7 +1833,8 @@
         "WS": 3,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1887,10 +1871,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Servo-arc claw - Melee": {
         "type": "Melee",
@@ -1940,10 +1921,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -1952,7 +1930,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1987,7 +1966,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Radium Jezzail - Ranged": {
         "type": "Ranged",
@@ -2026,10 +2006,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2092,7 +2069,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [

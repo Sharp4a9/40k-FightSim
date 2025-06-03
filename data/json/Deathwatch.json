@@ -23,7 +23,9 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Lance"
+        ]
       }
     },
     "abilities": [
@@ -61,7 +63,12 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Infantry 4+",
+          "Devastating Wounds",
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Master-crafted power weapon - Melee": {
         "type": "Melee",
@@ -120,7 +127,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 6",
+          "Twin-Linked"
+        ]
       },
       "Twin assault cannon - Ranged": {
         "type": "Ranged",
@@ -130,7 +140,10 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Twin-Linked"
+        ]
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -140,7 +153,9 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Twin-Linked"
+        ]
       },
       "Blackstar rocket launcher - Ranged": {
         "type": "Ranged",
@@ -150,7 +165,9 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Stormstrike missile launcher - Ranged": {
         "type": "Ranged",
@@ -211,7 +228,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-Linked"
+        ]
       },
       "Thunder Hammer - Melee": {
         "type": "Melee",
@@ -221,7 +240,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Chainfist - Melee": {
         "type": "Melee",
@@ -231,7 +252,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Vehicle 3+"
+        ]
       }
     },
     "abilities": [
@@ -319,7 +342,10 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Indirect Fire"
+        ]
       },
       "Superfrag missile launcher - Ranged": {
         "type": "Ranged",
@@ -329,7 +355,10 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
       },
       "Superkrak missile launcher - Ranged": {
         "type": "Ranged",
@@ -339,7 +368,9 @@
         "S": 10,
         "AP": 2,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Deathwatch bolt rifle - Ranged": {
         "type": "Ranged",
@@ -369,7 +400,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       }
     },
     "abilities": [
@@ -410,7 +443,10 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Melta 2"
+        ]
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -440,7 +476,10 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Melta 2"
+        ]
       },
       "Auto boltstorm gauntlets - Ranged": {
         "type": "Ranged",
@@ -450,7 +489,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Twin power fists - Melee": {
         "type": "Melee",
@@ -460,7 +501,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Fragstorm grenade launcher - Ranged": {
         "type": "Ranged",
@@ -470,7 +513,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Flamestorm gauntlets - Ranged": {
         "type": "Ranged",
@@ -480,7 +525,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
       },
       "Deathwatch heavy bolt rifle - Ranged": {
         "type": "Ranged",
@@ -490,7 +539,11 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy",
+          "Lethal Hits"
+        ]
       },
       "Deathwatch heavy bolter - Ranged": {
         "type": "Ranged",
@@ -500,7 +553,12 @@
         "S": 5,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Heavy",
+          "Lethal Hits",
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -542,7 +600,10 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Lethal Hits"
+        ]
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -572,7 +633,11 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Ignores Cover",
+          "Lethal Hits"
+        ]
       },
       "Paired combat blades - Melee": {
         "type": "Melee",
@@ -582,7 +647,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       },
       "Special-issue bolt pistol - Ranged": {
         "type": "Ranged",
@@ -592,7 +659,10 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
       },
       "Combat knife - Melee": {
         "type": "Melee",
@@ -602,7 +672,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       },
       "Deathwatch Bolt carbine - Ranged": {
         "type": "Ranged",
@@ -612,7 +684,10 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits",
+          "Precision"
+        ]
       },
       "Instigator bolt carbine - Ranged": {
         "type": "Ranged",
@@ -622,7 +697,9 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Las fusil - Ranged": {
         "type": "Ranged",
@@ -632,7 +709,9 @@
         "S": 9,
         "AP": 3,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Bolt sniper rifle - Ranged": {
         "type": "Ranged",
@@ -642,7 +721,10 @@
         "S": 5,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -700,7 +782,9 @@
         "S": 10,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -720,7 +804,11 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Heavy",
+          "Rapid Fire D3"
+        ]
       },
       "Infernus heavy bolter - Ranged": {
         "type": "Ranged",
@@ -743,7 +831,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Precision"
+        ]
       },
       "Deathwatch shotgun - Ranged": {
         "type": "Ranged",
@@ -753,7 +844,9 @@
         "S": 4,
         "AP": 0,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault"
+        ]
       },
       "Blackshield blades - Melee": {
         "type": "Melee",
@@ -763,7 +856,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Xenophase blade - Melee": {
         "type": "Melee",
@@ -843,7 +938,12 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Sustained Hits 2",
+          "Twin-linked"
+        ]
       },
       "Plasma exterminators - standard - Ranged": {
         "type": "Ranged",
@@ -853,7 +953,11 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Pistol",
+          "Twin-linked"
+        ]
       },
       "Plasma exterminators - supercharge - Ranged": {
         "type": "Ranged",
@@ -863,7 +967,12 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Assault",
+          "Hazardous",
+          "Pistol",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [

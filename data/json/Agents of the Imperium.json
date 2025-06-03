@@ -42,7 +42,8 @@
         "WS": 2,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -62,7 +63,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Culexus Assassin",
@@ -118,7 +120,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Eversor Assassin",
@@ -173,7 +176,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Callidus Assassin",
@@ -225,7 +229,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Rogue Trader Entourage",
@@ -256,7 +261,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Dartmask - Ranged": {
         "type": "Ranged",
@@ -305,9 +311,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -330,7 +334,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Voidsmen-at-Arms",
@@ -358,9 +363,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Vicious bite - Melee": {
         "type": "Melee",
@@ -369,7 +372,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lasgun - Ranged": {
         "type": "Ranged",
@@ -412,7 +416,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Imperial Navy Breachers",
@@ -439,7 +444,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -460,7 +466,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Demolition charge - Ranged": {
         "type": "Ranged",
@@ -496,7 +503,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -566,7 +574,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Subductor Squad",
@@ -582,9 +591,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Shock maul - Melee": {
         "type": "Melee",
@@ -593,7 +600,8 @@
         "WS": 4,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Nuncio-aquila - Abilities": {
         "type": "Abilities"
@@ -605,7 +613,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -623,7 +632,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Exaction Squad",
@@ -638,7 +648,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -647,7 +658,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Nuncio-aquila - Abilities": {
         "type": "Abilities"
@@ -660,9 +672,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Arbites shotpistol - Ranged": {
         "type": "Ranged",
@@ -672,9 +682,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Excruciator maul - Melee": {
         "type": "Melee",
@@ -683,7 +691,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Arbites grenade launcher - frag - Ranged": {
         "type": "Ranged",
@@ -704,7 +713,8 @@
         "BS": 4,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       },
       "Executioner shotgun - Ranged": {
         "type": "Ranged",
@@ -762,27 +772,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
-  },
-  {
-    "name": "Cyber-mastiff",
-    "models": {},
-    "weapons": {
-      "Mechanical bite - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 4,
-        "S": 4,
-        "AP": 0,
-        "D": 1
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Vigilant Squad",
@@ -797,7 +788,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -806,7 +798,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Nuncio-aquila - Abilities": {
         "type": "Abilities"
@@ -819,9 +812,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Arbites shotpistol - Ranged": {
         "type": "Ranged",
@@ -831,9 +822,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Arbites grenade launcher - frag - Ranged": {
         "type": "Ranged",
@@ -854,7 +843,8 @@
         "BS": 4,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       },
       "Executioner shotgun - Ranged": {
         "type": "Ranged",
@@ -911,7 +901,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inquisitor Draxus",
@@ -953,7 +944,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -976,7 +968,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inquisitor Coteaz",
@@ -1044,7 +1037,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inquisitor Greyfax",
@@ -1089,7 +1083,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1112,7 +1107,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inquisitor",
@@ -1153,7 +1149,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Force weapon - Melee": {
         "type": "Melee",
@@ -1198,7 +1195,8 @@
     ],
     "total_models": 1,
     "points": 55,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Navigator",
@@ -1226,9 +1224,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1249,7 +1245,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ministorum Priest",
@@ -1276,7 +1273,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Zealot's vindictor - Ranged": {
         "type": "Ranged",
@@ -1298,7 +1296,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1316,7 +1315,8 @@
     ],
     "total_models": 1,
     "points": 40,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inquisitorial Agents",
@@ -1331,7 +1331,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Agent firearm - Ranged": {
         "type": "Ranged",
@@ -1341,9 +1342,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - standard - Ranged": {
         "type": "Ranged",
@@ -1463,7 +1462,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Grey Knights Terminator Squad",
@@ -1479,9 +1479,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Nemesis force weapon - Melee": {
         "type": "Melee",
@@ -1491,9 +1489,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Ancient's Banner - Abilities": {
         "type": "Abilities"
@@ -1556,7 +1552,8 @@
     ],
     "total_models": 1,
     "points": 190,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Inquisitorial Chimera",
@@ -1571,7 +1568,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hunter-killer missile - Ranged": {
         "type": "Ranged",
@@ -1581,9 +1579,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Multi-laser - Ranged": {
         "type": "Ranged",
@@ -1592,7 +1588,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1602,9 +1599,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1614,10 +1609,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -1669,7 +1661,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Imperial Rhino",
@@ -1684,7 +1677,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hunter-killer missile - Ranged": {
         "type": "Ranged",
@@ -1694,9 +1688,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -1725,7 +1717,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sisters of Battle Squad",
@@ -1741,9 +1734,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -1752,7 +1743,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1761,7 +1753,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Condemnor boltgun - Ranged": {
         "type": "Ranged",
@@ -1864,9 +1857,7 @@
         "S": 4,
         "AP": 0,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -1876,9 +1867,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Ministorum flamer - Ranged": {
         "type": "Ranged",
@@ -1888,10 +1877,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Ministorum heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1950,7 +1936,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sisters of Battle Immolator",
@@ -1966,9 +1953,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -1977,7 +1962,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1987,9 +1973,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Immolation flamers - Ranged": {
         "type": "Ranged",
@@ -2048,7 +2032,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Corvus Blackstar",
@@ -2076,7 +2061,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin assault cannon - Ranged": {
         "type": "Ranged",
@@ -2122,7 +2108,8 @@
         "BS": 3,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2146,7 +2133,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Deathwatch Kill Team",
@@ -2161,7 +2149,8 @@
         "BS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -2170,7 +2159,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Deathwatch thunder hammer - Melee": {
         "type": "Melee",
@@ -2191,7 +2181,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Frag cannon - Ranged": {
         "type": "Ranged",
@@ -2215,10 +2206,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Astartes shield - Abilities": {
         "type": "Abilities"
@@ -2268,9 +2256,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -2280,11 +2266,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2302,7 +2284,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Watch Captain Artemis",
@@ -2332,7 +2315,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2354,7 +2338,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Watch Master",
@@ -2369,7 +2354,8 @@
         "BS": 2,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Vigil spear - Melee": {
         "type": "Melee",
@@ -2403,45 +2389,8 @@
     ],
     "total_models": 1,
     "points": 105,
-    "special_rules": []
-  },
-  {
-    "name": "Plasma incinerator",
-    "models": {},
-    "weapons": {
-      "Plasma incinerator - Standard - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 2,
-        "BS": 3,
-        "S": 7,
-        "AP": 2,
-        "D": 1,
-        "Keywords": [
-          "Assault",
-          "Heavy"
-        ]
-      },
-      "Plasma incinerator - Supercharge - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 2,
-        "BS": 3,
-        "S": 8,
-        "AP": 3,
-        "D": 2,
-        "Keywords": [
-          "Assault",
-          "Hazardous",
-          "Heavy"
-        ]
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sanctifiers",
@@ -2482,7 +2431,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Death Cult blades - Melee": {
         "type": "Melee",
@@ -2540,7 +2490,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Ministorum flamer - Ranged": {
         "type": "Ranged",
@@ -2550,10 +2501,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Ministorum hand flamer - Ranged": {
         "type": "Ranged",
@@ -2563,10 +2511,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2587,6 +2532,7 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

@@ -12,7 +12,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Monstrous scything talons - Melee": {
         "type": "Melee",
@@ -22,9 +23,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Stranglethorn cannon - Ranged": {
         "type": "Ranged",
@@ -34,9 +33,7 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Heavy venom cannon - Ranged": {
         "type": "Ranged",
@@ -46,9 +43,7 @@
         "S": 9,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Monstrous bonesword and lash whip - Melee": {
         "type": "Melee",
@@ -58,9 +53,7 @@
         "S": 9,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -97,9 +90,7 @@
         "S": 9,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Heavy venom cannon - Ranged": {
         "type": "Ranged",
@@ -109,9 +100,7 @@
         "S": 9,
         "AP": 2,
         "D": 3,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Stranglethorn cannon - Ranged": {
         "type": "Ranged",
@@ -121,9 +110,7 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Monstrous scything talons - Melee": {
         "type": "Melee",
@@ -133,9 +120,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -169,7 +154,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Massive scything talons - strike - Melee": {
         "type": "Melee",
@@ -178,7 +164,8 @@
         "WS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       },
       "Massive scything talons - sweep - Melee": {
         "type": "Melee",
@@ -187,7 +174,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Massive crushing claws - Melee": {
         "type": "Melee",
@@ -196,7 +184,8 @@
         "WS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -324,7 +313,8 @@
         "WS": 2,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -360,7 +350,8 @@
         "WS": 3,
         "S": 14,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Old One Eyes claws and talons - Sweep - Melee": {
         "type": "Melee",
@@ -369,7 +360,8 @@
         "WS": 3,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -404,7 +396,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Deathspitter - Ranged": {
         "type": "Ranged",
@@ -413,7 +406,8 @@
         "BS": 4,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Spinefists - Ranged": {
         "type": "Ranged",
@@ -423,11 +417,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault",
-          "Pistol",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Venom cannon - Ranged": {
         "type": "Ranged",
@@ -437,9 +427,7 @@
         "S": 9,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Barbed strangler - Ranged": {
         "type": "Ranged",
@@ -449,9 +437,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Devourer - Ranged": {
         "type": "Ranged",
@@ -460,7 +446,8 @@
         "BS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -493,9 +480,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -551,7 +536,8 @@
         "BS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chitinous claws and teeth - Melee": {
         "type": "Melee",
@@ -560,7 +546,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Shardlauncher - Ranged": {
         "type": "Ranged",
@@ -631,7 +618,8 @@
         "WS": 4,
         "S": 3,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -663,7 +651,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Fleshborer - Ranged": {
         "type": "Ranged",
@@ -755,7 +744,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bone cleaver, lash whip and rending claws - Melee": {
         "type": "Melee",
@@ -764,7 +754,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Crushing claws and rending claws - Melee": {
         "type": "Melee",
@@ -806,7 +797,8 @@
         "WS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Psychic scream - Ranged": {
         "type": "Ranged",
@@ -858,9 +850,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Precision"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -892,9 +882,7 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Precision"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -928,7 +916,8 @@
         "WS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Massive scything talons - sweep - Melee": {
         "type": "Melee",
@@ -937,7 +926,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Psychic overload - Ranged": {
         "type": "Ranged",
@@ -996,7 +986,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1039,7 +1030,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Shovelling claws - Melee": {
         "type": "Melee",
@@ -1116,7 +1108,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1148,7 +1141,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1180,7 +1174,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Warp blast - Ranged": {
         "type": "Ranged",
@@ -1190,10 +1185,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Lethal Hits",
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1286,7 +1278,8 @@
         "WS": 2,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1335,7 +1328,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1378,7 +1372,8 @@
         "WS": 3,
         "S": 9,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1462,7 +1457,8 @@
         "WS": 3,
         "S": 7,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1492,7 +1488,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Spore mine launcher - Ranged": {
         "type": "Ranged",
@@ -1537,7 +1534,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Deathspitters with slimer maggots - Ranged": {
         "type": "Ranged",
@@ -1546,7 +1544,8 @@
         "BS": 4,
         "S": 7,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Devourers with brainleech worms - Ranged": {
         "type": "Ranged",
@@ -1555,7 +1554,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Carnifex crushing claws - Melee": {
         "type": "Melee",
@@ -1564,7 +1564,8 @@
         "WS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Carnifex scything talons - Melee": {
         "type": "Melee",
@@ -1573,7 +1574,8 @@
         "WS": 4,
         "S": 9,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Heavy venom cannon - Ranged": {
         "type": "Ranged",
@@ -1677,7 +1679,8 @@
         "WS": 3,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1720,7 +1723,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Impaler cannon - Ranged": {
         "type": "Ranged",
@@ -1763,7 +1767,8 @@
         "WS": 3,
         "S": 8,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Stinger salvoes - Ranged": {
         "type": "Ranged",
@@ -1772,7 +1777,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Fleshborer hive - Ranged": {
         "type": "Ranged",
@@ -1840,7 +1846,8 @@
         "WS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Tyrannocyte Bio-weapons - Ranged": {
         "type": "Ranged",
@@ -1849,7 +1856,8 @@
         "BS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1921,7 +1929,8 @@
         "WS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Stinger salvoes - Ranged": {
         "type": "Ranged",
@@ -1930,7 +1939,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1989,7 +1999,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Scything wings - Melee": {
         "type": "Melee",
@@ -1998,7 +2009,8 @@
         "WS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2040,7 +2052,8 @@
         "WS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Sporocyst bio-weapon - Ranged": {
         "type": "Ranged",
@@ -2145,7 +2158,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2187,7 +2201,8 @@
         "WS": 3,
         "S": 14,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2259,7 +2274,8 @@
         "WS": 3,
         "S": 20,
         "AP": 2,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2294,7 +2310,8 @@
         "WS": 2,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2409,7 +2426,8 @@
         "WS": 2,
         "S": 9,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Toxinjecter Harpoon - Melee": {
         "type": "Melee",
@@ -2478,7 +2496,8 @@
         "WS": 2,
         "S": 9,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Psychic tendril - neuroparasite - Ranged": {
         "type": "Ranged",

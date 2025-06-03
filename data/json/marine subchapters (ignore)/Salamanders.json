@@ -13,7 +13,11 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
       },
       "Malleus Noctum - Melee": {
         "type": "Melee",
@@ -61,7 +65,10 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Spear of Vulkan - Melee": {
         "type": "Melee",

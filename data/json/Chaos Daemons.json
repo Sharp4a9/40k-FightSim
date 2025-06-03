@@ -25,7 +25,8 @@
         "WS": 2,
         "S": 16,
         "AP": 4,
-        "D": 6
+        "D": 6,
+        "Keywords": []
       },
       "Slaughter and Carnage - sweep - Melee": {
         "type": "Melee",
@@ -34,7 +35,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -56,7 +58,8 @@
     ],
     "total_models": 1,
     "points": 305,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodthirster",
@@ -84,7 +87,8 @@
         "WS": 2,
         "S": 16,
         "AP": 4,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       },
       "Great axe of Khorne - sweep - Melee": {
         "type": "Melee",
@@ -93,7 +97,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bloodflail - Ranged": {
         "type": "Ranged",
@@ -114,7 +119,8 @@
         "BS": 2,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -136,7 +142,8 @@
     ],
     "total_models": 1,
     "points": 305,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Skulltaker",
@@ -177,7 +184,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodmaster",
@@ -192,7 +200,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -214,7 +223,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Skullmaster",
@@ -229,7 +239,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Juggernaut's bladed horn - Melee": {
         "type": "Melee",
@@ -239,10 +250,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks",
-          "Lance"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -264,7 +272,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Rendmaster on Blood Throne",
@@ -291,7 +300,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -312,7 +322,64 @@
     ],
     "total_models": 1,
     "points": 165,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Karanak",
+    "models": {
+      "Karanak": {"M": 12, "T": 4, "SV": 7, "W": 5, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Soul-rending fangs - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Anti-Character 3+",
+          "Precision"
+        ]
+      },
+      "Scalding Roar - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": 5,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    },
+    "abilities": [
+      "Pack Leader:While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.",
+      "Prey of the Blood God:At the start of the first battle round, select one enemy unit to be this models prey. Each time a model in this models unit makes a melee attack that targets its prey, you can re-roll the Wound roll. Each time this models prey is destroyed, select one new enemy unit to be this models prey.",
+      "Leader:This model can be attached to the following unit: FLESH HOUNDS",
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Brass Collar of Bloody Vengeance:The bearer has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+    ],
+    "keywords": [
+      "Beast",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Karanak",
+      "Khorne non-Battleline",
+      "Legiones Daemonica"
+    ],
+    "total_models": 1,
+    "points": 75,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodletters",
@@ -327,7 +394,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Instrument of Chaos - Abilities": {
         "type": "Abilities"
@@ -353,7 +421,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodcrushers",
@@ -368,7 +437,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Juggernaut's bladed horn - Melee": {
         "type": "Melee",
@@ -378,10 +448,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks",
-          "Lance"
-        ]
+        "Keywords": []
       },
       "Instrument of Chaos - Abilities": {
         "type": "Abilities"
@@ -406,7 +473,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Flesh Hounds",
@@ -424,7 +492,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Burning maw - Ranged": {
         "type": "Ranged",
@@ -456,7 +525,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Skull Cannon",
@@ -495,7 +565,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -514,12 +585,14 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Skull Altar",
     "models": {
       "Skull Altar": {
+        "M": "-",
         "T": 12,
         "SV": 3,
         "W": 10,
@@ -546,7 +619,8 @@
     ],
     "total_models": 1,
     "points": 105,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Be'lakor",
@@ -628,7 +702,8 @@
     ],
     "total_models": 1,
     "points": 375,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Khorne Soul Grinder",
@@ -654,7 +729,8 @@
         "BS": 3,
         "S": 10,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Iron claw - Melee": {
         "type": "Melee",
@@ -663,7 +739,8 @@
         "WS": 3,
         "S": 16,
         "AP": 3,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -682,7 +759,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tzeentch Soul Grinder",
@@ -707,7 +785,8 @@
         "BS": 3,
         "S": 10,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Iron claw - Melee": {
         "type": "Melee",
@@ -716,7 +795,8 @@
         "WS": 3,
         "S": 16,
         "AP": 3,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -735,7 +815,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Nurgle Soul Grinder",
@@ -762,7 +843,8 @@
         "BS": 3,
         "S": 10,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Iron claw - Melee": {
         "type": "Melee",
@@ -771,7 +853,8 @@
         "WS": 3,
         "S": 16,
         "AP": 3,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -790,7 +873,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Slaanesh Soul Grinder",
@@ -816,7 +900,8 @@
         "BS": 3,
         "S": 10,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Iron claw - Melee": {
         "type": "Melee",
@@ -825,7 +910,8 @@
         "WS": 3,
         "S": 16,
         "AP": 3,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -844,7 +930,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Chaos",
@@ -859,7 +946,8 @@
         "BS": 2,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hellforged weapons - strike - Melee": {
         "type": "Melee",
@@ -868,7 +956,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Hellforged weapons - sweep - Melee": {
         "type": "Melee",
@@ -877,7 +966,8 @@
         "WS": 2,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -895,7 +985,8 @@
     ],
     "total_models": 1,
     "points": 190,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Chaos with wings",
@@ -910,7 +1001,8 @@
         "BS": 2,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hellforged weapons - strike - Melee": {
         "type": "Melee",
@@ -919,7 +1011,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Hellforged weapons - sweep - Melee": {
         "type": "Melee",
@@ -928,7 +1021,8 @@
         "WS": 2,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -947,7 +1041,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Kairos Fateweaver",
@@ -1017,7 +1112,8 @@
     ],
     "total_models": 1,
     "points": 270,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord of Change",
@@ -1107,7 +1203,8 @@
     ],
     "total_models": 1,
     "points": 260,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "The Changeling",
@@ -1176,7 +1273,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Fateskimmer",
@@ -1206,9 +1304,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Arcane Fireball - Ranged": {
         "type": "Ranged",
@@ -1218,11 +1314,7 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Devastating Wounds",
-          "Hazardous",
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1246,7 +1338,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Fluxmaster",
@@ -1262,9 +1355,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Arcane Fireball - Ranged": {
         "type": "Ranged",
@@ -1274,11 +1365,7 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Devastating Wounds",
-          "Hazardous",
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1302,7 +1389,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "The Blue Scribes",
@@ -1342,7 +1430,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Changecaster",
@@ -1358,9 +1447,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Psychic"
-        ]
+        "Keywords": []
       },
       "Arcane Fireball - Ranged": {
         "type": "Ranged",
@@ -1370,11 +1457,7 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Devastating Wounds",
-          "Hazardous",
-          "Psychic"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1397,7 +1480,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Blue Horrors",
@@ -1425,7 +1509,8 @@
         "WS": 5,
         "S": 2,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Coruscating Blue flames - Ranged": {
         "type": "Ranged",
@@ -1447,7 +1532,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1468,7 +1554,8 @@
     ],
     "total_models": 1,
     "points": 125,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Pink Horrors",
@@ -1497,7 +1584,8 @@
         "WS": 5,
         "S": 2,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Blue claws (ref. only) - Melee": {
         "type": "Melee",
@@ -1506,7 +1594,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Coruscating Blue flames (ref. only) - Ranged": {
         "type": "Ranged",
@@ -1541,7 +1630,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Daemonic Icon - Abilities": {
         "type": "Abilities"
@@ -1567,7 +1657,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Flamers",
@@ -1596,7 +1687,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1616,7 +1708,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Exalted Flamer",
@@ -1631,7 +1724,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Fires of Tzeentch - Ranged": {
         "type": "Ranged",
@@ -1641,11 +1735,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Psychic",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1669,7 +1759,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Screamers",
@@ -1708,7 +1799,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Burning Chariot",
@@ -1723,7 +1815,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Screamer bites - Melee": {
         "type": "Melee",
@@ -1747,11 +1840,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Psychic",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1771,7 +1860,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Rotigus",
@@ -1839,7 +1929,8 @@
     ],
     "total_models": 1,
     "points": 250,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Great Unclean One",
@@ -1867,7 +1958,8 @@
         "BS": 3,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bileblade - Melee": {
         "type": "Melee",
@@ -1939,7 +2031,8 @@
     ],
     "total_models": 1,
     "points": 250,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Poxbringer",
@@ -1980,7 +2073,8 @@
     ],
     "total_models": 1,
     "points": 55,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Spoilpox Scrivener",
@@ -2033,7 +2127,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Epidemius",
@@ -2073,7 +2168,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sloppity Bilepiper",
@@ -2113,7 +2209,8 @@
     ],
     "total_models": 1,
     "points": 55,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Horticulous Slimux",
@@ -2166,7 +2263,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plaguebearers",
@@ -2210,7 +2308,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Nurglings",
@@ -2248,7 +2347,8 @@
     ],
     "total_models": 1,
     "points": 35,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Beasts of Nurgle",
@@ -2285,7 +2385,8 @@
     ],
     "total_models": 1,
     "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plague Drones",
@@ -2355,12 +2456,14 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Feculent Gnarlmaw",
     "models": {
       "Feculent Gnarlmaw": {
+        "M": "-",
         "T": 9,
         "SV": 4,
         "W": 9,
@@ -2387,7 +2490,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Shalaxi Helbane",
@@ -2480,7 +2584,8 @@
     ],
     "total_models": 1,
     "points": 380,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Keeper of Secrets",
@@ -2522,7 +2627,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Snapping claws - Melee": {
         "type": "Melee",
@@ -2582,7 +2688,8 @@
     ],
     "total_models": 1,
     "points": 290,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Infernal Enrapturess",
@@ -2646,7 +2753,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "The Masque of Slaanesh",
@@ -2686,7 +2794,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Syll'esske",
@@ -2701,7 +2810,8 @@
         "WS": 3,
         "S": 7,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Scourging whip - Melee": {
         "type": "Melee",
@@ -2779,7 +2889,8 @@
     ],
     "total_models": 1,
     "points": 120,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Contorted Epitome",
@@ -2831,7 +2942,90 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Tormentbringer",
+    "models": {
+      "Tormentbringer": {"M": 14, "T": 6, "SV": 5, "W": 12, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lashes of torment - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 6,
+        "BS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-INFANTRY 3+",
+          "Assault",
+          "Pistol"
+        ]
+      },
+      "Lashes of torment - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 6,
+        "WS": 2,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-INFANTRY 3+",
+          "Extra Attacks"
+        ]
+      },
+      "Seeker tongues - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Slashing claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:This model has a 4+ invulnerable save.",
+      "Tormentbringer (Aura):While a friendly **^^Slaanesh Legions Daemonica**^^ unit is within 6\" of this model, melee weapons in that unit have the [^^SUSTAINED HITS 1^^] ability.",
+      "Hysterical Frenzy:Each time a model in this models unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "Leader:This model can be attached to the following unit: - ^^**Hellflayers^^**"
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Tormentbringer",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 140,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tranceweaver",
@@ -2872,7 +3066,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemonettes",
@@ -2916,7 +3111,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Fiends",
@@ -2953,7 +3149,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Seekers",
@@ -3010,6 +3207,85 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
+  },
+  {
+    "name": "Hellflayers",
+    "models": {
+      "Hellflayers": {"M": 14, "T": 6, "SV": 5, "W": 7, "LD": 7, "OC": 3, "Inv": null, "Fnp": null}
+    },
+    "weapons": {
+      "Lashes of torment - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 3,
+        "BS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-INFANTRY 3+",
+          "Assault",
+          "Pistol"
+        ]
+      },
+      "Lashes of torment - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 2,
+        "Keywords": [
+          "Anti-INFANTRY 3+",
+          "Extra Attacks"
+        ]
+      },
+      "Seeker tongues - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 4,
+        "WS": 4,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      "Slashing claws - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 8,
+        "WS": 3,
+        "S": 4,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      }
+    },
+    "abilities": [
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
+      "Cutting Down the Foe:Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1."
+    ],
+    "keywords": [
+      "Legiones Daemonica",
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Hellflayer",
+      "Slaanesh non-Battleline",
+      "Shadow Legion"
+    ],
+    "total_models": 1,
+    "points": 0,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

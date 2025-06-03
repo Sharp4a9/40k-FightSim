@@ -3,6 +3,7 @@
     "name": "Aegis Defence Line",
     "models": {
       "Aegis Defence Line": {
+        "M": "-",
         "T": 12,
         "SV": 2,
         "W": 10,
@@ -27,7 +28,8 @@
     ],
     "total_models": 1,
     "points": 145,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Armoured Sentinels",
@@ -42,7 +44,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Autocannon - Ranged": {
         "type": "Ranged",
@@ -51,7 +54,8 @@
         "BS": 4,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -60,7 +64,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -70,10 +75,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Missile launcher - Ranged": {
         "type": "Ranged",
@@ -83,9 +85,7 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - Ranged": {
         "type": "Ranged",
@@ -95,10 +95,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -107,7 +104,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hunter-killer missile - Ranged": {
         "type": "Ranged",
@@ -117,9 +115,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Sentinel chainsaw - Melee": {
         "type": "Melee",
@@ -128,7 +124,8 @@
         "WS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -146,7 +143,8 @@
     ],
     "total_models": 1,
     "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Attilan Rough Riders",
@@ -160,9 +158,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Lasgun - Ranged": {
         "type": "Ranged",
@@ -172,9 +168,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Hunting lance - Melee": {
         "type": "Melee",
@@ -184,9 +178,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Lance"
-        ]
+        "Keywords": []
       },
       "Steed's hooves - Melee": {
         "type": "Melee",
@@ -196,9 +188,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Goad lance - Melee": {
         "type": "Melee",
@@ -208,9 +198,7 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lance"
-        ]
+        "Keywords": []
       },
       "Power sabre - Melee": {
         "type": "Melee",
@@ -219,7 +207,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -234,7 +223,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Baneblade",
@@ -249,7 +239,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Coaxial autocannon - Ranged": {
         "type": "Ranged",
@@ -258,7 +249,8 @@
         "BS": 4,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Demolisher cannon - Ranged": {
         "type": "Ranged",
@@ -268,9 +260,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -280,9 +270,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -291,7 +279,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -301,10 +290,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Baneblade cannon - Ranged": {
         "type": "Ranged",
@@ -332,7 +318,8 @@
     ],
     "total_models": 1,
     "points": 480,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Banehammer",
@@ -347,7 +334,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -356,7 +344,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -366,10 +355,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Tremor cannon - Ranged": {
         "type": "Ranged",
@@ -399,7 +385,8 @@
     ],
     "total_models": 1,
     "points": 450,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Banesword",
@@ -414,7 +401,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -423,7 +411,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -433,10 +422,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Quake cannon - Ranged": {
         "type": "Ranged",
@@ -465,7 +451,8 @@
     ],
     "total_models": 1,
     "points": 480,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Basilisk",
@@ -494,7 +481,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -511,7 +499,8 @@
     ],
     "total_models": 1,
     "points": 140,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bullgryn Squad",
@@ -524,7 +513,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Slabshield - Abilities": {
         "type": "Abilities"
@@ -539,7 +529,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Grenadier gauntlet - Ranged": {
         "type": "Ranged",
@@ -549,9 +540,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -567,7 +556,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cadian Castellan",
@@ -583,9 +573,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -595,9 +583,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -607,10 +593,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -619,7 +602,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -628,7 +612,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -649,7 +634,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -658,7 +644,8 @@
         "WS": 3,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -677,7 +664,8 @@
     ],
     "total_models": 1,
     "points": 55,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cadian Command Squad",
@@ -696,7 +684,8 @@
         "WS": 4,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -705,7 +694,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -714,7 +704,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -724,9 +715,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -736,9 +725,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -748,10 +735,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -760,7 +744,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Regimental standard - Abilities": {
         "type": "Abilities"
@@ -773,9 +758,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -785,10 +768,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -798,9 +778,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -810,9 +788,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -822,10 +798,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Master vox - Abilities": {
         "type": "Abilities"
@@ -850,7 +823,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cadian Shock Troops",
@@ -863,7 +837,8 @@
         "BS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -882,7 +857,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Catachan Jungle Fighters",
@@ -896,9 +872,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -907,7 +881,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lasgun - Ranged": {
         "type": "Ranged",
@@ -917,9 +892,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Vox-caster - Abilities": {
         "type": "Abilities"
@@ -932,10 +905,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -953,7 +923,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chimera",
@@ -968,7 +939,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lasgun array - Ranged": {
         "type": "Ranged",
@@ -990,9 +962,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1002,10 +972,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Multi-laser - Ranged": {
         "type": "Ranged",
@@ -1014,7 +981,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -1024,9 +992,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -1036,9 +1002,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Hunter-killer missile - Ranged": {
         "type": "Ranged",
@@ -1048,9 +1012,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1068,7 +1030,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Commissar",
@@ -1084,9 +1047,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1096,10 +1057,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1108,7 +1066,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -1117,7 +1076,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1135,7 +1095,8 @@
     ],
     "total_models": 1,
     "points": 30,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Korps of Krieg",
@@ -1149,9 +1110,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1160,7 +1119,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Death Korps of Krieg Medi-pack - Abilities": {
         "type": "Abilities"
@@ -1176,10 +1136,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -1189,9 +1146,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Long-las - Ranged": {
         "type": "Ranged",
@@ -1201,10 +1156,7 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Precision"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -1214,9 +1166,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -1226,10 +1176,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 1",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -1239,9 +1186,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -1250,7 +1195,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1259,7 +1205,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -1269,9 +1216,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -1281,9 +1226,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1293,10 +1236,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1314,7 +1254,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Deathstrike",
@@ -1329,7 +1270,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Deathstrike Missile - Ranged": {
         "type": "Ranged",
@@ -1360,7 +1302,8 @@
     ],
     "total_models": 1,
     "points": 145,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Doomhammer",
@@ -1375,7 +1318,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -1384,7 +1328,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1394,10 +1339,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Magma cannon - Ranged": {
         "type": "Ranged",
@@ -1427,7 +1369,8 @@
     ],
     "total_models": 1,
     "points": 445,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Field Ordnance Battery",
@@ -1441,9 +1384,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -1453,9 +1394,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Battery close combat weapons - Melee": {
         "type": "Melee",
@@ -1464,7 +1403,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Malleus rocket launcher - Ranged": {
         "type": "Ranged",
@@ -1520,7 +1460,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Gaunts Ghosts",
@@ -1540,7 +1481,8 @@
         "WS": 2,
         "S": 3,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -1561,7 +1503,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Corbec's hot-shot lascarbine - Ranged": {
         "type": "Ranged",
@@ -1654,7 +1597,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cadian Heavy Weapons Squad",
@@ -1668,9 +1612,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Weapons team close combat weapons - Melee": {
         "type": "Melee",
@@ -1679,7 +1621,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1689,10 +1632,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Mortar - Ranged": {
         "type": "Ranged",
@@ -1702,11 +1642,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Heavy",
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Missile launcher - Ranged": {
         "type": "Ranged",
@@ -1716,9 +1652,7 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -1728,9 +1662,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Autocannon - Ranged": {
         "type": "Ranged",
@@ -1740,9 +1672,7 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1758,7 +1688,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Hellhammer",
@@ -1773,7 +1704,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Coaxial autocannon - Ranged": {
         "type": "Ranged",
@@ -1782,7 +1714,8 @@
         "BS": 4,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Demolisher cannon - Ranged": {
         "type": "Ranged",
@@ -1792,9 +1725,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -1804,9 +1735,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -1815,7 +1744,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1825,10 +1755,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Hellhammer cannon - Ranged": {
         "type": "Ranged",
@@ -1857,7 +1784,8 @@
     ],
     "total_models": 1,
     "points": 450,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Hellhound",
@@ -1873,9 +1801,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -1884,7 +1810,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1894,10 +1821,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -1907,9 +1831,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1919,9 +1841,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Chem cannon - Ranged": {
         "type": "Ranged",
@@ -1976,7 +1896,8 @@
     ],
     "total_models": 1,
     "points": 125,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Hydra",
@@ -1991,7 +1912,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hydra autocannon - Ranged": {
         "type": "Ranged",
@@ -2020,7 +1942,8 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Kasrkin",
@@ -2045,7 +1968,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hot-shot marksman rifle - Ranged": {
         "type": "Ranged",
@@ -2068,9 +1992,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Vox-caster - Abilities": {
         "type": "Abilities"
@@ -2083,10 +2005,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -2096,10 +2015,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 1",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Hot-shot volley gun - Ranged": {
         "type": "Ranged",
@@ -2109,9 +2025,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -2121,9 +2035,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -2133,9 +2045,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -2145,10 +2055,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -2158,9 +2065,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -2169,7 +2074,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -2178,7 +2084,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2195,7 +2102,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Battle Tank",
@@ -2209,9 +2117,7 @@
         "S": 10,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2220,7 +2126,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2236,7 +2143,8 @@
     ],
     "total_models": 1,
     "points": 175,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Demolisher",
@@ -2250,9 +2158,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2261,7 +2167,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2277,7 +2184,8 @@
     ],
     "total_models": 1,
     "points": 190,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Eradicator",
@@ -2291,10 +2199,7 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Ignores Cover"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2303,7 +2208,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2319,7 +2225,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Executioner",
@@ -2332,7 +2239,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Executioner plasma cannon - Ranged": {
         "type": "Ranged",
@@ -2342,10 +2250,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2361,7 +2266,8 @@
     ],
     "total_models": 1,
     "points": 170,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Exterminator",
@@ -2375,10 +2281,7 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Rapid Fire 4",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2387,7 +2290,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2403,7 +2307,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Punisher",
@@ -2416,7 +2321,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2425,7 +2331,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2441,7 +2348,8 @@
     ],
     "total_models": 1,
     "points": 150,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Vanquisher",
@@ -2454,7 +2362,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Vanquisher battle cannon - Ranged": {
         "type": "Ranged",
@@ -2464,9 +2373,7 @@
         "S": 18,
         "AP": 4,
         "D": "D6+6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2482,7 +2389,8 @@
     ],
     "total_models": 1,
     "points": 145,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord Solar Leontus",
@@ -2509,7 +2417,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Konstantin's hooves - Melee": {
         "type": "Melee",
@@ -2541,7 +2450,8 @@
     ],
     "total_models": 1,
     "points": 150,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Manticore",
@@ -2556,7 +2466,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Storm eagle rockets - Ranged": {
         "type": "Ranged",
@@ -2587,7 +2498,8 @@
     ],
     "total_models": 1,
     "points": 165,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Militarum Tempestus Command Squad",
@@ -2603,10 +2515,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -2616,9 +2525,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -2628,9 +2535,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Hot-shot volley gun - Ranged": {
         "type": "Ranged",
@@ -2640,9 +2545,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -2652,10 +2555,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 1",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Hot-shot lasgun - Ranged": {
         "type": "Ranged",
@@ -2665,9 +2565,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -2676,7 +2574,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Regimental standard - Abilities": {
         "type": "Abilities"
@@ -2692,9 +2591,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -2704,9 +2601,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -2716,10 +2611,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Tempestus dagger - Melee": {
         "type": "Melee",
@@ -2728,7 +2620,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2748,7 +2641,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Nork Deddog",
@@ -2798,7 +2692,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ogryn Bodyguard",
@@ -2813,7 +2708,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Huge knife - Melee": {
         "type": "Melee",
@@ -2822,7 +2718,8 @@
         "WS": 3,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Brute shield - Abilities": {
         "type": "Abilities"
@@ -2846,7 +2743,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Ripper gun - Ranged": {
         "type": "Ranged",
@@ -2856,9 +2754,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ],
+        "Keywords": [],
         "WS": 3
       },
       "Ripper gun - Melee": {
@@ -2869,9 +2765,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ],
+        "Keywords": [],
         "WS": 3
       }
     },
@@ -2891,7 +2785,8 @@
     ],
     "total_models": 1,
     "points": 40,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ogryn Squad",
@@ -2905,9 +2800,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ],
+        "Keywords": [],
         "WS": 3
       },
       "Ripper gun - Melee": {
@@ -2918,9 +2811,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ],
+        "Keywords": [],
         "WS": 3
       }
     },
@@ -2937,7 +2828,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Primaris Psyker",
@@ -2994,9 +2886,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3014,7 +2904,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tech-Priest Enginseer",
@@ -3029,7 +2920,8 @@
         "WS": 4,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Mechanicus pistol - Ranged": {
         "type": "Ranged",
@@ -3072,7 +2964,8 @@
     ],
     "total_models": 1,
     "points": 45,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Rogal Dorn Battle Tank",
@@ -3087,7 +2980,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -3097,9 +2991,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3115,7 +3007,8 @@
     ],
     "total_models": 1,
     "points": 240,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Scout Sentinels",
@@ -3130,7 +3023,8 @@
         "BS": 4,
         "S": 9,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -3139,7 +3033,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -3149,10 +3044,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Missile launcher - Ranged": {
         "type": "Ranged",
@@ -3162,9 +3054,7 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - Ranged": {
         "type": "Ranged",
@@ -3174,10 +3064,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Multi-laser - Ranged": {
         "type": "Ranged",
@@ -3186,7 +3073,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hunter-killer missile - Ranged": {
         "type": "Ranged",
@@ -3196,9 +3084,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -3207,7 +3093,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Sentinel chainsaw - Melee": {
         "type": "Melee",
@@ -3216,7 +3103,8 @@
         "WS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3234,7 +3122,8 @@
     ],
     "total_models": 1,
     "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Shadowsword",
@@ -3262,7 +3151,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -3271,7 +3161,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -3281,10 +3172,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3300,7 +3188,8 @@
     ],
     "total_models": 1,
     "points": 440,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Sly Marbo",
@@ -3352,7 +3241,8 @@
     ],
     "total_models": 1,
     "points": 55,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Stormlord",
@@ -3368,10 +3258,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -3380,7 +3267,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -3390,9 +3278,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -3401,7 +3287,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Vulcan mega-bolter - Ranged": {
         "type": "Ranged",
@@ -3430,7 +3317,8 @@
     ],
     "total_models": 1,
     "points": 460,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Stormsword",
@@ -3446,10 +3334,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -3458,7 +3343,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -3467,7 +3353,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Stormsword siege cannon - Ranged": {
         "type": "Ranged",
@@ -3496,7 +3383,8 @@
     ],
     "total_models": 1,
     "points": 495,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Leman Russ Commander",
@@ -3511,7 +3399,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -3521,9 +3410,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -3532,7 +3419,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -3542,10 +3430,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -3555,9 +3440,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - Ranged": {
         "type": "Ranged",
@@ -3567,10 +3450,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Leman Russ battle cannon - Ranged": {
         "type": "Ranged",
@@ -3580,9 +3460,7 @@
         "S": 10,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Demolisher battle cannon - Ranged": {
         "type": "Ranged",
@@ -3592,9 +3470,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Vanquisher battle cannon - Ranged": {
         "type": "Ranged",
@@ -3604,9 +3480,7 @@
         "S": 18,
         "AP": 4,
         "D": "D6+6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Eradicator nova cannon - Ranged": {
         "type": "Ranged",
@@ -3616,10 +3490,7 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Blast",
-          "Ignores Cover"
-        ]
+        "Keywords": []
       },
       "Executioner plasma cannon - Ranged": {
         "type": "Ranged",
@@ -3629,10 +3500,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Punisher gatling cannon - Ranged": {
         "type": "Ranged",
@@ -3641,7 +3509,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Exterminator autocannon - Ranged": {
         "type": "Ranged",
@@ -3651,10 +3520,7 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Rapid Fire 4",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -3664,9 +3530,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -3676,9 +3540,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Hunter-killer missile - Ranged": {
         "type": "Ranged",
@@ -3688,9 +3550,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3709,7 +3569,8 @@
     ],
     "total_models": 1,
     "points": 235,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Taurox",
@@ -3725,9 +3586,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Twin autocannon - Ranged": {
         "type": "Ranged",
@@ -3737,9 +3596,7 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -3748,7 +3605,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3765,7 +3623,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Taurox Prime",
@@ -3780,7 +3639,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Taurox battle cannon - Ranged": {
         "type": "Ranged",
@@ -3884,7 +3744,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tempestus Scions",
@@ -3901,9 +3762,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -3912,7 +3771,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hot-shot lasgun - Ranged": {
         "type": "Ranged",
@@ -3922,9 +3782,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -3934,10 +3792,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -3947,9 +3802,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Hot-shot volley gun - Ranged": {
         "type": "Ranged",
@@ -3959,9 +3812,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -3971,9 +3822,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -3983,10 +3832,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 1",
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -3996,9 +3842,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -4008,10 +3852,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -4020,7 +3861,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -4029,7 +3871,8 @@
         "WS": 4,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -4038,7 +3881,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -4055,7 +3899,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ursula Creed",
@@ -4082,7 +3927,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -4101,7 +3947,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Valkyrie",
@@ -4116,7 +3963,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Multiple rocket pod - Ranged": {
         "type": "Ranged",
@@ -4126,9 +3974,7 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Hellstrike missiles - Ranged": {
         "type": "Ranged",
@@ -4138,9 +3984,7 @@
         "S": 10,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "Anti-fly 2"
-        ]
+        "Keywords": []
       },
       "Multi-laser - Ranged": {
         "type": "Ranged",
@@ -4149,7 +3993,8 @@
         "BS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -4158,7 +4003,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -4168,9 +4014,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -4188,7 +4032,8 @@
     ],
     "total_models": 1,
     "points": 190,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Wyvern",
@@ -4203,7 +4048,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Wyvern quad stormshard mortar - Ranged": {
         "type": "Ranged",
@@ -4234,168 +4080,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
-  },
-  {
-    "name": "Shock Trooper",
-    "models": {},
-    "weapons": {
-      "Lasgun - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 1,
-        "BS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
-      },
-      "Close combat weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 1,
-        "WS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
-  },
-  {
-    "name": "Shock Trooper w/ Vox Caster",
-    "models": {},
-    "weapons": {
-      "Lasgun - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 1,
-        "BS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
-      },
-      "Close combat weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 1,
-        "WS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      },
-      "Vox-caster - Abilities": {
-        "type": "Abilities"
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
-  },
-  {
-    "name": "Shock Trooper Sergeant",
-    "models": {},
-    "weapons": {
-      "Bolt pistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 4,
-        "S": 4,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Chainsword - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      },
-      "Laspistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Sergeant's autogun - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 2,
-        "BS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      },
-      "Close combat weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 1,
-        "WS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
-  },
-  {
-    "name": "Jungle Fighter",
-    "models": {},
-    "weapons": {
-      "Lasgun - Ranged": {
-        "type": "Ranged",
-        "Range": 24,
-        "A": 1,
-        "BS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
-      },
-      "Close combat weapon - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 1,
-        "WS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Riders",
@@ -4412,9 +4098,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks"
-        ]
+        "Keywords": []
       },
       "Power sabre - Melee": {
         "type": "Melee",
@@ -4423,7 +4107,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Death Rider lascarbine - Ranged": {
         "type": "Ranged",
@@ -4433,9 +4118,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Frag lance - Melee": {
         "type": "Melee",
@@ -4445,9 +4128,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lance"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -4463,7 +4144,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Cyclops Demolition Vehicle",
@@ -4484,7 +4166,8 @@
     ],
     "total_models": 1,
     "points": 25,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Avenger Strike Fighter",
@@ -4499,7 +4182,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -4509,9 +4193,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -4520,7 +4202,8 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Avenger bolt cannon - Ranged": {
         "type": "Ranged",
@@ -4548,7 +4231,8 @@
     ],
     "total_models": 1,
     "points": 130,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tempestus Aquilons",
@@ -4564,9 +4248,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -4575,7 +4257,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Hot-shot laspistol - Ranged": {
         "type": "Ranged",
@@ -4585,9 +4268,7 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Hot-shot long las - Ranged": {
         "type": "Ranged",
@@ -4647,7 +4328,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -4656,7 +4338,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -4666,9 +4349,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Sentry flamer - Ranged": {
         "type": "Ranged",
@@ -4714,7 +4395,8 @@
         "BS": 4,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       }
     },
     "abilities": [
@@ -4733,7 +4415,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ratlings",
@@ -4750,10 +4433,7 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Precision"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -4762,7 +4442,8 @@
         "WS": 5,
         "S": 2,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Tankstopper rifle - Ranged": {
         "type": "Ranged",
@@ -4790,7 +4471,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Krieg Command Squad",
@@ -4810,7 +4492,8 @@
         "WS": 4,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -4819,7 +4502,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -4829,9 +4513,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - standard - Ranged": {
         "type": "Ranged",
@@ -4865,7 +4547,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -4875,9 +4558,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -4887,10 +4568,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -4900,9 +4578,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -4912,9 +4588,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -4924,10 +4598,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -4936,7 +4607,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Trench club - Melee": {
         "type": "Melee",
@@ -4945,7 +4617,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -4955,9 +4628,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -4967,10 +4638,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Lasgun - Ranged": {
         "type": "Ranged",
@@ -4980,9 +4648,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Master vox - Abilities": {
         "type": "Abilities"
@@ -5009,7 +4675,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord Marshal Dreir",
@@ -5025,9 +4692,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Sabre of Sacrifice - Melee": {
         "type": "Melee",
@@ -5071,7 +4736,8 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Catachan Command Squad",
@@ -5088,9 +4754,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -5100,10 +4764,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Grenade launcher - Ranged": {
         "type": "Ranged",
@@ -5113,9 +4774,7 @@
         "S": 9,
         "AP": 2,
         "D": "D3",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Meltagun - Ranged": {
         "type": "Ranged",
@@ -5125,9 +4784,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -5137,10 +4794,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Sniper rifle - Ranged": {
         "type": "Ranged",
@@ -5150,10 +4804,7 @@
         "S": 4,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Precision"
-        ]
+        "Keywords": []
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -5163,10 +4814,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Master vox - Abilities": {
         "type": "Abilities"
@@ -5184,7 +4832,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -5194,9 +4843,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -5206,9 +4853,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -5218,10 +4863,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -5231,9 +4873,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -5242,7 +4882,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -5251,7 +4892,8 @@
         "WS": 4,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -5260,7 +4902,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -5279,7 +4922,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Rogal Dorn Commander",
@@ -5294,7 +4938,8 @@
         "WS": 4,
         "S": 7,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy stubber - Ranged": {
         "type": "Ranged",
@@ -5304,9 +4949,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 3"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -5325,7 +4968,8 @@
     ],
     "total_models": 1,
     "points": 265,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Ministorum Priest",
@@ -5340,7 +4984,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Zealot's vindicator - Ranged": {
         "type": "Ranged",
@@ -5374,7 +5019,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -5392,7 +5038,8 @@
     ],
     "total_models": 1,
     "points": 35,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Krieg Combat Engineers",
@@ -5406,9 +5053,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Trench club - Melee": {
         "type": "Melee",
@@ -5417,7 +5062,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -5426,7 +5072,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -5436,10 +5083,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Combat shotgun - Ranged": {
         "type": "Ranged",
@@ -5449,9 +5093,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -5461,10 +5103,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Bolt pistol - Ranged": {
         "type": "Ranged",
@@ -5474,9 +5113,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Hand flamer - Ranged": {
         "type": "Ranged",
@@ -5499,7 +5136,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -5508,7 +5146,8 @@
         "WS": 4,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -5526,7 +5165,8 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Catachan Heavy Weapons Squad",
@@ -5539,7 +5179,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -5549,10 +5190,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Lasgun - Ranged": {
         "type": "Ranged",
@@ -5562,9 +5200,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Mortar - Ranged": {
         "type": "Ranged",
@@ -5574,11 +5210,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Heavy",
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Missile launcher - Ranged": {
         "type": "Ranged",
@@ -5588,9 +5220,7 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -5600,9 +5230,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       },
       "Autocannon - Ranged": {
         "type": "Ranged",
@@ -5612,9 +5240,7 @@
         "S": 9,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -5630,7 +5256,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Krieg Heavy Weapons Squad",
@@ -5645,7 +5272,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Laspistol - Ranged": {
         "type": "Ranged",
@@ -5655,9 +5283,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Krieg heavy flamer - Ranged": {
         "type": "Ranged",
@@ -5694,9 +5320,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Heavy"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -5712,7 +5336,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Artillery Team",
@@ -5727,7 +5352,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Lasgun - Ranged": {
         "type": "Ranged",
@@ -5737,9 +5363,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Heavy mortar - Ranged": {
         "type": "Ranged",
@@ -5814,6 +5438,7 @@
     ],
     "total_models": 1,
     "points": 95,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

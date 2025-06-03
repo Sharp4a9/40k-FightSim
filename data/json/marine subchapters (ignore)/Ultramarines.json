@@ -13,7 +13,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Talassarian Tempest Blade - Melee": {
         "type": "Melee",
@@ -23,7 +25,9 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       }
     },
     "abilities": [
@@ -60,7 +64,10 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Psychic"
+        ]
       },
       "Storm of the Emperors Wrath - Focused Witchfire - Ranged": {
         "type": "Ranged",
@@ -70,7 +77,11 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Psychic"
+        ]
       },
       "Rod of Tigurius - Melee": {
         "type": "Melee",
@@ -80,7 +91,9 @@
         "S": 7,
         "AP": 2,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Psychic"
+        ]
       }
     },
     "abilities": [
@@ -117,7 +130,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Twin-linked"
+        ]
       },
       "Gauntlets of Ultramar - Melee": {
         "type": "Melee",
@@ -127,7 +143,9 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Victrix Power Sword - Melee": {
         "type": "Melee",
@@ -169,7 +187,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
       },
       "Hand of Dominion - Melee": {
         "type": "Melee",
@@ -179,7 +199,9 @@
         "S": 14,
         "AP": 4,
         "D": 4,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       },
       "The Emperor's Sword - Melee": {
         "type": "Melee",
@@ -189,7 +211,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       }
     },
     "abilities": [
@@ -237,7 +261,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -275,7 +301,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Astartes Chainsword - Melee": {
         "type": "Melee",
@@ -285,7 +313,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Infantry 2+"
+        ]
       }
     },
     "abilities": [

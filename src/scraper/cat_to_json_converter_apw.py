@@ -168,6 +168,7 @@ def find_weapons(element, ns, catalog, weapons=None, weapon_name=None, selection
                 weapons[weapon_name] = {}
             weapons[weapon_name]["type"] = weapon_type
 
+            # Remove namespace prefix from XPath expressions
             characteristics = element.find('./bs:characteristics', ns)
             if characteristics is not None:
                 for characteristic in characteristics.findall('./bs:characteristic', ns):
@@ -187,8 +188,8 @@ def find_weapons(element, ns, catalog, weapons=None, weapon_name=None, selection
                                 weapons[weapon_name][characteristic.get('name')] = value
                             except (ValueError, TypeError) as e:
                                 logging.warning(f"Could not convert characteristic value for {weapon_name}: {str(e)}")
-                if "Keywords" not in characteristics:
-                    weapons[weapon_name]["Keywords"] = []
+            if "Keywords" not in weapons[weapon_name]:
+                weapons[weapon_name]["Keywords"] = []
                 
     
     # Find the weapons that are stored in a common profile.
@@ -374,7 +375,7 @@ def convert_cat_to_json(cat_file_path, ns):
 
 def main():
     # Example usage
-    cat_file_path = "C:\\Users\\andre\\OneDrive\\Documents\\Warhammer\\FightSim_2.0\\data\\wh40k-10e\\Imperium - White Scars.cat"
+    cat_file_path = "C:\\Users\\andre\\OneDrive\\Documents\\Warhammer\\FightSim_2.0\\data\\wh40k-10e\\Imperium - Imperial Fists.cat"
     
     # Extract faction name from cat file path
     cat_filename = os.path.basename(cat_file_path)

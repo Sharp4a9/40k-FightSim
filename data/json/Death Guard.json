@@ -13,9 +13,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Infernal cannon - Ranged": {
         "type": "Ranged",
@@ -25,9 +23,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -47,7 +43,8 @@
     ],
     "total_models": 1,
     "points": 195,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Nurgle with wings",
@@ -63,9 +60,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Infernal cannon - Ranged": {
         "type": "Ranged",
@@ -75,9 +70,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -97,7 +90,8 @@
     ],
     "total_models": 1,
     "points": 195,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Typhus",
@@ -134,7 +128,7 @@
       "Leader:This model can be attached to the following units: ^^**Blightlord Terminators^^** ^^**Deathshroud Terminators^^** ^^**Poxwalkers^^**",
       "Invulnerable Save:This model has a 4+ invulnerable save.",
       "The Destroyer Hive:While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll.",
-      "Eater Plague (Psychic):This ^^**Psyker^^** can use this ability in your Shooting phase. If it does, select one enemy unit within 18\" of and visible to this ^^**Psyker^^** and roll one D6: on a 1, this ^^**Psyker^^**'s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      "Eater Plague (Psychic):In your Shooting phase, you can select one enemy unit within 18\" of and visible to this ^^**Psyker^^** (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this ^^**Psyker^^** and roll one D6: on a 1, this ^^**Psyker^^**'s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
     ],
     "keywords": [
       "Death Guard",
@@ -148,8 +142,9 @@
       "Terminator"
     ],
     "total_models": 1,
-    "points": 105,
-    "special_rules": []
+    "points": 90,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Guard Chaos Lord",
@@ -217,9 +212,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Plague-encrusted exalted weapon - Melee": {
         "type": "Melee",
@@ -229,9 +222,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Twin lightning claws - Melee": {
         "type": "Melee",
@@ -241,9 +232,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -253,10 +242,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Astartes chainsword - Melee": {
         "type": "Melee",
@@ -265,7 +251,8 @@
         "WS": 2,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -283,7 +270,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Guard Chaos Lord in Terminator Armour",
@@ -299,10 +287,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Plague-encrusted exalted weapon - Melee": {
         "type": "Melee",
@@ -312,9 +297,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -338,9 +321,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Chainfist - Melee": {
         "type": "Melee",
@@ -350,9 +331,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 3+"
-        ]
+        "Keywords": []
       },
       "Plague fist - Melee": {
         "type": "Melee",
@@ -382,7 +361,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord of Virulence",
@@ -434,8 +414,9 @@
       "Terminator"
     ],
     "total_models": 1,
-    "points": 105,
-    "special_rules": []
+    "points": 90,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord of Contagion",
@@ -485,8 +466,9 @@
       "Terminator"
     ],
     "total_models": 1,
-    "points": 95,
-    "special_rules": []
+    "points": 110,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Guard Sorcerer in Terminator Armour",
@@ -502,10 +484,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -515,11 +494,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plague-encrusted exalted weapon - Melee": {
         "type": "Melee",
@@ -529,9 +504,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Force weapon - Melee": {
         "type": "Melee",
@@ -625,12 +598,13 @@
     ],
     "total_models": 1,
     "points": 70,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Malignant Plaguecaster",
     "models": {
-      "Malignant Plaguecaster": {"M": 5, "T": 5, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+      "Malignant Plaguecaster": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Bolt pistol - Ranged": {
@@ -641,10 +615,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Corrupted staff - Melee": {
         "type": "Melee",
@@ -702,8 +673,9 @@
       "Malignant Plaguecaster"
     ],
     "total_models": 1,
-    "points": 70,
-    "special_rules": []
+    "points": 60,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plague Marines",
@@ -719,9 +691,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Bubotic weapons - Melee": {
         "type": "Melee",
@@ -731,9 +701,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -755,10 +723,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -768,9 +733,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Plasma gun - Ranged": {
         "type": "Ranged",
@@ -780,10 +743,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -793,10 +753,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Heavy plague weapon - Melee": {
         "type": "Melee",
@@ -818,9 +775,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Plague spewer - Ranged": {
         "type": "Ranged",
@@ -830,11 +785,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 2+",
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Icon of Despair - Abilities": {
         "type": "Abilities"
@@ -879,8 +830,9 @@
       "Plague Marines"
     ],
     "total_models": 1,
-    "points": 100,
-    "special_rules": []
+    "points": 95,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Death Guard Cultists",
@@ -895,7 +847,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cultist firearm - Ranged": {
         "type": "Ranged",
@@ -904,7 +857,8 @@
         "BS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Flamer - Ranged": {
         "type": "Ranged",
@@ -950,7 +904,8 @@
         "BS": 4,
         "S": 9,
         "AP": 2,
-        "D": "D3"
+        "D": "D3",
+        "Keywords": []
       }
     },
     "abilities": [],
@@ -963,7 +918,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Poxwalkers",
@@ -996,7 +952,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Noxious Blightbringer",
@@ -1012,10 +969,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Cursed plague bell - Melee": {
         "type": "Melee",
@@ -1033,7 +987,7 @@
     },
     "abilities": [
       "Sickening Vitality:While this model is leading a unit, add 1\" to the Move characteristic of models in that unit and you can re-roll Advance and Charge rolls made for that unit.",
-      "Tocsin of Misery (Aura):In the Battle-shock step of your opponent's Command phase, if an enemy unit that is its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a ^^**Psyker^^** unit.",
+      "Tocsin of Misery (Aura):In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a ^^**Psyker^^** unit.",
       "Leader:This model can be attached to the following units: ^^**Plague Marines^^**, ^^**Poxwalkers^^** *You can attach this model to a ^^**Plague Marines^^** or ^^**Poxwalkers^^** unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
     ],
     "keywords": [
@@ -1046,7 +1000,8 @@
     ],
     "total_models": 1,
     "points": 50,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Foul Blightspawn",
@@ -1061,7 +1016,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Plague sprayer - Ranged": {
         "type": "Ranged",
@@ -1093,7 +1049,8 @@
     ],
     "total_models": 1,
     "points": 60,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Biologus Putrifier",
@@ -1106,7 +1063,7 @@
         "Range": 12,
         "A": "D6",
         "BS": 3,
-        "S": 5,
+        "S": 7,
         "AP": 1,
         "D": 2,
         "Keywords": [
@@ -1136,13 +1093,15 @@
         "AP": 1,
         "D": 3,
         "Keywords": [
-          "Pistol"
+          "Anti-INFANTRY 2+",
+          "Pistol",
+          "Precision"
         ]
       }
     },
     "abilities": [
-      "Foul Infusion:The first time this model's unit destroys an enemy unit as a result of a melee attack, until the end of the battle, add 6 to the Objective Control characteristic of this model.",
-      "Foul Infusion:While this model is leading a unit,"
+      "Extraction of Fresh Disease:The first time this model's unit destroys an enemy unit as a result of a melee attack, until the end of the battle, add 6 to the Objective Control characteristic of this model.",
+      "Foul Infusion:While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified roll of 5+, instead of only on a 6."
     ],
     "keywords": [
       "Death Guard",
@@ -1155,7 +1114,8 @@
     ],
     "total_models": 1,
     "points": 45,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Tallyman",
@@ -1171,10 +1131,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1183,7 +1140,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1199,8 +1157,9 @@
       "Tallyman"
     ],
     "total_models": 1,
-    "points": 50,
-    "special_rules": []
+    "points": 40,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plague Surgeon",
@@ -1216,10 +1175,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Balesword - Melee": {
         "type": "Melee",
@@ -1247,8 +1203,9 @@
       "Plague Surgeon"
     ],
     "total_models": 1,
-    "points": 60,
-    "special_rules": []
+    "points": 50,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Deathshroud Terminators",
@@ -1264,9 +1221,7 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Plaguespurt gauntlet - Ranged": {
         "type": "Ranged",
@@ -1276,12 +1231,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Icon of Despair - Abilities": {
         "type": "Abilities"
@@ -1301,8 +1251,9 @@
       "Terminator"
     ],
     "total_models": 1,
-    "points": 160,
-    "special_rules": []
+    "points": 140,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Helbrute",
@@ -1342,10 +1293,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Helbrute fist - Melee": {
         "type": "Melee",
@@ -1354,7 +1302,8 @@
         "WS": 3,
         "S": 12,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -1364,10 +1313,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Plasma cannon - Ranged": {
         "type": "Ranged",
@@ -1390,11 +1336,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -1404,9 +1346,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Power scourge - Melee": {
         "type": "Melee",
@@ -1415,7 +1355,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Helbrute hammer - Melee": {
         "type": "Melee",
@@ -1424,7 +1365,8 @@
         "WS": 3,
         "S": 14,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Missile launcher - Ranged": {
         "type": "Ranged",
@@ -1434,9 +1376,7 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1445,7 +1385,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1461,8 +1402,9 @@
       "Helbrute"
     ],
     "total_models": 1,
-    "points": 130,
-    "special_rules": []
+    "points": 115,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Blightlord Terminators",
@@ -1478,9 +1420,7 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -1517,11 +1457,17 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 2+",
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
+      },
+      "Close combat weapon - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 3,
+        "WS": 3,
+        "S": 4,
+        "AP": 0,
+        "D": 1,
+        "Keywords": []
       },
       "Flail of corruption - Melee": {
         "type": "Melee",
@@ -1543,9 +1489,7 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Reaper autocannon - Ranged": {
         "type": "Ranged",
@@ -1563,7 +1507,7 @@
     },
     "abilities": [
       "Invulnerable Save:Models in this unit have a 4+ invulnerable save.",
-      "Blistering Fusillade:If this unit has a Starting Strength of 5 or more, if a ^^**Character^^** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+      "Blistering Fusillade:If this unit has a Starting Strength of 5 or more, or if a ^^**Character^^** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
     ],
     "keywords": [
       "Death Guard",
@@ -1575,7 +1519,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Spawn",
@@ -1590,7 +1535,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1605,7 +1551,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Myphitic Blight-hauler",
@@ -1644,7 +1591,8 @@
         "BS": 3,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       },
       "Gnashing maw - Melee": {
         "type": "Melee",
@@ -1687,7 +1635,8 @@
     ],
     "total_models": 1,
     "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Foetid Bloat-drone",
@@ -1749,7 +1698,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plagueburst Crawler",
@@ -1778,7 +1728,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Rothail volley gun - Ranged": {
         "type": "Ranged",
@@ -1845,8 +1796,9 @@
       "Plagueburst Crawler"
     ],
     "total_models": 1,
-    "points": 180,
-    "special_rules": []
+    "points": 195,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Land Raider",
@@ -1861,7 +1813,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -1870,7 +1823,8 @@
         "WS": 4,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -1880,10 +1834,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1893,11 +1844,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1907,11 +1854,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -1921,9 +1864,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1940,7 +1881,8 @@
     ],
     "total_models": 1,
     "points": 240,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Predator Annihilator",
@@ -1968,10 +1910,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1981,11 +1920,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1995,10 +1930,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -2007,7 +1939,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2016,7 +1949,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -2026,9 +1960,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2043,8 +1975,9 @@
       "Predator Annihilator"
     ],
     "total_models": 1,
-    "points": 140,
-    "special_rules": []
+    "points": 135,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Predator Destructor",
@@ -2057,7 +1990,7 @@
         "Range": 48,
         "A": 4,
         "BS": 3,
-        "S": 10,
+        "S": 9,
         "AP": 1,
         "D": 3,
         "Keywords": [
@@ -2073,10 +2006,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -2086,11 +2016,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -2100,10 +2026,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -2112,7 +2035,8 @@
         "BS": 3,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2121,7 +2045,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -2131,9 +2056,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2149,7 +2072,8 @@
     ],
     "total_models": 1,
     "points": 145,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Defiler",
@@ -2177,7 +2101,8 @@
         "WS": 3,
         "S": 16,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Reaper autocannon - Ranged": {
         "type": "Ranged",
@@ -2200,11 +2125,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -2214,9 +2135,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin heavy flamer - Ranged": {
         "type": "Ranged",
@@ -2252,9 +2171,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -2264,10 +2181,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -2277,11 +2191,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2300,8 +2210,9 @@
       "Defiler"
     ],
     "total_models": 1,
-    "points": 195,
-    "special_rules": []
+    "points": 165,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Rhino",
@@ -2317,10 +2228,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits",
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -2330,11 +2238,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-INFANTRY 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -2343,7 +2247,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -2353,9 +2258,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2373,7 +2276,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Mortarion",
@@ -2457,8 +2361,9 @@
       "Mortarion"
     ],
     "total_models": 1,
-    "points": 400,
-    "special_rules": []
+    "points": 380,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Icon Bearer",
@@ -2474,9 +2379,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Plague knife - Melee": {
         "type": "Melee",
@@ -2506,12 +2409,14 @@
     ],
     "total_models": 1,
     "points": 45,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Miasmic Malignifier",
     "models": {
       "Miasmic Malignifier": {
+        "M": "-",
         "T": 10,
         "SV": 3,
         "W": 12,
@@ -2550,12 +2455,13 @@
     ],
     "total_models": 1,
     "points": 105,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord of Poxes",
     "models": {
-      "Lord of Poxes": {"M": 5, "T": 6, "SV": 3, "W": 4, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
+      "Lord of Poxes": {"M": 5, "T": 6, "SV": 3, "W": 5, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Plasma pistol - Ranged": {
@@ -2566,10 +2472,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Great plague blade - Melee": {
         "type": "Melee",
@@ -2602,7 +2505,8 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Great Unclean One",
@@ -2630,7 +2534,8 @@
         "BS": 3,
         "S": 7,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bileblade - Melee": {
         "type": "Melee",
@@ -2701,8 +2606,9 @@
       "Summoned"
     ],
     "total_models": 1,
-    "points": 260,
-    "special_rules": []
+    "points": 250,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Rotigus",
@@ -2770,8 +2676,9 @@
       "Summoned"
     ],
     "total_models": 1,
-    "points": 260,
-    "special_rules": []
+    "points": 250,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plaguebearers",
@@ -2814,7 +2721,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Plague Drones",
@@ -2883,7 +2791,8 @@
     ],
     "total_models": 1,
     "points": 115,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Beasts of Nurgle",
@@ -2919,7 +2828,8 @@
     ],
     "total_models": 1,
     "points": 0,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Nurglings",
@@ -2941,7 +2851,7 @@
       }
     },
     "abilities": [
-      "Invulnerable Save:Models in this unit have a 6+ invulnerable save.",
+      "Invulnerable Save:Models in this unit have a 5+ invulnerable save.",
       "Mischief Makers (Aura):Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
     ],
     "keywords": [
@@ -2955,8 +2865,9 @@
       "Nurglings"
     ],
     "total_models": 1,
-    "points": 40,
-    "special_rules": []
+    "points": 35,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Foetid Bloat-drone with heavy blight launcher",
@@ -3005,6 +2916,7 @@
     ],
     "total_models": 1,
     "points": 100,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

@@ -60,7 +60,9 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       }
     },
     "abilities": [
@@ -96,7 +98,10 @@
         "S": 7,
         "AP": 1,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Psychic",
+          "Sustained Hits 2"
+        ]
       },
       "Living Lightning - witchfire - Ranged": {
         "type": "Ranged",
@@ -106,7 +111,10 @@
         "S": 7,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Psychic",
+          "Sustained Hits 2"
+        ]
       },
       "Living Lightning - focused witchfire - Ranged": {
         "type": "Ranged",
@@ -116,7 +124,11 @@
         "S": 7,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Psychic",
+          "Sustained Hits 2"
+        ]
       }
     },
     "abilities": [
@@ -154,7 +166,9 @@
         "S": 12,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       },
       "Assault cannon - Ranged": {
         "type": "Ranged",
@@ -164,7 +178,9 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Heavy plasma cannon - standard - Ranged": {
         "type": "Ranged",
@@ -174,7 +190,9 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Heavy plasma cannon - supercharge - Ranged": {
         "type": "Ranged",
@@ -184,7 +202,10 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -194,7 +215,9 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2"
+        ]
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -204,7 +227,9 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Helfrost cannon - dispersed - Ranged": {
         "type": "Ranged",
@@ -214,7 +239,9 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Torrent"
+        ]
       },
       "Helfrost cannon - focused - Ranged": {
         "type": "Ranged",
@@ -262,7 +289,9 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Anti-MONSTER 2+"
+        ]
       },
       "Foehammer - Ranged": {
         "type": "Ranged",
@@ -272,7 +301,10 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Anti-MONSTER 2+",
+          "Assault"
+        ]
       }
     },
     "abilities": [
@@ -309,7 +341,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Plasma pistol - supercharge - Ranged": {
         "type": "Ranged",
@@ -319,7 +353,10 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Pistol"
+        ]
       },
       "Artificer crozius - Melee": {
         "type": "Melee",
@@ -366,7 +403,9 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -405,7 +444,9 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       }
     },
     "abilities": [
@@ -453,7 +494,9 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       }
     },
     "abilities": [
@@ -501,7 +544,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Wolf claws - Melee": {
         "type": "Melee",
@@ -511,7 +556,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -547,7 +594,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-VEHICLE 3+"
+        ]
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -557,7 +606,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -617,7 +670,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -673,7 +728,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -770,7 +827,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1128,7 +1187,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
       },
       "Close Combat Weapon - Melee": {
         "type": "Melee",
@@ -1148,7 +1211,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Cyclone missile launcher - krak - Ranged": {
         "type": "Ranged",
@@ -1193,7 +1258,12 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-PSYKER 4+",
+          "Devastating Wounds",
+          "Pistol",
+          "Precision"
+        ]
       },
       "Morkai combat knife - Melee": {
         "type": "Melee",
@@ -1203,7 +1273,11 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Anti-PSYKER 4+",
+          "Devastating Wounds",
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -1365,7 +1439,9 @@
         "S": 14,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -1613,7 +1689,9 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1623,7 +1701,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Sustained Hits 1"
+        ]
       },
       "Grav-cannon - Ranged": {
         "type": "Ranged",
@@ -1633,7 +1714,10 @@
         "S": 6,
         "AP": 1,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Heavy"
+        ]
       },
       "Missile launcher - frag - Ranged": {
         "type": "Ranged",
@@ -1643,7 +1727,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
       },
       "Missile launcher - krak - Ranged": {
         "type": "Ranged",
@@ -1653,7 +1740,9 @@
         "S": 9,
         "AP": 2,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy"
+        ]
       },
       "Plasma cannon - standard - Ranged": {
         "type": "Ranged",
@@ -1663,7 +1752,10 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Heavy"
+        ]
       },
       "Plasma cannon - supercharge - Ranged": {
         "type": "Ranged",
@@ -1673,7 +1765,11 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Heavy"
+        ]
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -1683,7 +1779,10 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Melta 2"
+        ]
       },
       "Heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1693,7 +1792,11 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Heavy",
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1758,7 +1861,9 @@
         "S": 11,
         "AP": 3,
         "D": 7,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits D3"
+        ]
       },
       "Helfrost destructor - focused - Ranged": {
         "type": "Ranged",
@@ -1768,7 +1873,9 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Torrent"
+        ]
       },
       "Twin stormstrike missile launcher - Ranged": {
         "type": "Ranged",
@@ -1778,7 +1885,9 @@
         "S": 10,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -1813,7 +1922,10 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Torrent",
+          "Twin-linked"
+        ]
       },
       "Twin helfrost cannon - focused - Ranged": {
         "type": "Ranged",
@@ -1823,7 +1935,9 @@
         "S": 9,
         "AP": 3,
         "D": 5,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -1888,7 +2002,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -1954,7 +2070,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
@@ -1992,7 +2110,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Cyclone missile launcher - krak - Ranged": {
         "type": "Ranged",
@@ -2032,7 +2152,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Power fist - Melee": {
         "type": "Melee",
@@ -2079,7 +2201,10 @@
         "S": 3,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Torrent"
+        ]
       },
       "Helfrost pistol - focused - Ranged": {
         "type": "Ranged",
@@ -2089,7 +2214,9 @@
         "S": 6,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Servo-arm - Melee": {
         "type": "Melee",
@@ -2099,7 +2226,9 @@
         "S": 8,
         "AP": 2,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Extra Attacks"
+        ]
       },
       "Tempest hammer - Melee": {
         "type": "Melee",
@@ -2220,7 +2349,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-VEHICLE 2+",
+          "Pistol"
+        ]
       },
       "Hand flamer - Ranged": {
         "type": "Ranged",
@@ -2230,7 +2362,10 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Inferno pistol - Ranged": {
         "type": "Ranged",
@@ -2240,7 +2375,10 @@
         "S": 8,
         "AP": 4,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Melta 2",
+          "Pistol"
+        ]
       },
       "Twin Lightning Claws - Melee": {
         "type": "Melee",
@@ -2250,7 +2388,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Twin-linked"
+        ]
       },
       "Astartes shotgun - Ranged": {
         "type": "Ranged",
@@ -2260,7 +2400,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Assault"
+        ]
       },
       "Combat knife - Melee": {
         "type": "Melee",
@@ -2328,7 +2470,9 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Plasma cannon - supercharge - Ranged": {
         "type": "Ranged",
@@ -2338,7 +2482,10 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
       },
       "Helfrost cannon - dispersed - Ranged": {
         "type": "Ranged",
@@ -2348,7 +2495,9 @@
         "S": 6,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Torrent"
+        ]
       },
       "Helfrost cannon - focused - Ranged": {
         "type": "Ranged",

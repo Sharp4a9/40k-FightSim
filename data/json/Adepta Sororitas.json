@@ -13,7 +13,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Scribe's staff - Melee": {
         "type": "Melee",
@@ -22,7 +23,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -91,9 +93,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Simulacrum Imperialis - Abilities": {
         "type": "Abilities"
@@ -220,7 +220,8 @@
         "WS": 2,
         "S": 4,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Hallowed Chainsword - Melee": {
         "type": "Melee",
@@ -229,7 +230,8 @@
         "WS": 2,
         "S": 3,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -291,9 +293,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Hunter-Killer Missile - Ranged": {
         "type": "Ranged",
@@ -303,9 +303,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -326,7 +324,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -358,9 +357,7 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Hallowed Mace - Melee": {
         "type": "Melee",
@@ -370,9 +367,7 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Lethal Hits"
-        ]
+        "Keywords": []
       },
       "Spear of the Faithful - Melee": {
         "type": "Melee",
@@ -381,7 +376,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -465,7 +461,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -499,7 +496,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -533,9 +531,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Simulacrum Imperialis - Abilities": {
         "type": "Abilities"
@@ -612,9 +608,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -623,7 +617,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Exorcist Missile Launcher - Ranged": {
         "type": "Ranged",
@@ -694,7 +689,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -730,9 +726,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -741,7 +735,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -777,9 +772,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -788,7 +781,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -888,7 +882,8 @@
         "WS": 2,
         "S": 6,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1061,7 +1056,8 @@
         "BS": 2,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": []
       },
       "Paragon missile launcher - sanctorum - Ranged": {
         "type": "Ranged",
@@ -1134,7 +1130,8 @@
         "WS": 2,
         "S": 4,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1195,7 +1192,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Paragon War Mace - Melee": {
         "type": "Melee",
@@ -1204,7 +1202,8 @@
         "WS": 3,
         "S": 12,
         "AP": 1,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Heavy Bolter - Ranged": {
         "type": "Ranged",
@@ -1238,10 +1237,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1375,7 +1371,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Zealot's vindictor - Ranged": {
         "type": "Ranged",
@@ -1397,7 +1394,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1469,8 +1467,8 @@
   {
     "name": "Retributor Squad",
     "models": {
-      "Retributor Superior": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null},
-      "Retributor": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+      "Retributor Superior": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null},
+      "Retributor": {"M": 6, "T": 3, "SV": 3, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Ministorum heavy flamer - Ranged": {
@@ -1481,10 +1479,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Multi-melta - Ranged": {
         "type": "Ranged",
@@ -1494,10 +1489,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Heavy",
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -1507,10 +1499,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Heavy",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1569,10 +1558,8 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "BS": 3,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": [],
+        "BS": 3
       },
       "Geminae Superia - Melee": {
         "type": "Melee",
@@ -1582,10 +1569,8 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "BS": 3,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": [],
+        "BS": 3
       },
       "Geminae Superia - Ranged": {
         "type": "Ranged",
@@ -1595,10 +1580,8 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "BS": 3,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": [],
+        "BS": 3
       }
     },
     "abilities": [
@@ -1638,9 +1621,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power Weapon - Melee": {
         "type": "Melee",
@@ -1649,7 +1630,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chainsword - Melee": {
         "type": "Melee",
@@ -1658,7 +1640,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1667,7 +1650,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Ministorum hand flamer - Ranged": {
         "type": "Ranged",
@@ -1677,11 +1661,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Inferno Pistol - Ranged": {
         "type": "Ranged",
@@ -1727,9 +1707,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Sister Novitiate (Melee Weapon) - Melee": {
         "type": "Melee",
@@ -1738,7 +1716,8 @@
         "WS": 4,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Simulacrum Imperialis - Abilities": {
         "type": "Abilities"
@@ -1751,10 +1730,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Boltgun - Ranged": {
         "type": "Ranged",
@@ -1764,9 +1740,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -1776,9 +1750,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1812,9 +1784,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Storm bolter - Ranged": {
         "type": "Ranged",
@@ -1824,9 +1794,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
@@ -1835,7 +1803,8 @@
         "WS": 4,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1882,7 +1851,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1926,9 +1896,7 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -1937,7 +1905,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1972,7 +1941,8 @@
         "WS": 3,
         "S": 4,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -2013,7 +1983,8 @@
         "WS": 2,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Ministorum hand flamer - Ranged": {
         "type": "Ranged",
@@ -2023,11 +1994,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Pistol",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Power weapon - Melee": {
         "type": "Melee",
@@ -2036,7 +2003,8 @@
         "WS": 2,
         "S": 4,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Holy Eviscerator - Melee": {
         "type": "Melee",
@@ -2107,7 +2075,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Death Cult blades - Melee": {
         "type": "Melee",

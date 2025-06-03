@@ -13,9 +13,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Light missile pod - Ranged": {
         "type": "Ranged",
@@ -24,7 +22,8 @@
         "BS": 2,
         "S": 7,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "High-energy fusion blaster - Ranged": {
         "type": "Ranged",
@@ -45,7 +44,8 @@
         "BS": 2,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Battlesuit fists - Melee": {
         "type": "Melee",
@@ -54,7 +54,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -91,7 +92,8 @@
         "BS": 2,
         "S": 8,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Dawn Blade - strike - Melee": {
         "type": "Melee",
@@ -100,7 +102,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Dawn Blade - sweep - Melee": {
         "type": "Melee",
@@ -109,7 +112,8 @@
         "WS": 2,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -148,7 +152,8 @@
         "BS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Burst cannon - Ranged": {
         "type": "Ranged",
@@ -157,7 +162,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Airbursting fragmentation projector - Ranged": {
         "type": "Ranged",
@@ -167,10 +173,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Cyclic ion blaster - Ranged": {
         "type": "Ranged",
@@ -180,9 +183,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "T'au flamer - Ranged": {
         "type": "Ranged",
@@ -192,10 +193,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Fusion blaster - Ranged": {
         "type": "Ranged",
@@ -205,9 +203,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma rifle - Ranged": {
         "type": "Ranged",
@@ -216,7 +212,8 @@
         "BS": 3,
         "S": 8,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Battlesuit fists - Melee": {
         "type": "Melee",
@@ -225,7 +222,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -259,7 +257,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Shield generator - Abilities": {
         "type": "Abilities"
@@ -271,7 +270,8 @@
         "BS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Burst cannon - Ranged": {
         "type": "Ranged",
@@ -280,7 +280,8 @@
         "BS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Airbursting fragmentation projector - Ranged": {
         "type": "Ranged",
@@ -290,10 +291,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast",
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Cyclic ion blaster - Ranged": {
         "type": "Ranged",
@@ -303,9 +301,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "T'au flamer - Ranged": {
         "type": "Ranged",
@@ -315,10 +311,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Fusion blaster - Ranged": {
         "type": "Ranged",
@@ -328,9 +321,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       },
       "Plasma rifle - Ranged": {
         "type": "Ranged",
@@ -339,7 +330,8 @@
         "BS": 3,
         "S": 8,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Battlesuit fists - Melee": {
         "type": "Melee",
@@ -348,7 +340,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -394,7 +387,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -427,7 +421,8 @@
         "WS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -460,7 +455,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Shade - Ranged": {
         "type": "Ranged",
@@ -509,9 +505,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -520,7 +514,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Pulse carbine - Ranged": {
         "type": "Ranged",
@@ -529,7 +524,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Pulse rifle - Ranged": {
         "type": "Ranged",
@@ -539,9 +535,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Support turret - Ranged": {
         "type": "Ranged",
@@ -551,10 +545,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -590,9 +581,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -601,7 +590,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Pulse blaster - Ranged": {
         "type": "Ranged",
@@ -611,9 +601,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Support turret - Ranged": {
         "type": "Ranged",
@@ -623,10 +611,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -660,7 +645,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Kroot rifle - Ranged": {
         "type": "Ranged",
@@ -670,9 +656,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Tanglebomb launcher - Ranged": {
         "type": "Ranged",
@@ -693,7 +677,8 @@
         "BS": 4,
         "S": 4,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Kroot pistol - Ranged": {
         "type": "Ranged",
@@ -761,7 +746,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Tanglecannon - Ranged": {
         "type": "Ranged",
@@ -807,7 +793,8 @@
         "WS": 5,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Burst cannon - Ranged": {
         "type": "Ranged",
@@ -816,7 +803,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Fusion blaster - Ranged": {
         "type": "Ranged",
@@ -826,9 +814,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -873,11 +859,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin fusion blaster - Ranged": {
         "type": "Ranged",
@@ -887,10 +869,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Fusion collider - Ranged": {
         "type": "Ranged",
@@ -911,7 +890,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Cyclic ion raker - overcharge - Ranged": {
         "type": "Ranged",
@@ -932,7 +912,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -965,7 +946,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Longshot pulse rifles - Ranged": {
         "type": "Ranged",
@@ -988,9 +970,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1026,9 +1006,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1037,7 +1015,8 @@
         "WS": 5,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Pulse carbine - Ranged": {
         "type": "Ranged",
@@ -1046,7 +1025,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Semi-automatic grenade launcher - Ranged": {
         "type": "Ranged",
@@ -1056,10 +1036,7 @@
         "S": 6,
         "AP": 1,
         "D": 3,
-        "Keywords": [
-          "Anti-Vehicle 4+",
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Ion rifle - standard - Ranged": {
         "type": "Ranged",
@@ -1106,7 +1083,8 @@
         "BS": 5,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1140,7 +1118,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Piranha fusion blaster - Ranged": {
         "type": "Ranged",
@@ -1162,9 +1141,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1173,7 +1150,8 @@
         "WS": 5,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin pulse carbine - Ranged": {
         "type": "Ranged",
@@ -1183,10 +1161,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Twin-linked",
-          "Assault"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1216,7 +1191,8 @@
         "WS": 4,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Neutron blaster - Ranged": {
         "type": "Ranged",
@@ -1226,9 +1202,7 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Assault"
-        ]
+        "Keywords": []
       },
       "T'au flamer - Ranged": {
         "type": "Ranged",
@@ -1238,10 +1212,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Neutron grenade launcher - Ranged": {
         "type": "Ranged",
@@ -1297,7 +1268,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1329,7 +1301,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy rail rifle - Ranged": {
         "type": "Ranged",
@@ -1339,10 +1312,7 @@
         "S": 12,
         "AP": 4,
         "D": "D6+1",
-        "Keywords": [
-          "Heavy",
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "High-yield missile pods - Ranged": {
         "type": "Ranged",
@@ -1352,9 +1322,7 @@
         "S": 7,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Seeker missile - Ranged": {
         "type": "Ranged",
@@ -1364,9 +1332,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Twin plasma rifle - Ranged": {
         "type": "Ranged",
@@ -1376,9 +1342,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin smart missile system - Ranged": {
         "type": "Ranged",
@@ -1388,10 +1352,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1422,7 +1383,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Heavy burst cannon - Ranged": {
         "type": "Ranged",
@@ -1431,7 +1393,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Ion accelerator - standard - Ranged": {
         "type": "Ranged",
@@ -1440,7 +1403,8 @@
         "BS": 4,
         "S": 7,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Ion accelerator - overcharge - Ranged": {
         "type": "Ranged",
@@ -1461,7 +1425,8 @@
         "BS": 5,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Twin smart missile system - Ranged": {
         "type": "Ranged",
@@ -1484,10 +1449,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin plasma rifle - Ranged": {
         "type": "Ranged",
@@ -1497,9 +1459,7 @@
         "S": 8,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1570,9 +1530,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Accelerator burst cannon - Ranged": {
         "type": "Ranged",
@@ -1581,7 +1539,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin pulse carbine - Ranged": {
         "type": "Ranged",
@@ -1603,9 +1562,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1614,7 +1571,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1656,7 +1614,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Twin pulse carbine - Ranged": {
         "type": "Ranged",
@@ -1666,10 +1625,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Twin-linked",
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Smart missile system - Ranged": {
         "type": "Ranged",
@@ -1679,9 +1635,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1690,7 +1644,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1722,10 +1677,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Twin-linked",
-          "Assault"
-        ]
+        "Keywords": []
       },
       "Smart missile system - Ranged": {
         "type": "Ranged",
@@ -1735,9 +1687,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire"
-        ]
+        "Keywords": []
       },
       "Seeker missile - Ranged": {
         "type": "Ranged",
@@ -1747,9 +1697,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Accelerator burst cannon - Ranged": {
         "type": "Ranged",
@@ -1758,7 +1706,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1767,7 +1716,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1799,7 +1749,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Accelerator burst cannon - Ranged": {
         "type": "Ranged",
@@ -1808,7 +1759,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Quad ion turret - standard - Ranged": {
         "type": "Ranged",
@@ -1843,9 +1795,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1854,7 +1804,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1922,7 +1873,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Seeker missile - Ranged": {
         "type": "Ranged",
@@ -1932,9 +1884,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -1943,7 +1893,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2091,7 +2042,8 @@
         "WS": 5,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Twin smart missile system - Ranged": {
         "type": "Ranged",
@@ -2180,11 +2132,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent",
-          "Twin-linked"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2219,7 +2167,8 @@
         "WS": 3,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Farstalker firearm - Ranged": {
         "type": "Ranged",
@@ -2252,7 +2201,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Dvorgite skinner - Ranged": {
         "type": "Ranged",
@@ -2288,7 +2238,8 @@
         "WS": 3,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "T'au tech rifle - Ranged": {
         "type": "Ranged",
@@ -2332,7 +2283,8 @@
         "WS": 5,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Tri-axis ion cannon - standard - Ranged": {
         "type": "Ranged",
@@ -2390,7 +2342,8 @@
         "BS": 4,
         "S": 8,
         "AP": 3,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Heavy rail cannon array - Ranged": {
         "type": "Ranged",
@@ -2424,7 +2377,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Smart missile system - Ranged": {
         "type": "Ranged",
@@ -2434,9 +2388,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Indirect Fire"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2470,9 +2422,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Burst cannon - Ranged": {
         "type": "Ranged",
@@ -2481,7 +2431,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Ion cannon - standard - Ranged": {
         "type": "Ranged",
@@ -2515,7 +2466,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Swiftstrike railgun - Ranged": {
         "type": "Ranged",
@@ -2525,9 +2477,7 @@
         "S": 20,
         "AP": 5,
         "D": "D6+6",
-        "Keywords": [
-          "Devastating Wounds"
-        ]
+        "Keywords": []
       },
       "Seeker missile - Ranged": {
         "type": "Ranged",
@@ -2537,9 +2487,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Skyspear missile rack - Ranged": {
         "type": "Ranged",
@@ -2561,7 +2509,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Missile pod - Ranged": {
         "type": "Ranged",
@@ -2570,7 +2519,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2615,7 +2565,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Cyclic ion blaster - Ranged": {
         "type": "Ranged",
@@ -2625,9 +2576,7 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": [
-          "Hazardous"
-        ]
+        "Keywords": []
       },
       "Seeker missile - Ranged": {
         "type": "Ranged",
@@ -2637,9 +2586,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Missile pod - Ranged": {
         "type": "Ranged",
@@ -2648,7 +2595,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Armoured hull - Melee": {
         "type": "Melee",
@@ -2657,7 +2605,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2688,7 +2637,8 @@
         "WS": 5,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Heavy rail cannon - Ranged": {
         "type": "Ranged",
@@ -2709,7 +2659,8 @@
         "BS": 4,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Ion cannon - standard - Ranged": {
         "type": "Ranged",
@@ -2744,9 +2695,7 @@
         "S": 14,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "One Shot"
-        ]
+        "Keywords": []
       },
       "Missile pod - Ranged": {
         "type": "Ranged",
@@ -2755,7 +2704,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2792,7 +2742,8 @@
         "WS": 5,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Fusion blaster - Ranged": {
         "type": "Ranged",
@@ -2802,9 +2753,7 @@
         "S": 9,
         "AP": 4,
         "D": "D6",
-        "Keywords": [
-          "Melta 2"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2839,7 +2788,8 @@
         "WS": 5,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Plasma rifle - Ranged": {
         "type": "Ranged",
@@ -2848,7 +2798,8 @@
         "BS": 4,
         "S": 8,
         "AP": 3,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Missile pod - Ranged": {
         "type": "Ranged",
@@ -2857,7 +2808,8 @@
         "BS": 4,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2891,7 +2843,8 @@
         "WS": 5,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Burst cannon - Ranged": {
         "type": "Ranged",
@@ -2900,7 +2853,8 @@
         "BS": 4,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "T'au flamer - Ranged": {
         "type": "Ranged",
@@ -2910,10 +2864,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -2947,7 +2898,8 @@
         "WS": 2,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Kroot rifle - Ranged": {
         "type": "Ranged",
@@ -2957,9 +2909,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3031,7 +2981,8 @@
         "WS": 2,
         "S": 5,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -3152,7 +3103,8 @@
         "WS": 3,
         "S": 4,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Kalamandra's bite - Melee": {
         "type": "Melee",

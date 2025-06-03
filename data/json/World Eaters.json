@@ -49,8 +49,9 @@
       "Angron"
     ],
     "total_models": 1,
-    "points": 410,
-    "special_rules": []
+    "points": 385,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Kharn the Betrayer",
@@ -65,7 +66,8 @@
         "WS": 2,
         "S": 7,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -75,10 +77,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -100,7 +99,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord Invocatus",
@@ -164,7 +164,8 @@
     ],
     "total_models": 1,
     "points": 110,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Khorne",
@@ -191,7 +192,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Hellforged weapons - sweep - Melee": {
         "type": "Melee",
@@ -200,7 +202,8 @@
         "WS": 2,
         "S": 6,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -219,8 +222,9 @@
       "Daemon Prince"
     ],
     "total_models": 1,
-    "points": 210,
-    "special_rules": []
+    "points": 200,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Daemon Prince of Khorne with wings",
@@ -243,26 +247,28 @@
       "Hellforged weapons - strike - Melee": {
         "type": "Melee",
         "Range": "Melee",
-        "A": 6,
+        "A": 8,
         "WS": 2,
-        "S": 10,
+        "S": 8,
         "AP": 2,
-        "D": 3
+        "D": 3,
+        "Keywords": []
       },
       "Hellforged weapons - sweep - Melee": {
         "type": "Melee",
         "Range": "Melee",
-        "A": 14,
+        "A": 16,
         "WS": 2,
-        "S": 8,
-        "AP": 0,
-        "D": 1
+        "S": 6,
+        "AP": 1,
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
       "Invulnerable Save:This model has a 4+ invulnerable save.",
-      "Bloodied Terror:At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test.",
-      "Oath to Khorne:At the start of the battle, select one unit from your opponents army to be this models sworn foe. Each time this model makes an attack that targets that sworn foe, you can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of the battle, that sworn foe has not been destroyed, this model is destroyed."
+      "Bloodied Terror:At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test, subtracting 1 if that enemy unit is Below Half-strength.",
+      "Swooping Predator:Each time this model ends a Normal or Advance move, you can select one enemy unit that it moved over during that move and roll 6 D6: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
     "keywords": [
       "World Eaters",
@@ -275,8 +281,9 @@
       "Fly"
     ],
     "total_models": 1,
-    "points": 215,
-    "special_rules": []
+    "points": 180,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Lord on Juggernaut",
@@ -304,7 +311,8 @@
         "WS": 2,
         "S": 6,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Plasma pistol - Ranged": {
         "type": "Ranged",
@@ -314,10 +322,7 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -337,7 +342,8 @@
     ],
     "total_models": 1,
     "points": 90,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Master of Executions",
@@ -385,13 +391,14 @@
       "Master of Executions"
     ],
     "total_models": 1,
-    "points": 70,
-    "special_rules": []
+    "points": 60,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Khorne Berserkers",
     "models": {
-      "Khorne Berserker Champion": {"M": 6, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
+      "Khorne Berserker Champion": {"M": 8, "T": 4, "SV": 3, "W": 2, "LD": 6, "OC": 2, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Bolt pistol - Ranged": {
@@ -402,22 +409,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Plasma pistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 3,
-        "S": 8,
-        "AP": 3,
-        "D": 2,
-        "Keywords": [
-          "Hazardous",
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Chainblade - Melee": {
         "type": "Melee",
@@ -426,7 +418,8 @@
         "WS": 3,
         "S": 4,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Khornate eviscerator - Melee": {
         "type": "Melee",
@@ -435,7 +428,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Icon of Khorne - Abilities": {
         "type": "Abilities"
@@ -455,7 +449,8 @@
     ],
     "total_models": 1,
     "points": 180,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Terminators",
@@ -471,76 +466,69 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Power fist - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 3,
         "WS": 3,
-        "S": 9,
+        "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Accursed weapon - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 4,
         "WS": 3,
-        "S": 6,
+        "S": 5,
         "AP": 2,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Chainfist - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 3,
         "WS": 4,
-        "S": 9,
+        "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": [
-          "Anti-VEHICLE 3+"
-        ]
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
         "Range": 24,
         "A": 2,
-        "BS": 3,
+        "BS": 4,
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 2"
-        ]
+        "Keywords": []
       },
       "Paired accursed weapons - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 5,
         "WS": 3,
-        "S": 6,
+        "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": [
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Reaper autocannon - Ranged": {
         "type": "Ranged",
         "Range": 36,
         "A": 4,
-        "BS": 3,
+        "BS": 4,
         "S": 7,
         "AP": 1,
         "D": 1,
         "Keywords": [
           "Devastating Wounds",
+          "Rapid Fire 2",
           "Sustained Hits 1"
         ]
       },
@@ -552,10 +540,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -572,12 +557,13 @@
     ],
     "total_models": 1,
     "points": 185,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Jakhals",
     "models": {
-      "Jakhals": {"M": 7, "T": 4, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": 6}
+      "Jakhals": {"M": 7, "T": 4, "SV": 6, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Autopistol - Ranged": {
@@ -588,9 +574,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Chainblades - Melee": {
         "type": "Melee",
@@ -599,7 +583,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Mauler chainblade - Melee": {
         "type": "Melee",
@@ -608,7 +593,8 @@
         "WS": 5,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Skullsmasher and mangler - Melee": {
         "type": "Melee",
@@ -617,7 +603,8 @@
         "WS": 4,
         "S": 4,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Paired manglers - Melee": {
         "type": "Melee",
@@ -647,7 +634,8 @@
     ],
     "total_models": 1,
     "points": 65,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Eightbound",
@@ -662,7 +650,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -679,13 +668,14 @@
       "Possessed"
     ],
     "total_models": 1,
-    "points": 155,
-    "special_rules": []
+    "points": 150,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Exalted Eightbound",
     "models": {
-      "Exalted Eightbound": {"M": 10, "T": 6, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": 6}
+      "Exalted Eightbound": {"M": 10, "T": 6, "SV": 3, "W": 3, "LD": 6, "OC": 1, "Inv": null, "Fnp": null}
     },
     "weapons": {},
     "abilities": [
@@ -702,8 +692,9 @@
       "Possessed"
     ],
     "total_models": 1,
-    "points": 175,
-    "special_rules": []
+    "points": 160,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Land Raider",
@@ -730,7 +721,8 @@
         "WS": 3,
         "S": 8,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -740,9 +732,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -752,11 +742,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -766,11 +752,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -780,9 +762,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -798,8 +778,9 @@
       "Land Raider"
     ],
     "total_models": 1,
-    "points": 220,
-    "special_rules": []
+    "points": 240,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Predator Annihilator",
@@ -828,9 +809,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -840,11 +819,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -854,10 +829,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -866,16 +838,18 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 6,
-        "WS": 4,
+        "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -885,9 +859,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -902,8 +874,9 @@
       "Predator Annihilator"
     ],
     "total_models": 1,
-    "points": 150,
-    "special_rules": []
+    "points": 145,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Predator Destructor",
@@ -931,9 +904,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -943,11 +914,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -957,10 +924,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2",
-          "Sustained Hits 1"
-        ]
+        "Keywords": []
       },
       "Lascannon - Ranged": {
         "type": "Ranged",
@@ -969,16 +933,18 @@
         "BS": 4,
         "S": 12,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 6,
-        "WS": 4,
+        "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -988,9 +954,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1006,7 +970,8 @@
     ],
     "total_models": 1,
     "points": 145,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Defiler",
@@ -1018,7 +983,7 @@
         "type": "Ranged",
         "Range": 48,
         "A": "D6+3",
-        "BS": 3,
+        "BS": 4,
         "S": 10,
         "AP": 1,
         "D": 3,
@@ -1034,7 +999,8 @@
         "WS": 3,
         "S": 16,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Reaper autocannon - Ranged": {
         "type": "Ranged",
@@ -1058,11 +1024,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -1072,10 +1034,7 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Rapid Fire 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin heavy flamer - Ranged": {
         "type": "Ranged",
@@ -1111,9 +1070,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -1123,9 +1080,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1135,11 +1090,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1158,8 +1109,9 @@
       "Defiler"
     ],
     "total_models": 1,
-    "points": 245,
-    "special_rules": []
+    "points": 180,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Forgefiend",
@@ -1175,10 +1127,7 @@
         "S": 10,
         "AP": 3,
         "D": 3,
-        "Keywords": [
-          "Blast",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Hades autocannon - Ranged": {
         "type": "Ranged",
@@ -1188,9 +1137,7 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Forgefiend claws - Melee": {
         "type": "Melee",
@@ -1199,7 +1146,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Forgefiend jaws - Melee": {
         "type": "Melee",
@@ -1208,7 +1156,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1225,8 +1174,9 @@
       "Forgefiend"
     ],
     "total_models": 1,
-    "points": 155,
-    "special_rules": []
+    "points": 150,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Helbrute",
@@ -1238,23 +1188,25 @@
         "type": "Ranged",
         "Range": 18,
         "A": 2,
-        "BS": 3,
+        "BS": 4,
         "S": 9,
         "AP": 4,
         "D": "D6",
         "Keywords": [
-          "Melta 2"
+          "Melta 2",
+          "Rapid Fire 1"
         ]
       },
       "Twin autocannon - Ranged": {
         "type": "Ranged",
         "Range": 48,
         "A": 2,
-        "BS": 3,
+        "BS": 4,
         "S": 9,
         "AP": 1,
         "D": 3,
         "Keywords": [
+          "Rapid Fire 2",
           "Twin-linked"
         ]
       },
@@ -1266,10 +1218,7 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Ignores Cover",
-          "Torrent"
-        ]
+        "Keywords": []
       },
       "Combi-bolter - Ranged": {
         "type": "Ranged",
@@ -1279,21 +1228,20 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
-      "Helbrute plasma cannon - Ranged": {
+      "Plasma cannon - Ranged": {
         "type": "Ranged",
         "Range": 36,
         "A": "D3",
-        "BS": 3,
+        "BS": 4,
         "S": 8,
         "AP": 3,
         "D": 3,
         "Keywords": [
           "Blast",
-          "Hazardous"
+          "Hazardous",
+          "Rapid Fire D3"
         ]
       },
       "Twin heavy bolter - Ranged": {
@@ -1304,11 +1252,7 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 2",
-          "Sustained Hits 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Twin lascannon - Ranged": {
         "type": "Ranged",
@@ -1318,31 +1262,32 @@
         "S": 12,
         "AP": 3,
         "D": "D6+1",
-        "Keywords": [
-          "Rapid Fire 1",
-          "Twin-linked"
-        ]
+        "Keywords": []
       },
       "Missile launcher - frag - Ranged": {
         "type": "Ranged",
         "Range": 48,
         "A": "D6",
-        "BS": 3,
+        "BS": 4,
         "S": 4,
         "AP": 0,
         "D": 1,
         "Keywords": [
-          "Blast"
+          "Blast",
+          "Rapid Fire 3"
         ]
       },
       "Missile launcher - krak - Ranged": {
         "type": "Ranged",
         "Range": 48,
         "A": 1,
-        "BS": 3,
+        "BS": 4,
         "S": 9,
         "AP": 2,
-        "D": "D6"
+        "D": "D6",
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
       },
       "Helbrute hammer - Melee": {
         "type": "Melee",
@@ -1351,7 +1296,8 @@
         "WS": 4,
         "S": 14,
         "AP": 3,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Power scourge - Melee": {
         "type": "Melee",
@@ -1360,7 +1306,8 @@
         "WS": 3,
         "S": 7,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1369,7 +1316,8 @@
         "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1385,8 +1333,9 @@
       "Helbrute"
     ],
     "total_models": 1,
-    "points": 165,
-    "special_rules": []
+    "points": 120,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Heldrake",
@@ -1428,9 +1377,7 @@
         "S": 8,
         "AP": 1,
         "D": 2,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1449,7 +1396,8 @@
     ],
     "total_models": 1,
     "points": 200,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Maulerfiend",
@@ -1464,7 +1412,8 @@
         "WS": 3,
         "S": 14,
         "AP": 2,
-        "D": "D6+1"
+        "D": "D6+1",
+        "Keywords": []
       },
       "Magma cutter - Ranged": {
         "type": "Ranged",
@@ -1507,8 +1456,9 @@
       "Maulerfiend"
     ],
     "total_models": 1,
-    "points": 175,
-    "special_rules": []
+    "points": 150,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Rhino",
@@ -1524,9 +1474,7 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Rapid Fire 4"
-        ]
+        "Keywords": []
       },
       "Combi-weapon - Ranged": {
         "type": "Ranged",
@@ -1536,20 +1484,17 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Anti-Infantry 4+",
-          "Devastating Wounds",
-          "Rapid Fire 1"
-        ]
+        "Keywords": []
       },
       "Armoured tracks - Melee": {
         "type": "Melee",
         "Range": "Melee",
         "A": 6,
-        "WS": 4,
+        "WS": 3,
         "S": 6,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Havoc launcher - Ranged": {
         "type": "Ranged",
@@ -1559,9 +1504,7 @@
         "S": 5,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Blast"
-        ]
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1579,7 +1522,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Chaos Spawn",
@@ -1594,7 +1538,8 @@
         "WS": 4,
         "S": 5,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1609,7 +1554,8 @@
     ],
     "total_models": 1,
     "points": 80,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Khorne Lord of Skulls",
@@ -1624,7 +1570,8 @@
         "WS": 3,
         "S": 16,
         "AP": 4,
-        "D": 8
+        "D": 8,
+        "Keywords": []
       },
       "Great cleaver of Khorne - sweep - Melee": {
         "type": "Melee",
@@ -1633,7 +1580,8 @@
         "WS": 3,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Gorestorm cannon - Ranged": {
         "type": "Ranged",
@@ -1716,40 +1664,9 @@
       "Lord of Skulls"
     ],
     "total_models": 1,
-    "points": 445,
-    "special_rules": []
-  },
-  {
-    "name": "Jakhal",
-    "models": {},
-    "weapons": {
-      "Autopistol - Ranged": {
-        "type": "Ranged",
-        "Range": 12,
-        "A": 1,
-        "BS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
-      },
-      "Chainblades - Melee": {
-        "type": "Melee",
-        "Range": "Melee",
-        "A": 3,
-        "WS": 4,
-        "S": 3,
-        "AP": 0,
-        "D": 1
-      }
-    },
-    "abilities": [],
-    "keywords": [],
-    "total_models": 1,
-    "points": 0,
-    "special_rules": []
+    "points": 505,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Goremongers",
@@ -1765,9 +1682,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Pistol"
-        ]
+        "Keywords": []
       },
       "Chainblade - Melee": {
         "type": "Melee",
@@ -1777,9 +1692,7 @@
         "S": 3,
         "AP": 0,
         "D": 1,
-        "Keywords": [
-          "Lance"
-        ]
+        "Keywords": []
       },
       "Close combat weapon - Melee": {
         "type": "Melee",
@@ -1788,7 +1701,8 @@
         "WS": 4,
         "S": 3,
         "AP": 0,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Blood harpoon - Ranged": {
         "type": "Ranged",
@@ -1817,7 +1731,8 @@
     ],
     "total_models": 1,
     "points": 85,
-    "special_rules": []
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Slaughterbound",
@@ -1832,7 +1747,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1840,7 +1756,7 @@
       "Rage Eternal:While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit.",
       "Possessed Lord:Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [Devastating Wounds] ability.",
       "Leader:This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**",
-      "Lord of the Eightbounf:If this model is attached to a ^^**World Eaters Possessed^^** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
+      "Lord of the Eightbound:If this model is attached to a ^^**World Eaters Possessed^^** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
     ],
     "keywords": [
       "Character",
@@ -1849,11 +1765,13 @@
       "Khorne",
       "Daemon",
       "Possessed",
-      "Slaughterbound"
+      "Slaughterbound",
+      "World Eaters"
     ],
     "total_models": 1,
-    "points": 90,
-    "special_rules": []
+    "points": 85,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Skarbrand",
@@ -1881,7 +1799,8 @@
         "WS": 2,
         "S": 16,
         "AP": 4,
-        "D": 6
+        "D": 6,
+        "Keywords": []
       },
       "Slaughter and Carnage - sweep - Melee": {
         "type": "Melee",
@@ -1890,7 +1809,8 @@
         "WS": 2,
         "S": 8,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1910,8 +1830,9 @@
       "Skarbrand"
     ],
     "total_models": 1,
-    "points": 385,
-    "special_rules": []
+    "points": 305,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodthirster",
@@ -1939,7 +1860,8 @@
         "WS": 2,
         "S": 16,
         "AP": 4,
-        "D": "D6+2"
+        "D": "D6+2",
+        "Keywords": []
       },
       "Great axe of Khorne - sweep - Melee": {
         "type": "Melee",
@@ -1948,7 +1870,8 @@
         "WS": 2,
         "S": 10,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bloodflail - Ranged": {
         "type": "Ranged",
@@ -1969,7 +1892,8 @@
         "BS": 2,
         "S": 8,
         "AP": 1,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       }
     },
     "abilities": [
@@ -1989,13 +1913,14 @@
       "Bloodthirster"
     ],
     "total_models": 1,
-    "points": 300,
-    "special_rules": []
+    "points": 305,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodletters",
     "models": {
-      "Bloodletters": {"M": 8, "T": 4, "SV": 7, "W": 1, "LD": 7, "OC": 2, "Inv": null, "Fnp": null}
+      "Bloodletters": {"M": 8, "T": 4, "SV": 7, "W": 1, "LD": 7, "OC": 1, "Inv": null, "Fnp": null}
     },
     "weapons": {
       "Hellblade - Melee": {
@@ -2005,7 +1930,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Instrument of Chaos - Abilities": {
         "type": "Abilities"
@@ -2028,8 +1954,9 @@
       "Blood Legions"
     ],
     "total_models": 1,
-    "points": 120,
-    "special_rules": []
+    "points": 90,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Bloodcrushers",
@@ -2044,7 +1971,8 @@
         "WS": 3,
         "S": 5,
         "AP": 2,
-        "D": 2
+        "D": 2,
+        "Keywords": []
       },
       "Bladed horn - Melee": {
         "type": "Melee",
@@ -2054,10 +1982,7 @@
         "S": 6,
         "AP": 1,
         "D": 1,
-        "Keywords": [
-          "Extra Attacks",
-          "Lance"
-        ]
+        "Keywords": []
       },
       "Instrument of Chaos - Abilities": {
         "type": "Abilities"
@@ -2080,8 +2005,9 @@
       "Bloodcrushers"
     ],
     "total_models": 1,
-    "points": 115,
-    "special_rules": []
+    "points": 110,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   },
   {
     "name": "Flesh Hounds",
@@ -2099,7 +2025,8 @@
         "WS": 3,
         "S": 5,
         "AP": 1,
-        "D": 1
+        "D": 1,
+        "Keywords": []
       },
       "Burning maw - Ranged": {
         "type": "Ranged",
@@ -2129,7 +2056,8 @@
       "Flesh Hounds"
     ],
     "total_models": 1,
-    "points": 60,
-    "special_rules": []
+    "points": 75,
+    "special_rules_attack": [],
+    "special_rules_defence": []
   }
 ]

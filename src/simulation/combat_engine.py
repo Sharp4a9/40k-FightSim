@@ -3,9 +3,6 @@ A note on abilities that deal mortal wounds:
 Some units have abilities that deal mortal wounds. I have coded these abilies as weapons with the Mortal special rule.
 This special rule, combined with Overkill, allows the weapon to deal mortal wounds across multiple models.
 
-TODO: Implement Aspect Shrine Token.
-TODO: Implement Farseer Branching Fates.
-
 Attacker Special Rules Implemented:
 
 - Sustained Hits X
@@ -37,6 +34,7 @@ Attacker Special Rules Implemented:
 - Ignore Modifiers
 - +1 to Hit 
 - +1 to Wound 
+- +1 AP
 - +1 to Hit [Keyword]
 - +1 to Wound [Keyword]
 - Melta X
@@ -890,6 +888,10 @@ class CombatEngine:
                     self.debug_print(f"  Weapon has {rule} and target has {keyword} keyword - adding +1 to wound roll")
                     self.wound_modifiers += 1
                     self.debug_print(f"  Wound modifiers increased to {self.wound_modifiers}")
+            if rule == "+1 AP":
+                self.debug_print("  Weapon has +1 AP rule - adding +1 to AP")
+                weapon.ap += 1
+                self.debug_print(f"  AP increased to {weapon.ap}")
 
         # Step 1: Hit Roll
         hit_result = self.make_hit_roll(weapon, target, one_use_rules)

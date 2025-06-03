@@ -13,7 +13,11 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
       },
       "The Sword of Secrets - Melee": {
         "type": "Melee",
@@ -23,7 +27,9 @@
         "S": 6,
         "AP": 4,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       }
     },
     "abilities": [
@@ -65,7 +71,10 @@
         "S": 4,
         "AP": 0,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision",
+          "Rapid Fire 2"
+        ]
       },
       "The Sword of Silence - Melee": {
         "type": "Melee",
@@ -75,7 +84,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision"
+        ]
       }
     },
     "abilities": [
@@ -115,7 +126,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Master-crafted plasma cannon - Ranged": {
         "type": "Ranged",
@@ -125,7 +138,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Twin storm bolter - Ranged": {
         "type": "Ranged",
@@ -135,7 +150,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 2",
+          "Twin-Linked"
+        ]
       },
       "The Raven Sword - Melee": {
         "type": "Melee",
@@ -145,7 +163,9 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
       }
     },
     "abilities": [
@@ -186,7 +206,10 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
       },
       "Mind Wipe - witchfire - Ranged": {
         "type": "Ranged",
@@ -196,7 +219,11 @@
         "S": 6,
         "AP": 2,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Precision",
+          "Psychic"
+        ]
       },
       "Mind Wipe - focussed witchfire - Ranged": {
         "type": "Ranged",
@@ -206,7 +233,13 @@
         "S": 6,
         "AP": 2,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Anti-Character 4+",
+          "Devastating Wounds",
+          "Hazardous",
+          "Precision",
+          "Psychic"
+        ]
       },
       "Traitor's Bane - Melee": {
         "type": "Melee",
@@ -216,7 +249,10 @@
         "S": 6,
         "AP": 2,
         "D": "D3",
-        "Keywords": []
+        "Keywords": [
+          "Anti-Chaos 2+",
+          "Psychic"
+        ]
       }
     },
     "abilities": [
@@ -257,7 +293,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Crozius Arcanum and Power Weapon - strike - Melee": {
         "type": "Melee",
@@ -318,7 +356,9 @@
         "S": 4,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Arma Luminis - plasma - Ranged": {
         "type": "Ranged",
@@ -328,7 +368,9 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Fealty - strike - Melee": {
         "type": "Melee",
@@ -338,7 +380,9 @@
         "S": 12,
         "AP": 4,
         "D": 4,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       },
       "Fealty - sweep - Melee": {
         "type": "Melee",
@@ -348,7 +392,9 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -386,7 +432,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Enmitys Edge - Melee": {
         "type": "Melee",
@@ -396,7 +444,9 @@
         "S": 6,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Psyker 2+"
+        ]
       }
     },
     "abilities": [
@@ -447,7 +497,9 @@
         "S": 8,
         "AP": 2,
         "D": "D6",
-        "Keywords": []
+        "Keywords": [
+          "Anti-Fly 2+"
+        ]
       },
       "Twin heavy bolter - Ranged": {
         "type": "Ranged",
@@ -457,7 +509,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1",
+          "Twin-Linked"
+        ]
       },
       "Avenger mega bolter - Ranged": {
         "type": "Ranged",
@@ -467,7 +522,9 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       },
       "Nephilim lascannons - Ranged": {
         "type": "Ranged",
@@ -524,7 +581,10 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 6",
+          "Twin-Linked"
+        ]
       },
       "Rift cannon - Ranged": {
         "type": "Ranged",
@@ -534,7 +594,10 @@
         "S": 16,
         "AP": 4,
         "D": 3,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Devastating Wounds"
+        ]
       }
     },
     "abilities": [
@@ -581,7 +644,10 @@
         "S": 8,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Twin-Linked"
+        ]
       },
       "Plasma storm battery - supercharge - Ranged": {
         "type": "Ranged",
@@ -591,7 +657,11 @@
         "S": 9,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous",
+          "Twin-Linked"
+        ]
       },
       "Assault cannon - Ranged": {
         "type": "Ranged",
@@ -601,7 +671,9 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -611,7 +683,9 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -656,7 +730,9 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Heavy bolter - Ranged": {
         "type": "Ranged",
@@ -666,7 +742,9 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 1"
+        ]
       }
     },
     "abilities": [
@@ -703,7 +781,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Black Knight combat weapon - Melee": {
         "type": "Melee",
@@ -713,7 +793,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Plasma talon - Standard - Ranged": {
         "type": "Ranged",
@@ -723,7 +805,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
       },
       "Plasma talon - Supercharged - Ranged": {
         "type": "Ranged",
@@ -733,7 +817,10 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
       },
       "Astartes grenade launcher - frag - Ranged": {
         "type": "Ranged",
@@ -743,7 +830,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Astartes grenade launcher - krak - Ranged": {
         "type": "Ranged",
@@ -791,7 +880,9 @@
         "S": 5,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Bolt Pistol - Ranged": {
         "type": "Ranged",
@@ -801,7 +892,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Plasma talon - Standard - Ranged": {
         "type": "Ranged",
@@ -811,7 +904,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 1"
+        ]
       },
       "Plasma talon - Supercharged - Ranged": {
         "type": "Ranged",
@@ -821,7 +916,10 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
       },
       "Astartes Grenade Launcher - Frag - Ranged": {
         "type": "Ranged",
@@ -831,7 +929,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Astartes Grenade Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -891,7 +991,10 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Monster 4+",
+          "Anti-Vehicle 4+"
+        ]
       },
       "Power Weapon - Melee": {
         "type": "Melee",
@@ -911,7 +1014,10 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
       },
       "Relic Weapon - Melee": {
         "type": "Melee",
@@ -921,7 +1027,9 @@
         "S": 7,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       }
     },
     "abilities": [
@@ -962,7 +1070,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Rapid Fire 2"
+        ]
       },
       "Power Weapon - Melee": {
         "type": "Melee",
@@ -992,7 +1102,9 @@
         "S": 8,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Anti-Vehicle 3+"
+        ]
       },
       "Assault Cannon - Ranged": {
         "type": "Ranged",
@@ -1002,7 +1114,9 @@
         "S": 6,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Devastating Wounds"
+        ]
       },
       "Heavy Flamer - Ranged": {
         "type": "Ranged",
@@ -1012,7 +1126,10 @@
         "S": 5,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Ignores Cover",
+          "Torrent"
+        ]
       },
       "Plasma Cannon - Standard - Ranged": {
         "type": "Ranged",
@@ -1022,7 +1139,9 @@
         "S": 7,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Plasma Cannon - Supercharge - Ranged": {
         "type": "Ranged",
@@ -1032,7 +1151,10 @@
         "S": 8,
         "AP": 3,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Blast",
+          "Hazardous"
+        ]
       },
       "Cyclone Missile Launcher - Frag - Ranged": {
         "type": "Ranged",
@@ -1042,7 +1164,9 @@
         "S": 4,
         "AP": 0,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Blast"
+        ]
       },
       "Cyclone Missile Launcher - Krak - Ranged": {
         "type": "Ranged",
@@ -1090,7 +1214,9 @@
         "S": 4,
         "AP": 1,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Pistol"
+        ]
       },
       "Calibanite Greatsword - Strike - Melee": {
         "type": "Melee",
@@ -1100,7 +1226,9 @@
         "S": 6,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Lethal Hits"
+        ]
       },
       "Calibanite Greatsword - Sweep - Melee": {
         "type": "Melee",
@@ -1110,7 +1238,9 @@
         "S": 6,
         "AP": 2,
         "D": 1,
-        "Keywords": []
+        "Keywords": [
+          "Sustained Hits 2"
+        ]
       }
     },
     "abilities": [

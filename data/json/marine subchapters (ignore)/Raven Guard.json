@@ -13,7 +13,10 @@
         "S": 5,
         "AP": 1,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Pistol",
+          "Precision"
+        ]
       },
       "The Raven's Talons - Melee": {
         "type": "Melee",
@@ -23,7 +26,10 @@
         "S": 5,
         "AP": 2,
         "D": 2,
-        "Keywords": []
+        "Keywords": [
+          "Precision",
+          "Twin-linked"
+        ]
       }
     },
     "abilities": [
