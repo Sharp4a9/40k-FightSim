@@ -1700,6 +1700,18 @@
           "Devastating Wounds"
         ]
       },
+      "Harlequin's Blade - Melee": {
+        "type": "Melee",
+        "Range": "Melee",
+        "A": 5,
+        "WS": 3,
+        "S": 3,
+        "AP": 1,
+        "D": 1,
+        "Keywords": [
+          "Devastating Wounds"
+        ]
+      },
       "Power sword - Melee": {
         "type": "Melee",
         "Range": "Melee",

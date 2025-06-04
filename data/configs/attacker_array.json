@@ -1220,5 +1220,264 @@
         ]
       }
     ]
+  },
+  "Vibro Cannons (3) - same target": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 180,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Vibro Cannon Platform",
+        "weapons": [
+          {
+            "name": "Vibro Cannon - first shot - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 48,
+              "A": "D6",
+              "BS": 3,
+              "S": 9,
+              "AP": 1,
+              "D": 2,
+              "Keywords": []
+            }
+          },
+          {
+            "name": "Vibro Cannon - second shot - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 48,
+              "A": "D6",
+              "BS": 3,
+              "S": 10,
+              "AP": 2,
+              "D": 3,
+              "Keywords": []
+            }
+          },
+          {
+            "name": "Vibro Cannon - third shot - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 48,
+              "A": "D6",
+              "BS": 3,
+              "S": 11,
+              "AP": 3,
+              "D": 4,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Howling Banshees (5) - Ex Ex": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 95,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Howling Banshees",
+        "weapons": [
+          {
+            "name": "Executioner - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 3,
+              "WS": 2,
+              "S": 6,
+              "AP": 3,
+              "D": 3,
+              "Keywords": [
+                "Anti-Infantry 3+"
+              ]
+            }
+          },
+          {
+            "name": "Banshee Blade - Melee",
+            "quantity": 4,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 2,
+              "WS": 2,
+              "S": 4,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Anti-Infantry 3+"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Howling Banshees (5) & Autarch (SG) - Ex Ex": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 180,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Autarch",
+        "weapons": [
+          {
+            "name": "Star Glaive - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 4,
+              "WS": 2,
+              "S": 6,
+              "AP": 3,
+              "D": 3,
+              "Keywords": []
+            }
+          }
+        ],
+        "special_rules": []
+      },
+      {
+        "name": "Howling Banshees",
+        "weapons": [
+          {
+            "name": "Executioner - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 3,
+              "WS": 2,
+              "S": 6,
+              "AP": 3,
+              "D": 3,
+              "Keywords": [
+                "Anti-Infantry 3+"
+              ]
+            }
+          },
+          {
+            "name": "Banshee Blade - Melee",
+            "quantity": 4,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 2,
+              "WS": 2,
+              "S": 4,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Anti-Infantry 3+"
+              ]
+            }
+          }
+        ],
+        "special_rules": []
+      }
+    ]
+  },
+  "Troupe (6) - Blades - +1 to Wound": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 100,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Troupe",
+        "weapons": [
+          {
+            "name": "Power sword - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 3,
+              "S": 4,
+              "AP": 2,
+              "D": 1,
+              "Keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          },
+          {
+            "name": "Harlequin's Blade - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 3,
+              "S": 3,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Wound"
+        ]
+      }
+    ]
+  },
+  "Troupe (6) - Special Weapons - +1 to Wound": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 100,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Troupe",
+        "weapons": [
+          {
+            "name": "Power sword - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 5,
+              "WS": 3,
+              "S": 4,
+              "AP": 2,
+              "D": 1,
+              "Keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          },
+          {
+            "name": "Harlequin's Special Weapon - Melee",
+            "quantity": 5,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 4,
+              "WS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Wound"
+        ]
+      }
+    ]
   }
 }

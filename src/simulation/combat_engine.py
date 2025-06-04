@@ -830,6 +830,9 @@ class CombatEngine:
 
     def resolve_attack(self, weapon: Weapon, target: Model, one_use_rules: Dict[str, bool]) -> Dict[str, bool]:
         """Resolve a single attack from a weapon against a target"""
+        self.hit_modifiers = 0
+        self.wound_modifiers = 0
+        self.save_modifiers = 0
         self.debug_print(f"  Starting attack with {weapon.name}")
         self.debug_print(f"  Weapon damage value: {weapon.damage}")
         
@@ -866,6 +869,10 @@ class CombatEngine:
                     self.wound_modifiers -= 1
                     self.debug_print(f"  Wound modifiers reduced to {self.wound_modifiers}")
         
+        # Max modifer is +/-1.
+        self.hit_modifiers = max(-1, min(1, self.hit_modifiers))
+        self.wound_modifiers = max(-1, min(1, self.wound_modifiers))
+        self.save_modifiers = max(-1, min(1, self.save_modifiers))
         # Check for weapon special rules that modify rolls; maximum modifiers are +/-1.
         for rule in weapon.special_rules:
             if rule == "+1 to Hit":

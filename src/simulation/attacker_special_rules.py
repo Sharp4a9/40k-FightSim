@@ -4,5 +4,5 @@ SPECIAL_RULES = [""] + sorted([
     "Critical Hits 5+", "Critical Wounds 5+", "Ignores Cover","Devastating Wounds", "Reroll 1 Hit Roll", "Reroll 1 Wound Roll",
     "Reroll 1 Hit or Wound", "Reroll 1 Hit or Wound or Damage","Flip Roll to 6", "Flip Hit Roll to 6", "Flip Wound Roll to 6",
     "Flip Hit or Wound Roll to 6", "Flip Damage Roll to 6","Reroll Hit and Wound 1 Vehicle", "Reroll Hit and Wound 1 Monster",
-    "Reroll Hit and Wound 1", "+1 AP"
+    "Reroll Hit and Wound 1", "+1 AP", "+1 to Hit", "+1 to Wound"
 ]) 
