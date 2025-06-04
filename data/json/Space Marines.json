@@ -565,7 +565,7 @@
     ],
     "total_models": 1,
     "points": 75,
-    "special_rules_attack": [],
+    "special_rules_attack": ["Reroll Wounds 1"],
     "special_rules_defence": []
   },
   {
@@ -582,16 +582,6 @@
         "Fnp": null
       },
       "Assault Intercessors with Jump Pack": {
-        "M": 12,
-        "T": 4,
-        "SV": 3,
-        "W": 2,
-        "LD": 6,
-        "OC": 1,
-        "Inv": null,
-        "Fnp": null
-      },
-      "Assault Intercessors with Jump Pack w/ Plasma Pistol": {
         "M": 12,
         "T": 4,
         "SV": 3,
