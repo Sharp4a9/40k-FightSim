@@ -3,7 +3,7 @@ A simulator for Warhammer 40k attacks.
 
 How to simulate an attack from one unit (with options) on another:
 
-Clone the repository and run src/combat_gui.py. It should be self-explanatory. If it is not, please contact
+Clone the repository and run src/simulation/combat_gui.py. It should be self-explanatory. If it is not, please contact
 Andrew White and let him know what part was confusing or non-intuitive.
 
 
