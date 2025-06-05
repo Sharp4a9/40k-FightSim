@@ -3833,6 +3833,18 @@
         "Keywords": [
           "Psychic"
         ]
+      },
+      "Singing Spear - Ranged": {
+        "type": "Ranged",
+        "Range": 12,
+        "A": 1,
+        "WS": 2,
+        "S": 9,
+        "AP": 0,
+        "D": 3,
+        "Keywords": [
+          "Psychic"
+        ]
       }
     },
     "abilities": [

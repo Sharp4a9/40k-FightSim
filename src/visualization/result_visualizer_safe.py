@@ -90,15 +90,26 @@ class ResultVisualizer:
         self.main_frame.grid_rowconfigure(0, weight=1)     # Make rows expand
         self.main_frame.grid_rowconfigure(1, weight=1)
         
-        # Create figure and canvas with initial size
-        self.fig = plt.Figure(figsize=(15, 3))  # Initial size
-        self.canvas = FigureCanvasTkAgg(self.fig, master=self.viz_frame)
-        canvas_widget = self.canvas.get_tk_widget()
-        canvas_widget.pack(fill=tk.BOTH, expand=True)
+        # Create a frame to hold the canvas and scrollbar
+        self.canvas_frame = ttk.Frame(self.viz_frame)
+        self.canvas_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
-        # Configure the visualization frame to expand
+        # Configure the canvas frame to expand
         self.viz_frame.grid_columnconfigure(0, weight=1)
         self.viz_frame.grid_rowconfigure(0, weight=1)
+        self.canvas_frame.grid_columnconfigure(0, weight=1)
+        self.canvas_frame.grid_rowconfigure(0, weight=1)
+        
+        # Create inner frame for the canvas
+        self.inner_frame = ttk.Frame(self.canvas_frame)
+        self.inner_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        
+        # Create and configure the scrollbar
+        self.scrollbar = ttk.Scrollbar(self.canvas_frame, orient="vertical")
+        self.scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+        
+        # Create figure with initial size
+        self.fig = plt.Figure(figsize=(15, 3))  # Initial size
         
     def get_filtered_data(self) -> Tuple[List[str], List[str], np.ndarray, np.ndarray]:
         """Get filtered data based on current selections"""
@@ -214,7 +225,8 @@ class ResultVisualizer:
             # Create a list of (index, unit_name) pairs for sorting
             indexed_units = list(enumerate(filtered_units))
             # Sort based on the unit part of the name (after the faction)
-            indexed_units.sort(key=lambda x: x[1].split(" - ")[1].lower(), reverse=(sort_order == -1))
+            # indexed_units.sort(key=lambda x: x[1].split(" - ")[1].lower(), reverse=(sort_order == -1))
+            indexed_units.sort(key=lambda x: x[1].lower(), reverse=(sort_order == -1))
             # Extract the sorted indices
             sort_indices = [i for i, _ in indexed_units]
         elif sort_column in target_units:
@@ -246,20 +258,18 @@ class ResultVisualizer:
             self.canvas.draw()
             return
             
-        # Calculate dynamic figure size based on number of rows
+        # Compute fixed height
         num_rows = len(filtered_units)
-        # Base height is 3 inches, add 0.4 inches per row after the first 3
-        height = 3 + max(0, (num_rows - 3) * 0.4)
-        # Keep width constant at 15 inches
-        self.fig.set_size_inches(15, height)
+        row_height = 0.5  # inches
+        height_inches = num_rows * row_height
+        self.fig.set_size_inches(15, height_inches)  # Keep width fixed
             
-        # Create subplot with adjusted aspect ratio
+        # Create heatmap
         ax = self.fig.add_subplot(111)
-        
-        # Create heatmap with red-to-green colormap
         sns.heatmap(means, annot=True, fmt='.2f', cmap='RdYlGn', ax=ax,
                    xticklabels=target_units, yticklabels=filtered_units,
-                   square=False)  # Allow non-square cells
+                   square=False,  # Allow non-square cells
+                   cbar_kws={'label': self.metric_var.get()})  # Add colorbar label
         
         # Add horizontal error bars
         for i in range(len(filtered_units)):
@@ -285,8 +295,34 @@ class ResultVisualizer:
         # Adjust layout with more space for labels
         self.fig.tight_layout(pad=2.0)
         
-        # Update canvas
+        # Now embed figure into the scrollable canvas
+        # Clear old canvas if necessary
+        for child in self.inner_frame.winfo_children():
+            child.destroy()
+            
+        # Create new canvas
+        self.canvas = FigureCanvasTkAgg(self.fig, master=self.inner_frame)
+        canvas_widget = self.canvas.get_tk_widget()
+        
+        # Compute canvas pixel size
+        dpi = self.fig.get_dpi()
+        canvas_widget.config(
+            width=int(self.fig.get_figwidth() * dpi),
+            height=int(self.fig.get_figheight() * dpi)
+        )
+        
+        # Configure scrollbar
+        self.scrollbar.config(command=canvas_widget.yview)
+        canvas_widget.config(yscrollcommand=self.scrollbar.set)
+        
+        # Pack the canvas
+        canvas_widget.pack(fill=tk.BOTH, expand=True)
+        
+        # Draw the canvas
         self.canvas.draw()
+        
+        # Update the scroll region
+        canvas_widget.configure(scrollregion=canvas_widget.bbox("all"))
 
 def main():
     root = tk.Tk()

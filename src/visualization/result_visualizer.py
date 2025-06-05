@@ -100,16 +100,27 @@ class ResultVisualizer:
         self.canvas_frame.grid_columnconfigure(0, weight=1)
         self.canvas_frame.grid_rowconfigure(0, weight=1)
         
-        # Create inner frame for the canvas
-        self.inner_frame = ttk.Frame(self.canvas_frame)
-        self.inner_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        # Create a canvas with scrollbar
+        self.canvas = tk.Canvas(self.canvas_frame)
+        self.scrollbar = ttk.Scrollbar(self.canvas_frame, orient="vertical", command=self.canvas.yview)
         
-        # Create and configure the scrollbar
-        self.scrollbar = ttk.Scrollbar(self.canvas_frame, orient="vertical")
+        # Configure the canvas
+        self.canvas.configure(yscrollcommand=self.scrollbar.set)
+        
+        # Grid the canvas and scrollbar
+        self.canvas.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         self.scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+        
+        # Create a frame inside the canvas to hold the matplotlib figure
+        self.inner_frame = ttk.Frame(self.canvas)
+        self.canvas.create_window((0, 0), window=self.inner_frame, anchor='nw')
         
         # Create figure with initial size
         self.fig = plt.Figure(figsize=(15, 3))  # Initial size
+        
+        # Configure the canvas to expand
+        self.canvas_frame.grid_columnconfigure(0, weight=1)
+        self.canvas_frame.grid_rowconfigure(0, weight=1)
         
     def get_filtered_data(self) -> Tuple[List[str], List[str], np.ndarray, np.ndarray]:
         """Get filtered data based on current selections"""
@@ -260,8 +271,8 @@ class ResultVisualizer:
             
         # Compute fixed height
         num_rows = len(filtered_units)
-        row_height = 0.5  # inches
-        height_inches = num_rows * row_height
+        row_height = 0.4  # Increased from 0.5 to give more space per row
+        height_inches = max(num_rows * row_height, 10)  # Ensure minimum height
         self.fig.set_size_inches(15, height_inches)  # Keep width fixed
             
         # Create heatmap
@@ -269,7 +280,7 @@ class ResultVisualizer:
         sns.heatmap(means, annot=True, fmt='.2f', cmap='RdYlGn', ax=ax,
                    xticklabels=target_units, yticklabels=filtered_units,
                    square=False,  # Allow non-square cells
-                   cbar_kws={'label': self.metric_var.get()})  # Add colorbar label
+                   cbar=False)  # Remove the colorbar
         
         # Add horizontal error bars
         for i in range(len(filtered_units)):
@@ -301,28 +312,18 @@ class ResultVisualizer:
             child.destroy()
             
         # Create new canvas
-        self.canvas = FigureCanvasTkAgg(self.fig, master=self.inner_frame)
-        canvas_widget = self.canvas.get_tk_widget()
+        self.matplotlib_canvas = FigureCanvasTkAgg(self.fig, master=self.inner_frame)
+        canvas_widget = self.matplotlib_canvas.get_tk_widget()
         
-        # Compute canvas pixel size
-        dpi = self.fig.get_dpi()
-        canvas_widget.config(
-            width=int(self.fig.get_figwidth() * dpi),
-            height=int(self.fig.get_figheight() * dpi)
-        )
-        
-        # Configure scrollbar
-        self.scrollbar.config(command=canvas_widget.yview)
-        canvas_widget.config(yscrollcommand=self.scrollbar.set)
-        
-        # Pack the canvas
+        # Pack the canvas with expand and fill
         canvas_widget.pack(fill=tk.BOTH, expand=True)
         
         # Draw the canvas
-        self.canvas.draw()
+        self.matplotlib_canvas.draw()
         
-        # Update the scroll region
-        canvas_widget.configure(scrollregion=canvas_widget.bbox("all"))
+        # Update the scroll region to match the figure size
+        self.inner_frame.update_idletasks()
+        self.canvas.configure(scrollregion=self.canvas.bbox("all"))
 
 def main():
     root = tk.Tk()

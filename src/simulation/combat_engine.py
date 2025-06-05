@@ -151,7 +151,7 @@ class CombatEngine:
 
         return bonus
     
-    def roll_attacks(self, attacks_value: Union[int, str], weapon: Weapon) -> int:
+    def roll_attacks(self, attacks_value: Union[int, str], weapon: Weapon, target: Model) -> int:
         """Calculate number of attacks based on the weapon's attacks value"""
         self.debug_print(f"  Rolling attacks for value: {attacks_value}")
         base_attacks = 0
@@ -161,8 +161,8 @@ class CombatEngine:
             base_attacks = attacks_value
             # Apply Blast rule if present
             if "Blast" in weapon.special_rules:
-                blast_bonus = m.floor(weapon.target.total_models / 5)
-                self.debug_print(f"  Weapon has Blast rule - adding {blast_bonus} attacks for {weapon.target.total_models} models")
+                blast_bonus = m.floor(target.total_models / 5)
+                self.debug_print(f"  Weapon has Blast rule - adding {blast_bonus} attacks for {target.total_models} models")
                 base_attacks += blast_bonus
             return base_attacks
             
@@ -207,8 +207,8 @@ class CombatEngine:
             
         # Apply Blast rule if present
         if "Blast" in weapon.special_rules:
-            blast_bonus = m.floor(weapon.target.total_models / 5)
-            self.debug_print(f"  Weapon has Blast rule - adding {blast_bonus} attacks for {weapon.target.total_models} models")
+            blast_bonus = m.floor(target.total_models / 5)
+            self.debug_print(f"  Weapon has Blast rule - adding {blast_bonus} attacks for {target.total_models} models")
             base_attacks += blast_bonus
             
         return base_attacks
@@ -1087,7 +1087,7 @@ class CombatEngine:
             return results
 
         # Calculate number of attacks
-        num_attacks = self.roll_attacks(weapon.attacks, weapon)
+        num_attacks = self.roll_attacks(weapon.attacks, weapon, target)
         self.debug_print(f"Resolving {num_attacks} attacks")
 
         # Apply Rapid Fire bonus

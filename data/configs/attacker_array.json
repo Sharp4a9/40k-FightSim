@@ -1479,5 +1479,392 @@
         ]
       }
     ]
+  },
+  "Warlock Conclave & Eldrad - +1 to Wound": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 240,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Eldrad Ulthran",
+        "weapons": [
+          {
+            "name": "Mind War - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 1,
+              "BS": 2,
+              "S": 5,
+              "AP": 2,
+              "D": "D6",
+              "Keywords": [
+                "Anti-character 4+",
+                "Precision",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Wound"
+        ]
+      },
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor (+2) - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6+2",
+              "BS": "N/A",
+              "S": 7,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Wound"
+        ]
+      }
+    ]
+  },
+  "Warlock Conclave & Eldrad - +1 to Wound, Ignore Cover": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 240,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Eldrad Ulthran",
+        "weapons": [
+          {
+            "name": "Mind War - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 1,
+              "BS": 2,
+              "S": 5,
+              "AP": 2,
+              "D": "D6",
+              "Keywords": [
+                "Anti-character 4+",
+                "Precision",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Wound",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor (+2) - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6+2",
+              "BS": "N/A",
+              "S": 7,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Wound",
+          "Ignores Cover"
+        ]
+      }
+    ]
+  },
+  "Guardian Defenders & Farseer & Warlocks - +1 to Hit": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 300,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Guardian Defenders",
+        "weapons": [
+          {
+            "name": "Bright Lance - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 1,
+              "BS": 3,
+              "S": 12,
+              "AP": 3,
+              "D": "D6+2",
+              "Keywords": []
+            }
+          },
+          {
+            "name": "Shuriken Catapult - Ranged",
+            "quantity": 10,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Hit",
+          "Flip Roll to 6"
+        ]
+      },
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 5,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor (+2) - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6+2",
+              "BS": "N/A",
+              "S": 7,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Hit",
+          "Flip Roll to 6"
+        ]
+      },
+      {
+        "name": "Farseer",
+        "weapons": [
+          {
+            "name": "Eldritch Storm - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": "D6",
+              "BS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": "D3",
+              "Keywords": [
+                "Blast",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Hit",
+          "Flip Roll to 6",
+          "Branching Fates"
+        ]
+      }
+    ]
+  },
+  "Guardian Defenders & Farseer & Warlocks - +1 to Hit, Ignore Cover": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 300,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Guardian Defenders",
+        "weapons": [
+          {
+            "name": "Bright Lance - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 1,
+              "BS": 3,
+              "S": 12,
+              "AP": 3,
+              "D": "D6+2",
+              "Keywords": []
+            }
+          },
+          {
+            "name": "Shuriken Catapult - Ranged",
+            "quantity": 10,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Hit",
+          "Ignores Cover",
+          "Flip Roll to 6"
+        ]
+      },
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 5,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor (+2) - Ranged",
+            "quantity": 4,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6+2",
+              "BS": "N/A",
+              "S": 7,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Hit",
+          "Ignores Cover",
+          "Flip Roll to 6"
+        ]
+      },
+      {
+        "name": "Farseer",
+        "weapons": [
+          {
+            "name": "Eldritch Storm - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": "D6",
+              "BS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": "D3",
+              "Keywords": [
+                "Blast",
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "+1 to Hit",
+          "Ignores Cover",
+          "Flip Roll to 6",
+          "Branching Fates"
+        ]
+      }
+    ]
   }
 }
