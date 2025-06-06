@@ -1092,6 +1092,30 @@
           "Lance"
         ]
       },
+      "Laser Lance - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 1,
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 3,
+        "Keywords": [
+          "Assault"
+        ]
+      },
+      "Star Lance - Ranged": {
+        "type": "Ranged",
+        "Range": 6,
+        "A": 1,
+        "BS": 3,
+        "S": 9,
+        "AP": 3,
+        "D": 3,
+        "Keywords": [
+          "Assault"
+        ]
+      },
       "Paragon Sabre - Melee": {
         "type": "Melee",
         "Range": "Melee",

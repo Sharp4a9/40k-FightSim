@@ -3719,6 +3719,936 @@
         "pnts_killed_per_point": 0.6053829545454545,
         "std_dev_pnts_killed_per_point": 0.2507319214306956
       }
+    },
+    "Howling Banshees (5) & Jain Zar - Ex Ex": {
+      "Hormagaunts": {
+        "phase": "Melee",
+        "mean_damage": 12.014,
+        "std_damage": 2.0839395384703465,
+        "mean_models_killed": 12.014,
+        "std_models_killed": 2.0839395384703465,
+        "pnts_killed_per_point": 0.390455,
+        "std_dev_pnts_killed_per_point": 0.06772803500028626
+      },
+      "Boyz": {
+        "phase": "Melee",
+        "mean_damage": 10.5465,
+        "std_damage": 2.1787238810826857,
+        "mean_models_killed": 10.5465,
+        "std_models_killed": 2.1787238810826857,
+        "pnts_killed_per_point": 0.42186,
+        "std_dev_pnts_killed_per_point": 0.08714895524330743
+      },
+      "Necron Warriors": {
+        "phase": "Melee",
+        "mean_damage": 9.819,
+        "std_damage": 2.199827038655539,
+        "mean_models_killed": 9.819,
+        "std_models_killed": 2.199827038655539,
+        "pnts_killed_per_point": 0.44185500000000005,
+        "std_dev_pnts_killed_per_point": 0.09899221673949926
+      },
+      "Battle Sisters Squad": {
+        "phase": "Melee",
+        "mean_damage": 9.336,
+        "std_damage": 2.086888593097389,
+        "mean_models_killed": 9.336,
+        "std_models_killed": 2.086888593097389,
+        "pnts_killed_per_point": 0.49014,
+        "std_dev_pnts_killed_per_point": 0.10956165113761292
+      },
+      "Nobz": {
+        "phase": "Melee",
+        "mean_damage": 19.635,
+        "std_damage": 4.322588923318987,
+        "mean_models_killed": 9.8175,
+        "std_models_killed": 2.1612944616594936,
+        "pnts_killed_per_point": 1.0308375,
+        "std_dev_pnts_killed_per_point": 0.22693591847424682
+      },
+      "Intercessor Squad": {
+        "phase": "Melee",
+        "mean_damage": 16.13,
+        "std_damage": 4.319618038669622,
+        "mean_models_killed": 8.065,
+        "std_models_killed": 2.159809019334811,
+        "pnts_killed_per_point": 0.6452,
+        "std_dev_pnts_killed_per_point": 0.1727847215467849
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Melee",
+        "mean_damage": 12.594,
+        "std_damage": 4.167872838751202,
+        "mean_models_killed": 6.297,
+        "std_models_killed": 2.083936419375601,
+        "pnts_killed_per_point": 0.94455,
+        "std_dev_pnts_killed_per_point": 0.3125904629063401
+      },
+      "Aggressor Squad": {
+        "phase": "Melee",
+        "mean_damage": 13.749,
+        "std_damage": 3.9181627071881535,
+        "mean_models_killed": 4.583,
+        "std_models_killed": 1.3060542357293845,
+        "pnts_killed_per_point": 0.9166,
+        "std_dev_pnts_killed_per_point": 0.2612108471458769
+      },
+      "Terminator Squad": {
+        "phase": "Melee",
+        "mean_damage": 9.0395,
+        "std_damage": 3.4017553924407915,
+        "mean_models_killed": 3.0131666666666668,
+        "std_models_killed": 1.1339184641469304,
+        "pnts_killed_per_point": 0.5122383333333334,
+        "std_dev_pnts_killed_per_point": 0.19276613890497818
+      },
+      "Custodian Guard": {
+        "phase": "Melee",
+        "mean_damage": 8.985,
+        "std_damage": 3.3754666344077524,
+        "mean_models_killed": 2.9949999999999997,
+        "std_models_killed": 1.125155544802584,
+        "pnts_killed_per_point": 0.5091499999999999,
+        "std_dev_pnts_killed_per_point": 0.1912764426164393
+      },
+      "Trukk": {
+        "phase": "Melee",
+        "mean_damage": 7.4895,
+        "std_damage": 3.3515503502110784,
+        "mean_models_killed": 0.74895,
+        "std_models_killed": 0.3351550350211078,
+        "pnts_killed_per_point": 0.24340875,
+        "std_dev_pnts_killed_per_point": 0.10892538638186004
+      },
+      "Falcon": {
+        "phase": "Melee",
+        "mean_damage": 7.168,
+        "std_damage": 3.5035376407282968,
+        "mean_models_killed": 0.5973333333333334,
+        "std_models_killed": 0.2919614700606914,
+        "pnts_killed_per_point": 0.3882666666666667,
+        "std_dev_pnts_killed_per_point": 0.1897749555394494
+      },
+      "Hive Tyrant": {
+        "phase": "Melee",
+        "mean_damage": 5.954,
+        "std_damage": 3.134945613563336,
+        "mean_models_killed": 0.5953999999999999,
+        "std_models_killed": 0.3134945613563336,
+        "pnts_killed_per_point": 0.6698249999999999,
+        "std_dev_pnts_killed_per_point": 0.35268138152587525
+      },
+      "Armiger Warglaive": {
+        "phase": "Melee",
+        "mean_damage": 5.976,
+        "std_damage": 3.110052089595928,
+        "mean_models_killed": 0.498,
+        "std_models_killed": 0.2591710074663273,
+        "pnts_killed_per_point": 0.3486,
+        "std_dev_pnts_killed_per_point": 0.1814197052264291
+      },
+      "Vindicator": {
+        "phase": "Melee",
+        "mean_damage": 5.741,
+        "std_damage": 3.309972658497348,
+        "mean_models_killed": 0.41007142857142853,
+        "std_models_killed": 0.23642661846409627,
+        "pnts_killed_per_point": 0.3793160714285714,
+        "std_dev_pnts_killed_per_point": 0.21869462207928905
+      },
+      "Transcendant C'tan": {
+        "phase": "Melee",
+        "mean_damage": 2.1275,
+        "std_damage": 1.4571354604154,
+        "mean_models_killed": 0.17729166666666665,
+        "std_models_killed": 0.12142795503461667,
+        "pnts_killed_per_point": 0.2615052083333333,
+        "std_dev_pnts_killed_per_point": 0.1791062336760596
+      },
+      "Knight Paladin": {
+        "phase": "Melee",
+        "mean_damage": 4.801,
+        "std_damage": 2.878436902209253,
+        "mean_models_killed": 0.21822727272727274,
+        "std_models_killed": 0.1308380410095115,
+        "pnts_killed_per_point": 0.44191022727272733,
+        "std_dev_pnts_killed_per_point": 0.26494703304426076
+      }
+    },
+    "Troupe (6) - Blades - +1 Wound - from Falcon": {
+      "Hormagaunts": {
+        "phase": "Melee",
+        "mean_damage": 16.2035,
+        "std_damage": 2.730034386230327,
+        "mean_models_killed": 16.2035,
+        "std_models_killed": 2.730034386230327,
+        "pnts_killed_per_point": 1.0532274999999998,
+        "std_dev_pnts_killed_per_point": 0.17745223510497127
+      },
+      "Boyz": {
+        "phase": "Melee",
+        "mean_damage": 13.668,
+        "std_damage": 2.720620517455531,
+        "mean_models_killed": 13.668,
+        "std_models_killed": 2.720620517455531,
+        "pnts_killed_per_point": 1.09344,
+        "std_dev_pnts_killed_per_point": 0.2176496413964425
+      },
+      "Necron Warriors": {
+        "phase": "Melee",
+        "mean_damage": 12.4325,
+        "std_damage": 2.674031366682149,
+        "mean_models_killed": 12.4325,
+        "std_models_killed": 2.674031366682149,
+        "pnts_killed_per_point": 1.118925,
+        "std_dev_pnts_killed_per_point": 0.2406628230013934
+      },
+      "Battle Sisters Squad": {
+        "phase": "Melee",
+        "mean_damage": 11.5935,
+        "std_damage": 2.673996587507172,
+        "mean_models_killed": 11.5935,
+        "std_models_killed": 2.673996587507172,
+        "pnts_killed_per_point": 1.2173175,
+        "std_dev_pnts_killed_per_point": 0.2807696416882531
+      },
+      "Nobz": {
+        "phase": "Melee",
+        "mean_damage": 12.0155,
+        "std_damage": 2.6627541662722076,
+        "mean_models_killed": 6.00775,
+        "std_models_killed": 1.3313770831361038,
+        "pnts_killed_per_point": 1.2616275,
+        "std_dev_pnts_killed_per_point": 0.2795891874585818
+      },
+      "Intercessor Squad": {
+        "phase": "Melee",
+        "mean_damage": 10.631,
+        "std_damage": 2.5826031441164163,
+        "mean_models_killed": 5.3155,
+        "std_models_killed": 1.2913015720582082,
+        "pnts_killed_per_point": 0.85048,
+        "std_dev_pnts_killed_per_point": 0.2066082515293133
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Melee",
+        "mean_damage": 7.8285,
+        "std_damage": 2.3454397775257414,
+        "mean_models_killed": 3.91425,
+        "std_models_killed": 1.1727198887628707,
+        "pnts_killed_per_point": 1.174275,
+        "std_dev_pnts_killed_per_point": 0.3518159666288612
+      },
+      "Aggressor Squad": {
+        "phase": "Melee",
+        "mean_damage": 8.955,
+        "std_damage": 2.459466405544097,
+        "mean_models_killed": 2.985,
+        "std_models_killed": 0.8198221351813656,
+        "pnts_killed_per_point": 1.194,
+        "std_dev_pnts_killed_per_point": 0.32792885407254624
+      },
+      "Terminator Squad": {
+        "phase": "Melee",
+        "mean_damage": 8.605,
+        "std_damage": 2.4349486647566105,
+        "mean_models_killed": 2.8683333333333336,
+        "std_models_killed": 0.8116495549188701,
+        "pnts_killed_per_point": 0.9752333333333334,
+        "std_dev_pnts_killed_per_point": 0.2759608486724159
+      },
+      "Custodian Guard": {
+        "phase": "Melee",
+        "mean_damage": 7.852,
+        "std_damage": 2.3943884396647093,
+        "mean_models_killed": 2.6173333333333333,
+        "std_models_killed": 0.7981294798882365,
+        "pnts_killed_per_point": 0.8898933333333333,
+        "std_dev_pnts_killed_per_point": 0.2713640231620004
+      },
+      "Trukk": {
+        "phase": "Melee",
+        "mean_damage": 9.3985,
+        "std_damage": 2.5194637822362123,
+        "mean_models_killed": 0.9398500000000001,
+        "std_models_killed": 0.2519463782236212,
+        "pnts_killed_per_point": 0.6109025,
+        "std_dev_pnts_killed_per_point": 0.1637651458453538
+      },
+      "Falcon": {
+        "phase": "Melee",
+        "mean_damage": 8.475,
+        "std_damage": 2.4589377787979916,
+        "mean_models_killed": 0.7062499999999999,
+        "std_models_killed": 0.2049114815664993,
+        "pnts_killed_per_point": 0.9181249999999999,
+        "std_dev_pnts_killed_per_point": 0.2663849260364491
+      },
+      "Hive Tyrant": {
+        "phase": "Melee",
+        "mean_damage": 7.5975,
+        "std_damage": 2.3491474517364805,
+        "mean_models_killed": 0.75975,
+        "std_models_killed": 0.23491474517364805,
+        "pnts_killed_per_point": 1.7094375,
+        "std_dev_pnts_killed_per_point": 0.5285581766407081
+      },
+      "Armiger Warglaive": {
+        "phase": "Melee",
+        "mean_damage": 7.0425,
+        "std_damage": 2.310561349542574,
+        "mean_models_killed": 0.586875,
+        "std_models_killed": 0.1925467791285478,
+        "pnts_killed_per_point": 0.821625,
+        "std_dev_pnts_killed_per_point": 0.26956549077996694
+      },
+      "Vindicator": {
+        "phase": "Melee",
+        "mean_damage": 7.617,
+        "std_damage": 2.4405554695601572,
+        "mean_models_killed": 0.5440714285714285,
+        "std_models_killed": 0.17432539068286837,
+        "pnts_killed_per_point": 1.0065321428571428,
+        "std_dev_pnts_killed_per_point": 0.32250197276330644
+      },
+      "Transcendant C'tan": {
+        "phase": "Melee",
+        "mean_damage": 5.6345,
+        "std_damage": 2.125302272619121,
+        "mean_models_killed": 0.4695416666666667,
+        "std_models_killed": 0.17710852271826008,
+        "pnts_killed_per_point": 1.3851479166666667,
+        "std_dev_pnts_killed_per_point": 0.5224701420188672
+      },
+      "Knight Paladin": {
+        "phase": "Melee",
+        "mean_damage": 7.0975,
+        "std_damage": 2.298476397529459,
+        "mean_models_killed": 0.3226136363636364,
+        "std_models_killed": 0.10447619988770268,
+        "pnts_killed_per_point": 1.3065852272727272,
+        "std_dev_pnts_killed_per_point": 0.4231286095451959
+      }
+    },
+    "Shining Spears (3) - Melee": {
+      "Hormagaunts": {
+        "phase": "Melee",
+        "mean_damage": 4.409,
+        "std_damage": 1.521420060338367,
+        "mean_models_killed": 4.409,
+        "std_models_killed": 1.521420060338367,
+        "pnts_killed_per_point": 0.2605318181818182,
+        "std_dev_pnts_killed_per_point": 0.08990209447453987
+      },
+      "Boyz": {
+        "phase": "Melee",
+        "mean_damage": 3.33,
+        "std_damage": 1.4869767987430067,
+        "mean_models_killed": 3.33,
+        "std_models_killed": 1.4869767987430067,
+        "pnts_killed_per_point": 0.2421818181818182,
+        "std_dev_pnts_killed_per_point": 0.10814376718130958
+      },
+      "Necron Warriors": {
+        "phase": "Melee",
+        "mean_damage": 4.015,
+        "std_damage": 1.5645366726286734,
+        "mean_models_killed": 4.015,
+        "std_models_killed": 1.5645366726286734,
+        "pnts_killed_per_point": 0.32849999999999996,
+        "std_dev_pnts_killed_per_point": 0.128007545942346
+      },
+      "Battle Sisters Squad": {
+        "phase": "Melee",
+        "mean_damage": 3.2755,
+        "std_damage": 1.4736348767588259,
+        "mean_models_killed": 3.2755,
+        "std_models_killed": 1.4736348767588259,
+        "pnts_killed_per_point": 0.31266136363636365,
+        "std_dev_pnts_killed_per_point": 0.14066514732697885
+      },
+      "Nobz": {
+        "phase": "Melee",
+        "mean_damage": 5.996,
+        "std_damage": 2.8488566127483494,
+        "mean_models_killed": 2.998,
+        "std_models_killed": 1.4244283063741747,
+        "pnts_killed_per_point": 0.5723454545454546,
+        "std_dev_pnts_killed_per_point": 0.2719363130350697
+      },
+      "Intercessor Squad": {
+        "phase": "Melee",
+        "mean_damage": 6.568,
+        "std_damage": 2.9074690024142997,
+        "mean_models_killed": 3.284,
+        "std_models_killed": 1.4537345012071499,
+        "pnts_killed_per_point": 0.47767272727272725,
+        "std_dev_pnts_killed_per_point": 0.21145229108467634
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Melee",
+        "mean_damage": 2.567,
+        "std_damage": 2.0785838929425005,
+        "mean_models_killed": 1.2835,
+        "std_models_killed": 1.0392919464712502,
+        "pnts_killed_per_point": 0.35004545454545455,
+        "std_dev_pnts_killed_per_point": 0.2834432581285228
+      },
+      "Aggressor Squad": {
+        "phase": "Melee",
+        "mean_damage": 4.836,
+        "std_damage": 3.4746372472533014,
+        "mean_models_killed": 1.612,
+        "std_models_killed": 1.1582124157511005,
+        "pnts_killed_per_point": 0.5861818181818182,
+        "std_dev_pnts_killed_per_point": 0.42116815118221834
+      },
+      "Terminator Squad": {
+        "phase": "Melee",
+        "mean_damage": 5.007,
+        "std_damage": 3.538778178976467,
+        "mean_models_killed": 1.6689999999999998,
+        "std_models_killed": 1.179592726325489,
+        "pnts_killed_per_point": 0.5158727272727273,
+        "std_dev_pnts_killed_per_point": 0.36460138813696935
+      },
+      "Custodian Guard": {
+        "phase": "Melee",
+        "mean_damage": 3.303,
+        "std_damage": 2.8536276912029006,
+        "mean_models_killed": 1.101,
+        "std_models_killed": 0.9512092304009668,
+        "pnts_killed_per_point": 0.3403090909090909,
+        "std_dev_pnts_killed_per_point": 0.29401012576029883
+      },
+      "Trukk": {
+        "phase": "Melee",
+        "mean_damage": 10.1225,
+        "std_damage": 3.618216929649188,
+        "mean_models_killed": 1.01225,
+        "std_models_killed": 0.36182169296491884,
+        "pnts_killed_per_point": 0.5981477272727272,
+        "std_dev_pnts_killed_per_point": 0.2138037276610884
+      },
+      "Falcon": {
+        "phase": "Melee",
+        "mean_damage": 9.618,
+        "std_damage": 4.321004049986531,
+        "mean_models_killed": 0.8015,
+        "std_models_killed": 0.3600836708322109,
+        "pnts_killed_per_point": 0.9472272727272727,
+        "std_dev_pnts_killed_per_point": 0.4255534291653401
+      },
+      "Hive Tyrant": {
+        "phase": "Melee",
+        "mean_damage": 6.432,
+        "std_damage": 3.541945228260878,
+        "mean_models_killed": 0.6432,
+        "std_models_killed": 0.35419452282608777,
+        "pnts_killed_per_point": 1.3156363636363637,
+        "std_dev_pnts_killed_per_point": 0.724488796689725
+      },
+      "Armiger Warglaive": {
+        "phase": "Melee",
+        "mean_damage": 7.9315,
+        "std_damage": 3.727439838548706,
+        "mean_models_killed": 0.6609583333333333,
+        "std_models_killed": 0.3106199865457255,
+        "pnts_killed_per_point": 0.8412196969696969,
+        "std_dev_pnts_killed_per_point": 0.3953345283309233
+      },
+      "Vindicator": {
+        "phase": "Melee",
+        "mean_damage": 7.2455,
+        "std_damage": 3.9385568105589135,
+        "mean_models_killed": 0.5175357142857143,
+        "std_models_killed": 0.2813254864684938,
+        "pnts_killed_per_point": 0.870400974025974,
+        "std_dev_pnts_killed_per_point": 0.47313831815155777
+      },
+      "Transcendant C'tan": {
+        "phase": "Melee",
+        "mean_damage": 2.986,
+        "std_damage": 2.00070087719279,
+        "mean_models_killed": 0.24883333333333335,
+        "std_models_killed": 0.16672507309939918,
+        "pnts_killed_per_point": 0.6673257575757576,
+        "std_dev_pnts_killed_per_point": 0.44712633240293415
+      },
+      "Knight Paladin": {
+        "phase": "Melee",
+        "mean_damage": 8.117,
+        "std_damage": 3.86358784033701,
+        "mean_models_killed": 0.3689545454545455,
+        "std_models_killed": 0.17561762910622772,
+        "pnts_killed_per_point": 1.3584235537190084,
+        "std_dev_pnts_killed_per_point": 0.6465921798911112
+      }
+    },
+    "Shining Spears - on Charge": {
+      "Hormagaunts": {
+        "phase": "Melee",
+        "mean_damage": 5.5705,
+        "std_damage": 1.5594966335327565,
+        "mean_models_killed": 5.5705,
+        "std_models_killed": 1.5594966335327565,
+        "pnts_killed_per_point": 0.3291659090909091,
+        "std_dev_pnts_killed_per_point": 0.09215207379966288
+      },
+      "Boyz": {
+        "phase": "Melee",
+        "mean_damage": 4.456,
+        "std_damage": 1.5617503001440403,
+        "mean_models_killed": 4.456,
+        "std_models_killed": 1.5617503001440403,
+        "pnts_killed_per_point": 0.3240727272727273,
+        "std_dev_pnts_killed_per_point": 0.11358184001047565
+      },
+      "Necron Warriors": {
+        "phase": "Melee",
+        "mean_damage": 5.0105,
+        "std_damage": 1.564733124210004,
+        "mean_models_killed": 5.0105,
+        "std_models_killed": 1.564733124210004,
+        "pnts_killed_per_point": 0.40995000000000004,
+        "std_dev_pnts_killed_per_point": 0.12802361925354577
+      },
+      "Battle Sisters Squad": {
+        "phase": "Melee",
+        "mean_damage": 4.024,
+        "std_damage": 1.4694978734247968,
+        "mean_models_killed": 4.024,
+        "std_models_killed": 1.4694978734247968,
+        "pnts_killed_per_point": 0.38410909090909096,
+        "std_dev_pnts_killed_per_point": 0.14027025155418515
+      },
+      "Nobz": {
+        "phase": "Melee",
+        "mean_damage": 8.025,
+        "std_damage": 3.1631274081200083,
+        "mean_models_killed": 4.0125,
+        "std_models_killed": 1.5815637040600041,
+        "pnts_killed_per_point": 0.7660227272727272,
+        "std_dev_pnts_killed_per_point": 0.30193488895690984
+      },
+      "Intercessor Squad": {
+        "phase": "Melee",
+        "mean_damage": 8.192,
+        "std_damage": 3.1545421220836474,
+        "mean_models_killed": 4.096,
+        "std_models_killed": 1.5772710610418237,
+        "pnts_killed_per_point": 0.5957818181818182,
+        "std_dev_pnts_killed_per_point": 0.22942124524244709
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Melee",
+        "mean_damage": 3.764,
+        "std_damage": 2.4158443658480984,
+        "mean_models_killed": 1.882,
+        "std_models_killed": 1.2079221829240492,
+        "pnts_killed_per_point": 0.5132727272727272,
+        "std_dev_pnts_killed_per_point": 0.3294333226156497
+      },
+      "Aggressor Squad": {
+        "phase": "Melee",
+        "mean_damage": 7.23,
+        "std_damage": 4.018096564295089,
+        "mean_models_killed": 2.41,
+        "std_models_killed": 1.3393655214316962,
+        "pnts_killed_per_point": 0.8763636363636365,
+        "std_dev_pnts_killed_per_point": 0.48704200779334406
+      },
+      "Terminator Squad": {
+        "phase": "Melee",
+        "mean_damage": 6.756,
+        "std_damage": 4.0321785674744115,
+        "mean_models_killed": 2.2520000000000002,
+        "std_models_killed": 1.3440595224914704,
+        "pnts_killed_per_point": 0.6960727272727274,
+        "std_dev_pnts_killed_per_point": 0.41543657967918174
+      },
+      "Custodian Guard": {
+        "phase": "Melee",
+        "mean_damage": 5.0085,
+        "std_damage": 3.469211401745359,
+        "mean_models_killed": 1.6695,
+        "std_models_killed": 1.1564038005817863,
+        "pnts_killed_per_point": 0.5160272727272727,
+        "std_dev_pnts_killed_per_point": 0.3574339019980066
+      },
+      "Trukk": {
+        "phase": "Melee",
+        "mean_damage": 10.169,
+        "std_damage": 3.8436231605088444,
+        "mean_models_killed": 1.0169000000000001,
+        "std_models_killed": 0.38436231605088444,
+        "pnts_killed_per_point": 0.6008954545454547,
+        "std_dev_pnts_killed_per_point": 0.2271231867573408
+      },
+      "Falcon": {
+        "phase": "Melee",
+        "mean_damage": 9.5985,
+        "std_damage": 4.424058967735398,
+        "mean_models_killed": 0.799875,
+        "std_models_killed": 0.3686715806446165,
+        "pnts_killed_per_point": 0.9453068181818182,
+        "std_dev_pnts_killed_per_point": 0.4357027771254559
+      },
+      "Hive Tyrant": {
+        "phase": "Melee",
+        "mean_damage": 6.3185,
+        "std_damage": 3.5237845776948395,
+        "mean_models_killed": 0.63185,
+        "std_models_killed": 0.35237845776948395,
+        "pnts_killed_per_point": 1.2924204545454545,
+        "std_dev_pnts_killed_per_point": 0.7207741181648536
+      },
+      "Armiger Warglaive": {
+        "phase": "Melee",
+        "mean_damage": 7.9605,
+        "std_damage": 3.6575866018455394,
+        "mean_models_killed": 0.6633749999999999,
+        "std_models_killed": 0.3047988834871283,
+        "pnts_killed_per_point": 0.8442954545454544,
+        "std_dev_pnts_killed_per_point": 0.38792585171089056
+      },
+      "Vindicator": {
+        "phase": "Melee",
+        "mean_damage": 7.6005,
+        "std_damage": 3.954478442222185,
+        "mean_models_killed": 0.5428928571428572,
+        "std_models_killed": 0.28246274587301323,
+        "pnts_killed_per_point": 0.913047077922078,
+        "std_dev_pnts_killed_per_point": 0.4750509816955223
+      },
+      "Transcendant C'tan": {
+        "phase": "Melee",
+        "mean_damage": 2.9515,
+        "std_damage": 2.051133284308945,
+        "mean_models_killed": 0.2459583333333333,
+        "std_models_killed": 0.17092777369241208,
+        "pnts_killed_per_point": 0.6596155303030302,
+        "std_dev_pnts_killed_per_point": 0.4583972112660142
+      },
+      "Knight Paladin": {
+        "phase": "Melee",
+        "mean_damage": 8.144,
+        "std_damage": 3.764341111004687,
+        "mean_models_killed": 0.37018181818181817,
+        "std_models_killed": 0.17110641413657668,
+        "pnts_killed_per_point": 1.3629421487603304,
+        "std_dev_pnts_killed_per_point": 0.6299827065937595
+      }
+    },
+    "War Walker - BLs": {
+      "Hormagaunts": {
+        "phase": "Ranged",
+        "mean_damage": 1.1225,
+        "std_damage": 0.7053323684618479,
+        "mean_models_killed": 1.1225,
+        "std_models_killed": 0.7053323684618479,
+        "pnts_killed_per_point": 0.08583823529411766,
+        "std_dev_pnts_killed_per_point": 0.05393718111767072
+      },
+      "Boyz": {
+        "phase": "Ranged",
+        "mean_damage": 1.105,
+        "std_damage": 0.7092073039669008,
+        "mean_models_killed": 1.105,
+        "std_models_killed": 0.7092073039669008,
+        "pnts_killed_per_point": 0.104,
+        "std_dev_pnts_killed_per_point": 0.06674892272629654
+      },
+      "Necron Warriors": {
+        "phase": "Ranged",
+        "mean_damage": 0.9345,
+        "std_damage": 0.7100772845261283,
+        "mean_models_killed": 0.9345,
+        "std_models_killed": 0.7100772845261283,
+        "pnts_killed_per_point": 0.09894705882352942,
+        "std_dev_pnts_killed_per_point": 0.0751846536557077
+      },
+      "Battle Sisters Squad": {
+        "phase": "Ranged",
+        "mean_damage": 0.7515,
+        "std_damage": 0.6998197982338024,
+        "mean_models_killed": 0.7515,
+        "std_models_killed": 0.6998197982338024,
+        "pnts_killed_per_point": 0.09283235294117646,
+        "std_dev_pnts_killed_per_point": 0.08644832801711676
+      },
+      "Nobz": {
+        "phase": "Ranged",
+        "mean_damage": 1.788,
+        "std_damage": 1.3982331708266689,
+        "mean_models_killed": 0.894,
+        "std_models_killed": 0.6991165854133344,
+        "pnts_killed_per_point": 0.22087058823529412,
+        "std_dev_pnts_killed_per_point": 0.17272292110211793
+      },
+      "Intercessor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 1.424,
+        "std_damage": 1.3653658850286248,
+        "mean_models_killed": 0.712,
+        "std_models_killed": 0.6826829425143124,
+        "pnts_killed_per_point": 0.1340235294117647,
+        "std_dev_pnts_killed_per_point": 0.12850502447328233
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Ranged",
+        "mean_damage": 1.114,
+        "std_damage": 1.2597634698624975,
+        "mean_models_killed": 0.557,
+        "std_models_killed": 0.6298817349312488,
+        "pnts_killed_per_point": 0.19658823529411765,
+        "std_dev_pnts_killed_per_point": 0.22231120056397013
+      },
+      "Aggressor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 2.2305,
+        "std_damage": 1.9938329293097754,
+        "mean_models_killed": 0.7435,
+        "std_models_killed": 0.6646109764365918,
+        "pnts_killed_per_point": 0.3498823529411765,
+        "std_dev_pnts_killed_per_point": 0.31275810655839614
+      },
+      "Terminator Squad": {
+        "phase": "Ranged",
+        "mean_damage": 1.713,
+        "std_damage": 1.9114473573708486,
+        "mean_models_killed": 0.5710000000000001,
+        "std_models_killed": 0.6371491191236162,
+        "pnts_killed_per_point": 0.22840000000000002,
+        "std_dev_pnts_killed_per_point": 0.25485964764944646
+      },
+      "Custodian Guard": {
+        "phase": "Ranged",
+        "mean_damage": 1.641,
+        "std_damage": 1.8801912136801406,
+        "mean_models_killed": 0.547,
+        "std_models_killed": 0.6267304045600469,
+        "pnts_killed_per_point": 0.21880000000000002,
+        "std_dev_pnts_killed_per_point": 0.25069216182401877
+      },
+      "Trukk": {
+        "phase": "Ranged",
+        "mean_damage": 3.884,
+        "std_damage": 3.5650447402522167,
+        "mean_models_killed": 0.38839999999999997,
+        "std_models_killed": 0.3565044740252217,
+        "pnts_killed_per_point": 0.29701176470588236,
+        "std_dev_pnts_killed_per_point": 0.2726210683722283
+      },
+      "Falcon": {
+        "phase": "Ranged",
+        "mean_damage": 3.2295,
+        "std_damage": 3.6888791997028036,
+        "mean_models_killed": 0.269125,
+        "std_models_killed": 0.3074065999752336,
+        "pnts_killed_per_point": 0.41160294117647056,
+        "std_dev_pnts_killed_per_point": 0.4701512705503573
+      },
+      "Hive Tyrant": {
+        "phase": "Ranged",
+        "mean_damage": 2.3215,
+        "std_damage": 3.1692487674526277,
+        "mean_models_killed": 0.23215,
+        "std_models_killed": 0.31692487674526276,
+        "pnts_killed_per_point": 0.6145147058823529,
+        "std_dev_pnts_killed_per_point": 0.8389187913845191
+      },
+      "Armiger Warglaive": {
+        "phase": "Ranged",
+        "mean_damage": 2.7085,
+        "std_damage": 3.1880288188785246,
+        "mean_models_killed": 0.22570833333333332,
+        "std_models_killed": 0.26566906823987707,
+        "pnts_killed_per_point": 0.3717549019607843,
+        "std_dev_pnts_killed_per_point": 0.4375725829833269
+      },
+      "Vindicator": {
+        "phase": "Ranged",
+        "mean_damage": 2.4835,
+        "std_damage": 3.482775868470436,
+        "mean_models_killed": 0.17739285714285713,
+        "std_models_killed": 0.24876970489074543,
+        "pnts_killed_per_point": 0.3860903361344537,
+        "std_dev_pnts_killed_per_point": 0.5414399459386813
+      },
+      "Transcendant C'tan": {
+        "phase": "Ranged",
+        "mean_damage": 0.8555,
+        "std_damage": 1.3143894970669843,
+        "mean_models_killed": 0.07129166666666667,
+        "std_models_killed": 0.10953245808891536,
+        "pnts_killed_per_point": 0.24742401960784313,
+        "std_dev_pnts_killed_per_point": 0.3801420604262356
+      },
+      "Knight Paladin": {
+        "phase": "Ranged",
+        "mean_damage": 2.0,
+        "std_damage": 2.8383093559370867,
+        "mean_models_killed": 0.09090909090909091,
+        "std_models_killed": 0.12901406163350393,
+        "pnts_killed_per_point": 0.43315508021390375,
+        "std_dev_pnts_killed_per_point": 0.614714058371401
+      }
+    },
+    "War Walker - Starcannons": {
+      "Hormagaunts": {
+        "phase": "Ranged",
+        "mean_damage": 2.1935,
+        "std_damage": 1.0134385773198098,
+        "mean_models_killed": 2.1935,
+        "std_models_killed": 1.0134385773198098,
+        "pnts_killed_per_point": 0.16773823529411763,
+        "std_dev_pnts_killed_per_point": 0.07749824414798545
+      },
+      "Boyz": {
+        "phase": "Ranged",
+        "mean_damage": 1.8065,
+        "std_damage": 1.0198322165925138,
+        "mean_models_killed": 1.8065,
+        "std_models_killed": 1.0198322165925138,
+        "pnts_killed_per_point": 0.1700235294117647,
+        "std_dev_pnts_killed_per_point": 0.09598420862047188
+      },
+      "Necron Warriors": {
+        "phase": "Ranged",
+        "mean_damage": 1.864,
+        "std_damage": 0.9754506650774298,
+        "mean_models_killed": 1.864,
+        "std_models_killed": 0.9754506650774298,
+        "pnts_killed_per_point": 0.19736470588235294,
+        "std_dev_pnts_killed_per_point": 0.10328301159643374
+      },
+      "Battle Sisters Squad": {
+        "phase": "Ranged",
+        "mean_damage": 1.5055,
+        "std_damage": 0.9560176515106821,
+        "mean_models_killed": 1.5055,
+        "std_models_killed": 0.9560176515106821,
+        "pnts_killed_per_point": 0.1859735294117647,
+        "std_dev_pnts_killed_per_point": 0.11809629812779014
+      },
+      "Nobz": {
+        "phase": "Ranged",
+        "mean_damage": 2.992,
+        "std_damage": 1.9565111806478388,
+        "mean_models_killed": 1.496,
+        "std_models_killed": 0.9782555903239194,
+        "pnts_killed_per_point": 0.3696,
+        "std_dev_pnts_killed_per_point": 0.24168667525649773
+      },
+      "Intercessor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 2.928,
+        "std_damage": 1.9284231900700637,
+        "mean_models_killed": 1.464,
+        "std_models_killed": 0.9642115950350318,
+        "pnts_killed_per_point": 0.2755764705882353,
+        "std_dev_pnts_killed_per_point": 0.18149865318306482
+      },
+      "Einhyr Hearthguard": {
+        "phase": "Ranged",
+        "mean_damage": 1.752,
+        "std_damage": 1.6353886388256462,
+        "mean_models_killed": 0.876,
+        "std_models_killed": 0.8176943194128231,
+        "pnts_killed_per_point": 0.30917647058823533,
+        "std_dev_pnts_killed_per_point": 0.2885979950868788
+      },
+      "Aggressor Squad": {
+        "phase": "Ranged",
+        "mean_damage": 2.0095,
+        "std_damage": 1.4083358086763256,
+        "mean_models_killed": 0.6698333333333334,
+        "std_models_killed": 0.4694452695587752,
+        "pnts_killed_per_point": 0.31521568627450985,
+        "std_dev_pnts_killed_per_point": 0.22091542096883537
+      },
+      "Terminator Squad": {
+        "phase": "Ranged",
+        "mean_damage": 1.551,
+        "std_damage": 1.3507031502147315,
+        "mean_models_killed": 0.517,
+        "std_models_killed": 0.4502343834049105,
+        "pnts_killed_per_point": 0.20679999999999998,
+        "std_dev_pnts_killed_per_point": 0.1800937533619642
+      },
+      "Custodian Guard": {
+        "phase": "Ranged",
+        "mean_damage": 1.598,
+        "std_damage": 1.3305622871553213,
+        "mean_models_killed": 0.5326666666666667,
+        "std_models_killed": 0.4435207623851071,
+        "pnts_killed_per_point": 0.2130666666666667,
+        "std_dev_pnts_killed_per_point": 0.17740830495404286
+      },
+      "Trukk": {
+        "phase": "Ranged",
+        "mean_damage": 2.196,
+        "std_damage": 1.7701932097937785,
+        "mean_models_killed": 0.21960000000000002,
+        "std_models_killed": 0.17701932097937784,
+        "pnts_killed_per_point": 0.16792941176470588,
+        "std_dev_pnts_killed_per_point": 0.13536771604305364
+      },
+      "Falcon": {
+        "phase": "Ranged",
+        "mean_damage": 1.197,
+        "std_damage": 1.4103868263706945,
+        "mean_models_killed": 0.09975,
+        "std_models_killed": 0.1175322355308912,
+        "pnts_killed_per_point": 0.15255882352941177,
+        "std_dev_pnts_killed_per_point": 0.17975518375312774
+      },
+      "Hive Tyrant": {
+        "phase": "Ranged",
+        "mean_damage": 0.854,
+        "std_damage": 1.2127176093386292,
+        "mean_models_killed": 0.0854,
+        "std_models_killed": 0.12127176093386291,
+        "pnts_killed_per_point": 0.22605882352941176,
+        "std_dev_pnts_killed_per_point": 0.32101348482493125
+      },
+      "Armiger Warglaive": {
+        "phase": "Ranged",
+        "mean_damage": 0.954,
+        "std_damage": 1.2210176083906408,
+        "mean_models_killed": 0.0795,
+        "std_models_killed": 0.10175146736588674,
+        "pnts_killed_per_point": 0.13094117647058826,
+        "std_dev_pnts_killed_per_point": 0.16759065213204874
+      },
+      "Vindicator": {
+        "phase": "Ranged",
+        "mean_damage": 0.875,
+        "std_damage": 1.2475475942824787,
+        "mean_models_killed": 0.0625,
+        "std_models_killed": 0.08911054244874848,
+        "pnts_killed_per_point": 0.13602941176470587,
+        "std_dev_pnts_killed_per_point": 0.19394647474139373
+      },
+      "Transcendant C'tan": {
+        "phase": "Ranged",
+        "mean_damage": 0.2945,
+        "std_damage": 0.5193936368497404,
+        "mean_models_killed": 0.024541666666666666,
+        "std_models_killed": 0.0432828030708117,
+        "pnts_killed_per_point": 0.08517401960784313,
+        "std_dev_pnts_killed_per_point": 0.15021678712811118
+      },
+      "Knight Paladin": {
+        "phase": "Ranged",
+        "mean_damage": 0.9765,
+        "std_damage": 1.2340776920437384,
+        "mean_models_killed": 0.04438636363636364,
+        "std_models_killed": 0.056094440547442656,
+        "pnts_killed_per_point": 0.2114879679144385,
+        "std_dev_pnts_killed_per_point": 0.2672735108436973
+      }
     }
   },
   "Adeptus Custodes": {

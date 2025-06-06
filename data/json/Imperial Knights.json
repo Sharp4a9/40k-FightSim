@@ -100,7 +100,9 @@
       "Epic Hero",
       "Character",
       "Imperium",
-      "Imperial Knights"
+      "Imperial Knights",
+      "Vehicle",
+      "Walker"
     ],
     "total_models": 1,
     "points": 450,
