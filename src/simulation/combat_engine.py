@@ -89,6 +89,7 @@ class Weapon:
     damage: Union[int, str]  # Can be an integer or a string like "D6+3"
     weapon_type: str  # "melee" or "ranged"
     special_rules: List[str]
+    ap_actual: int = 0  # This is the actual AP of the weapon, which may be modified by special rules
     one_use_rules: Dict[str, bool] = field(default_factory=dict)
     target_range: int = 0  # Distance to target in inches
 
@@ -770,7 +771,7 @@ class CombatEngine:
         roll += self.save_modifiers
         
         # Calculate final save value
-        ap_value = weapon.ap
+        ap_value = weapon.ap_actual
         
         # Apply -1 AP special rule if present
         if "-1 AP" in target.special_rules:
@@ -872,7 +873,7 @@ class CombatEngine:
         # Max modifer is +/-1.
         self.hit_modifiers = max(-1, min(1, self.hit_modifiers))
         self.wound_modifiers = max(-1, min(1, self.wound_modifiers))
-        self.save_modifiers = max(-1, min(1, self.save_modifiers))
+        
         # Check for weapon special rules that modify rolls; maximum modifiers are +/-1.
         for rule in weapon.special_rules:
             if rule == "+1 to Hit":
@@ -895,10 +896,6 @@ class CombatEngine:
                     self.debug_print(f"  Weapon has {rule} and target has {keyword} keyword - adding +1 to wound roll")
                     self.wound_modifiers += 1
                     self.debug_print(f"  Wound modifiers increased to {self.wound_modifiers}")
-            if rule == "+1 AP":
-                self.debug_print("  Weapon has +1 AP rule - adding +1 to AP")
-                weapon.ap += 1
-                self.debug_print(f"  AP increased to {weapon.ap}")
 
         # Step 1: Hit Roll
         hit_result = self.make_hit_roll(weapon, target, one_use_rules)
@@ -1080,7 +1077,14 @@ class CombatEngine:
             "sustained_hits": 0,
             "models_destroyed": 0
         }
-                
+        weapon.ap_actual = weapon.ap
+        for rule in weapon.special_rules:
+            if rule == "+1 AP":
+                self.debug_print("  Weapon has +1 AP rule - adding +1 to AP")
+                weapon.ap_actual = weapon.ap + 1
+                self.debug_print(f"  AP increased to {weapon.ap_actual}")
+
+        
         # Check if weapon is in range
         if weapon.weapon_type.lower() == "ranged" and weapon.range < weapon.target_range:
             self.debug_print(f"Weapon {weapon.name} is out of range ({weapon.range} < {weapon.target_range})")

@@ -940,7 +940,7 @@ Please report any bugs to Andrew White."""
         
     def toggle_debug(self):
         """Toggle debug mode in the simulator"""
-        self.simulator = UnitCombatSimulator(num_simulations=1000, debug=self.debug_var.get())
+        self.simulator = UnitCombatSimulator(num_simulations=10, debug=self.debug_var.get())
 
     def filter_attacker_faction(self, event=None):
         """Filter attacker faction combobox based on user input"""

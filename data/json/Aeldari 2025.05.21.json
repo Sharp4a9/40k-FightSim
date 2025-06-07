@@ -4035,7 +4035,7 @@
           "Lethal Hits"
         ]
       },
-      "Prism Cannon - Ranged": {
+      "Prism Cannon - Focused - Ranged": {
         "type": "Ranged",
         "Range": 60,
         "A": 2,
@@ -4045,6 +4045,18 @@
         "D": 6,
         "Keywords": [
           "Linked Fire"
+        ]
+      },
+      "Prism Cannon - Dispersed - Ranged": {
+        "type": "Ranged",
+        "Range": 60,
+        "A": "2D6",
+        "BS": 3,
+        "S": 6,
+        "AP": 2,
+        "D": 2,
+        "Keywords": [
+          "Blast"
         ]
       },
       "Wraithbone hull - Melee": {
@@ -4071,7 +4083,7 @@
       "Ynnari"
     ],
     "total_models": 1,
-    "points": 160,
+    "points": 150,
     "special_rules_attack": [
       "Reroll 1 Hit Roll",
       "Reroll 1 Wound Roll"

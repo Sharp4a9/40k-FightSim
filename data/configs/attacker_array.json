@@ -2137,5 +2137,716 @@
         "special_rules": []
       }
     ]
+  },
+  "Fire Prism - Focused": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 150,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Fire Prism",
+        "weapons": [
+          {
+            "name": "Prism Cannon - Focused - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 60,
+              "A": 2,
+              "BS": 3,
+              "S": 18,
+              "AP": 4,
+              "D": 6,
+              "Keywords": [
+                "Linked Fire"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll 1 Hit Roll",
+          "Reroll 1 Wound Roll"
+        ]
+      }
+    ]
+  },
+  "Fire Prism - Dispersed": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 150,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Fire Prism",
+        "weapons": [
+          {
+            "name": "Prism Cannon - Dispersed - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 60,
+              "A": "2D6",
+              "BS": 3,
+              "S": 6,
+              "AP": 2,
+              "D": 2,
+              "Keywords": [
+                "Blast"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll 1 Hit Roll",
+          "Reroll 1 Wound Roll"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SC": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits 1",
+          "Ignores Cover"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SC - RR Hit": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "Ignores Cover"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SC - RR Hit Wound": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "Reroll Wounds",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "Reroll Wounds",
+          "Ignores Cover"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SC - RR Hit, +1 AP": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "+1 AP",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "+1 AP",
+          "Ignores Cover"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SC - RR Hit Wound, +1 AP": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": 1,
+              "WS": 3,
+              "S": 9,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Assault",
+                "Psychic"
+              ]
+            }
+          },
+          {
+            "name": "Destructor - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 12,
+              "A": "D6",
+              "BS": "N/A",
+              "S": 5,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "+1 AP",
+          "Reroll Wounds",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Shuriken Cannon - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 24,
+              "A": 3,
+              "BS": 3,
+              "S": 6,
+              "AP": 1,
+              "D": 2,
+              "Keywords": [
+                "Lethal Hits"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Reroll Hits",
+          "+1 AP",
+          "Reroll Wounds",
+          "Ignores Cover"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SL - RR Hits, +1 AP": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 2,
+              "WS": 3,
+              "S": 3,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Ignores Cover",
+          "+1 AP"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Scatter Laser - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 6,
+              "BS": 3,
+              "S": 5,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Sustained Hits 1"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Ignores Cover",
+          "+1 AP",
+          "Reroll Hits 1"
+        ]
+      }
+    ]
+  },
+  "Windriders (6) & Warlock - SL - RR Hits": {
+    "faction": "Aeldari 2025.05.21",
+    "points": 205,
+    "target_range": 0,
+    "units": [
+      {
+        "name": "Warlock Conclave",
+        "weapons": [
+          {
+            "name": "Singing Spear - Melee",
+            "quantity": 1,
+            "data": {
+              "type": "Melee",
+              "Range": "Melee",
+              "A": 2,
+              "WS": 3,
+              "S": 3,
+              "AP": 0,
+              "D": 3,
+              "Keywords": [
+                "Psychic"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Windriders",
+        "weapons": [
+          {
+            "name": "Twin Shuriken Catapult - Ranged",
+            "quantity": 1,
+            "data": {
+              "type": "Ranged",
+              "Range": 18,
+              "A": 2,
+              "BS": 3,
+              "S": 4,
+              "AP": 1,
+              "D": 1,
+              "Keywords": [
+                "Assault",
+                "Twin Linked"
+              ]
+            }
+          },
+          {
+            "name": "Scatter Laser - Ranged",
+            "quantity": 6,
+            "data": {
+              "type": "Ranged",
+              "Range": 36,
+              "A": 6,
+              "BS": 3,
+              "S": 5,
+              "AP": 0,
+              "D": 1,
+              "Keywords": [
+                "Sustained Hits 1"
+              ]
+            }
+          }
+        ],
+        "special_rules": [
+          "Ignores Cover",
+          "Reroll Hits 1"
+        ]
+      }
+    ]
   }
 }
